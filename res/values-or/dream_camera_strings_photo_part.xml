@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="pref_camera_composition_line_key_title">"କମ୍ପୋଜିସନ୍ ଲାଇନ୍"</string>
+<string name="pref_camera_composition_line_key_entry_close">"ବନ୍ଦ"</string>
+<string name="pref_camera_composition_line_key_entry_grid">"ଗ୍ରୀଡ୍"</string>
+<string name="pref_camera_composition_line_key_entry_goldensection">"ଗୋଲଡେନ୍ ସେକସନ୍"</string>
+<string name="pref_camera_composition_line_key_entry_reticle">"ଛକି ଚିହ୍ନ"</string>
+<string name="pref_camera_composition_line_key_entry_box">"ବକ୍ସ"</string>
+<string name="pref_camera_photograph_eois_key_title">"ଫୋଟୋଗ୍ରାଫ୍ ଷ୍ଟାବିଲାଇଜେସନ୍"</string>
+<string name="pref_camera_hdr_normal_pic_key_title">"HDR ପାଇଁ ନର୍ମାଲ୍ ପିକ୍ଚର୍ ସେଭ୍ କରନ୍ତୁ"</string>
+<string name="pref_camera_gradienter_key_title">"ଗ୍ରାଡିଏଣ୍ଟର୍"</string>
+<string name="pref_camera_touching_photograph_key_title">"ଫୋଟୋଗ୍ରାଫ୍ ଟଚ୍ କରିବା"</string>
+<string name="pref_camera_zsl_key_title">"ZSL"</string>
+<string name="pref_dream_high_iso_tilte">"ଅଧିକ ISO"</string>
+<string name="pref_auto_tracking_key_title">"ସ୍ୱୟଂକ୍ରିୟ ଟ୍ରାକିଂ"</string>
+<string name="pref_auto_tracking_summary">"ଆପଣ ପଫୋକସ୍‍ କରିବାକୁ ଚାହୁଁଥିବା ବସ୍ତୁରେ ସ୍ପର୍ଶ କରନ୍ତୁ, ତାପରେ କ୍ୟାମେରା ସେହି ବସ୍ତୁକୁ ଟ୍ରାକ୍‍ କରିବ ଏବଂ ତା ଉପରେ ଫୋକସ୍‍ କରିବ"</string>
+</resources>

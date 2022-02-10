@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ******************** start preference *** part setting ************************ -->
+    <!-- preference key -->
+    <!-- preference string -->
+    <!-- ******************** end preference *** part setting ************************ -->
+    <!-- =====================================preference camera key -->
+    <string name="pref_camera_storage_path" translatable="false">pref_camera_storage_path</string>
+    <string name="pref_camera_volume_key_function" translatable="false">pref_camera_volume_key_function</string>
+    <string name="pref_shutter_sound_key" translatable="false">pref_shutter_sound_key</string>
+    <string name="pref_camera_recordlocation_key" translatable="false">pref_camera_recordlocation_key</string>
+    <string name="pref_auto3dnr_param_key" translatable="false">pref_auto3dnr_param_key</string>
+    <string name="pref_camera_welcome" translatable="false">pref_camera_welcome</string>
+    <string name="pref_camera_burst_hint" translatable="false">pref_camera_burst_hint</string>
+    <string name="pref_camera_record_voice_hint" translatable="false">pref_camera_record_voice_hint</string>
+    <string name="pref_camera_blur_refocus_hint" translatable="false">pref_camera_blur_refocus_hint</string>
+    <string name="pref_camera_slowmotion_hint" translatable="false">pref_camera_slowmotion_hint</string>
+    <string name="pref_camera_timelapse_hint" translatable="false">pref_camera_timelapse_hint</string>
+    <string name="pref_camera_video_hint" translatable="false">pref_camera_video_hint</string>
+    <!-- =====================================preference photo key -->
+    <string name="pref_camera_picturesize_back_key" translatable="false">pref_camera_picturesize_back_key</string>
+    <string name="pref_camera_picturesize_front_key" translatable="false">pref_camera_picturesize_front_key</string>
+    <string name="pref_camera_jpeg_quality_key" translatable="false">pref_camera_jpeg_quality_key</string>
+    <string name="pref_camera_composition_line_key" translatable="false">pref_camera_grid_lines</string>
+    <string name="pref_camera_face_detect_key" translatable="false">pref_camera_face_detect_key</string>
+    <string name="pref_camera_video_face_detect_key" translatable="false">pref_camera_video_face_detect_key</string>
+    <string name="pref_camera_ai_scene_detect_key" translatable="false">pref_camera_ai_scene_detect_key</string>
+    <string name="pref_camera_antibanding_key" translatable="false">pref_camera_antibanding_key</string>
+    <string name="pref_camera_color_effect_key" translatable="false">pref_camera_color_effect_key</string>
+    <string name="pref_camera_hdr_normal_pic_key" translatable="false">pref_camera_hdr_normal_pic_key</string>
+    <string name="pre_ae_lock_key" translatable="false">pre_ae_lock_key</string>
+    <string name="pref_camera_gradienter_key" translatable="false">pref_camera_gradienter_key</string>
+    <string name="pref_camera_touching_photograph_key" translatable="false">pref_camera_touching_photograph_key</string>
+    <string name="pref_camera_time_stamp_key" translatable="false">pref_time_stamp_key</string>
+    <string name="pref_freeze_frame_display_key" translatable="false">pref_freeze_frame_display_key</string>
+    <string name="pref_camera_zsl_key" translatable="false">pref_camera_zsl_key</string>
+    <string name="pref_auto_tracking_key" translatable="false">pref_auto_tracking_key</string>
+    <string name="pref_high_iso_key" translatable="false">pref_high_iso_key</string>
+    <string name="pref_camera_scenemode_key" translatable="false">pref_camera_scenemode_key</string>
+    <string name="pref_camera_exposure_key" translatable="false">pref_camera_exposure_key</string>
+    <string name="pref_camera_exposure_shuttertime_key" translatable="false">pref_camera_exposure_shuttertime_key</string>
+    <string name="pref_camera_iso_key" translatable="false">pref_camera_iso_key</string>
+    <string name="pref_camera_focus_distance_key" translatable="false">pref_camera_focus_distance_key</string>
+    <string name="pref_camera_contrast_key" translatable="false">pref_camera_contrast_key</string>
+    <string name="pref_camera_saturation_key" translatable="false">pref_camera_saturation_key</string>
+    <string name="pref_camera_whitebalance_key" translatable="false">pref_camera_whitebalance_key</string>
+    <string name="pref_front_camera_mirror_key" translatable="false">pref_front_camera_mirror_key</string>
+    <string name="pref_sensor_self_shot" translatable="false">pref_sensor_self_shot</string>
+    <string name="pref_camera_quick_capture_key" translatable="false">pref_camera_quick_capture_key</string>
+    <string name= "pref_camera_self_timer_interval_key" translatable="false">pref_camera_self_timer_interval_key</string>
+    <string name="pref_eois_dc_back_key" translatable="false">pref_eois_dc_back_key</string>
+    <string name="pref_eois_dc_front_key" translatable="false">pref_eois_dc_front_key</string>
+    <string name="pref_camera_filter_type_key" translatable="false">pref_camera_filter_type_key</string>
+    <string name="pref_camera_portraitbackgroundreplacement_type_key" translatable="false">pref_camera_portraitbackgroundreplacement_type_key</string>
+    <string name="pref_camera_gif_photo_flashmode_key" translatable="false">pref_camera_gif_photo_flashmode_key</string>
+    <string name="pref_camera_zoom_enable_key" translatable="false">pref_camera_zoom_enable_key</string>
+    <string name="pref_3d_photo_quality_front_key" translatable="false">pref_3d_photo_quality_front_key</string>
+    <string name="pref_key_montionphoto" translatable="false">pref_key_montionphoto</string>
+    <!-- =====================================preference video key -->
+    <string name="pref_video_quality_back_key" translatable="false">pref_video_quality_back_key</string>
+    <string name="pref_video_quality_front_key" translatable="false">pref_video_quality_front_key</string>
+    <string name="pref_video_composition_line_key" translatable="false">pref_camera_grid_lines</string>
+    <string name="pref_video_whitebalance_key" translatable="false">pref_video_whitebalance_key</string>
+    <string name="pref_video_antibanding_key" translatable="false">pref_video_antibanding_key</string>
+    <string name="pref_video_color_effect_key" translatable="false">pref_video_color_effect_key</string>
+    <string name="pref_camera_microphone_switch_key" translatable="false">pref_camera_microphone_switch_key</string>
+    <string name="pref_video_slow_motion_key" translatable="false">pref_video_slow_motion_key</string>
+    <string name="pref_video_time_lapse_frame_interval_key" translatable="false">pref_video_time_lapse_frame_interval_key</string>
+    <string name="pref_eois_dv_back_key" translatable="false">pref_eois_dv_back_key</string>
+    <string name="pref_eois_dv_front_key" translatable="false">pref_eois_dv_front_key</string>
+    <string name="pref_3d_video_quality_front_key" translatable="false">pref_3d_video_quality_front_key</string>
+    <string name="pref_video_beauty_entered_key" translatable="false">pref_video_beauty_entered_key</string>
+    <string name="pref_video_macro_quality_back_key" translatable="false">pref_video_macro_quality_back_key</string>
+    <!-- =====================================preference top menu key -->
+    <string name="pref_camera_id_key" translatable="false">pref_camera_id_key</string>
+    <string name="pref_camera_flashmode_key" translatable="false">pref_camera_flashmode_key</string>
+    <string name="pref_camera_beauty_entered_key" translatable="false">pref_camera_beauty_entered_key</string>
+    <string name="pref_camera_ai_beauty_entered_key" translatable="false">pref_camera_ai_beauty_entered_key</string>
+    <string name="pref_camera_countdown_duration_key" translatable="false">pref_camera_countdown_duration_key</string>
+    <string name="pref_camera_refocus_key" translatable="false">pref_camera_refocus_key</string>
+    <string name="pref_camera_hdr_key" translatable="false">pref_camera_hdr_key</string>
+    <string name="pref_camera_metering_key" translatable="false">pref_camera_metering_key</string>
+    <string name="pref_video_flashmode_key" translatable="false">pref_camera_video_flashmode_key</string>
+    <string name="pref_camera_ultra_wide_angle_key" translatable="false">pref_camera_ultra_wide_angle_key</string>
+    <!-- =====================================preference other key -->
+    <string name="pref_dream_camera_reset_key" translatable="false">pref_dream_camera_reset_key</string>
+    <string name="pref_camera_focusmode_key" translatable="false">pref_camera_focusmode_key</string>
+    <string name="pref_ai_detect_smile_key" translatable="false">pref_ai_detect_smile_key</string>
+    <string name="pref_ai_detect_face_attributes_key" translatable="false">pref_ai_detect_face_attributes_key</string>
+    <string name="pref_auto_add_logowatermark_key" translatable="false">pref_auto_add_logowatermark_key</string>
+    <string name="pref_auto_add_timewatermark_key" translatable="false">pref_auto_add_timewatermark_key</string>
+    <string name="pref_add_level_key" translatable="false">pref_add_level_key</string>
+    <!-- ******************** values ************************ -->
+
+    <string name="pref_dream_camera_reset_key_title">Restore defaults</string>
+    <string name="preference_switch_item_default_value_false" translatable="false">0</string>
+    <string name="preference_switch_item_default_value_true" translatable="false">1</string>
+    <string name="pref_camera_id_key_value_back_0" translatable="false">0</string>
+    <string name="pref_camera_id_key_value_front_0" translatable="false">1</string>
+    <string name="pref_camera_id_key_value_back_2" translatable="false">2</string>
+    <string name="pref_camera_id_key_value_back_3" translatable="false">3</string>
+    <string name="pref_camera_id_key_value_back_4" translatable="false">4</string>
+    <string name="pref_camera_id_key_value_front_17" translatable="false">17</string>
+    <string name="pref_camera_id_key_value_back_18" translatable="false">18</string>
+    <string name="pref_camera_id_key_value_front_19" translatable="false">19</string>
+    <string name="pref_camera_id_key_value_back_24" translatable="false">24</string>
+    <string name="pref_camera_id_key_value_front_25" translatable="false">25</string>
+    <string name="pref_camera_id_key_value_front_27" translatable="false">27</string>
+    <string name="pref_camera_id_key_value_back_35" translatable="false">35</string>
+    <!-- ******************** start preference category setting ************************ -->
+    <!-- preference key -->
+    <string name="preference_key_screen_camera_root" translatable="false">preference_key_screen_camera_root</string>
+    <string name="preference_key_category_camera_root" translatable="false">preference_key_category_camera_root</string>
+    <string name="preference_key_category_photo_root" translatable="false">preference_key_category_photo_root</string>
+    <string name="preference_key_category_video_root" translatable="false">preference_key_category_video_root</string>
+
+    <!-- category title -->
+    <string name="preference_key_category_camera_root_title">Camera settings</string>
+    <string name="preference_key_category_photo_root_title">Photo settings</string>
+    <string name="preference_key_category_video_root_title">Video settings</string>
+    <!-- ******************** end preference setting ************************ -->
+
+
+    <!-- ******************** start preference camera part setting ************************ -->
+    <!-- preference string -->
+    <!-- SPRD: volume function -->
+    <string name="pref_camera_volume_key_function_title">Volume key function</string>
+    <string name="pref_camera_volume_key_function_entries_shutter">Shutter</string>
+    <string name="pref_camera_volume_key_function_entries_zoom">Zoom</string>
+    <string name="pref_camera_volume_key_function_entries_volume">Volume</string>
+    <string name="pref_camera_volume_key_function_entries_value_shutter" translatable="false">1</string>
+    <string name="pref_camera_volume_key_function_entries_value_zoom" translatable="false">2</string>
+    <string name="pref_camera_volume_key_function_entries_value_volume" translatable="false">3</string>
+
+    <!-- ******************** end preference camera part setting ************************ -->
+
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 SPREADTRUM
+-->
+
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="true">
+    <item android:drawable="@drawable/ic_motion_photo_1_indicator_sprd" android:duration="50" />
+    <item android:drawable="@drawable/ic_motion_photo_2_indicator_sprd" android:duration="50" />
+    <item android:drawable="@drawable/ic_motion_photo_3_indicator_sprd" android:duration="50" />
+    <item android:drawable="@drawable/ic_motion_photo_4_indicator_sprd" android:duration="50" />
+    <item android:drawable="@drawable/ic_motion_photo_5_indicator_sprd" android:duration="50" />
+    <item android:drawable="@drawable/ic_motion_photo_6_indicator_sprd" android:duration="50" />
+    <item android:drawable="@drawable/ic_motion_photo_7_indicator_sprd" android:duration="50" />
+    <item android:drawable="@drawable/ic_motion_photo_8_indicator_sprd" android:duration="50" />
+    <item android:drawable="@drawable/ic_motion_photo_9_indicator_sprd" android:duration="50" />
+    <item android:drawable="@drawable/ic_motion_photo_10_indicator_sprd" android:duration="50" />
+    <item android:drawable="@drawable/ic_motion_photo_11_indicator_sprd" android:duration="50" />
+    <item android:drawable="@drawable/ic_motion_photo_12_indicator_sprd" android:duration="50" />
+    <item android:drawable="@drawable/ic_motion_photo_13_indicator_sprd" android:duration="50" />
+    <item android:drawable="@drawable/ic_motion_photo_14_indicator_sprd" android:duration="50" />
+    <item android:drawable="@drawable/ic_motion_photo_15_indicator_sprd" android:duration="50" />
+    <item android:drawable="@drawable/ic_motion_photo_16_indicator_sprd" android:duration="50" />
+    <item android:drawable="@drawable/ic_motion_photo_17_indicator_sprd" android:duration="50" />
+    <item android:drawable="@drawable/ic_motion_photo_18_indicator_sprd" android:duration="50" />
+    <item android:drawable="@drawable/ic_motion_photo_19_indicator_sprd" android:duration="50" />
+    <item android:drawable="@drawable/ic_motion_photo_20_indicator_sprd" android:duration="50" />
+    <item android:drawable="@drawable/ic_motion_photo_21_indicator_sprd" android:duration="50" />
+    <item android:drawable="@drawable/ic_motion_photo_22_indicator_sprd" android:duration="50" />
+    <item android:drawable="@drawable/ic_motion_photo_23_indicator_sprd" android:duration="50" />
+    <item android:drawable="@drawable/ic_motion_photo_24_indicator_sprd" android:duration="50" />
+    <item android:drawable="@drawable/ic_motion_photo_25_indicator_sprd" android:duration="50" />
+    <item android:drawable="@drawable/ic_motion_photo_26_indicator_sprd" android:duration="50" />
+    <item android:drawable="@drawable/ic_motion_photo_27_indicator_sprd" android:duration="50" />
+    <item android:drawable="@drawable/ic_motion_photo_28_indicator_sprd" android:duration="50" />
+    <item android:drawable="@drawable/ic_motion_photo_29_indicator_sprd" android:duration="50" />
+    <item android:drawable="@drawable/ic_motion_photo_30_indicator_sprd" android:duration="50" />
+</animation-list>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="pref_dream_camera_reset_key_title">རང་ལེན་སྒྲིག་འགོད་དུ་སོར་ཆུད་བྱེད།</string>
+<string name="preference_key_category_camera_root_title">པར་ཆས་སྒྲིག་འགོད།</string>
+<string name="preference_key_category_photo_root_title">"པར་རྒྱག་སྒྲིག་འགོད།"</string>
+<string name="preference_key_category_video_root_title">"བརྙན་ཟློས་སྒྲིག་འགོད།"</string>
+<string name="pref_camera_volume_key_function_title">"སྒྲ་མཐེབ་ཀྱི་རྩོལ་ནུས།"</string>
+<string name="pref_camera_volume_key_function_entries_shutter">"འཁྱུག་སྒོ།"</string>
+<string name="pref_camera_volume_key_function_entries_zoom">ཆུང་སྐུམ།</string>
+<string name="pref_camera_volume_key_function_entries_volume">"སྒྲའི་ཚད"</string>
+</resources>

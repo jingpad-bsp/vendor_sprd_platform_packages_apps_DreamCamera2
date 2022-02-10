@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/make_up_bt_parent"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/extend_fix_icon_height"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <include layout="@layout/layout_selector_switch" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="36dp"
+        android:background="#B3FFFFFF"
+        />
+
+    <com.android.camera.widget.selector.SelectorScroller
+        android:id="@+id/make_up_scroller"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layoutDirection="ltr"
+        android:scrollbars="none">
+
+        <com.android.camera.widget.selector.SelectorContainer
+            android:id="@+id/make_up_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:isScrollContainer="true"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            app:display_count="4">
+        </com.android.camera.widget.selector.SelectorContainer>
+
+    </com.android.camera.widget.selector.SelectorScroller>
+
+</LinearLayout>
+
+

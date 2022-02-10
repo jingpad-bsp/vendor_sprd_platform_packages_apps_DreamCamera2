@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ******************** start preference *** part setting ************************ -->
+    <!-- =====================================preference string -->
+    <!-- video eois -->
+    <string name="pref_camera_video_eois_key_title">Video stabilization</string>
+    <!-- microphone switch -->
+    <string name="pref_camera_microphone_switch_key_title">Microphone switch</string>
+    <!-- white balance values -->
+    <!-- ******************** end preference *** part setting ************************ -->
+
+</resources>

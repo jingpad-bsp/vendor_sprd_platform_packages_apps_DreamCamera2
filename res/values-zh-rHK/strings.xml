@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  Copyright (C) 2007 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
+    <string name="app_name" msgid="1175086483881127797">"相機"</string>
+    <string name="video_camera_label" msgid="1723708322021743770">"攝錄機"</string>
+    <string name="details_ms" msgid="6618163484662724641">"%1$02d:%2$02d"</string>
+    <string name="details_hms" msgid="4842276230698703554">"%1$d:%2$02d:%3$02d"</string>
+    <string name="details" msgid="4404020741542549488">"詳細資料"</string>
+    <string name="close" msgid="4826166926297479820">"關閉"</string>
+    <string name="video_err" msgid="1562566029875081552">"無法播放影片"</string>
+    <string name="title" msgid="8061744305671964703">"標題"</string>
+    <string name="description" msgid="8193138501982849808">"說明"</string>
+    <string name="time" msgid="5248213506417024287">"時間"</string>
+    <string name="location" msgid="564326205780827668">"位置"</string>
+    <string name="path" msgid="5927003361865586353">"路徑"</string>
+    <string name="width" msgid="7045750687833828758">"闊度"</string>
+    <string name="height" msgid="5186001199353423689">"高度"</string>
+    <string name="orientation" msgid="3883761294106680270">"方向"</string>
+    <string name="duration" msgid="5316211067383665008">"片長"</string>
+    <string name="mimetype" msgid="6415940055077963944">"MIME 類型"</string>
+    <string name="file_size" msgid="6841070748357980676">"檔案大小"</string>
+    <string name="maker" msgid="698691509121545856">"製造商"</string>
+    <string name="model" msgid="8547493604023069452">"型號"</string>
+    <string name="flash" msgid="995041910749174196">"閃光燈"</string>
+    <string name="aperture" msgid="2453802098282814022">"光圈"</string>
+    <string name="focal_length" msgid="8351221512187346229">"焦距"</string>
+    <string name="white_balance" msgid="1600142743496129085">"白平衡"</string>
+    <string name="exposure_time" msgid="949787291620767754">"曝光時間"</string>
+    <string name="iso" msgid="8578773821062054902">"ISO"</string>
+    <string name="unit_mm" msgid="5210344300697638286">"毫米"</string>
+    <string name="manual" msgid="2444400953521760140">"手動"</string>
+    <string name="auto" msgid="2552649885114400474">"自動"</string>
+    <string name="flash_on" msgid="6573457197393807642">"使用閃光燈"</string>
+    <string name="flash_off" msgid="7889323512830926273">"未使用閃光燈"</string>
+    <string name="unknown" msgid="564184550182858146">"不明"</string>
+    <string name="camera_error_title" msgid="6200558085072670067">"相機錯誤"</string>
+    <string name="error_cannot_connect_camera" msgid="2713059773224193128">"無法連接相機"</string>
+    <string name="error_camera_disabled" msgid="5582398275657419692">"基於安全政策，相機已停用"</string>
+    <string name="error_media_storage_failure" msgid="7711687330673245629">"儲存您的相片或影片時發生問題"</string>
+    <string name="error_permissions" msgid="3454167403425651254">"應用程式欠缺執行所需的關鍵權限,請檢查您的權限設定"</string>
+    <string name="wait" msgid="765601745709933047">"請稍候…"</string>
+    <string name="no_storage" product="default" msgid="5922012950780548098">"使用相機前，請先插入 SD 卡"</string>
+    <string name="preparing_sd" product="default" msgid="7435693655017362767">"正在準備 SD 卡…"</string>
+    <string name="access_sd_fail" product="default" msgid="2634861611082499811">"無法存取 SD 卡"</string>
+    <string name="time_lapse_title" msgid="3267978566401228497">"延時攝影錄製"</string>
+    <string name="feedback_description_camera_access" msgid="419090951070170132">"應用程式無法連接到相機"</string>
+    <string name="feedback_description_save_photo" msgid="8658767358989083228">"相片或影片並未儲存在裝置上"</string>
+    <string name="pref_camera_save_location_title" msgid="2344235620113384017">"儲存位置資料"</string>
+    <!-- no translation found for pref_camera_timer_sound_default (6225207881203007747) -->
+    <string name="setting_off" msgid="6782191065550276632">"關閉"</string>
+    <string name="setting_on" msgid="9086728135773197891">"開啟"</string>
+    <string name="pref_camera_settings_category" msgid="4274141528139077830">"相機設定"</string>
+    <string name="pref_camera_picturesize_entry_large" msgid="9014447075089601575">"大"</string>
+    <string name="pref_camera_picturesize_entry_medium" msgid="7708839551627003154">"中"</string>
+    <string name="pref_camera_picturesize_entry_small" msgid="2991239656622539068">"小"</string>
+    <string name="pref_camera_whitebalance_title" msgid="7962809566612868179">"白平衡"</string>
+    <string name="pref_camera_whitebalance_entry_auto" msgid="1390631794449502796">"自動"</string>
+    <string name="pref_camera_whitebalance_entry_incandescent" msgid="1140391575294372706">"鎢絲燈"</string>
+    <string name="pref_camera_whitebalance_entry_daylight" msgid="757833578153467254">"日光"</string>
+    <string name="pref_camera_whitebalance_entry_fluorescent" msgid="5157027611220790970">"光管"</string>
+    <string name="pref_camera_whitebalance_entry_cloudy" msgid="3569589102226796875">"陰天"</string>
+    <string name="pref_camera_scenemode_entry_auto" msgid="9205644316260850379">"自動"</string>
+    <string name="pref_camera_scenemode_entry_action" msgid="5753183620959062015">"動作"</string>
+    <string name="pref_camera_scenemode_entry_night" msgid="3468037364159759991">"夜景"</string>
+    <!-- no translation found for pref_camera_hdr_default (5054955236904902318) -->
+    <!-- no translation found for pref_camera_hdr_plus_default (4827897029274554907) -->
+    <string name="dialog_ok" msgid="774141340500181131">"確定"</string>
+    <string name="dialog_dismiss" msgid="1382550604990470119">"關閉"</string>
+    <string name="video_reach_size_limit" msgid="9196836111505731836">"已達大小上限"</string>
+    <string name="pano_too_fast_prompt" msgid="2503148095578052177">"太快"</string>
+    <string name="pano_dialog_prepare_preview" msgid="4445235163599534263">"正在準備全景相片預覽"</string>
+    <string name="pano_dialog_panorama_failed" msgid="6772546547048693619">"無法儲存全景相片"</string>
+    <string name="pano_dialog_title" msgid="6662642763395425145">"全景相片"</string>
+    <string name="pano_capture_indication" msgid="4002128831255023954">"正在拍攝全景相片"</string>
+    <string name="pano_dialog_waiting_previous" msgid="2646847402743245320">"正在等待處理先前的全景相片"</string>
+    <string name="pano_review_rendering" msgid="2743087719999377155">"正在輸出全景相片"</string>
+    <string name="video_recording_started" msgid="3374878415050991030">"錄影已開始"</string>
+    <string name="video_recording_stopped" msgid="4658626532857624974">"錄影已停止"</string>
+    <string name="accessibility_shutter_button" msgid="6040483605347230438">"快門"</string>
+    <string name="accessibility_cancel_button" msgid="5679989494636116448">"取消"</string>
+    <string name="accessibility_review_cancel" msgid="5462850829869569629">"取消"</string>
+    <string name="accessibility_mode_list_hidden" msgid="3743267380450401866">"已關閉模式清單"</string>
+    <string name="accessibility_mode_list_shown" msgid="5284322142734069179">"已開啟模式清單"</string>
+    <string name="photo_accessibility_peek" msgid="5934133371001677250">"已拍照"</string>
+    <string name="video_accessibility_peek" msgid="7845916149291383132">"已錄影"</string>
+    <string name="accessibility_unlock_to_camera" msgid="1251880974313179442">"解鎖至相機"</string>
+    <string name="photo_date_content_description" msgid="5705865897898465619">"%s 拍攝的相片"</string>
+    <string name="video_date_content_description" msgid="2151884014634284456">"%s 拍攝的影片"</string>
+    <string name="panorama_date_content_description" msgid="990703578639006144">"%s 拍攝的全景相片"</string>
+    <string name="photosphere_date_content_description" msgid="4183741743409007876">"%s 拍攝的 Photo Sphere 全景相片"</string>
+    <string name="refocus_date_content_description" msgid="5630960320424345547">"%s 拍攝的景深拍照相片"</string>
+    <string name="media_processing_content_description" msgid="8138587719107183754">"正在處理媒體"</string>
+    <string name="accessibility_zoom_announcement" msgid="6976673411698319811">"縮放值為 %.1f"</string>
+    <string name="video_control_play" msgid="6895236811408921715">"播放影片"</string>
+    <string name="remember_location_title" msgid="3045040613094030429">"記錄拍攝地點？"</string>
+    <string name="remember_location_prompt" msgid="3006013504489919474">"為您的相片和影片標記拍攝地點"</string>
+    <string name="remember_location_no" msgid="4412802756840226925">"不需要，謝謝"</string>
+    <string name="remember_location_yes" msgid="4339424460683531388">"是"</string>
+    <string name="create_tiny_planet" msgid="5186918191372107343">"建立蟲視視角相片"</string>
+    <string name="saving_tiny_planet" msgid="8828265180177375494">"正在儲存蟲視視角相片…"</string>
+    <string name="tiny_planet_zoom" msgid="2985522360577158474">"縮放"</string>
+    <string name="tiny_planet_rotate" msgid="5445336705705350004">"旋轉"</string>
+    <string name="photo_editor" msgid="1521994560971367225">"相片編輯程式"</string>
+    <string name="mode_settings" msgid="2021937261522670921">"設定"</string>
+    <string name="mode_video" msgid="8633929034048169139">"影片"</string>
+    <string name="mode_panorama" msgid="6882648621305828861">"全景相片"</string>
+    <string name="mode_camera_desc" msgid="3670807361165657278">"切換至相機模式"</string>
+    <string name="mode_panorama_desc" msgid="6023020404237519590">"切換至全景模式"</string>
+    <string name="mode_refocus_desc" msgid="6171183297515508465">"切換至景深拍照模式"</string>
+    <string name="hdr_plus_off_desc" msgid="5301287296717144319">"關閉 HDR Plus"</string>
+    <string name="hdr_plus_on_desc" msgid="8204780034508139909">"開啟 HDR Plus"</string>
+    <string name="hdr_off_desc" msgid="7921924739852874675">"關閉 HDR"</string>
+    <string name="hdr_on_desc" msgid="4591284110249047558">"開啟 HDR"</string>
+    <string name="flash_off_desc" msgid="7151559466286106797">"關閉閃光燈"</string>
+    <string name="flash_auto_desc" msgid="3009043125539675717">"自動閃光燈"</string>
+    <string name="flash_on_desc" msgid="930372145324854699">"開啟閃光燈"</string>
+    <string name="torch_on_desc" msgid="3069836196559213365">"開啟電筒"</string>
+    <string name="torch_off_desc" msgid="8304675202998742618">"關閉電筒"</string>
+    <string name="camera_id_back_desc" msgid="3566327490758890635">"後置鏡頭"</string>
+    <string name="camera_id_front_desc" msgid="7497517948130254220">"前置鏡頭"</string>
+    <string name="countdown_duration_off">關閉</string>
+    <string name="cancel_button_description" msgid="3801167024006905033">"取消"</string>
+    <string name="done_button_description" msgid="1334963435441544592">"完成"</string>
+    <string name="retake_button_description" msgid="4234613030674787714">"重拍"</string>
+    <string name="review_button_description" msgid="7932122063748430080">"評論"</string>
+    <string name="button_change_announcement" msgid="3759686152778772111">"按鈕目前狀態為%s"</string>
+    <string name="pref_video_quality_entry_low" msgid="737962621299050603">"低"</string>
+    <string name="pref_video_quality_entry_high" msgid="1613578418842803393">"高"</string>
+    <string name="pref_video_quality_entry_qcif" msgid="1717816794399266216">"QCIF"</string>
+    <string name="pref_video_quality_entry_cif" msgid="645414019445016434">"CIF"</string>
+    <string name="pref_video_quality_entry_480p" msgid="5880250731066854583">"標清畫質 (480p)"</string>
+    <string name="pref_video_quality_entry_720p" msgid="4076146428148167262">"高清畫質 (720p)"</string>
+    <string name="pref_video_quality_entry_1080p" msgid="4539958891524211120">"高清畫質 (1080p)"</string>
+    <string name="pref_video_quality_entry_qvga" msgid="342600517453781430">"QVGA"</string>
+    <string name="pref_video_quality_entry_2160p" msgid="4522927631413184505">"UHD 4K 解析度"</string>
+    <string name="setting_summary_aspect_ratio_and_megapixels" msgid="5828440902461064821">"(%1$d:%2$d) %3$s 百萬像素"</string>
+    <string name="cling_text_for_refocus_editor_button" msgid="4785017397116829802">"如要重新對焦，請輕觸這裡"</string>
+    <string name="settings_cling_text" msgid="5368054627268181292">"您可以在 [設定] 中變更解像度和畫質，或嘗試使用進階功能"</string>
+    <string name="photo_size_selection_title" msgid="2789753590719172645">"選擇相片尺寸"</string>
+    <string name="photo_aspect_ratio_selection_content" msgid="6668224437962196229">"您可以稍後在 [設定] 中變更這項設定"</string>
+    <string name="edit_with" msgid="615569327230783971">"使用以下選擇器編輯："</string>
+    <string name="startup_dialog_button_next" msgid="1011831256978228993">"下一頁"</string>
+    <string name="confirm_button_text" msgid="7389949384482206814">"好，我明白了"</string>
+    <string name="full_sensor_4x3_aspect_ratio" msgid="1270461419743888925">"原尺寸感應器 \n(4:3)"</string>
+    <string name="cropped_sensor_16x9_aspect_ratio" msgid="4742161537633251795">"已裁剪感應器 \n(16:9)"</string>
+    <string name="session_saving_image" msgid="8932315404486416826">"正在儲存…"</string>
+    <!-- SPRD: Fix bug 496077 @{ -->
+    <string name="switch_to_gallery">切換到圖庫</string>
+    <!-- @} -->
+    <!-- SPRD: Add value for mirror @{ -->
+    <string name="pref_mirror_title">另存為反相</string>
+    <!-- }@ -->
+    <!-- fix bug 553567 slow motion does not support takeSnapShot and zoom @{ -->
+    <string name="slow_motion_does_not_support_zoom_change">慢錄中不支持變焦</string>
+    <!-- }@ -->
+     <string name="pref_camera_antibanding_title">"防閃爍"</string>
+     <string name="pref_camera_jpeg_quality_title">"照片品質"</string>
+     <string name="pref_camera_jpeg_quality_entry_normal">無轉場效果</string>
+     <string name="pref_camera_jpeg_quality_entry_hight">"精細"</string>
+     <string name="pref_camera_jpeg_quality_entry_super_height">"極精細"</string>
+     <string name="pref_camera_ai_detect_title">"智慧偵測"</string>
+     <string name="pref_camera_countdown_duration_title">倒数计时</string>
+     <string name="pref_camera_self_timer_interval_title">自拍間隔</string>
+     <string name="pref_ai_detect_entry_off">"關閉"</string>
+     <string name="pref_ai_detect_entry_face">"面孔偵測"</string>
+     <string name="pref_ai_detect_entry_smile">"笑臉拍照"</string>
+     <string name="pref_auto_add_logowatermark">"自動添加標誌水印"</string>
+     <string name="pref_auto_add_timewatermark">"自動添加時間戳水印"</string>
+     <string name="pref_camera_level">水平儀</string>
+     <string name="pref_camera_storage_path_title">"儲存路徑"</string>
+     <string name="storage_path_internal">"平板電腦"</string>
+     <string name="storage_path_external">"SD 卡"</string>
+     <string name="pref_camera_color_effect_title">"色彩效果"</string>
+     <string name="pref_camera_color_effect_entry_none">"原圖"</string>
+     <string name="pref_camera_color_effect_entry_mono">"黑白"</string>
+     <string name="pref_camera_color_effect_entry_negative">反色</string>
+     <string name="pref_camera_color_effect_entry_sepia">"舊照片"</string>
+     <string name="pref_camera_color_effect_entry_cold">冷色</string>
+     <string name="pref_camera_color_effect_entry_antique">"懷舊"</string>
+     <string name="pref_camera_scenemode_entry_normal">無轉場效果</string>
+     <string name="pref_camera_scenemode_entry_portrait">"肖像"</string>
+     <string name="pref_camera_scenemode_entry_landscape">"風景"</string>
+     <string name="pref_camera_continuous_capture_title">"連續拍攝"</string>
+     <string name="pref_camera_contrast_title">"對比"</string>
+     <string name="pref_camera_saturation_title">"飽和度"</string>
+     <string name="pref_camera_iso_entry_auto">"自動"</string>
+     <string name="pref_camera_metering_title">"測光"</string>
+     <string name="pref_camera_metering_entry_frame_average">"幀平均"</string>
+     <string name="pref_camera_metering_entry_center_weighted">"中心測光"</string>
+     <string name="pref_camera_metering_entry_spot_metering">"點"</string>
+     <string name="restore_done">"完成"</string>
+     <string name="restore_cancel">@android:string/cancel</string>
+     <string name="message_save_task_memory_limit">"正在儲存圖片，請稍等"</string>
+     <string name="pref_timelapse_title">"延時攝影"</string>
+     <string name="pref_timelapse_entry_off">"關閉"</string>
+     <string name="pref_timelapse_entry_4">"間隔0.12秒(4倍)"</string>
+     <string name="pref_timelapse_entry_10">"間隔0.3秒(10倍)"</string>
+     <string name="pref_timelapse_entry_30">"間隔1秒(30倍)"</string>
+     <string name="pref_timelapse_entry_60">"間隔2秒(60倍)"</string>
+     <string name="pref_timelapse_entry_90">"間隔3秒(90倍)"</string>
+     <string name="pref_timelapse_entry_150">"間隔5秒(150倍)"</string>
+     <string name="pref_timelapse_entry_300">"間隔10秒(300倍)"</string>
+     <string name="pref_timelapse_entry_450">"間隔15秒(450倍)"</string>
+     <string name="pref_timelapse_entry_900">"間隔30秒(900倍)"</string>
+     <string name="pref_timelapse_entry_1800">"間隔60秒(1800倍)"</string>
+     <string name="pref_video_slow_motion_title">"慢錄"</string>
+     <string name="cannot_save_image">"該圖片無法進行儲存，請重新拍攝"</string>
+     <string name="sdcard_remove">"SD卡被移除，錄製檔案未儲存"</string>
+     <string name="usb_remove">U盤被移除，錄製檔案未儲存</string>
+     <string name="usb_remove_photo_or_video">U盤被移除</string>
+     <string name="battery_level_low">電量低，無法使用閃光燈</string>
+     <string name="phone_does_not_support_video">通話中無法開啟視頻錄製功能</string>
+     <string name="phone_does_not_support_audio_picture">通話中無法開啟有聲拍照功能</string>
+    <string name="pref_camera_antibanding_entry_auto">"自動"</string>
+     <string name="sdcard_changeto_phone">"SD卡被移除"</string>
+     <string name="pref_camera_quick_capture_title_volkey">"按兩下音量下鍵熄屏極速抓拍"</string>
+     <string name="pref_camera_quick_capture_title_camkey">"按兩下快門鍵熄屏極速抓拍"</string>
+     <string name="pref_camera_quick_capture_entry_capture_with_back_camera">"熄屏使用後置攝像頭抓拍"</string>
+     <string name="pref_camera_quick_capture_entry_capture_with_front_camera">"熄屏使用前置攝像頭抓拍"</string>
+     <string name="pref_camera_quick_capture_entry_off">"關閉"</string>
+     <string name="current_module_does_not_support_zoom_change">"該模式不支援變焦"</string>
+     <string name="camera_record_voice_tip">"拍照後，還可最多錄製10秒語音"</string>
+     <string name="camera_record_voice_seconds">"秒"</string>
+     <string name="camera_record_voice_failed">"目前可以拍照但無法錄音"</string>
+     <string name="video_maximum_size_limit">"目前儲存最大支援4GB錄製"</string>
+
+     <!--SPRD: Fix bug 585183 Adds new features 3D recording-->
+     <string name="mode_video_desc_td">3D視頻</string>
+     <string name="setting_front_camera_video_3d" >前置攝像頭3D視頻</string>
+     <string name="tdvideo_mutex">請豎向握持設備進行拍攝</string>
+     <string name="blur_refocus_covered">為保證拍攝效果，請勿遮擋鏡頭</string>
+     <string name="refocus_distance_tip">建議平板電腦距拍攝對象兩米內</string>
+     <string name="refocus_front_distance_tip">拍摄人像时才能带有景深效果</string>
+     <string name="refocus_effect_tip">&#160;景深效果&#160;</string>
+     <string name="refocus_move_closer_tip">移近一點</string>
+     <string name="refocus_move_further_tip">移遠一點</string>
+     <string name="refocus_need_more_light_tip">需要更多光線</string>
+<string name="extend_panel_skin_smooth">磨皮</string>
+    <string name="extend_panel_skin_bright">美白</string>
+    <!-- add for sprd beatuy -->
+    <string name="extend_panel_skincolor_white">白皙</string>
+    <string name="extend_panel_skincolor_rosy">红润</string>
+    <string name="extend_panel_skincolor_wheat">小麦色</string>
+    <string name="extend_panel_lipscolor_fuchsia">紫红</string>
+    <string name="extend_panel_lipscolor_pink">淡红</string>
+    <string name="extend_panel_lipscolor_crimson">深红</string>
+    <string name="remove_blemish_off">关</string>
+    <string name="remove_blemish_on">开</string>
+    <string name="extend_panel_remove_blemish">祛斑</string>
+    <string name="extend_panel_skin_colour">肤色</string>
+    <string name="extend_panel_red_lips">红唇</string>
+     <string name="camera_blur_refocus_tip">大光圈可實現背景虛化效果</string>
+     <!-- @} -->
+    <string name="lock_ae_and_af">對焦和曝光已鎖定</string>
+    <string name="spaceIsLow_content" product="default">"外置儲存空間不足。 更改儲存設定或刪除部分圖片或其他檔案"</string>
+     <string name="uDiskIsLow_content" product="default">"USB內儲存空間不足。 更改儲存設定或刪除部分圖片或其他檔案"</string>
+     <string name="Internal_spaceIsLow_content" product="default">"內置儲存空間不足。 更改儲存設定或刪除部分圖片或其他檔案"</string>
+    <string name="Internal_spaceIsMIN_content" product="default">"當前內置存儲空間不足，請刪除其中的部分照片或文件後可繼續使用"</string>
+     <string name="refocus_off">"關閉重新對焦"</string>
+     <string name="refocus_on">"開啟重新對焦"</string>
+     <plurals name="burst_mode_saving">
+<item quantity="one">"連拍模式正在儲存 %1$d 張圖片"</item>
+<item quantity="other">"速拍模式正在儲存%1$d張圖片"</item>
+    </plurals>
+     <string name="pref_timelapse_entry_value_default">"1"</string>
+     <string name="close_float_video">"開啟相機時關閉影片懸浮視窗"</string>
+     <string name="pref_sensor_self_shot_title">"無接觸自拍"</string>
+     <string name="pref_sensor_self_shot_summary">"遮蓋後置副攝影鏡頭1秒後拍照"</string>
+     <string name="not_support_zoom_change">"不支援變焦"</string>
+     <string name="blur_refocus_unsupported">"目前場景不適合重新對焦處理"</string>
+     <string name="recorder_in_progress_error">"由於音訊資源被佔用，無法開始錄音"</string>
+     <string name="recorder_without_audio_track">"另一應用程式正在使用麥克風，故影片將無聲音"</string>
+     <string name="refocus_photo_edit_undo">"復原"</string>
+     <string name="refocus_photo_edit_redo">"取消復原"</string>
+     <string name="refocus_photo_edit_save">最愛</string>
+     <string name="camera_record_voice_error">"音訊資源被佔用，目前可拍照，但無法錄音"</string>
+     <string name="can_not_lock_ae_and_af">"AI檢測開啟，無法鎖定自動曝光/自動對焦"</string>
+     <string name="error_external_storage_access">"無法存取外置儲存裝置"</string>
+     <string name="feedback_description_external_access">"請允許存取或清除應用程式儲存空間並重試"</string>
+     <string name="ai_scene_tips_food">"最佳化場景拍攝效果：食物"</string>
+     <string name="ai_scene_tips_portrait">"最佳化場景拍攝效果：人像"</string>
+     <string name="ai_scene_tips_foliage">"最佳化場景拍攝效果：植物"</string>
+     <string name="ai_scene_tips_sky">"最佳化場景拍攝效果：天空"</string>
+     <string name="ai_scene_tips_night">"最佳化場景拍攝效果：夜景"</string>
+     <string name="ai_scene_tips_backlight">"最佳化場景拍攝效果：背光"</string>
+     <string name="ai_scene_tips_text">"最佳化場景拍攝效果：文字"</string>
+     <string name="ai_scene_tips_sunrise">"最佳化場景拍攝效果：日出"</string>
+     <string name="ai_scene_tips_building">"最佳化場景拍攝效果：建築物"</string>
+     <string name="ai_scene_tips_landscape">"最佳化場景拍攝效果：風景"</string>
+     <string name="ai_scene_tips_snow">"最佳化場景拍攝效果：雪景"</string>
+     <string name="ai_scene_tips_firework">"最佳化場景拍攝效果：煙火"</string>
+     <string name="ai_scene_tips_beach">"最佳化場景拍攝效果：海灘"</string>
+     <string name="ai_scene_tips_pet">"最佳化場景拍攝效果：寵物"</string>
+     <string name="ai_scene_tips_flower">"最佳化場景拍攝效果：花卉"</string>
+     <string name="pref_camera_ai_scene_title">"AI場景識別"</string>
+     <string name="pref_camera_ai_scene_summy">"識別多個場景及最佳化拍攝效果"</string>
+     <string name="pref_camera_ai_scene_title_for_frontcamera">"AI人像識別"</string>
+     <string name="pref_camera_ai_scene_summy_for_frontcamera">"識別人像場景及最佳化拍攝效果"</string>
+     <string name="vcard_create">"建立新聯絡人"</string>
+     <string name="vcard_title">"QR碼名片："</string>
+     <string name="nameLabelsGroup">名字:</string>
+     <string name="phoneLabelsGroup">"電話："</string>
+     <string name="emailLabelsGroup">"電郵地址："</string>
+     <string name="postal_address">"地址："</string>
+     <string name="ghostData_company">"公司："</string>
+     <string name="ghostData_title">"標題："</string>
+     <string name="label_notes">"備註："</string>
+     <string name="pref_camera_auto3dnr_title">自動夜景增強</string>
+
+    <string name="hdr_off">關</string>
+    <string name="hdr_on">開</string>
+    <string name="hdr_auto">自動</string>
+    <string name="motion_photo_on">動態照片已開啟</string>
+    <string name="motion_photo_off">動態照片已關閉</string>
+    <string name="pref_ai_detect_entry_face_attributes">"人面屬性檢測"</string>
+    <string name="pref_exposure_shuttertime_default">"自動"</string>
+    <string name="pref_entry_focus_distance_value_40">"微距"</string>
+    <string name="pref_entry_focus_distance_value_80">"分鐘"</string>
+    <string name="pref_entry_focus_distance_value_100">"無限遠"</string>
+    <string name="pref_camera_focus_distance_entry_auto">"自動"</string>
+    <string name="camera_mode_portrait">"人像虛化"</string>
+    <string name="security_camera_does_not_support_aquire_storage_permission">"暫未授權儲存位置權限，請解鎖平板電腦後使用該功能"</string>
+    <string name="access_permission_guid">"請參照下圖指示，授權儲存裝置權限"</string>
+    <string name="permission_continue">"繼續"</string>
+    <string name="permission_cancel">取消</string>
+    <string name="portrait_detect_tips">"未檢測到人像"</string>
+    <string name="camera_mode_portrait_new">"肖像"</string>
+    <string name="camera_mode_high_resolution">"超清拍攝"</string>
+    <string name="super_wide_tip">"廣角"</string>
+    <string name="time_too_short">"拍攝時間過短"</string>
+    <string name="filter_video_off">錄像濾鏡關閉</string>
+    <string name="filter_video_on">錄像濾鏡打開</string>
+</resources>

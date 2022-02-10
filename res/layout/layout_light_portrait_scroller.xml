@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <com.android.camera.widget.selector.SelectorScroller
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/light_portrait_scroller"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/extend_fix_icon_height"
+        android:scrollbars="none"
+        android:visibility="gone">
+
+        <com.android.camera.widget.selector.SelectorContainer
+            android:id="@+id/light_portrait_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:isScrollContainer="true"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            app:display_count="5">
+        </com.android.camera.widget.selector.SelectorContainer>
+
+    </com.android.camera.widget.selector.SelectorScroller>

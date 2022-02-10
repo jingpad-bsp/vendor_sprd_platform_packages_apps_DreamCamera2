@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2013, The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <dimen name="pano_capture_indicator_marginTop">6dp</dimen>
+    <dimen name="checkbox_framelayout_width_height">20dp</dimen>
+    <dimen name="checkbox_framelayout_marginleft">6dp</dimen>
+    <dimen name="checkbox_framelayout_margintop">10dp</dimen>
+    <dimen name="indicator_bar_width">48dp</dimen>
+    <dimen name="indicator_bar_width_xlarge">13dp</dimen>
+    <dimen name="intervalphoto_bottom_spacing">20dp</dimen>
+    <dimen name="pie_progress_radius">25dp</dimen>
+    <dimen name="pie_progress_width">3dp</dimen>
+    <dimen name="zoom_stroke">3dp</dimen>
+    <dimen name="switcher_size">72dp</dimen>
+    <dimen name="face_circle_stroke">1dip</dimen>
+    <dimen name="focus_circle_stroke">1.25dp</dimen>
+    <dimen name="focus_circle_min_size">24dp</dimen>
+    <dimen name="focus_circle_max_size">96dp</dimen>
+    <dimen name="focus_circle_center_size">16dp</dimen>
+    <dimen name="adjust_panel_height">144dp</dimen>
+    <dimen name="focus_circle_initial_size">48dp</dimen>
+    <dimen name="navigation_bar_height">48dip</dimen>
+
+    <!-- Mode selector text size -->
+    <dimen name="mode_selector_text_size">14dp</dimen>
+    <dimen name="blur_effect_text_size">12sp</dimen>
+
+    <dimen name="mode_list_settings_icon_size">48dp</dimen>
+    <dimen name="mode_list_settings_icon_margin">12dp</dimen>
+
+    <!-- Bottom bar ui -->
+    <dimen name="bottom_bar_height_min">84dp</dimen>
+    <dimen name="bottom_bar_height_max">120dp</dimen>
+    <dimen name="bottom_bar_height_optimal">96dp</dimen>
+
+    <dimen name="mode_transition_view_icon_size">64dp</dimen>
+
+    <dimen name="mode_options_height">72dp</dimen>
+    <dimen name="mode_option_width">48dp</dimen>
+
+    <dimen name="photo_voice_record_progress_top">42dp</dimen>
+    <dimen name="grid_line_width">1dp</dimen>
+
+    <dimen name="done_cancel_button_height">75dp</dimen>
+    <dimen name="done_cancel_button_width">50dp</dimen>
+    <dimen name="option_button_circle_size">48dp</dimen>
+    <dimen name="mode_options_toggle_padding">12dp</dimen>
+    <dimen name="mode_options_buttons_anim_delta_x">20dp</dimen>
+
+    <dimen name="settings_cling_width">160dp</dimen>
+    <dimen name="settings_cling_triangle_height">15dp</dimen>
+    <dimen name="settings_cling_triangle_width">20dp</dimen>
+
+    <dimen name="settings_cling_smalltriangle_height">8dp</dimen>
+
+    <dimen name="rounded_thumbnail_padding">12dp</dimen>
+    <dimen name="rounded_thumbnail_diameter_min">40dp</dimen>
+    <dimen name="rounded_thumbnail_diameter_max">60dp</dimen>
+    <dimen name="rounded_thumbnail_ripple_ring_diameter_min">40dp</dimen>
+    <dimen name="rounded_thumbnail_ripple_ring_diameter_max">70dp</dimen>
+    <dimen name="rounded_thumbnail_ripple_ring_thick_max">5dp</dimen>
+    <dimen name="rounded_thumbnail_ripple_ring_thick_min">1dp</dimen>
+
+    <!-- SPRD: add for freeze -->
+    <dimen name="control_panel_min_length">105dp</dimen>
+
+    <!-- SPRD Bug:474704 Feature:Video Recording Pause. -->
+    <dimen name="video_play_button_magin">75dip</dimen>
+
+    <!-- SPRD: fix bug 474672 add for ucam @{-->
+    <dimen name="filter_make_up_button_magin">30dp</dimen>
+    <dimen name="filter_make_up_button_half_size">12dp</dimen>
+    <dimen name = "mode_option_overlay_makeup_height">48dp</dimen>
+    <!--}@  -->
+
+    <dimen name="pano_pan_progress_bar_padding">132dp</dimen>
+
+    <dimen name="extend_fix_icon_height">80dp</dimen>
+
+    <!-- Zoom value text size -->
+    <dimen name="zoom_value_text_size">30dp</dimen>
+    <dimen name="contrast_panel_height">18dp</dimen>
+    <dimen name="freeze_padding">10dp</dimen>
+    <dimen name="freeze_checkbox_size">40dp</dimen>
+    <dimen name="max_freeze_image_width">150dp</dimen>
+    <dimen name="max_freeze_image_height">210dp</dimen>
+    <dimen name="four_list_size">68dp</dimen>
+
+    <dimen name="top_panel_height">32dp</dimen>
+    <dimen name="bottom_bar_height">120dp</dimen>
+    <dimen name="navigation_bottom_bar_height">160dp</dimen>
+    <dimen name="navigation_slide_panel_height">14dp</dimen>
+    <dimen name="slide_panel_height">35dp</dimen>
+
+    <dimen name="mode_selector_icon_block_width">64dp</dimen>
+    <dimen name="mode_selector_icon_drawable_size">64dp</dimen>
+    <dimen name="mode_selector_item_height">142dp</dimen>
+    <dimen name="mode_selector_item_text_height">24dp</dimen>
+    <dimen name="dream_mode_selector_text_size">14dp</dimen>
+
+    <dimen name="mode_selector_item_text_margin_left">8dp</dimen>
+    <dimen name="mode_selector_icon_drawable_margin_top">4dp</dimen>
+    <dimen name="mode_selector_margin_left_right">24dp</dimen>
+
+    <dimen name="dream_rounded_thumbnail_diameter_normal">56dp</dimen>
+
+    <dimen name="welcome_line_spacing">48dp</dimen>
+    <dimen name="seekbar_navigation_height">88dp</dimen>
+
+    <!-- SPRD: fix bug 578797 New feature:QR code @{ -->
+    <dimen name="qrcode_framingRect_width">264dp</dimen>
+    <dimen name="qrcode_framingRect_height">264dp</dimen>
+    <dimen name="qrcode_corner_width">3dp</dimen>
+    <dimen name="qrcode_middle_line_width">4dp</dimen>
+    <dimen name="pano_arrow_gap">12dp</dimen>
+    <dimen name="pano_director_line_front">1dp</dimen>
+    <dimen name="pano_left_gap_land">50dp</dimen>
+    <dimen name="pano_right_gap_land">120dp</dimen>
+    <dimen name="pano_preview_indicator_marginTop">30dp</dimen>
+    <!-- }@ -->
+    <dimen name="auto_chasing_out_circle_radius">48dp</dimen>
+    <dimen name="auto_chasing_in_circle_radius">8dp</dimen>
+    <dimen name="auto_chasing_center_circle_radius">4dp</dimen>
+    <dimen name="auto_chasing_in_circle_line_size">4dp</dimen>
+    <dimen name="auto_chasing_circle_stroke">1.25dp</dimen>
+</resources>

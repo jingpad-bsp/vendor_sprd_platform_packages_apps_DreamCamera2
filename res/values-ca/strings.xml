@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  Copyright (C) 2007 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
+    <string name="app_name" msgid="1175086483881127797">"Càmera"</string>
+    <string name="video_camera_label" msgid="1723708322021743770">"Càmera de vídeo"</string>
+    <string name="details_ms" msgid="6618163484662724641">"%1$02d:%2$02d"</string>
+    <string name="details_hms" msgid="4842276230698703554">"%1$d:%2$02d:%3$02d"</string>
+    <string name="details" msgid="4404020741542549488">"Detalls"</string>
+    <string name="close" msgid="4826166926297479820">"Tanca"</string>
+    <string name="video_err" msgid="1562566029875081552">"No es pot reproduir el vídeo."</string>
+    <string name="title" msgid="8061744305671964703">"Títol"</string>
+    <string name="description" msgid="8193138501982849808">"Descripció"</string>
+    <string name="time" msgid="5248213506417024287">"Hora"</string>
+    <string name="location" msgid="564326205780827668">"Ubicació"</string>
+    <string name="path" msgid="5927003361865586353">"Camí"</string>
+    <string name="width" msgid="7045750687833828758">"Amplada"</string>
+    <string name="height" msgid="5186001199353423689">"Alçada"</string>
+    <string name="orientation" msgid="3883761294106680270">"Orientació"</string>
+    <string name="duration" msgid="5316211067383665008">"Durada"</string>
+    <string name="mimetype" msgid="6415940055077963944">"Tipus MIME"</string>
+    <string name="file_size" msgid="6841070748357980676">"Mida de fitxer"</string>
+    <string name="maker" msgid="698691509121545856">"Fabricant"</string>
+    <string name="model" msgid="8547493604023069452">"Model"</string>
+    <string name="flash" msgid="995041910749174196">"Flaix"</string>
+    <string name="aperture" msgid="2453802098282814022">"Obertura"</string>
+    <string name="focal_length" msgid="8351221512187346229">"Longitud focal"</string>
+    <string name="white_balance" msgid="1600142743496129085">"Balanç de blancs"</string>
+    <string name="exposure_time" msgid="949787291620767754">"Temps exposició"</string>
+    <string name="iso" msgid="8578773821062054902">"ISO"</string>
+    <string name="unit_mm" msgid="5210344300697638286">"mm"</string>
+    <string name="manual" msgid="2444400953521760140">"Manual"</string>
+    <string name="auto" msgid="2552649885114400474">"Auto"</string>
+    <string name="flash_on" msgid="6573457197393807642">"Flaix activat"</string>
+    <string name="flash_off" msgid="7889323512830926273">"Sense flaix"</string>
+    <string name="unknown" msgid="564184550182858146">"No indicat"</string>
+    <string name="camera_error_title" msgid="6200558085072670067">"Error de la càmera"</string>
+    <string name="error_cannot_connect_camera" msgid="2713059773224193128">"No es pot connectar a la càmera."</string>
+    <string name="error_camera_disabled" msgid="5582398275657419692">"La càmera s\'ha desactivat a causa de les polítiques de seguretat."</string>
+    <string name="error_media_storage_failure" msgid="7711687330673245629">"S\'ha produït un problema en desar la foto o el vídeo."</string>
+    <string name="error_permissions" msgid="3454167403425651254">"L\'aplicació no té els permisos importants necessaris per executar-se. Comprova la configuració dels permisos."</string>
+    <string name="wait" msgid="765601745709933047">"Espera…"</string>
+    <string name="no_storage" product="default" msgid="5922012950780548098">"Per utilitzar la càmera, insereix una targeta SD."</string>
+    <string name="preparing_sd" product="default" msgid="7435693655017362767">"S\'està preparant la targeta SD…"</string>
+    <string name="access_sd_fail" product="default" msgid="2634861611082499811">"No s\'ha pogut accedir a la targeta SD."</string>
+    <string name="time_lapse_title" msgid="3267978566401228497">"Enregistrament a intervals"</string>
+    <string name="feedback_description_camera_access" msgid="419090951070170132">"L\'aplicació no s\'ha pogut connectar a la càmera."</string>
+    <string name="feedback_description_save_photo" msgid="8658767358989083228">"La foto o el vídeo no s\'han desat al dispositiu."</string>
+    <string name="pref_camera_save_location_title" msgid="2344235620113384017">"Desa la ubicació"</string>
+    <!-- no translation found for pref_camera_timer_sound_default (6225207881203007747) -->
+    <string name="setting_off" msgid="6782191065550276632">"Desactivat"</string>
+    <string name="setting_on" msgid="9086728135773197891">"Activat"</string>
+    <string name="pref_camera_settings_category" msgid="4274141528139077830">"Configuració de la càmera"</string>
+    <string name="pref_camera_picturesize_entry_large" msgid="9014447075089601575">"Gran"</string>
+    <string name="pref_camera_picturesize_entry_medium" msgid="7708839551627003154">"Mitjana"</string>
+    <string name="pref_camera_picturesize_entry_small" msgid="2991239656622539068">"Petita"</string>
+    <string name="pref_camera_whitebalance_title" msgid="7962809566612868179">"Balanç de blancs"</string>
+    <string name="pref_camera_whitebalance_entry_auto" msgid="1390631794449502796">"Auto"</string>
+    <string name="pref_camera_whitebalance_entry_incandescent" msgid="1140391575294372706">"Incandescent"</string>
+    <string name="pref_camera_whitebalance_entry_daylight" msgid="757833578153467254">"Llum natural"</string>
+    <string name="pref_camera_whitebalance_entry_fluorescent" msgid="5157027611220790970">"Fluorescent"</string>
+    <string name="pref_camera_whitebalance_entry_cloudy" msgid="3569589102226796875">"Ennuvolat"</string>
+    <string name="pref_camera_scenemode_entry_auto" msgid="9205644316260850379">"Auto"</string>
+    <string name="pref_camera_scenemode_entry_action" msgid="5753183620959062015">"Acció"</string>
+    <string name="pref_camera_scenemode_entry_night" msgid="3468037364159759991">"Nit"</string>
+    <!-- no translation found for pref_camera_hdr_default (5054955236904902318) -->
+    <!-- no translation found for pref_camera_hdr_plus_default (4827897029274554907) -->
+    <string name="dialog_ok" msgid="774141340500181131">"D\'acord"</string>
+    <string name="dialog_dismiss" msgid="1382550604990470119">"Ignora"</string>
+    <string name="video_reach_size_limit" msgid="9196836111505731836">"S\'ha arribat al límit de mida."</string>
+    <string name="pano_too_fast_prompt" msgid="2503148095578052177">"Massa ràpid"</string>
+    <string name="pano_dialog_prepare_preview" msgid="4445235163599534263">"S\'està preparant la panoràmica"</string>
+    <string name="pano_dialog_panorama_failed" msgid="6772546547048693619">"No s\'ha pogut desar la panoràmica."</string>
+    <string name="pano_dialog_title" msgid="6662642763395425145">"Panoràmica"</string>
+    <string name="pano_capture_indication" msgid="4002128831255023954">"Capturant la panoràmica"</string>
+    <string name="pano_dialog_waiting_previous" msgid="2646847402743245320">"S\'està esperant la panoràmica anterior"</string>
+    <string name="pano_review_rendering" msgid="2743087719999377155">"Renderitzant la panoràmica"</string>
+    <string name="video_recording_started" msgid="3374878415050991030">"L\'enregistrament de vídeo ha començat."</string>
+    <string name="video_recording_stopped" msgid="4658626532857624974">"L\'enregistrament de vídeo s\'ha aturat."</string>
+    <string name="accessibility_shutter_button" msgid="6040483605347230438">"Obturador"</string>
+    <string name="accessibility_cancel_button" msgid="5679989494636116448">"Cancel·la"</string>
+    <string name="accessibility_review_cancel" msgid="5462850829869569629">"Cancel·la la revisió"</string>
+    <string name="accessibility_mode_list_hidden" msgid="3743267380450401866">"Llista de modes tancada"</string>
+    <string name="accessibility_mode_list_shown" msgid="5284322142734069179">"Llista de modes oberta"</string>
+    <string name="photo_accessibility_peek" msgid="5934133371001677250">"S\'ha fet una foto."</string>
+    <string name="video_accessibility_peek" msgid="7845916149291383132">"S\'ha enregistrat un vídeo."</string>
+    <string name="accessibility_unlock_to_camera" msgid="1251880974313179442">"Desbloqueja i vés a la Càmera"</string>
+    <string name="photo_date_content_description" msgid="5705865897898465619">"Data i hora de creació de la fotografia: %s"</string>
+    <string name="video_date_content_description" msgid="2151884014634284456">"Data i hora de creació del vídeo: %s"</string>
+    <string name="panorama_date_content_description" msgid="990703578639006144">"Data i hora de creació de la fotografia panoràmica: %s"</string>
+    <string name="photosphere_date_content_description" msgid="4183741743409007876">"Data i hora de creació de la fotografia esfèrica: %s"</string>
+    <string name="refocus_date_content_description" msgid="5630960320424345547">"Data i hora de creació de l\'Efecte d\'enfocament: %s"</string>
+    <string name="media_processing_content_description" msgid="8138587719107183754">"Processament de fitxers multimèdia"</string>
+    <string name="accessibility_zoom_announcement" msgid="6976673411698319811">"El valor del zoom és %.1f"</string>
+    <string name="video_control_play" msgid="6895236811408921715">"Reprodueix el vídeo"</string>
+    <string name="remember_location_title" msgid="3045040613094030429">"Vols que es recordin les ubicacions de les fotos?"</string>
+    <string name="remember_location_prompt" msgid="3006013504489919474">"Etiqueta les fotos i els vídeos amb les ubicacions en què s\'han fet."</string>
+    <string name="remember_location_no" msgid="4412802756840226925">"No, gràcies"</string>
+    <string name="remember_location_yes" msgid="4339424460683531388">"Sí"</string>
+    <string name="create_tiny_planet" msgid="5186918191372107343">"Crea un planeta petit"</string>
+    <string name="saving_tiny_planet" msgid="8828265180177375494">"Desant el planeta petit…"</string>
+    <string name="tiny_planet_zoom" msgid="2985522360577158474">"Zoom"</string>
+    <string name="tiny_planet_rotate" msgid="5445336705705350004">"Gira"</string>
+    <string name="photo_editor" msgid="1521994560971367225">"Editor de fotos"</string>
+    <string name="mode_settings" msgid="2021937261522670921">"Configuració"</string>
+    <string name="mode_video" msgid="8633929034048169139">"Vídeo"</string>
+    <string name="mode_panorama" msgid="6882648621305828861">"Panoràmica"</string>
+    <string name="mode_camera_desc" msgid="3670807361165657278">"Canvia al mode de càmera"</string>
+    <string name="mode_panorama_desc" msgid="6023020404237519590">"Canvia al mode Panoràmica"</string>
+    <string name="mode_refocus_desc" msgid="6171183297515508465">"Canvia al mode Efecte d\'enfocament"</string>
+    <string name="hdr_plus_off_desc" msgid="5301287296717144319">"HDR Plus desactivat"</string>
+    <string name="hdr_plus_on_desc" msgid="8204780034508139909">"HDR Plus activat"</string>
+    <string name="hdr_off_desc" msgid="7921924739852874675">"HDR desactivat"</string>
+    <string name="hdr_on_desc" msgid="4591284110249047558">"HDR activat"</string>
+    <string name="flash_off_desc" msgid="7151559466286106797">"Flaix desactivat"</string>
+    <string name="flash_auto_desc" msgid="3009043125539675717">"Flaix automàtic"</string>
+    <string name="flash_on_desc" msgid="930372145324854699">"Flaix activat"</string>
+    <string name="torch_on_desc" msgid="3069836196559213365">"Llanterna activada"</string>
+    <string name="torch_off_desc" msgid="8304675202998742618">"Llanterna desactivada"</string>
+    <string name="camera_id_back_desc" msgid="3566327490758890635">"Càmera posterior"</string>
+    <string name="camera_id_front_desc" msgid="7497517948130254220">"Càmera frontal"</string>
+    <string name="cancel_button_description" msgid="3801167024006905033">"Cancel·la"</string>
+    <string name="done_button_description" msgid="1334963435441544592">"Fet"</string>
+    <string name="retake_button_description" msgid="4234613030674787714">"Repeteix"</string>
+    <string name="review_button_description" msgid="7932122063748430080">"Opina"</string>
+    <string name="button_change_announcement" msgid="3759686152778772111">"El botó ara és %s"</string>
+    <string name="pref_video_quality_entry_low" msgid="737962621299050603">"Baixa"</string>
+    <string name="pref_video_quality_entry_high" msgid="1613578418842803393">"Alta"</string>
+    <string name="pref_video_quality_entry_qcif" msgid="1717816794399266216">"QCIF"</string>
+    <string name="pref_video_quality_entry_cif" msgid="645414019445016434">"CIF"</string>
+    <string name="pref_video_quality_entry_480p" msgid="5880250731066854583">"480p, definició estàndard"</string>
+    <string name="pref_video_quality_entry_720p" msgid="4076146428148167262">"720p, alta definició"</string>
+    <string name="pref_video_quality_entry_1080p" msgid="4539958891524211120">"1.080p, alta definició"</string>
+    <string name="pref_video_quality_entry_qvga" msgid="342600517453781430">"QVGA"</string>
+    <string name="pref_video_quality_entry_2160p" msgid="4522927631413184505">"UHD 4K"</string>
+    <string name="setting_summary_aspect_ratio_and_megapixels" msgid="5828440902461064821">"(%1$d:%2$d) %3$s megapíxels"</string>
+    <string name="cling_text_for_refocus_editor_button" msgid="4785017397116829802">"Per reenfocar, toca aquí"</string>
+    <string name="settings_cling_text" msgid="5368054627268181292">"A Configuració, canvia la resolució i la qualitat o bé prova funcions avançades."</string>
+    <string name="photo_size_selection_title" msgid="2789753590719172645">"Tria la mida de la foto"</string>
+    <string name="photo_aspect_ratio_selection_content" msgid="6668224437962196229">"Pots canviar aquesta opció més endavant a Configuració."</string>
+    <string name="edit_with" msgid="615569327230783971">"Edita amb"</string>
+    <string name="startup_dialog_button_next" msgid="1011831256978228993">"SEGÜENT"</string>
+    <string name="confirm_button_text" msgid="7389949384482206814">"D\'ACORD"</string>
+    <string name="full_sensor_4x3_aspect_ratio" msgid="1270461419743888925">"Sensor de mida completa \n(4:3)"</string>
+    <string name="cropped_sensor_16x9_aspect_ratio" msgid="4742161537633251795">"Sensor de mida retallada \n(16:9)"</string>
+    <string name="session_saving_image" msgid="8932315404486416826">"S\'està desant..."</string>
+     <string name="pref_camera_antibanding_title">"Estabilitza"</string>
+     <string name="pref_camera_jpeg_quality_title">"Qualitat de la imatge"</string>
+     <string name="pref_camera_jpeg_quality_entry_normal">"Normal"</string>
+     <string name="pref_camera_jpeg_quality_entry_hight">"Bona qualitat"</string>
+     <string name="pref_camera_jpeg_quality_entry_super_height">"Qualitat excel·lent"</string>
+     <string name="pref_camera_ai_detect_title">"Detecció intel·ligent"</string>
+     <string name="pref_ai_detect_entry_off">"Desactivat"</string>
+     <string name="pref_ai_detect_entry_face">"Detecció de cares"</string>
+     <string name="pref_ai_detect_entry_smile">"Detecció de somriures"</string>
+     <string name="pref_camera_storage_path_title">"Camí de memòria"</string>
+     <string name="storage_path_internal">Intern</string>
+     <string name="storage_path_external">Extern</string>
+     <string name="pref_camera_color_effect_title">"Efecte de color"</string>
+     <string name="pref_camera_color_effect_entry_mono">Mono</string>
+     <string name="pref_camera_color_effect_entry_negative">"Negatiu"</string>
+     <string name="pref_camera_color_effect_entry_sepia">"Sèpia"</string>
+     <string name="pref_camera_color_effect_entry_cold">"Fred"</string>
+     <string name="pref_camera_color_effect_entry_antique">"Antique"</string>
+     <string name="pref_camera_scenemode_entry_normal">"Normal"</string>
+     <string name="pref_camera_scenemode_entry_portrait">"Vertical"</string>
+     <string name="pref_camera_scenemode_entry_landscape">"Horitzontal"</string>
+     <string name="pref_camera_continuous_capture_title">"Ràfega"</string>
+     <string name="pref_camera_contrast_title">"Contrast"</string>
+     <string name="pref_camera_saturation_title">"Saturació"</string>
+     <string name="pref_camera_iso_entry_auto">"automàtica"</string>
+     <string name="pref_camera_metering_title">"Mesura"</string>
+     <string name="pref_camera_metering_entry_frame_average">"Centrada al marc"</string>
+     <string name="pref_camera_metering_entry_center_weighted">"Centrada"</string>
+     <string name="pref_camera_metering_entry_spot_metering">"Mesura per punts"</string>
+     <string name="switch_to_gallery">"Passar a galeria"</string>
+     <string name="restore_done">"Fet"</string>
+     <string name="restore_cancel">@android:string/cancel</string>
+     <string name="message_save_task_memory_limit">"S\'està desant la imatge, espereu."</string>
+     <string name="pref_timelapse_title">"Interval de temps"</string>
+     <string name="pref_timelapse_entry_off">"Desactivat"</string>
+     <string name="pref_timelapse_entry_4">"Interval de 0,12 s (x4)"</string>
+     <string name="pref_timelapse_entry_10">"Interval de 0,3 s (x10)"</string>
+     <string name="pref_timelapse_entry_30">"Interval de 1 s (x30)"</string>
+     <string name="pref_timelapse_entry_60">"Interval de 2 s (x60)"</string>
+     <string name="pref_timelapse_entry_90">"Interval de 3 s (x90)"</string>
+     <string name="pref_timelapse_entry_150">"Interval de 5 s (x150)"</string>
+     <string name="pref_timelapse_entry_300">"Interval de 10 s (x300)"</string>
+     <string name="pref_timelapse_entry_450">"Interval de 15 s (x450)"</string>
+     <string name="pref_timelapse_entry_900">"Interval de 30 s (x900)"</string>
+     <string name="pref_timelapse_entry_1800">"Interval de 60 s (x1800)"</string>
+     <string name="pref_video_slow_motion_title">"Càmera lenta"</string>
+     <string name="cannot_save_image">"No s\'ha pogut desar la imatge, torneu a fer la fotografia."</string>
+     <string name="sdcard_remove">"S\'ha retirat la targeta SD, no s\'ha guardat cap fitxer d\'enregistrament."</string>
+     <string name="pref_mirror_title">"Reflex del mirall"</string>
+    <string name="pref_camera_antibanding_entry_auto">"automàtica"</string>
+     <string name="sdcard_changeto_phone">"S\'ha retirat la targeta SD, es desarà a la memòria interna"</string>
+     <string name="pref_camera_quick_capture_title_volkey">"Captura ràpida fent doble clic al botó de baixar el volum"</string>
+     <string name="pref_camera_quick_capture_title_camkey">"Captura ràpida fent doble clic al botó de la càmera"</string>
+     <string name="pref_camera_quick_capture_entry_capture_with_back_camera">"Capturar amb la càmera posterior"</string>
+     <string name="pref_camera_quick_capture_entry_capture_with_front_camera">"Capturar amb la càmera frontal"</string>
+     <string name="pref_camera_quick_capture_entry_off">"Desactivat"</string>
+     <string name="slow_motion_does_not_support_zoom_change">"El mode de càmera lenta està activat, no es poden canviar els valors del zoom."</string>
+     <string name="current_module_does_not_support_zoom_change">"No es pot modificar el zoom"</string>
+     <string name="camera_record_voice_tip">"Podeu desar després de fer la fotografia"</string>
+     <string name="camera_record_voice_seconds">"s"</string>
+     <string name="camera_record_voice_failed">"Es poden fer fotografies però no es poden desar."</string>
+     <string name="battery_level_low">"el nivell de bateria és baix, no es pot fer servir el flaix"</string>
+     <string name="video_maximum_size_limit">"La memòria actual permet emmagatzemar un màxim de 4GB"</string>
+     <string name="phone_does_not_support_video">"El telèfon no és compatible amb el vídeo"</string>
+     <string name="phone_does_not_support_audio_picture">"El telèfon no és compatible amb les imatges d\'àudio"</string>
+    <string name="spaceIsLow_content" product="default">"No hi ha prou espai a la memòria externa. Canvia la configuració de l’emmagatzematge o elimina algunes imatges o altres arxius."</string>
+     <string name="uDiskIsLow_content" product="default">"No hi ha prou espai a la memòria externa. Canvia la configuració de l’emmagatzematge o elimina algunes imatges o altres arxius."</string>
+     <string name="Internal_spaceIsLow_content" product="default">"No hi ha prou espai a la memòria interna. Canvia la configuració de l’emmagatzematge o elimina algunes imatges o altres arxius."</string>
+     <string name="countdown_duration_off">"Desactivat"</string>
+     <string name="refocus_off">"El reenfocament està desactivat"</string>
+     <string name="refocus_on">"El reenfocament està activat"</string>
+     <string name="pref_camera_countdown_duration_title">Durada del compte enrere</string>
+     <string name="pref_camera_self_timer_interval_title">Interval del temporitzador automàtic</string>
+     <plurals name="burst_mode_saving">
+<item quantity="one">"S\'està aplicant el mode ràfega a la imatge %1$d"</item>
+<item quantity="other">"Aplicació del mode ràfega a %1$d fotos"</item>
+    </plurals>
+     <string name="pref_timelapse_entry_value_default">"1"</string>
+     <string name="usb_remove">S\'ha extret l\'USB i no s\'ha desat cap fitxer de gravació</string>
+     <string name="usb_remove_photo_or_video">S\'ha extret l\'USB</string>
+     <string name="close_float_video">Tanqueu les finestres flotants de vídeo quan la càmera estigui oberta.</string>
+     <string name="pref_sensor_self_shot_title">Mirall sense contacte</string>
+     <string name="pref_sensor_self_shot_summary">"Fer foto quan la càmera auxiliar posterior estigui tapada durant 1 segon"</string>
+     <string name="not_support_zoom_change">No es pot canviar el valor del zoom.</string>
+     <string name="blur_refocus_covered">No bloquegeu la lent per garantir l\'efecte d\'imatge</string>
+     <string name="blur_refocus_unsupported">"No es pot aplicar el reenfocament a l’escena actual"</string>
+     <string name="recorder_in_progress_error">"No s’iniciarà la gravació perquè el recurs d’àudio està ocupat."</string>
+     <string name="recorder_without_audio_track">"Una altra aplicació està utilitzant el micròfon i, per tant, el vídeo no té àudio"</string>
+     <string name="refocus_photo_edit_undo">"Desfés"</string>
+     <string name="refocus_photo_edit_redo">"Refés"</string>
+     <string name="refocus_photo_edit_save">"Desa"</string>
+     <string name="mode_video_desc_td">VÍDEO 3D</string>
+     <string name="setting_front_camera_video_3d">Vídeo 3D de la càmera frontal</string>
+     <string name="tdvideo_mutex">manteniu el dispositiu verticalment per capturar</string>
+     <string name="camera_record_voice_error">El recurs d\'àudio està ocupat, actualment podeu fer fotos però no enregistrar.</string>
+     <string name="refocus_distance_tip">Manteniu l\'objecte a dos metres del mòbil</string>
+     <string name="camera_blur_refocus_tip">Això pot aconseguir l\'efecte de la virtualització en segon pla</string>
+     <string name="refocus_front_distance_tip">només amb foto de retrat s\'aconsegueix l\'efecte de profunditat del camp</string>
+     <string name="refocus_effect_tip">&#160;efecte difuminat&#160;</string>
+     <string name="refocus_move_closer_tip">apropeu-vos</string>
+     <string name="refocus_move_further_tip">allunyeu-vos</string>
+     <string name="refocus_need_more_light_tip">es necessita més llum</string>
+     <string name="extend_panel_skin_smooth">Defecto</string>
+     <string name="extend_panel_skin_bright">Il·luminar</string>
+     <string name="extend_panel_skincolor_white">"Blanc"</string>
+     <string name="extend_panel_skincolor_rosy">rosat</string>
+     <string name="extend_panel_skincolor_wheat">blat</string>
+     <string name="extend_panel_lipscolor_fuchsia">fúcsia</string>
+     <string name="extend_panel_lipscolor_pink">"Rosa"</string>
+     <string name="extend_panel_lipscolor_crimson">Carmesí</string>
+     <string name="remove_blemish_off">"Desactivat"</string>
+     <string name="remove_blemish_on">"Activat"</string>
+     <string name="extend_panel_remove_blemish">acne</string>
+     <string name="extend_panel_skin_colour">"To"</string>
+     <string name="extend_panel_red_lips">llavis</string>
+     <string name="lock_ae_and_af">"AE/AF bloquejat"</string>
+     <string name="can_not_lock_ae_and_af">"Detecció intel·ligent oberta. No es pot bloquejar AE/AF"</string>
+     <string name="error_external_storage_access">"No es pot accedir a l’emmagatzematge extern"</string>
+     <string name="feedback_description_external_access">"Permet l’accés o esborra l’emmagatzematge de l’app i torna-ho a provar."</string>
+     <string name="ai_scene_tips_food">"Optimitzat per a escena: menjar"</string>
+     <string name="ai_scene_tips_portrait">"Optimitzat per a escena: retrat"</string>
+     <string name="ai_scene_tips_foliage">"Optimitzat per a escena: fulles"</string>
+     <string name="ai_scene_tips_sky">"Optimitzat per a escena: cel"</string>
+     <string name="ai_scene_tips_night">"Optimitzat per a escena: nit"</string>
+     <string name="ai_scene_tips_backlight">"Optimitzat per a escena: contrallum"</string>
+     <string name="ai_scene_tips_text">"Optimitzat per a escena: text"</string>
+     <string name="ai_scene_tips_sunrise">"Optimitzat per a escena: sortida del sol"</string>
+     <string name="ai_scene_tips_building">"Optimitzat per a escena: edifici"</string>
+     <string name="ai_scene_tips_landscape">"Optimitzat per a escena: paisatge"</string>
+     <string name="ai_scene_tips_snow">"Optimitzat per a escena: neu"</string>
+     <string name="ai_scene_tips_firework">"Optimitzat per a escena: focs artificials"</string>
+     <string name="ai_scene_tips_beach">"Optimitzat per a escena: platja"</string>
+     <string name="ai_scene_tips_pet">"Optimitzat per a escena: mascota"</string>
+     <string name="ai_scene_tips_flower">"Optimitzat per a escena: flor"</string>
+     <string name="pref_camera_ai_scene_title">"Reconeixement d’escena AI"</string>
+     <string name="pref_camera_ai_scene_summy">"Identifica diverses escenes i optimitza les fotos"</string>
+     <string name="vcard_create">"Crea un contacte"</string>
+     <string name="vcard_title">"Targeta de codi QR:"</string>
+     <string name="nameLabelsGroup">"Nom:"</string>
+     <string name="phoneLabelsGroup">"Telèfon:"</string>
+     <string name="emailLabelsGroup">"Correu electrònic:"</string>
+     <string name="postal_address">"Adreça:"</string>
+     <string name="ghostData_company">"Empresa:"</string>
+     <string name="ghostData_title">"Títol:"</string>
+     <string name="label_notes">"Nota:"</string>
+	 <string name="Internal_spaceIsMIN_content" product="default">"Espai insuficient a la memòria interna. Elimina imatges o altres arxius"</string>
+	 <string name="pref_ai_detect_entry_face_attributes">"Detecció d’atributs de cara"</string>
+	 <string name="pref_exposure_shuttertime_default">"automàtica"</string>
+	 <string name="pref_entry_focus_distance_value_40">"Macro"</string>
+	 <string name="pref_entry_focus_distance_value_80">"m"</string>
+	 <string name="pref_entry_focus_distance_value_100">"Infinit"</string>
+	 <string name="pref_camera_focus_distance_entry_auto">"automàtica"</string>
+	 <string name="camera_mode_portrait">"Retrat Bokeh"</string>
+	 <string name="pref_camera_ai_scene_title_for_frontcamera">"Reconeixement de retrat amb IA"</string>
+	 <string name="pref_camera_ai_scene_summy_for_frontcamera">"Identificar escenes de retrat i optimitzar les fotografies"</string>
+	 <string name="security_camera_does_not_support_aquire_storage_permission">"Permisos d’ubicació d’emmagatzematge revocats temporalment. Desbloqueja el telèfon per fer servir aquesta funció."</string>
+	 <string name="pref_camera_auto3dnr_title">"Millorar automàticament les fotos amb poca llum"</string>
+	 <string name="access_permission_guid">"Autoritzar permisos d’emmagatzematge al dispositiu com s’indica tot seguit"</string>
+	 <string name="permission_continue">"Continua"</string>
+	 <string name="permission_cancel">"Cancel·la"</string>
+	 <string name="hdr_off">"Desactivat"</string>
+	 <string name="hdr_on">"Activat"</string>
+	 <string name="hdr_auto">"automàtica"</string>
+	 <string name="portrait_detect_tips">"No es detecten cares"</string>
+	 <string name="pref_auto_add_logowatermark">"Afegir automàticament marca d\'aigua del logotip"</string>
+     <string name="pref_auto_add_timewatermark">"Afegir automàticament marca d\'aigua de l\'hora"</string>
+     <string name="camera_mode_portrait_new">"Vertical"</string>
+     <string name="camera_mode_high_resolution">"Ultra Res"</string>
+     <string name="motion_photo_on">"MotionPhoto activat"</string>
+     <string name="motion_photo_off">"MotionPhoto desactivat"</string>
+     <string name="super_wide_tip">"Ample"</string>
+     <string name="time_too_short">"El temps de la captura és massa curt."</string>
+</resources>

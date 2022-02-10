@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  Copyright (C) 2007 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
+    <string name="app_name" msgid="1175086483881127797">"กล้องถ่ายรูป"</string>
+    <string name="video_camera_label" msgid="1723708322021743770">"กล้องวิดีโอ"</string>
+    <string name="details_ms" msgid="6618163484662724641">"%1$02d:%2$02d"</string>
+    <string name="details_hms" msgid="4842276230698703554">"%1$d:%2$02d:%3$02d"</string>
+    <string name="details" msgid="4404020741542549488">"รายละเอียด"</string>
+    <string name="close" msgid="4826166926297479820">"ปิด"</string>
+    <string name="video_err" msgid="1562566029875081552">"ไม่สามารถเล่นวิดีโอ"</string>
+    <string name="title" msgid="8061744305671964703">"ชื่อเรื่อง"</string>
+    <string name="description" msgid="8193138501982849808">"คำอธิบาย"</string>
+    <string name="time" msgid="5248213506417024287">"เวลา"</string>
+    <string name="location" msgid="564326205780827668">"ตำแหน่ง"</string>
+    <string name="path" msgid="5927003361865586353">"เส้นทาง"</string>
+    <string name="width" msgid="7045750687833828758">"ความกว้าง"</string>
+    <string name="height" msgid="5186001199353423689">"ความสูง"</string>
+    <string name="orientation" msgid="3883761294106680270">"การวางแนว"</string>
+    <string name="duration" msgid="5316211067383665008">"ระยะเวลา"</string>
+    <string name="mimetype" msgid="6415940055077963944">"ประเภท MIME"</string>
+    <string name="file_size" msgid="6841070748357980676">"ขนาดไฟล์"</string>
+    <string name="maker" msgid="698691509121545856">"ยี่ห้อ"</string>
+    <string name="model" msgid="8547493604023069452">"โมเดล"</string>
+    <string name="flash" msgid="995041910749174196">"แฟลช"</string>
+    <string name="aperture" msgid="2453802098282814022">"รูรับแสง"</string>
+    <string name="focal_length" msgid="8351221512187346229">"ความยาวโฟกัส"</string>
+    <string name="white_balance" msgid="1600142743496129085">"สมดุลแสงขาว"</string>
+    <string name="exposure_time" msgid="949787291620767754">"เวลารับแสง"</string>
+    <string name="iso" msgid="8578773821062054902">"ISO"</string>
+    <string name="unit_mm" msgid="5210344300697638286">"มม."</string>
+    <string name="manual" msgid="2444400953521760140">"ทำเอง"</string>
+    <string name="auto">"อัตโนมัติ"</string>
+    <string name="flash_on" msgid="6573457197393807642">"แฟลชทำงาน"</string>
+    <string name="flash_off" msgid="7889323512830926273">"ไม่เปิดแฟลช"</string>
+    <string name="unknown" msgid="564184550182858146">"ไม่ทราบ"</string>
+    <string name="camera_error_title" msgid="6200558085072670067">"ข้อผิดพลาดกล้องถ่ายรูป"</string>
+    <string name="error_cannot_connect_camera" msgid="2713059773224193128">"ไม่สามารถเชื่อมต่อกับกล้องถ่ายรูป"</string>
+    <string name="error_camera_disabled" msgid="5582398275657419692">"กล้องถ่ายรูปถูกปิดใช้งานเนื่องจากนโยบายด้านความปลอดภัย"</string>
+    <string name="error_media_storage_failure" msgid="7711687330673245629">"เกิดปัญหาในการบันทึกรูปภาพหรือวิดีโอ"</string>
+    <string name="error_permissions" msgid="3454167403425651254">"แอปไม่มีสิทธิ์ที่จำเป็นในการเรียกใช้ โปรดตรวจสอบการตั้งค่าสิทธิ์ของคุณ"</string>
+    <string name="wait" msgid="765601745709933047">"โปรดรอสักครู่…"</string>
+    <string name="no_storage" product="default" msgid="5922012950780548098">"ใส่การ์ด SD ก่อนใช้กล้องถ่ายรูป"</string>
+    <string name="preparing_sd" product="default" msgid="7435693655017362767">"กำลังเตรียมการ์ด SD…"</string>
+    <string name="access_sd_fail" product="default" msgid="2634861611082499811">"ไม่สามารถเข้าถึงการ์ด SD"</string>
+    <string name="time_lapse_title" msgid="3267978566401228497">"การบันทึกเป็นช่วงเวลา"</string>
+    <string name="feedback_description_camera_access" msgid="419090951070170132">"แอปไม่สามารถเชื่อมต่อกล้องถ่ายรูป"</string>
+    <string name="feedback_description_save_photo" msgid="8658767358989083228">"ไม่ได้บันทึกรูปภาพหรือวิดีโอลงในอุปกรณ์นี้"</string>
+    <string name="pref_camera_save_location_title" msgid="2344235620113384017">"บันทึกตำแหน่ง"</string>
+    <!-- no translation found for pref_camera_timer_sound_default (6225207881203007747) -->
+    <string name="setting_off" msgid="6782191065550276632">"ปิด"</string>
+    <string name="setting_on" msgid="9086728135773197891">"เปิด"</string>
+    <string name="pref_camera_settings_category" msgid="4274141528139077830">"การตั้งค่ากล้องถ่ายรูป"</string>
+    <string name="pref_camera_picturesize_entry_large" msgid="9014447075089601575">"ใหญ่"</string>
+    <string name="pref_camera_picturesize_entry_medium" msgid="7708839551627003154">"ปานกลาง"</string>
+    <string name="pref_camera_picturesize_entry_small" msgid="2991239656622539068">"เล็ก"</string>
+    <string name="pref_camera_whitebalance_title" msgid="7962809566612868179">"สมดุลแสงขาว"</string>
+    <string name="pref_camera_whitebalance_entry_auto" msgid="1390631794449502796">"อัตโนมัติ"</string>
+    <string name="pref_camera_whitebalance_entry_incandescent" msgid="1140391575294372706">"หลอดไส้"</string>
+    <string name="pref_camera_whitebalance_entry_daylight" msgid="757833578153467254">"กลางวัน"</string>
+    <string name="pref_camera_whitebalance_entry_fluorescent" msgid="5157027611220790970">"ฟลูออเรสเซนต์"</string>
+    <string name="pref_camera_whitebalance_entry_cloudy" msgid="3569589102226796875">"เมฆมาก"</string>
+    <string name="pref_camera_scenemode_entry_auto" msgid="9205644316260850379">"อัตโนมัติ"</string>
+    <string name="pref_camera_scenemode_entry_action" msgid="5753183620959062015">"เคลื่อนไหว"</string>
+    <string name="pref_camera_scenemode_entry_night" msgid="3468037364159759991">"กลางคืน"</string>
+    <!-- no translation found for pref_camera_hdr_default (5054955236904902318) -->
+    <!-- no translation found for pref_camera_hdr_plus_default (4827897029274554907) -->
+    <string name="dialog_ok" msgid="774141340500181131">"ตกลง"</string>
+    <string name="dialog_dismiss" msgid="1382550604990470119">"ปิด"</string>
+    <string name="video_reach_size_limit" msgid="9196836111505731836">"ขนาดถึงขีดจำกัดแล้ว"</string>
+    <string name="pano_too_fast_prompt" msgid="2503148095578052177">"เร็วเกินไป"</string>
+    <string name="pano_dialog_prepare_preview" msgid="4445235163599534263">"กำลังสร้างภาพพาโนรามา"</string>
+    <string name="pano_dialog_panorama_failed" msgid="6772546547048693619">"ไม่สามารถบันทึกภาพพาโนรามา"</string>
+    <string name="pano_dialog_title" msgid="6662642763395425145">"พาโนรามา"</string>
+    <string name="pano_capture_indication" msgid="4002128831255023954">"กำลังจับภาพพาโนรามา"</string>
+    <string name="pano_dialog_waiting_previous" msgid="2646847402743245320">"กำลังรอภาพพาโนรามาก่อนหน้า"</string>
+    <string name="pano_review_rendering" msgid="2743087719999377155">"กำลังแสดงภาพพาโนรามา"</string>
+    <string name="video_recording_started" msgid="3374878415050991030">"เริ่มบันทึกวิดีโอแล้ว"</string>
+    <string name="video_recording_stopped" msgid="4658626532857624974">"หยุดบันทึกวิดีโอแล้ว"</string>
+    <string name="accessibility_shutter_button" msgid="6040483605347230438">"ชัตเตอร์"</string>
+    <string name="accessibility_cancel_button" msgid="5679989494636116448">"ยกเลิก"</string>
+    <string name="accessibility_review_cancel" msgid="5462850829869569629">"ไม่ผ่านการตรวจสอบ"</string>
+    <string name="accessibility_mode_list_hidden" msgid="3743267380450401866">"ปิดรายการในโหมดแล้ว"</string>
+    <string name="accessibility_mode_list_shown" msgid="5284322142734069179">"เปิดรายการในโหมดแล้ว"</string>
+    <string name="photo_accessibility_peek" msgid="5934133371001677250">"ถ่ายภาพแล้ว"</string>
+    <string name="video_accessibility_peek" msgid="7845916149291383132">"ถ่ายวิดีโอแล้ว"</string>
+    <string name="accessibility_unlock_to_camera" msgid="1251880974313179442">"ปลดล็อกเพื่อใช้กล้องถ่ายรูป"</string>
+    <string name="photo_date_content_description" msgid="5705865897898465619">"ถ่ายภาพเมื่อวันที่ %s"</string>
+    <string name="video_date_content_description" msgid="2151884014634284456">"ถ่ายวิดีโอเมื่อวันที่ %s"</string>
+    <string name="panorama_date_content_description" msgid="990703578639006144">"ถ่ายภาพพาโนรามาเมื่อวันที่ %s"</string>
+    <string name="photosphere_date_content_description" msgid="4183741743409007876">"ถ่ายภาพ Photo Sphere เมื่อวันที่ %s"</string>
+    <string name="refocus_date_content_description" msgid="5630960320424345547">"ถ่ายภาพเลนส์เบลอเมื่อวันที่ %s"</string>
+    <string name="media_processing_content_description" msgid="8138587719107183754">"กำลังประมวลผลสื่อ"</string>
+    <string name="accessibility_zoom_announcement" msgid="6976673411698319811">"ค่าซูมคือ %.1f"</string>
+    <string name="video_control_play" msgid="6895236811408921715">"เล่นวิดีโอ"</string>
+    <string name="remember_location_title" msgid="3045040613094030429">"จดจำตำแหน่งภาพไหม"</string>
+    <string name="remember_location_prompt" msgid="3006013504489919474">"แท็กรูปภาพและวิดีโอตามสถานที่ที่คุณถ่ายมา"</string>
+    <string name="remember_location_no" msgid="4412802756840226925">"ไม่ ขอบคุณ"</string>
+    <string name="remember_location_yes" msgid="4339424460683531388">"ใช่"</string>
+    <string name="create_tiny_planet" msgid="5186918191372107343">"สร้างโลกใบเล็ก"</string>
+    <string name="saving_tiny_planet" msgid="8828265180177375494">"กำลังบันทึกโลกใบเล็ก …"</string>
+    <string name="tiny_planet_zoom" msgid="2985522360577158474">"ซูม"</string>
+    <string name="tiny_planet_rotate" msgid="5445336705705350004">"หมุน"</string>
+    <string name="photo_editor" msgid="1521994560971367225">"โฟโต้เอดิเตอร์"</string>
+    <string name="mode_settings" msgid="2021937261522670921">"การตั้งค่า"</string>
+    <string name="mode_video" msgid="8633929034048169139">"วิดีโอ"</string>
+    <string name="mode_panorama" msgid="6882648621305828861">"พาโนรามา"</string>
+    <string name="mode_camera_desc" msgid="3670807361165657278">"เปลี่ยนเป็นโหมดกล้อง"</string>
+    <string name="mode_panorama_desc" msgid="6023020404237519590">"เปลี่ยนเป็นโหมดพาโนรามา"</string>
+    <string name="mode_refocus_desc" msgid="6171183297515508465">"เปลี่ยนเป็นโหมดเลนส์เบลอ"</string>
+    <string name="hdr_plus_off_desc" msgid="5301287296717144319">"ปิด HDR Plus"</string>
+    <string name="hdr_plus_on_desc" msgid="8204780034508139909">"เปิด HDR Plus"</string>
+    <string name="hdr_off_desc" msgid="7921924739852874675">"ปิด HDR"</string>
+    <string name="hdr_on_desc" msgid="4591284110249047558">"เปิด HDR"</string>
+    <string name="flash_off_desc" msgid="7151559466286106797">"ปิดแฟลช"</string>
+    <string name="flash_auto_desc" msgid="3009043125539675717">"แฟลชอัตโนมัติ"</string>
+    <string name="flash_on_desc" msgid="930372145324854699">"เปิดแฟลช"</string>
+    <string name="torch_on_desc" msgid="3069836196559213365">"เปิดแฟลช"</string>
+    <string name="torch_off_desc" msgid="8304675202998742618">"ปิดแฟลช"</string>
+    <string name="camera_id_back_desc" msgid="3566327490758890635">"กล้องด้านหลัง"</string>
+    <string name="camera_id_front_desc" msgid="7497517948130254220">"กล้องด้านหน้า"</string>
+    <string name="cancel_button_description" msgid="3801167024006905033">"ยกเลิก"</string>
+    <string name="done_button_description" msgid="1334963435441544592">"เสร็จ"</string>
+    <string name="retake_button_description" msgid="4234613030674787714">"ถ่ายใหม่"</string>
+    <string name="review_button_description" msgid="7932122063748430080">"ตรวจสอบ"</string>
+    <string name="button_change_announcement" msgid="3759686152778772111">"ขณะนี้เป็นปุ่ม%s"</string>
+    <string name="pref_video_quality_entry_low" msgid="737962621299050603">"ต่ำ"</string>
+    <string name="pref_video_quality_entry_high" msgid="1613578418842803393">"สูง"</string>
+    <string name="pref_video_quality_entry_qcif" msgid="1717816794399266216">"QCIF"</string>
+    <string name="pref_video_quality_entry_cif" msgid="645414019445016434">"CIF"</string>
+    <string name="pref_video_quality_entry_480p" msgid="5880250731066854583">"SD 480p"</string>
+    <string name="pref_video_quality_entry_720p" msgid="4076146428148167262">"HD 720p"</string>
+    <string name="pref_video_quality_entry_1080p" msgid="4539958891524211120">"HD 1080p"</string>
+    <string name="pref_video_quality_entry_qvga" msgid="342600517453781430">"QVGA"</string>
+    <string name="pref_video_quality_entry_2160p" msgid="4522927631413184505">"UHD 4K"</string>
+    <string name="setting_summary_aspect_ratio_and_megapixels" msgid="5828440902461064821">"(%1$d:%2$d) %3$s เมกะพิกเซล"</string>
+    <string name="cling_text_for_refocus_editor_button" msgid="4785017397116829802">"แตะที่นี่ เพื่อปรับโฟกัส"</string>
+    <string name="settings_cling_text" msgid="5368054627268181292">"ใน \"การตั้งค่า\" ให้เปลี่ยนความละเอียดและคุณภาพ หรือลองใช้คุณลักษณะขั้นสูง"</string>
+    <string name="photo_size_selection_title" msgid="2789753590719172645">"เลือกขนาดรูปภาพ"</string>
+    <string name="photo_aspect_ratio_selection_content" msgid="6668224437962196229">"คุณสามารถเปลี่ยนค่านี้ได้ภายหลัง ใน \"การตั้งค่า\""</string>
+    <string name="edit_with" msgid="615569327230783971">"แก้ไขด้วย"</string>
+    <string name="startup_dialog_button_next" msgid="1011831256978228993">"ถัดไป"</string>
+    <string name="confirm_button_text" msgid="7389949384482206814">"รับทราบ"</string>
+    <string name="full_sensor_4x3_aspect_ratio" msgid="1270461419743888925">"เซ็นเซอร์แบบเต็ม \n(4:3)"</string>
+    <string name="cropped_sensor_16x9_aspect_ratio" msgid="4742161537633251795">"เซ็นเซอร์แบบครอบตัด \n(16:9)"</string>
+    <string name="session_saving_image" msgid="8932315404486416826">"กำลังบันทึก…"</string>
+     <string name="pref_camera_antibanding_title">"ป้องกันการกะพริบ"</string>
+     <string name="pref_camera_jpeg_quality_title">"คุณภาพของภาพ"</string>
+     <string name="pref_camera_jpeg_quality_entry_normal">ปกติ</string>
+     <string name="pref_camera_jpeg_quality_entry_hight">"ละเอียด"</string>
+     <string name="pref_camera_jpeg_quality_entry_super_height">"ละเอียดมาก"</string>
+     <string name="pref_camera_ai_detect_title">"ตรวจสอบการจับใบหน้า"</string>
+     <string name="pref_ai_detect_entry_off">"ปิด"</string>
+     <string name="pref_ai_detect_entry_face">"ตรวจสอบใบหน้า"</string>
+     <string name="pref_ai_detect_entry_smile">"รอยยิ้ม-ชัตเตอร์"</string>
+     <string name="pref_camera_storage_path_title">"พื้นที่จัดเก็บ"</string>
+     <string name="storage_path_internal">ภายใน</string>
+     <string name="storage_path_external">ภายนอก</string>
+     <string name="pref_camera_color_effect_title">"เอฟเฟคสี"</string>
+     <string name="pref_camera_color_effect_entry_mono">"โมโน"</string>
+     <string name="pref_camera_color_effect_entry_negative">"เนกาทีฟ"</string>
+     <string name="pref_camera_color_effect_entry_sepia">"ซีเปีย"</string>
+     <string name="pref_camera_color_effect_entry_cold">"หนาว"</string>
+     <string name="pref_camera_color_effect_entry_antique">"โบราณ"</string>
+     <string name="pref_camera_scenemode_entry_normal">ปกติ</string>
+     <string name="pref_camera_scenemode_entry_portrait">"บุคคล"</string>
+     <string name="pref_camera_scenemode_entry_landscape">"ภาพวิว"</string>
+     <string name="pref_camera_continuous_capture_title">"ถ่ายภาพต่อเนื่อง"</string>
+     <string name="pref_camera_contrast_title">"คอนทราสต์"</string>
+     <string name="pref_camera_saturation_title">"ความอิ่มตัว"</string>
+     <string name="pref_camera_iso_entry_auto">อัตโนมัติ</string>
+     <string name="pref_camera_metering_title">"วัดแสง"</string>
+     <string name="pref_camera_metering_entry_frame_average">"กรอบค่าเฉลี่ย"</string>
+     <string name="pref_camera_metering_entry_center_weighted">"ศูนย์ถ่วงน้ำหนัก"</string>
+     <string name="pref_camera_metering_entry_spot_metering">"จุดวัดแสง"</string>
+     <string name="switch_to_gallery">"สลับไปที่แกลลอรี่"</string>
+     <string name="restore_done">เรียบร้อย</string>
+     <string name="restore_cancel">@android:string/cancel</string>
+     <string name="message_save_task_memory_limit">"กำลังบันทึกภาพ,โปรดรอสักครู่."</string>
+     <string name="pref_timelapse_title">"ช่วงเวลา"</string>
+     <string name="pref_timelapse_entry_off">"ปิด"</string>
+     <string name="pref_timelapse_entry_4">"ช่วงเวลา 0.12s (x4)"</string>
+     <string name="pref_timelapse_entry_10">"ช่วงเวลา0.3s (x10)"</string>
+     <string name="pref_timelapse_entry_30">"ช่วงเวลา1s (x30)"</string>
+     <string name="pref_timelapse_entry_60">"ช่วงเวลา 2s (x60)"</string>
+     <string name="pref_timelapse_entry_90">"ช่วงเวลา 3s (x90)"</string>
+     <string name="pref_timelapse_entry_150">"ช่วงเวลา 5s (x150)"</string>
+     <string name="pref_timelapse_entry_300">"ช่วงเวลา 10s (x300)"</string>
+     <string name="pref_timelapse_entry_450">"ช่วงเวลา15s (x450)"</string>
+     <string name="pref_timelapse_entry_900">"ช่วงเวลา 30s (x900)"</string>
+     <string name="pref_timelapse_entry_1800">"ช่วงเวลา60s (x1800)"</string>
+     <string name="pref_video_slow_motion_title">"เคลื่อนไหวช้า "</string>
+     <string name="cannot_save_image">"ภาพไม่สามารถบันทึกได้โปรดลองอีกครั้ง".</string>
+     <string name="sdcard_remove">"การ์ดจะถูกลบออกไฟล์บันทึกไม่ถูกบันทึก"</string>
+     <string name="pref_mirror_title">"กระจกภาพสะท้อน"</string>
+    <string name="pref_camera_antibanding_entry_auto">"อัตโนมัติ"</string>
+     <string name="sdcard_changeto_phone">"การ์ด SD จะถูกลบออกเส้นทางการจัดเก็บจะเปลี่ยนเป็นหน่วยความจำภายใน"</string>
+     <string name="pref_camera_quick_capture_title_volkey">"จับภาพได้อย่างเร็วโดยกด2ครั้งท"</string>
+     <string name="pref_camera_quick_capture_title_camkey">"จับภาพด่วนโดยกดสองครั้งที่ปุ่มลดเสียงขณะหน้าจอดับอยู่"</string>
+     <string name="pref_camera_quick_capture_entry_capture_with_front_camera">"จับภาพด้วยกล้องด้านหน้า"</string>
+     <string name="pref_camera_quick_capture_entry_off">"ปิด"</string>
+     <string name="slow_motion_does_not_support_zoom_change">"ฟังก์ชั่นการเคลื่อนไหวช้าอยู่,ไม่สามารถเปลี่ยนค่าซูม."</string>
+     <string name="current_module_does_not_support_zoom_change">"ฟังก์ชั่นโมดูลปัจจุบันอยู่บนไม่สามารถเปลี่ยนค่าซูม."</string>
+     <string name="camera_record_voice_tip">"สามารถบันทึกได้หลังจากถ่ายภาพ"</string>
+     <string name="camera_record_voice_seconds">"s"</string>
+     <string name="camera_record_voice_failed">"ขณะนี้สามารถถ่ายภาพได้,แต่ไม่สามารถบันทึกได้."</string>
+     <string name="battery_level_low">"ระดับแบตเตอรี่ต่ำไม่สามารถใช้แฟลช."</string>
+     <string name="video_maximum_size_limit">"จัดเก็บปัจจุบันสนับสนุน 4GB บันทึกที่มากที่สุด"</string>
+     <string name="phone_does_not_support_video">"วิดีโอจะไม่เริ่มเนื่องจากโทรศัพท์กำลังทำงาน."</string>
+     <string name="phone_does_not_support_audio_picture">"ภาพและเสียงจะไม่เริ่มเนื่องจากโทรศัพท์กำลังทำงาน."</string>
+    <string name="countdown_duration_off">"ปิด"</string>
+     <string name="pref_timelapse_entry_value_default">"1"</string>
+    <string name="pref_camera_countdown_duration_title">"นับถอยหลังถ่ายภาพ"</string>
+     <string name="extend_panel_skin_smooth">"หน้าเนียน"</string>
+     <string name="extend_panel_skin_bright">"สีสดใส"</string>
+    <string name="spaceIsLow_content" product="default">"พื้นที่หน่วยความจำภายนอกไม่พอ เปลี่ยนการตั้งค่าเนื้อที่เก็บข้อมูลหรือลบรูปภาพหรือไฟล์อื่นๆ ออกบางส่วน"</string>
+     <string name="uDiskIsLow_content" product="default">"พื้นที่หน่วยความจำแฟลชไดรฟ์ไม่พอ เปลี่ยนการตั้งค่าเนื้อที่เก็บข้อมูลหรือลบรูปภาพหรือไฟล์อื่นๆ ออกบางส่วน"</string>
+     <string name="Internal_spaceIsLow_content" product="default">"พื้นที่หน่วยความจำภายในไม่พอ เปลี่ยนการตั้งค่าเนื้อที่เก็บข้อมูลหรือลบรูปภาพหรือไฟล์อื่นๆ ออกบางส่วน"</string>
+     <string name="refocus_off">"การเปลี่ยนโฟกัสปิดอยู่"</string>
+     <string name="refocus_on">"การเปลี่ยนโฟกัสเปิดอยู่"</string>
+     <string name="pref_camera_self_timer_interval_title">"ช่วงเวลานับถอยหลัง"</string>
+     <plurals name="burst_mode_saving">
+<item quantity="one">"โหมดถ่ายรัวจัดการกับรูปภาพ %1$d รูป"</item>
+<item quantity="other">"โหมดถ่ายภาพต่อเนื่องทำงานกับภาพ %1$d ภาพ"</item>
+    </plurals>
+     <string name="usb_remove">"USB ถูกถอดออก ไม่มีการบันทึกไฟล์การบันทึกเสียงใดๆ ไว้"</string>
+     <string name="usb_remove_photo_or_video">"USB ถูกถอดออก"</string>
+     <string name="close_float_video">"ปิดหน้าต่างวิดีโอแบบลอยตัวเมื่อเปิดกล้อง"</string>
+     <string name="pref_sensor_self_shot_title">"กระจกแบบไม่มีการสัมผัส"</string>
+     <string name="pref_sensor_self_shot_summary">"ถ่ายรูปโดยปิดกล้องเสริมด้านหลังไว้ 1 วินาที"</string>
+     <string name="pref_camera_quick_capture_entry_capture_with_back_camera">"การจับภาพได้รับการบันทึกไปยัง"</string>
+     <string name="not_support_zoom_change">"ไม่สามารถเปลี่ยนค่าการย่อ/ขยายได้"</string>
+     <string name="blur_refocus_covered">"โปรดอย่าบังเลนส์เพื่อให้แน่ใจได้ถึงลักษณะพิเศษของรูปภาพ"</string>
+     <string name="blur_refocus_unsupported">"ฉากปัจจุบันไม่เหมาะกับการประมวลผลสำหรับเปลี่ยนโฟกัส!"</string>
+     <string name="recorder_in_progress_error">"ระบบจะไม่เริ่มการอัดบันทึกเนื่องจากมีการใช้ระบบเสียงอยู่"</string>
+     <string name="recorder_without_audio_track">"แอปพลิเคชันอื่นใช้ไมโครโฟนอยู่ ดังนั้นวิดีโอจะไม่มีเสียง"</string>
+     <string name="refocus_photo_edit_undo">"เลิกทำ"</string>
+     <string name="refocus_photo_edit_redo">"ทำซ้ำ"</string>
+     <string name="refocus_photo_edit_save">"บันทึก"</string>
+     <string name="mode_video_desc_td">"วิดีโอ 3 มิติ"</string>
+     <string name="setting_front_camera_video_3d">"วิดีโอ 3 มิติจากกล้องด้านหน้า"</string>
+     <string name="tdvideo_mutex">"โปรดถืออุปกรณ์ในแนวตั้งเพื่อถ่ายรูป"</string>
+     <string name="camera_record_voice_error">"แหล่งเสียงกำลังถูกใช้งานอยู่ ในขณะนี้จะสามารถถ่ายรูปได้ แต่ไม่สามารถบันทึกเสียงได้"</string>
+     <string name="refocus_distance_tip">"โปรดรักษาให้วัตถุอยู่ภายในระยะ 2 เมตรจากอุปกรณ์แบบพกพา"</string>
+     <string name="camera_blur_refocus_tip">"การดำเนินการนี้สามารถสร้างเอฟเฟกต์การจำลองฉากหลัง"</string>
+     <string name="refocus_front_distance_tip">"เฉพาะการถ่ายรูปคนเท่านั้นที่ได้รับผลด้านความลึก"</string>
+     <string name="refocus_effect_tip">"&#160;ลักษณะพิเศษการเบลอภาพ&#160;"</string>
+     <string name="refocus_move_closer_tip">"เลื่อนเข้าใกล้มากขึ้น"</string>
+     <string name="refocus_move_further_tip">"เลื่อนออกห่างมากขึ้น"</string>
+     <string name="refocus_need_more_light_tip">"ต้องการแสงมากขึ้น"</string>
+     <string name="extend_panel_skincolor_white">"ขาว"</string>
+     <string name="extend_panel_skincolor_rosy">"กุหลาบ"</string>
+     <string name="extend_panel_skincolor_wheat">"ข้าวสาลี"</string>
+     <string name="extend_panel_lipscolor_fuchsia">"ดอกโคมญี่ปุ่น"</string>
+     <string name="extend_panel_lipscolor_pink">"ชมพู"</string>
+     <string name="extend_panel_lipscolor_crimson">"แดงเลือดนก"</string>
+     <string name="remove_blemish_off">"ปิด"</string>
+     <string name="remove_blemish_on">"เปิด"</string>
+     <string name="extend_panel_remove_blemish">"สิว"</string>
+     <string name="extend_panel_skin_colour">"เสียง"</string>
+     <string name="extend_panel_red_lips">"ปาก"</string>
+     <string name="lock_ae_and_af">"ล็อก AE/AF แล้ว"</string>
+     <string name="can_not_lock_ae_and_af">"เปิดการตรวจจับด้วย AI ไว้ ล็อก AE/AF ไม่ได้"</string>
+     <string name="error_external_storage_access">"ไม่สามารถเข้าถึงเนื้อที่เก็บข้อมูลภายนอก"</string>
+     <string name="feedback_description_external_access">"โปรดอนุญาตให้เข้าถึงหรือเคลียร์เนื้อที่เก็บข้อมูลของแอปแล้วลองอีกครั้ง"</string>
+     <string name="ai_scene_tips_food">"เพิ่มประสิทธิภาพสำหรับฉาก: อาหาร"</string>
+     <string name="ai_scene_tips_portrait">"เพิ่มประสิทธิภาพสำหรับฉาก: ภาพบุคคล"</string>
+     <string name="ai_scene_tips_foliage">"เพิ่มประสิทธิภาพสำหรับฉาก: ใบไม้"</string>
+     <string name="ai_scene_tips_sky">"เพิ่มประสิทธิภาพสำหรับฉาก: ท้องฟ้า"</string>
+     <string name="ai_scene_tips_night">"เพิ่มประสิทธิภาพสำหรับฉาก: กลางคืน"</string>
+     <string name="ai_scene_tips_backlight">"เพิ่มประสิทธิภาพสำหรับฉาก: ย้อนแสง"</string>
+     <string name="ai_scene_tips_text">"เพิ่มประสิทธิภาพสำหรับฉาก: ข้อความ"</string>
+     <string name="ai_scene_tips_sunrise">"เพิ่มประสิทธิภาพสำหรับฉาก: อาทิตย์ขึ้น"</string>
+     <string name="ai_scene_tips_building">"เพิ่มประสิทธิภาพสำหรับฉาก: อาคาร"</string>
+     <string name="ai_scene_tips_landscape">"เพิ่มประสิทธิภาพสำหรับฉาก: ทิวทัศน์"</string>
+     <string name="ai_scene_tips_snow">"เพิ่มประสิทธิภาพสำหรับฉาก: หิมะ"</string>
+     <string name="ai_scene_tips_firework">"เพิ่มประสิทธิภาพสำหรับฉาก: พลุ"</string>
+     <string name="ai_scene_tips_beach">"เพิ่มประสิทธิภาพสำหรับฉาก: ชายหาด"</string>
+     <string name="ai_scene_tips_pet">"เพิ่มประสิทธิภาพสำหรับฉาก: สัตว์เลี้ยง"</string>
+     <string name="ai_scene_tips_flower">"เพิ่มประสิทธิภาพสำหรับฉาก: ดอกไม้"</string>
+     <string name="pref_camera_ai_scene_title">"การรู้จำฉากด้วย AI"</string>
+     <string name="pref_camera_ai_scene_summy">"ระบุฉากต่างๆ และปรับการถ่ายภาพให้เหมาะสม"</string>
+     <string name="vcard_create">"สร้างรายชื่อใหม่"</string>
+     <string name="vcard_title">"บัตรรหัส QR:"</string>
+     <string name="nameLabelsGroup">"ชื่อ:"</string>
+     <string name="phoneLabelsGroup">"โทรศัพท์:"</string>
+     <string name="emailLabelsGroup">"อีเมล์:"</string>
+     <string name="postal_address">"ที่อยู่:"</string>
+     <string name="ghostData_company">"บริษัท:"</string>
+     <string name="ghostData_title">"ชื่อ:"</string>
+     <string name="label_notes">"หมายเหตุ:"</string>
+	 <string name="Internal_spaceIsMIN_content" product="default">"เนื้อที่หน่วยความจำภายในมีไม่พอ ลบรูปภาพบางส่วนหรือไฟล์อื่นๆ"</string>
+	 <string name="pref_ai_detect_entry_face_attributes">"ลักษณะบนใบหน้า-ตรวจหา"</string>
+	 <string name="pref_exposure_shuttertime_default">"อัตโนมัติ"</string>
+	 <string name="pref_entry_focus_distance_value_40">"มาโคร"</string>
+	 <string name="pref_entry_focus_distance_value_80">"น."</string>
+	 <string name="pref_entry_focus_distance_value_100">"อินฟินิตี้"</string>
+	 <string name="pref_camera_focus_distance_entry_auto">"อัตโนมัติ"</string>
+	 <string name="camera_mode_portrait">"โบเก้ภาพบุคคล"</string>
+	 <string name="pref_camera_ai_scene_title_for_frontcamera">"การรู้จำภาพบุคคล AI"</string>
+	 <string name="pref_camera_ai_scene_summy_for_frontcamera">"ระบุภาพบุคคลและปรับแต่งภาพถ่ายให้สวยที่สุด"</string>
+	 <string name="security_camera_does_not_support_aquire_storage_permission">"สิทธิ์ใช้ตำแหน่งเนื้อที่เก็บข้อมูลถูกปฏิเสธชั่วคราว โปรดใช้ฟังก์ชันนี้หลังจากปลดล็อกโทรศัพท์แล้ว"</string>
+ 	 <string name="pref_camera_auto3dnr_title">"ปรับแก้รูปภาพแสงน้อยโดยอัตโนมัติ"</string>
+	 <string name="access_permission_guid">"ให้สิทธิ์ใช้อุปกรณ์เก็บข้อมูลด้านล่าง"</string>
+	 <string name="permission_continue">"ทำต่อ"</string>
+	 <string name="permission_cancel">"ยกเลิก"</string>
+	 <string name="hdr_off">"ปิด"</string>
+	 <string name="hdr_on">"เปิด"</string>
+	 <string name="hdr_auto">"อัตโนมัติ"</string>
+	 <string name="portrait_detect_tips">"ตรวจไม่พบใบหน้า"</string>
+	 <string name="pref_auto_add_logowatermark">"AutoAdd-logowatermark"</string>
+     <string name="pref_auto_add_timewatermark">"AutoAdd-timewatermark"</string>
+     <string name="camera_mode_portrait_new">"แนวตั้ง"</string>
+     <string name="camera_mode_high_resolution">"ความละเอียดสูงพิเศษ"</string>
+     <string name="motion_photo_on">"MotionPhoto เปิด"</string>
+     <string name="motion_photo_off">"MotionPhoto ปิด"</string>
+     <string name="super_wide_tip">"มุมกว้าง"</string>
+     <string name="time_too_short">"เวลาจับภาพสั้นเกินไป"</string>
+</resources>

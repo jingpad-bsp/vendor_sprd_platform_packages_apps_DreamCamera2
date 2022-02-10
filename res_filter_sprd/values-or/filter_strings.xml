@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="filter_name_crisp_winter">"ଶିତ"</string>
+<string name="filter_name_early_bird">"ନଷ୍ଟାଲ୍‌ଜିଆ"</string>
+<string name="filter_name_film_stock">"ଭିଭିଡ"</string>
+<string name="filter_name_horror_blue">"ନୀଳ"</string>
+<string name="filter_name_nashville">"ନେସଭିଲ"</string>
+<string name="filter_name_soft_warming">"କେଲଭିନ"</string>
+<string name="filter_name_bismuth">"ମୋନୋ"</string>
+<string name="filter_name_warm">"Warm"</string>
+<string name="filter_name_history">"ଇତିହାସ"</string>
+</resources>

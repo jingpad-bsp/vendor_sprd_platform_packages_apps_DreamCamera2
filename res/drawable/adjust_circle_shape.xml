@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval"
+    android:useLevel="false" >
+
+    <solid android:color="@android:color/transparent" />
+
+    <stroke
+        android:width="2dp"
+        android:color="#ff00ff00" />
+
+    <size
+        android:height="@dimen/focus_circle_max_size"
+        android:width="@dimen/focus_circle_max_size" />
+
+</shape>

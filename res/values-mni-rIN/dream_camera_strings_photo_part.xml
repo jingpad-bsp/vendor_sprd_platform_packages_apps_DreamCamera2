@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="pref_camera_composition_line_key_title">"কম্পোজিসন লাইন"</string>
+<string name="pref_camera_composition_line_key_entry_close">"খুমজিল্লু"</string>
+<string name="pref_camera_composition_line_key_entry_grid">"গ্রিদ"</string>
+<string name="pref_camera_composition_line_key_entry_goldensection">"গোল্দন সেক্সন"</string>
+<string name="pref_camera_composition_line_key_entry_reticle">"কারন চৎপা মার্ক"</string>
+<string name="pref_camera_composition_line_key_entry_box">"বোক্স"</string>
+<string name="pref_camera_photograph_eois_key_title">"ফোটোগ্রাফ স্টেবিলাইজ তৌবা"</string>
+<string name="pref_camera_hdr_normal_pic_key_title">"HDR গী মহৌশাগী পিকচর সেব তৌ"</string>
+<string name="pref_camera_gradienter_key_title">"গ্রেদিয়েন্টর"</string>
+<string name="pref_camera_touching_photograph_key_title">"ফোটোগ্রাফ শোক্লি"</string>
+<string name="pref_camera_zsl_key_title">"ZSL"</string>
+<string name="pref_dream_high_iso_tilte">"অৱাংবা ISO"</string>
+</resources>

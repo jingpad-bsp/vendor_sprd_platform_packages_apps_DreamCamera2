@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:camera="http://schemas.android.com/apk/res/com.android.camera2"
+    android:id="@+id/dream_make_up_panel"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:clickable="true">
+
+    <FrameLayout
+        android:id="@+id/sub_panel_parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- skin_smooth_panel -->
+        <com.dream.camera.ui.MakeUpLevel
+            android:id="@+id/skin_smooth_panel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:visibility="gone">
+        </com.dream.camera.ui.MakeUpLevel>
+
+       <!-- remove blemish panel-->
+       <com.dream.camera.ui.MakeUpLevel
+            android:id="@+id/remove_blemish_panel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:visibility="gone">
+        </com.dream.camera.ui.MakeUpLevel>
+
+       <!-- skin bright panel -->
+        <com.dream.camera.ui.MakeUpLevel
+            android:id="@+id/skin_bright_panel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:visibility="gone">
+        </com.dream.camera.ui.MakeUpLevel>
+
+        <!-- skincolor_panel -->
+
+        <LinearLayout
+            android:id="@+id/skincolor_panel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:visibility="gone">
+            <include layout="@layout/skincolor_extend_panel"></include>
+        </LinearLayout>
+
+        <!-- enlarge_eyes_panel -->
+        <com.dream.camera.ui.MakeUpLevel
+            android:id="@+id/enlarge_eyes_panel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:visibility="gone">
+        </com.dream.camera.ui.MakeUpLevel>
+
+        <!-- slim_face_panel -->
+        <com.dream.camera.ui.MakeUpLevel
+            android:id="@+id/slim_face_panel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:visibility="gone">
+        </com.dream.camera.ui.MakeUpLevel>
+
+        <!-- lipscolor_panel -->
+        <LinearLayout
+            android:id="@+id/lipscolor_panel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:visibility="gone">
+            <include layout="@layout/lipscolor_extend_panel"></include>
+        </LinearLayout>
+    </FrameLayout>
+    <include layout="@layout/layout_make_up_scroller"></include>
+
+<!--
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/extend_fix_icon_height"
+        android:id="@+id/make_up_bt_parent"
+        android:visibility="gone"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <com.dream.camera.ui.MakeUpButton
+            android:id="@+id/skin_smooth_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+       </com.dream.camera.ui.MakeUpButton>
+       
+       <com.dream.camera.ui.MakeUpButton
+            android:id="@+id/remove_blemish_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+       </com.dream.camera.ui.MakeUpButton>
+
+       <com.dream.camera.ui.MakeUpButton
+            android:id="@+id/skin_bright_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+       </com.dream.camera.ui.MakeUpButton>
+
+       <com.dream.camera.ui.MakeUpButton
+            android:id="@+id/skin_color_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+       </com.dream.camera.ui.MakeUpButton>
+
+       <com.dream.camera.ui.MakeUpButton
+            android:id="@+id/enlarge_eyes_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+        </com.dream.camera.ui.MakeUpButton>
+
+        <com.dream.camera.ui.MakeUpButton
+            android:id="@+id/slim_face_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+        </com.dream.camera.ui.MakeUpButton>
+
+        <com.dream.camera.ui.MakeUpButton
+            android:id="@+id/red_lips_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+        </com.dream.camera.ui.MakeUpButton>
+    </LinearLayout>
+-->
+</LinearLayout>

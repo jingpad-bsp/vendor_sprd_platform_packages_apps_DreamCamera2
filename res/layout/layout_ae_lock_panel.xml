@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.dream.camera.ui.AELockPanel xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:camera="http://schemas.android.com/apk/res/com.android.camera2"
+    android:id="@+id/ae_lock_panel"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="invisible" >
+
+    <ImageView
+        android:id="@+id/af_circle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|left"
+        android:src="@drawable/lock_circle_shape" />
+
+    <ImageView
+        android:id="@+id/center_circle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|left"
+        android:src="@drawable/lock_center_circle_shape" />
+
+    <com.dream.camera.ui.AELockSeekBar
+        android:id="@+id/aeseekbar"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/adjust_panel_height"
+        android:layout_gravity="top|left"
+        android:gravity="center"
+        android:layoutDirection="ltr"
+        android:progressDrawable="@drawable/compesation_seekbar_progress"
+        android:thumb="@drawable/touch_ae_button" />
+
+</com.dream.camera.ui.AELockPanel>

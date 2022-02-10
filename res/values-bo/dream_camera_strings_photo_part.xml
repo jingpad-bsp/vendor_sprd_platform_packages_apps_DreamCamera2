@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="pref_camera_composition_line_key_title">"པར་རིས་འགྲུབ་པའི་ཐིག་རིས།"</string>
+<string name="pref_camera_composition_line_key_entry_close">"ཁ་རྒྱག་པ།"</string>
+<string name="pref_camera_composition_line_key_entry_grid">"རེའུ་དགུ་མིག"</string>
+<string name="pref_camera_composition_line_key_entry_goldensection">"གསེར་གཅོད།"</string>
+<string name="pref_camera_composition_line_key_entry_reticle">"རྒྱ་གྲམ་ཐིག"</string>
+<string name="pref_camera_composition_line_key_entry_box">"སྒྲོམ།"</string>
+<string name="pref_camera_photograph_eois_key_title">"པར་ལེན་འདར་འགོག"</string>
+<string name="pref_camera_hdr_normal_pic_key_title">"རྒྱུན་ལྡན་འདྲ་པར་HDRརུ་ཉར།"</string>
+<string name="pref_camera_gradienter_key_title">"ཆུ་སྙོམ་ཆས།"</string>
+<string name="pref_camera_touching_photograph_key_title">"རྡེབ་ནས་པར་ལེན།"</string>
+<string name="pref_camera_zsl_key_title">"སྐར་མ་ཐིག་ལེའི་བརྙན་ལེན་མྱུར་མོ།(ZSL)"</string>
+<string name="pref_dream_high_iso_tilte">"རིམ་བརྒལ་མཚན་ལྗོངས།"</string>
+</resources>

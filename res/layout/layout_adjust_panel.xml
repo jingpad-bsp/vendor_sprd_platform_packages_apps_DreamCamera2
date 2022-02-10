@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.dream.camera.ui.AdjustPanel xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:camera="http://schemas.android.com/apk/res/com.android.camera2"
+    android:id="@+id/adjust_panel"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="invisible" >
+
+    <ImageView
+        android:id="@+id/adjust_circle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|left"
+        android:src="@drawable/adjust_circle_shape" />
+
+    <com.dream.camera.ui.VerticalSeekBar
+        android:id="@+id/vseekbar"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/adjust_panel_height"
+        android:layout_gravity="top|left"
+        android:gravity="center"
+        android:max="255"
+        android:progress="127"
+        android:progressDrawable="@drawable/vertical_seekbar_progress"
+        android:thumb="@drawable/bokeh_range_button" />
+
+</com.dream.camera.ui.AdjustPanel>

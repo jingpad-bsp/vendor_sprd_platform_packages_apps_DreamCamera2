@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="filter_name_crisp_winter">"سردی"</string>
+<string name="filter_name_early_bird">"یاد ماضی"</string>
+<string name="filter_name_film_stock">"واضح"</string>
+<string name="filter_name_horror_blue">"نیلا"</string>
+<string name="filter_name_nashville">"نیشول"</string>
+<string name="filter_name_soft_warming">"کلیون"</string>
+<string name="filter_name_bismuth">مونو</string>
+<string name="filter_name_warm">"گرم"</string>
+<string name="filter_name_history">"سرگزشت"</string>
+</resources>

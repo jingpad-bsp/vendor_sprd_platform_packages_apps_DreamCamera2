@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="pref_dream_camera_reset_key_title">"ଡିଫଲ୍‌ଟ୍‌ ରିଷ୍ଟୋର୍‌ କରନ୍ତୁ"</string>
+<string name="preference_key_category_camera_root_title">"କ୍ୟାମେରା ସେଟିଂସ୍‌"</string>
+<string name="preference_key_category_photo_root_title">"ଫୋଟୋ ସେଟିଂସ୍"</string>
+<string name="preference_key_category_video_root_title">"ଭିଡିଓ ସେଟିଂ"</string>
+<string name="pref_camera_volume_key_function_title">"ବଲ୍ୟୁମ କି କାର୍ଯ୍ୟ"</string>
+<string name="pref_camera_volume_key_function_entries_shutter">"ସଟର୍‌"</string>
+<string name="pref_camera_volume_key_function_entries_zoom">"ଜୁମ୍‍"</string>
+<string name="pref_camera_volume_key_function_entries_volume">"ଭଲ୍ୟୁମ/ପରିମାଣ"</string>
+</resources>

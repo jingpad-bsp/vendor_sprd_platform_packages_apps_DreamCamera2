@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="pref_camera_composition_line_key_title">"ထားသိုခင်းကျင်းပုံ လိုင်း"</string>
+<string name="pref_camera_composition_line_key_entry_close">"ပိတ်ပါ"</string>
+<string name="pref_camera_composition_line_key_entry_grid">"ဂရစ်"</string>
+<string name="pref_camera_composition_line_key_entry_goldensection">"ရွှေရောင် အကန့်"</string>
+<string name="pref_camera_composition_line_key_entry_reticle">"ဆုံချက်ချိန်မျဉ်း"</string>
+<string name="pref_camera_composition_line_key_entry_box">"အကွက်"</string>
+<string name="pref_camera_photograph_eois_key_title">"ဓာတ်ပုံ ငြိမ်အောင်လုပ်ခြင်း"</string>
+<string name="pref_camera_hdr_normal_pic_key_title">"HDR အတွက် ပုံမှန်ပုံကို သိမ်းပါ"</string>
+<string name="pref_camera_gradienter_key_title">"ရေချိန်ညှိကိရိယာ"</string>
+<string name="pref_camera_touching_photograph_key_title">"ဓာတ်ပုံပြင်ခြင်း"</string>
+<string name="pref_camera_zsl_key_title">"ZSL"</string>
+<string name="pref_auto_tracking_key_title">"အော်တို ခြေရာခံခြင်း"</string>
+<string name="pref_auto_tracking_summary">"သင်ရိုက်ကူးလိုသော အရာကို တို့ထိလိုက်ပါ၊ ယင်းနောက် ကင်မရာက ခြေရာခံပြီး ထိုအရာပေါ်တွင် ဆုံချက်ဖမ်းပေးသည်"</string>
+<string name="pref_dream_high_iso_tilte">"ISO မြင့်"</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="filter_name_early_bird">"ትዝታ"</string>
+<string name="filter_name_film_stock">"ቦግ ያለ"</string>
+<string name="filter_name_bismuth">"Mono"</string>
+    <string name="filter_name_crisp_winter">"ክረምት"</string>
+     <string name="filter_name_horror_blue">"ሰማያዊ"</string>
+     <string name="filter_name_nashville">"ናሽቪል"</string>
+     <string name="filter_name_soft_warming">"ኬልቪን"</string>
+     <string name="filter_name_warm">"ሞቅ ያለ"</string>
+     <string name="filter_name_history">"ታሪክ"</string>
+
+</resources>

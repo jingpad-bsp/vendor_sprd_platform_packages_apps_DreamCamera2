@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="filter_name_early_bird">"kumbukumbu"</string>
+<string name="filter_name_film_stock">"Dhahiri"</string>
+<string name="filter_name_bismuth">Mono</string>
+    <string name="filter_name_crisp_winter">"Majira ya baridi"</string>
+     <string name="filter_name_horror_blue">"Samawati"</string>
+     <string name="filter_name_nashville">"Nashville"</string>
+     <string name="filter_name_soft_warming">"Kelvin"</string>
+     <string name="filter_name_warm">"Joto"</string>
+     <string name="filter_name_history">"Historia"</string>
+
+</resources>

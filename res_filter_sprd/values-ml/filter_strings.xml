@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="filter_name_crisp_winter">"ശീതകാലം"</string>
+<string name="filter_name_early_bird">"നൊസ്റ്റാൾജിയ"</string>
+<string name="filter_name_film_stock">"വിശദമായ"</string>
+<string name="filter_name_horror_blue">"നീല"</string>
+<string name="filter_name_nashville">"നാഷ് വില്ലെ"</string>
+<string name="filter_name_soft_warming">"കെൽവിൻ"</string>
+<string name="filter_name_bismuth">"മോണോ"</string>
+<string name="filter_name_warm">"ഊഷ്മളമായ"</string>
+<string name="filter_name_history">"ചരിത്രം"</string>
+</resources>

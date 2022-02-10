@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="pref_dream_camera_reset_key_title">"မူလပုံစံသို့ ပြန်သိမ်းယူပါ"</string>
+<string name="preference_key_category_camera_root_title">"ကင်မရာအပြင်အဆင်များ"</string>
+<string name="preference_key_category_photo_root_title">"ဓာတ်ပုံ ဆက်တင်များ"</string>
+<string name="preference_key_category_video_root_title">"ဗီဒီယို ဆက်တင်များ"</string>
+<string name="pref_camera_volume_key_function_title">"အသံတိုး-ကျယ်ကီး လုပ်ဆောင်ချက်"</string>
+<string name="pref_camera_volume_key_function_entries_shutter">"ရှတ္တာ"</string>
+<string name="pref_camera_volume_key_function_entries_zoom">"ကြီး"</string>
+<string name="pref_camera_volume_key_function_entries_volume">"အသံ အတိုးအကျယ်"</string>
+</resources>

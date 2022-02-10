@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="filter_name_crisp_winter">"រដូវរងារ"</string>
+<string name="filter_name_early_bird">នឹករឿងចាស់</string>
+<string name="filter_name_film_stock">"ឆើត"</string>
+<string name="filter_name_horror_blue">"ខៀវ"</string>
+<string name="filter_name_nashville">"ណាស់វីល"</string>
+<string name="filter_name_soft_warming">"កែលវិន"</string>
+<string name="filter_name_bismuth">"Mono"</string>
+<string name="filter_name_warm">"ក្ដៅ"</string>
+<string name="filter_name_history">"ប្រវត្តិ"</string>
+</resources>

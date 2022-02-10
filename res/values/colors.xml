@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <color name="photo_placeholder">#333</color>
+    <color name="recording_time_elapsed_text">#FFFFFFFF</color>
+    <color name="recording_time_remaining_text">#FFFF0033</color>
+    <color name="on_viewfinder_label_background_color">#77333333</color>
+    <color name="review_background">#FF000000</color>
+    <color name="pano_progress_empty">#FF2E2E2E</color>
+    <color name="pano_progress_done">#FF33525E</color>
+    <color name="pano_progress_indication">#FF0099CC</color>
+    <color name="pano_progress_indication_fast">#FFFF2222</color>
+    <color name="holo_blue_light">#ff33b5e5</color>
+    <color name="bright_foreground_disabled_holo_dark">#ff4c4c4c</color>
+    <color name="bright_foreground_holo_dark">#fff3f3f3</color>
+    <color name="face_detect_color">#ffffff00</color>
+    <color name="age_female_color">#ffe91e63</color>
+    <color name="age_male_color">#ff4285f4</color>
+    <color name="focus_color">#ffffffff</color>
+
+    <!-- Camera mode switcher -->
+    <color name="mode_selector_text_color">#fff</color>
+    <color name="mode_selector_icon_background">#4c000000</color>
+    <color name="mode_list_background">#00000000</color>
+    <color name="mode_list_settings_icon_background">#26000000</color>
+    <color name="mode_list_settings_icon_pressed_background">#99000000</color>
+
+    <color name="camera_mode_color">#4285f4</color>
+    <color name="video_mode_color">#db4437</color>
+    <color name="refocus_mode_color">#0f9d58</color>
+    <color name="photosphere_mode_color">#ab47bc</color>
+    <color name="main_color_global">#00acc1</color>
+    <color name="qr_main_color_global">#2e2e2e</color>
+
+    <color name="camera_gray_background">#1b1b1b</color>
+
+    <color name="grid_line">#33FFFFFF</color>
+    <color name="fullscreen_dialog_background_color">@color/main_color_global</color>
+    <color name="dialog_text_color">@android:color/black</color>
+
+    <color name="settings_cling_color">#2962FF</color>
+
+    <color name="mode_icon_hover_highlight">#2DFFFFFF</color>
+
+    <color name="blue_button_text_color">#00838F</color>
+
+    <color name="focus_success_color">#FFE6D417</color>
+    <color name="focus_success_color_green">#ff00ff00</color>
+
+    <color name="dream_background_mode_item">#00000000</color>
+    <color name="dream_focus_mode_item">#004d4d4d</color>
+    <color name="dream_yellow">#FFE6D417</color>
+
+    <!-- fix bug 578797 New feature:QR code -->
+    <color name="result_view">#b0000000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="qrcode_url">#f2303f</color>
+
+    <color name="pano_director_line">#e6d417</color>
+
+    <!-- SPRD: Fix 597206 Adds new features 3DPhoto -->
+    <color name="white">#ffffff</color>
+    <color name="transparent">#00000000</color>
+
+    <!-- SPRD: Fix bug 585183 Adds new feature real-time distance measurement @{-->
+    <color name="td_range_find_normal_color_internal">#33000000</color>
+    <color name="td_range_find_normal_color_intermediate">#AAFFFFFF</color>
+    <color name="td_range_find_normal_color_outside">#33FFFFFF</color>
+    <color name="td_range_find_select_color_internal">#11000000</color>
+    <color name="td_range_find_select_color_outside">#3300FF00</color>
+    <color name="td_range_find_select_color_intermediate">#66FFFFFF</color>
+    <!-- @} -->
+
+    <color name="blur_effect_highlight">#333333</color>
+    <color name="blur_effect_disable">#808080</color>
+    <color name="qr_actionbar">#2e2e2e</color>
+    <color name="auto_tracking_color">#ff00ff00</color>
+    <color name="dream_black">#000000</color>
+</resources>

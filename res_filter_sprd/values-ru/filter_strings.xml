@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="filter_name_early_bird">"Ностальгия"</string>
+<string name="filter_name_film_stock">"Ярко"</string>
+<string name="filter_name_bismuth">"Моно"</string>
+<string name="filter_name_crisp_winter">"Зима"</string>
+<string name="filter_name_horror_blue">"Лазурь"</string>
+<string name="filter_name_nashville">"Нэшвилл"</string>
+<string name="filter_name_soft_warming">"Кельвин"</string>
+<string name="filter_name_warm">"Теплый"</string>
+<string name="filter_name_history">"Ретро"</string>
+</resources>

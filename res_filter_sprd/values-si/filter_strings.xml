@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="filter_name_crisp_winter">"වින්ටර්"</string>
+<string name="filter_name_early_bird">"අතීත කාමය"</string>
+<string name="filter_name_film_stock">"විවිඩ්"</string>
+<string name="filter_name_horror_blue">"නිල්"</string>
+<string name="filter_name_nashville">"නෂ්විල්"</string>
+<string name="filter_name_soft_warming">"කෙල්වින්"</string>
+<string name="filter_name_bismuth">"ඒකල"</string>
+<string name="filter_name_warm">"වොර්ම්"</string>
+<string name="filter_name_history">"ඉතිහාසය"</string>
+</resources>

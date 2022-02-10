@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  Copyright (C) 2007 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
+    <string name="app_name" msgid="1175086483881127797">"ກ້ອງ"</string>
+    <string name="video_camera_label" msgid="1723708322021743770">"ກ້ອງວິດີໂອ"</string>
+    <string name="details_ms" msgid="6618163484662724641">"%1$02d:%2$02d"</string>
+    <string name="details_hms" msgid="4842276230698703554">"%1$d:%2$02d:%3$02d"</string>
+    <string name="details" msgid="4404020741542549488">"ລາຍລະອຽດ"</string>
+    <string name="close" msgid="4826166926297479820">"ປິດ"</string>
+    <string name="video_err" msgid="1562566029875081552">"ບໍ່ສາມາດຫຼິ້ນວີດີໂອໄດ້."</string>
+    <string name="title" msgid="8061744305671964703">"ຊື່"</string>
+    <string name="description" msgid="8193138501982849808">"ຄຳອະທິບາຍ"</string>
+    <string name="time" msgid="5248213506417024287">"ເວລາ"</string>
+    <string name="location" msgid="564326205780827668">"ສະຖານທີ່"</string>
+    <string name="path" msgid="5927003361865586353">"ເສັ້ນທາງ"</string>
+    <string name="width" msgid="7045750687833828758">"ກວ້າງ"</string>
+    <string name="height" msgid="5186001199353423689">"ລວງສູງ"</string>
+    <string name="orientation" msgid="3883761294106680270">"ລວງ"</string>
+    <string name="duration" msgid="5316211067383665008">"ໄລຍະເວລາ"</string>
+    <string name="mimetype" msgid="6415940055077963944">"ປະເພດ MIME"</string>
+    <string name="file_size" msgid="6841070748357980676">"ຂະໜາດໄຟລ໌"</string>
+    <string name="maker" msgid="698691509121545856">"ຍີ່ຫໍ້"</string>
+    <string name="model" msgid="8547493604023069452">"ໂມເດວ"</string>
+    <string name="flash" msgid="995041910749174196">"ແຟລດ"</string>
+    <string name="aperture" msgid="2453802098282814022">"ຮູຮັບແສງ"</string>
+    <string name="focal_length" msgid="8351221512187346229">"ທາງຍາວໂຟກັສ"</string>
+    <string name="white_balance" msgid="1600142743496129085">"ສົມດຸນສີຂາວ"</string>
+    <string name="exposure_time" msgid="949787291620767754">"ເວລາການຮັບແສງ"</string>
+    <string name="iso" msgid="8578773821062054902">"ISO"</string>
+    <string name="unit_mm" msgid="5210344300697638286">"ມມ"</string>
+    <string name="manual" msgid="2444400953521760140">"ຕັ້ງຄ່າເອງ"</string>
+    <string name="auto" msgid="2552649885114400474">"ອັດຕະໂນມັດ"</string>
+    <string name="flash_on" msgid="6573457197393807642">"ຍິງແຟລດ"</string>
+    <string name="flash_off" msgid="7889323512830926273">"ບໍ່ມີແຟລດ"</string>
+    <string name="unknown" msgid="564184550182858146">"ບໍ່ຮູ້ຈັກ"</string>
+    <string name="camera_error_title" msgid="6200558085072670067">"ກ້ອງຖ່າຍຮູບຜິດພາດ"</string>
+    <string name="error_cannot_connect_camera" msgid="2713059773224193128">"ບໍ່ສາມາດເຊື່ອມຕໍ່ກັບກ້ອງຖ່າຍ​ຮູບໄດ້."</string>
+    <string name="error_camera_disabled" msgid="5582398275657419692">"ກ້ອງຖ່າຍ​ຮູບຖືກປິດໃຊ້​ງານໄວ້ເນື່ອງຈາກນະໂຍບາຍຄວາມປອດໄພ."</string>
+    <string name="error_media_storage_failure" msgid="7711687330673245629">"ມີ​ບັນ​ຫາ​ການ​ບັນ​ທຶກ​ຮູບ ຫຼື​ວິ​ດີ​ໂອ​ຂອງ​ທ່ານ."</string>
+    <string name="error_permissions" msgid="3454167403425651254">"ແອັບ​ບໍ່​ມີ​ການ​ອະ​ນຸ​ຍາດ​ສຳ​ຄັນ​ຈຳ​ເປັນເພື່ອ​ແລ່ນ. ກະ​ລຸ​ນາ​ກວດ​ເບິ່ງ​ການ​ຕັ້ງ​ຄ່າ​ການ​ອະ​ນຸ​ຍາດ​ຂອງ​ທ່ານ."</string>
+    <string name="wait" msgid="765601745709933047">"ກະລຸນາລໍຖ້າ..."</string>
+    <string name="no_storage" product="default" msgid="5922012950780548098">"ໃສ່ SD card ກ່ອນນຳໃຊ້ກ້ອງ."</string>
+    <string name="preparing_sd" product="default" msgid="7435693655017362767">"ກຳລັງກະກຽມ SD card ..."</string>
+    <string name="access_sd_fail" product="default" msgid="2634861611082499811">"ບໍ່ສາມາດເຂົ້າເຖິງ SD card ໄດ້."</string>
+    <string name="time_lapse_title" msgid="3267978566401228497">"ການບັນທຶກພາບທາມແລບ"</string>
+    <string name="feedback_description_camera_access" msgid="419090951070170132">"ແອັບບໍ່​ສາ​ມາດ​ເຊື່ອມ​ຕໍ່​ກັບ​ກ້ອງ​ຖ່າຍ​ຮູບ​ໄດ້"</string>
+    <string name="feedback_description_save_photo" msgid="8658767358989083228">"ຮູບ ຫຼື​ວິ​ດີ​ໂອ​ບໍ່​ໄດ້ບັນ​ທຶກ​ໃສ່​ອຸ​ປະ​ກອນ​ນີ້."</string>
+    <string name="pref_camera_save_location_title" msgid="2344235620113384017">"ບັນ​ທຶກ​ສະ​ຖານ​ທີ່"</string>
+    <!-- no translation found for pref_camera_timer_sound_default (6225207881203007747) -->
+    <string name="setting_off" msgid="6782191065550276632">"ປິດ"</string>
+    <string name="setting_on" msgid="9086728135773197891">"ເປີດ"</string>
+    <string name="pref_camera_settings_category" msgid="4274141528139077830">"ການຕັ້ງຄ່າກ້ອງ"</string>
+    <string name="pref_camera_picturesize_entry_large" msgid="9014447075089601575">"ໃຫຍ່"</string>
+    <string name="pref_camera_picturesize_entry_medium" msgid="7708839551627003154">"ກາງ"</string>
+    <string name="pref_camera_picturesize_entry_small" msgid="2991239656622539068">"ນ້ອຍ"</string>
+    <string name="pref_camera_whitebalance_title" msgid="7962809566612868179">"ສົມດຸນສີຂາວ"</string>
+    <string name="pref_camera_whitebalance_entry_auto" msgid="1390631794449502796">"ອັດຕະໂນມັດ"</string>
+    <string name="pref_camera_whitebalance_entry_incandescent" msgid="1140391575294372706">"ໄຟຫຼອດໄສ້"</string>
+    <string name="pref_camera_whitebalance_entry_daylight" msgid="757833578153467254">"ກາງເວັນ"</string>
+    <string name="pref_camera_whitebalance_entry_fluorescent" msgid="5157027611220790970">"ຫຼອດໄຟຟລູອໍເຣສເຊນ"</string>
+    <string name="pref_camera_whitebalance_entry_cloudy" msgid="3569589102226796875">"ຟ້າຄຶ້ມ"</string>
+    <string name="pref_camera_scenemode_entry_auto" msgid="9205644316260850379">"ອັດຕະໂນມັດ"</string>
+    <string name="pref_camera_scenemode_entry_action" msgid="5753183620959062015">"ແອັກຊັນ"</string>
+    <string name="pref_camera_scenemode_entry_night" msgid="3468037364159759991">"ຕອນຄ່ຳ"</string>
+    <!-- no translation found for pref_camera_hdr_default (5054955236904902318) -->
+    <!-- no translation found for pref_camera_hdr_plus_default (4827897029274554907) -->
+    <string name="dialog_ok" msgid="774141340500181131">"ຕົກລົງ"</string>
+    <string name="dialog_dismiss" msgid="1382550604990470119">"ປິດໄວ້"</string>
+    <string name="video_reach_size_limit" msgid="9196836111505731836">"ເຖິງຂີດຈຳກັດຂອງຂະໜາດແລ້ວ."</string>
+    <string name="pano_too_fast_prompt" msgid="2503148095578052177">"ໄວເກີນໄປ"</string>
+    <string name="pano_dialog_prepare_preview" msgid="4445235163599534263">"ກຳລັງກຽມຮູບພາໂນຣາມາ"</string>
+    <string name="pano_dialog_panorama_failed" msgid="6772546547048693619">"ບໍ່ສາມາດບັນທຶກຮູບພາໂນຣາມາໄດ້."</string>
+    <string name="pano_dialog_title" msgid="6662642763395425145">"ຮູບສີແຈສາກແນວນອນ"</string>
+    <string name="pano_capture_indication" msgid="4002128831255023954">"ກຳລັງຖ່າຍພາໂນຣາມາ"</string>
+    <string name="pano_dialog_waiting_previous" msgid="2646847402743245320">"ກຳລັງລໍຖ້າພາໂນຣາມາອັນກ່ອນ"</string>
+    <string name="pano_review_rendering" msgid="2743087719999377155">"ກຳລັງປະມວນພາບພາໂນຣາມາ"</string>
+    <string name="video_recording_started" msgid="3374878415050991030">"ການບັນທຶກວິດີໂອໄດ້ເລີ່ມຕົ້ນແລ້ວ."</string>
+    <string name="video_recording_stopped" msgid="4658626532857624974">"ການບັນທຶກວິດີໂອໄດ້ຢຸດແລ້ວ."</string>
+    <string name="accessibility_shutter_button" msgid="6040483605347230438">"ຊັດເຕີ"</string>
+    <string name="accessibility_cancel_button" msgid="5679989494636116448">"ຍົກເລີກ"</string>
+    <string name="accessibility_review_cancel" msgid="5462850829869569629">"ການກວດສອບໃຫ້ຍົກເລີກ"</string>
+    <string name="accessibility_mode_list_hidden" msgid="3743267380450401866">"ປິດລາຍ​ຊື່​ໂໝດແລ້ວ"</string>
+    <string name="accessibility_mode_list_shown" msgid="5284322142734069179">"​ເປີດ​ລາຍ​ຊື່​ໂໝດ​ແລ້ວ"</string>
+    <string name="photo_accessibility_peek" msgid="5934133371001677250">"ຖ່າຍຮູບແລ້ວ"</string>
+    <string name="video_accessibility_peek" msgid="7845916149291383132">"ຖ່າຍ​ວິດີໂອ​ແລ້ວ"</string>
+    <string name="accessibility_unlock_to_camera" msgid="1251880974313179442">"​​ປົດ​ລັອກ​ໃຫ້​ກ້ອງ​ຖ່າຍ​ຮູບ"</string>
+    <string name="photo_date_content_description" msgid="5705865897898465619">"ຮູບ​ທີ່​ຖ່າຍ​ເມື່ອ %s"</string>
+    <string name="video_date_content_description" msgid="2151884014634284456">"ວິ​ດີ​ໂອ​ທີ່​ຖ່າຍ​ເມື່ອ %s"</string>
+    <string name="panorama_date_content_description" msgid="990703578639006144">"ພາ​ໂນ​ຣາ​ມາ​ທີ່​ຖ່າຍ​ເມື່ອ %s"</string>
+    <string name="photosphere_date_content_description" msgid="4183741743409007876">"ໂຟ​ໂຕ​ສະ​ເຟຍ​ທີ່​ຖ່າຍ​ເມື່ອ %s"</string>
+    <string name="refocus_date_content_description" msgid="5630960320424345547">"Lens blur ທີ່​ຖ່າຍ​ເມື່ອ %s"</string>
+    <string name="media_processing_content_description" msgid="8138587719107183754">"​ກຳ​ລັງ​ປະ​ມວນ​ຜົນ​ໄຟ​ລ໌"</string>
+    <string name="accessibility_zoom_announcement" msgid="6976673411698319811">"ຄ່າ​ຊູມ​ແມ່ນ %.1f"</string>
+    <string name="video_control_play" msgid="6895236811408921715">"ຫຼິ້ນ​ວິ​ດີ​ໂອ"</string>
+    <string name="remember_location_title" msgid="3045040613094030429">"ຈື່ຂໍ້ມູນສະຖານທີ່ຂອງຮູບບໍ່?"</string>
+    <string name="remember_location_prompt" msgid="3006013504489919474">"ໃສ່​ຂໍ້ມູນ​ສະຖານທີ່​ໃຫ້​ກັບ​ຮູບພາບ ແລະ ​ວິດີໂອ​ທີ່​ທ່ານ​ຖ່າຍ."</string>
+    <string name="remember_location_no" msgid="4412802756840226925">"ບໍ່, ຂອບໃຈ"</string>
+    <string name="remember_location_yes" msgid="4339424460683531388">"ຕົກລົງ"</string>
+    <string name="create_tiny_planet" msgid="5186918191372107343">"ສ້າງດາວເຄາະນ້ອຍ"</string>
+    <string name="saving_tiny_planet" msgid="8828265180177375494">"ກຳລັງບັນທຶກດາວເຄາະນ້ອຍ..."</string>
+    <string name="tiny_planet_zoom" msgid="2985522360577158474">"ຊູມ"</string>
+    <string name="tiny_planet_rotate" msgid="5445336705705350004">"ໝຸນ"</string>
+    <string name="photo_editor" msgid="1521994560971367225">"ໂຕແກ້ໄຂຮູບ"</string>
+    <string name="mode_settings" msgid="2021937261522670921">"ການຕັ້ງຄ່າ"</string>
+    <string name="mode_video" msgid="8633929034048169139">"ວິດີໂອ"</string>
+    <string name="mode_panorama" msgid="6882648621305828861">"ພາໂນຣາມາ"</string>
+    <string name="mode_camera_desc" msgid="3670807361165657278">"ສະຫຼັບເປັນໂໝດກ້ອງຖ່າຍຮູບ"</string>
+    <string name="mode_panorama_desc" msgid="6023020404237519590">"ສະຫຼັບເປັນໂໝດພາໂນລາມາ"</string>
+    <string name="mode_refocus_desc" msgid="6171183297515508465">"ສະລັບໄປໃຊ້ໂໝດ Lens Blur"</string>
+    <string name="hdr_plus_off_desc" msgid="5301287296717144319">"HDR Plus ປິດຢູ່"</string>
+    <string name="hdr_plus_on_desc" msgid="8204780034508139909">"HDR Plus ເປີດຢູ່"</string>
+    <string name="hdr_off_desc" msgid="7921924739852874675">"HDR ປິດຢູ່"</string>
+    <string name="hdr_on_desc" msgid="4591284110249047558">"HDR ເປີດຢູ່"</string>
+    <string name="flash_off_desc" msgid="7151559466286106797">"ແຟັດປິດຢູ່"</string>
+    <string name="flash_auto_desc" msgid="3009043125539675717">"ແຟັດອັດຕະໂນມັດ"</string>
+    <string name="flash_on_desc" msgid="930372145324854699">"ແຟັດເປີດຢູ່"</string>
+    <string name="torch_on_desc" msgid="3069836196559213365">"ເປີດແຟລັດ"</string>
+    <string name="torch_off_desc" msgid="8304675202998742618">"ໄຟສາຍປິດຢູ່"</string>
+    <string name="camera_id_back_desc" msgid="3566327490758890635">"ກ້ອງ​ຫຼັງ"</string>
+    <string name="camera_id_front_desc" msgid="7497517948130254220">"ກ້ອງຫນ້າ"</string>
+    <string name="cancel_button_description" msgid="3801167024006905033">"ຍົກເລີກ"</string>
+    <string name="done_button_description" msgid="1334963435441544592">"ແລ້ວໆ"</string>
+    <string name="retake_button_description" msgid="4234613030674787714">"ຖ່າຍໃໝ່"</string>
+    <string name="review_button_description" msgid="7932122063748430080">"ມ້ວນຄືນ"</string>
+    <string name="button_change_announcement" msgid="3759686152778772111">"ຕອນນີ້ປຸ່ມແມ່ນ %s ແລ້ວ"</string>
+    <string name="pref_video_quality_entry_low" msgid="737962621299050603">"ຕ່ຳ"</string>
+    <string name="pref_video_quality_entry_high" msgid="1613578418842803393">"ສູງ"</string>
+    <string name="pref_video_quality_entry_qcif" msgid="1717816794399266216">"QCIF"</string>
+    <string name="pref_video_quality_entry_cif" msgid="645414019445016434">"CIF"</string>
+    <string name="pref_video_quality_entry_480p" msgid="5880250731066854583">"SD 480p"</string>
+    <string name="pref_video_quality_entry_720p" msgid="4076146428148167262">"HD 720p"</string>
+    <string name="pref_video_quality_entry_1080p" msgid="4539958891524211120">"HD 1080p"</string>
+    <string name="pref_video_quality_entry_qvga" msgid="342600517453781430">"QVGA"</string>
+    <string name="pref_video_quality_entry_2160p" msgid="4522927631413184505">"UHD 4K"</string>
+    <string name="setting_summary_aspect_ratio_and_megapixels" msgid="5828440902461064821">"(%1$d:%2$d) %3$s ​ລ້ານ​ພິກ​ເຊວ"</string>
+    <string name="cling_text_for_refocus_editor_button" msgid="4785017397116829802">"​ເພື່ອ​ປັບ​ໂຟ​ກັດ​ໃໝ່​, ໃຫ້​ແຕະ​ບ່ອນ​ນີ້"</string>
+    <string name="settings_cling_text" msgid="5368054627268181292">"​ໃນ​ການ​ຕັ້ງ​ຄ່າ, ໃຫ້​ປ່ຽນ​ຄວາມ​ລະ​ອຽດ ແລ​ະ​ຄຸນ​ນະ​ພາບ ຫຼື​ລອງ​ໃຊ້​ຄຸນ​ສົມ​ບັດ​ຂັ້ນ​ສູງ."</string>
+    <string name="photo_size_selection_title" msgid="2789753590719172645">"​ເລືອກ​ຂະ​ໜາດ​ຮູບ"</string>
+    <string name="photo_aspect_ratio_selection_content" msgid="6668224437962196229">"​ທ່ານ​ສາ​ມາດ​ປ່ຽນ​ຄ່າ​ນີ້​​ໄດ້ພາຍຫຼັງ​ໃນ​ການ​ຕັ້ງ​ຄ່າ"</string>
+    <string name="edit_with" msgid="615569327230783971">"​ແກ້​ໄຂ​ໃນ"</string>
+    <string name="startup_dialog_button_next" msgid="1011831256978228993">"​ຕໍ່​ໄປ"</string>
+    <string name="confirm_button_text" msgid="7389949384482206814">"ໂອເຄ, ເຂົ້າໃຈແລ້ວ"</string>
+    <string name="full_sensor_4x3_aspect_ratio" msgid="1270461419743888925">"ເຊັນ​ເຊີ​ເຕັມ \n(4:3)"</string>
+    <string name="cropped_sensor_16x9_aspect_ratio" msgid="4742161537633251795">"ເຊັນ​ເຊີ​ຖືກ​ຕັດ​ບາງ​ສ່ວນ \n(16:9)"</string>
+    <string name="session_saving_image" msgid="8932315404486416826">"ກຳລັງບັນທຶກ..."</string>
+     <string name="pref_camera_antibanding_title">""ປ້ອງ​ກັ​ນ​ແຝຼ​ສ​ຊ໌"</string>
+     <string name="pref_camera_antibanding_entry_auto">"ອັດຕະໂນມັດ"</string>
+     <string name="pref_camera_jpeg_quality_title">"ຄຸນ​ນະ​ພາບ​ຮູບ"</string>
+     <string name="pref_camera_jpeg_quality_entry_normal">"ປົກກະຕິ"</string>
+     <string name="pref_camera_jpeg_quality_entry_hight">"ແຈ້ງ​ລະ​ອຽດ"</string>
+     <string name="pref_camera_jpeg_quality_entry_super_height">"ແຈ້ງ​ລະ​ອຽດສຸດຍອດ"</string>
+     <string name="pref_camera_ai_detect_title">"ຈັບ​ພາບ​ລະ​ອຽດ"</string>
+     <string name="pref_ai_detect_entry_off">"ປິດ"</string>
+     <string name="pref_ai_detect_entry_face">"ຈັບ​ໜ້າ"</string>
+     <string name="pref_ai_detect_entry_smile">"ຖ່າຍ​ພາບ​ຍີ້ມ"</string>
+     <string name="pref_camera_storage_path_title">"ເສັ້ນ​ທາງ​ບັນ​ທຶກ"</string>
+     <string name="storage_path_internal">"ໜ່ວຍ​ຄວາມ​ຈຳ​ພາຍ​ໃນ"</string>
+     <string name="storage_path_external">"ໜ່ວຍ​ຄວາມ​ຈຳ​ພາຍນອກ"</string>
+     <string name="pref_camera_color_effect_title">"ເອບ​ແຝັກ​ສີ"</string>
+     <string name="pref_camera_color_effect_entry_mono">"ຂາວ​ດຳ"</string>
+     <string name="pref_camera_color_effect_entry_negative">"ເນກາຕີບ"</string>
+     <string name="pref_camera_color_effect_entry_sepia">"ຮູບ​ພາບ​ເກົ່າ"</string>
+     <string name="pref_camera_color_effect_entry_cold">"ສີ​ໜາວ"</string>
+     <string name="pref_camera_color_effect_entry_antique">"ເກົ່າ​ແກ່"</string>
+     <string name="pref_camera_scenemode_entry_normal">"ປົກກະຕິ"</string>
+     <string name="pref_camera_scenemode_entry_portrait">"ລວງຕັ້ງ"</string>
+     <string name="pref_camera_scenemode_entry_landscape">"ລວງນອນ"</string>
+     <string name="pref_camera_continuous_capture_title">"ຖ່າຍ​ຕໍ່​ເນື່ອງ"</string>
+     <string name="pref_camera_contrast_title">"ຄວາມເຂັ້ມ"</string>
+     <string name="pref_camera_saturation_title">"ຄວາມແຈດຂອງສີ"</string>
+     <string name="pref_camera_iso_entry_auto">"ອັດຕະໂນມັດ"</string>
+     <string name="pref_camera_metering_title">"ວັດ​ແສງ"</string>
+     <string name="pref_camera_metering_entry_frame_average">"ຄ່າ​ສະ​ເລ່ຍ​ຂອບ​ຮູບ"</string>
+     <string name="pref_camera_metering_entry_center_weighted">"ວັດ​ແສງ​ສູນ​ກາງ"</string>
+     <string name="pref_camera_metering_entry_spot_metering">"ຈຸດ"</string>
+     <string name="restore_done">"ແລ້ວໆ"</string>
+     <string name="restore_cancel">@android:string/cancel</string>
+     <string name="switch_to_gallery">"ສະ​ລັບ​ໄປ​ທີ່​ອາ​ລະ​ບ້ຳ​ພາບ"</string>
+     <string name="message_save_task_memory_limit">"ກຳ​ລັງ​ບັນ​ທຶກ​ພາບ ກະ​ລຸ​ນາ​ລໍ​ຖ້າ"</string>
+     <string name="pref_timelapse_title">"ທາມແລບ"</string>
+     <string name="pref_timelapse_entry_off">"ປິດ"</string>
+     <string name="pref_timelapse_entry_4">"ເວ​ລາ​ຫ່າງ 0.12ວິ​ນາ​ທີ (x4​)"</string>
+     <string name="pref_timelapse_entry_10">"ເວ​ລາ​ຫ່າງ 0.3ວິ​ນາ​ທີ (x10​)"</string>
+     <string name="pref_timelapse_entry_30">"ເວ​ລາ​ຫ່າງ 1 ວິ​ນາ​ທີ (x30​)"</string>
+     <string name="pref_timelapse_entry_60">"ເວ​ລາ​ຫ່າງ 2 ວິ​ນາ​ທີ (x60​)"</string>
+     <string name="pref_timelapse_entry_90">"ເວ​ລາ​ຫ່າງ 3 ວິ​ນາ​ທີ (x90​)"</string>
+     <string name="pref_timelapse_entry_150">"ເວ​ລາ​ຫ່າງ 5 ວິ​ນາ​ທີ (x150​)"</string>
+     <string name="pref_timelapse_entry_300">"ເວ​ລາ​ຫ່າງ 10​ ວິ​ນາ​ທີ (x300​​)"</string>
+     <string name="pref_timelapse_entry_450">"ເວ​ລາ​ຫ່າງ 15​ ວິ​ນາ​ທີ (x450​​)"</string>
+     <string name="pref_timelapse_entry_900">"ເວ​ລາ​ຫ່າງ 30​ ວິ​ນາ​ທີ (x900​​)"</string>
+     <string name="pref_timelapse_entry_1800">"ເວ​ລາ​ຫ່າງ 60​ ວິ​ນາ​ທີ (x1800​​)"</string>
+     <string name="pref_video_slow_motion_title">"ເຄື່ອນ​ໄຫວ​ຊ້າ"</string>
+     <string name="cannot_save_image">"ຮູບ​ພາບ​ນີ້ບໍ່​ສາ​ມາດ​ດຳ​ເນີນ​ການ​ບັນ​ທຶກ ກະ​ລຸ​ນາ​ຖ່າຍ​ໃໝ່"</string>
+     <string name="sdcard_remove">" SDກາ​ຣ໌ດ ຖືກ​ຍ້າຍ​ອອກ ໄຟ​ລ໌​ບັນ​ທຶກບໍ່​ໄດ້​ບັນ​ທຶກ"</string>
+     <string name="pref_mirror_title">"ກ້ອງ​ຖ່າຍ​ເຊວ​ຟີ້"</string>
+     <string name="pref_camera_quick_capture_title_volkey">"ກົດ​ປຸ່ມ​ສຽງ​ສອງ​ຄັ້ງ​ເພີ່ມ​ໃຫ້​ການ​ຖ່າຍ​ໄວ​ຂື້ນ"</string>
+     <string name="pref_camera_quick_capture_title_camkey">"ກົດ​ປຸ່ມ​ຖ່າຍສອງ​ຄັ້ງ​ເພີ່ມ​ໃຫ້​ການ​ຖ່າຍ​ໄວ​ຂື້ນ"</string>
+     <string name="pref_camera_quick_capture_entry_capture_with_back_camera">"ຖ່າຍ​ດ້ວຍ​ກ້ອງ​ຫລັງ"</string>
+     <string name="pref_camera_quick_capture_entry_capture_with_front_camera">"ຖ່າຍ​ດ້ວຍ​ກ້ອງ​ໜ້າ"</string>
+     <string name="pref_camera_quick_capture_entry_off">"ປິດ"</string>
+     <string name="slow_motion_does_not_support_zoom_change">"​ໃນການ​ເຄື່ອນ​ໄຫວ​ຊ້າ​ບໍ່​ສະ​ນັບ​ສະ​ໜຸນ​ປ່ຽນ​ຄ່າ​ຊູມ"</string>
+     <string name="sdcard_changeto_phone">"SD ກາຣ໌ດຖືກຍ້າຍອອກ ເສັ້ນທ່າງບັນທຶກປັບປຸງເປັນໜ່ວຍຄວາມຈຳພາຍໃນ"</string>
+     <string name="current_module_does_not_support_zoom_change">"ຮູບແບບນີ້ບໍ່ສະໜັບສະໜູນການຊູມ"</string>
+     <string name="camera_record_voice_tip">"ທ່ານສາມາດອັດສຽງຫຼັງຈາກຖ່າຍຮູບ"</string>
+     <string name="camera_record_voice_seconds">"s"</string>
+     <string name="camera_record_voice_failed">"ຄະນະນີ້ສາມາດຖ່າຍຮູບແຕ່ບໍ່ສາມາດອັດສຽງ."</string>
+     <string name="battery_level_low">" ແບດເຕີລີອ່ອນບໍ່ສາມາດໃຊ້ເຟລດໄດ້."</string>
+     <string name="video_maximum_size_limit">"ໜ່ວຍຄວາມຈຳຂະນະນີ້ຫລາຍສູດສະໜັບສະໜູນ4GB"</string>
+     <string name="phone_does_not_support_video">"ເມື່ອຢູ່ໃນສາຍໂທບໍ່ສາມາດເປິດຟັງຊັ່ນບັນທຶກວີດີໂອ"</string>
+     <string name="phone_does_not_support_audio_picture">"ເມື່ອຢູ່ໃນສາຍໂທບໍ່ສາມາດເປິດຟັງຊັ່ນສຽງການຖ້່າຍທັ່ງໝົດ"</string>
+    <string name="spaceIsLow_content" product="default">"ພື້ນທີ່ຈັດເກັບພາຍນອກບໍ່ພຽງພໍ. ປ່ຽນການຕັ້ງຄ່າບ່ອນຈັດກັບຂໍ້ມູນ ຫຼື ລຶບບາງຮູບພາບ ຫຼື ໄຟລ໌ອື່ນໆອອກ."</string>
+     <string name="uDiskIsLow_content" product="default">"ພື້ນທີ່ຈັດເກັບໃນຊ່ອງ U ບໍ່ພຽງພໍ. ປ່ຽນການຕັ້ງຄ່າບ່ອນຈັດກັບຂໍ້ມູນ ຫຼື ລຶບບາງຮູບພາບ ຫຼື ໄຟລ໌ອື່ນໆອອກ."</string>
+     <string name="Internal_spaceIsLow_content" product="default">"ພື້ນທີ່ໜ່ວຍຄວາມຈຳພາຍໃນບໍ່ພຽງພໍ. ປ່ຽນການຕັ້ງຄ່າບ່ອນຈັດກັບຂໍ້ມູນ ຫຼື ລຶບບາງຮູບພາບ ຫຼື ໄຟລ໌ອື່ນໆອອກ."</string>
+     <string name="countdown_duration_off">"ປິດ"</string>
+     <string name="pref_camera_countdown_duration_title">"ໄລຍະເວລາໃນການນັບຖອຍຫຼັງ"</string>
+     <string name="pref_camera_self_timer_interval_title">"ຕົວນັບເວລາ"</string>
+     <string name="pref_timelapse_entry_value_default">"1"</string>
+     <string name="usb_remove">"USB ຖືກຖອດອອກແລ້ວ, ບໍ່ມີໄຟລ໌ບັນທຶກຖືກຈັດເກັບ"</string>
+     <string name="usb_remove_photo_or_video">"USB ຖືກຖອດອອກແລ້ວ"</string>
+     <string name="close_float_video">"ປິດໜ້າຈໍວິດີໂອເມື່ອເປີດກ້ອງຖ່າຍຮູບ."</string>
+     <string name="pref_sensor_self_shot_title">"ແວ່ນແບບບໍ່ສຳຜັດ"</string>
+     <string name="pref_sensor_self_shot_summary">"ຖ່າຍຮູບຫຼັງສອງວິນາທີຫຼັງຈາກກົດຖ່າຍ"</string>
+     <string name="not_support_zoom_change">"ບໍ່ສາມາດປ່ຽນຄ່າການຊູມໄດ້."</string>
+     <string name="blur_refocus_covered">"ກະລຸນາຢ່າອັດເລັນກ້ອງ ເພື່ອຮັບປະກັນປະສິດທິພາບຂອງຮູບ!"</string>
+     <string name="recorder_in_progress_error">"ເປີດແຫຼ່ງສຽງແລ້ວ, ກະລຸນາປິດແອັບພລີເຄຊັນ ແລະ ລອງໃໝ່ອີກເທື່ອໜຶ່ງ."</string>
+     <string name="mode_video_desc_td">"ວິດີໂອ 3D"</string>
+     <string name="setting_front_camera_video_3d">"ກ້ອງວິດີໂອ 3D ໜ້າ"</string>
+     <string name="tdvideo_mutex">"ກະລຸນາຖືອຸປະກອນໃນລວງຕັ້ງ ເພື່ອຖ່າຍຮູບ"</string>
+     <string name="camera_record_voice_error">"ແຫຼ່ງສຽງຖືກເປີດແລ້ວ, ສາມາດຖ່າຍຮູບໄດ້ແລ້ວຕອນນີ້, ແຕ່ບໍ່ສາມາດບັນທຶກໄດ້."</string>
+     <string name="refocus_distance_tip">"ກະລຸນາຮັກສາໃຫ້ສິ່ງຂອງຢູ່ຫ່າງມືຖືພາຍໃນສອງແມັດ"</string>
+     <string name="camera_blur_refocus_tip">"ນີ້ຈະເຮັດໃຫ້ໄດ້ພາບພື້ນຫຼັງທີ່ມີປະສິດທິພາບ"</string>
+     <string name="refocus_front_distance_tip">"ໃຫ້ລະບົບສ້າງຄວາມຄົມຂອງຮູບສະເພາະແຕ່ເວລາຖ່າຍຮູບຄົນເທົ່ານັ້ນ"</string>
+     <string name="refocus_effect_tip">"&#160;ເອັຟເຟັກມົວ&#160;"</string>
+     <string name="refocus_move_closer_tip">"ເຂົ້າໄປໃກ້ອີກ"</string>
+     <string name="refocus_move_further_tip">"ຫຍັບອອກມາອີກ"</string>
+     <string name="refocus_need_more_light_tip">"ຕ້ອງການແສງເພີ່ມເຕີມ"</string>
+     <string name="extend_panel_skin_smooth">"ລະອຽດ"</string>
+     <string name="extend_panel_skin_bright">"ແຈ້ງຂຶ້ນ"</string>
+     <string name="extend_panel_skincolor_white">"ສີຂາວ"</string>
+     <string name="extend_panel_skincolor_rosy">"ສີບົວ"</string>
+     <string name="extend_panel_skincolor_wheat">"ສີເຫຼືອງອ່ອນ"</string>
+     <string name="extend_panel_lipscolor_fuchsia">"ແດງອົມມ້ວງ"</string>
+     <string name="extend_panel_lipscolor_pink">"ສີບົວ"</string>
+     <string name="extend_panel_lipscolor_crimson">"ສີແດງເຂັ້ມ"</string>
+     <string name="extend_panel_remove_blemish">"ສິວ"</string>
+     <string name="extend_panel_skin_colour">"ໂທນ​ສີ"</string>
+     <string name="extend_panel_red_lips">"ລິບ"</string>
+</resources>

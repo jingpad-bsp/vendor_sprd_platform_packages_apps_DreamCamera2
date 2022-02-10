@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  Copyright (C) 2007 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
+    <string name="app_name" msgid="1175086483881127797">"கேமரா"</string>
+    <string name="video_camera_label" msgid="1723708322021743770">"கேம்கார்டர்"</string>
+    <string name="details_ms" msgid="6618163484662724641">"%1$02d:%2$02d"</string>
+    <string name="details_hms" msgid="4842276230698703554">"%1$d:%2$02d:%3$02d"</string>
+    <string name="details" msgid="4404020741542549488">"விவரங்கள்"</string>
+    <string name="close" msgid="4826166926297479820">"மூடு"</string>
+    <string name="video_err" msgid="1562566029875081552">"வீடியோவை இயக்க முடியவில்லை."</string>
+    <string name="title" msgid="8061744305671964703">"தலைப்பு"</string>
+    <string name="description" msgid="8193138501982849808">"விளக்கம்"</string>
+    <string name="time" msgid="5248213506417024287">"நேரம்"</string>
+    <string name="location" msgid="564326205780827668">"இருப்பிடம்"</string>
+    <string name="path" msgid="5927003361865586353">"பாதை"</string>
+    <string name="width" msgid="7045750687833828758">"அகலம்"</string>
+    <string name="height" msgid="5186001199353423689">"உயரம்"</string>
+    <string name="orientation" msgid="3883761294106680270">"திசையமைப்பு"</string>
+    <string name="duration" msgid="5316211067383665008">"கால அளவு"</string>
+    <string name="mimetype" msgid="6415940055077963944">"MIME வகை"</string>
+    <string name="file_size" msgid="6841070748357980676">"கோப்பு அளவு"</string>
+    <string name="maker" msgid="698691509121545856">"உருவாக்குநர்"</string>
+    <string name="model" msgid="8547493604023069452">"மாடல்"</string>
+    <string name="flash" msgid="995041910749174196">"ஃப்ளாஷ்"</string>
+    <string name="aperture" msgid="2453802098282814022">"ஒளிபுகும் துவாரம்"</string>
+    <string name="focal_length" msgid="8351221512187346229">"குவியத்தூரம்"</string>
+    <string name="white_balance" msgid="1600142743496129085">"வெண்மை சமநிலை"</string>
+    <string name="exposure_time" msgid="949787291620767754">"எக்ஸ்போஷருக்கான நேரம்"</string>
+    <string name="iso" msgid="8578773821062054902">"ISO"</string>
+    <string name="unit_mm" msgid="5210344300697638286">"மி.மீ"</string>
+    <string name="manual" msgid="2444400953521760140">"கைமுறை"</string>
+    <string name="auto" msgid="2552649885114400474">"தானியங்கு"</string>
+    <string name="flash_on" msgid="6573457197393807642">"ஃப்ளாஷ் முடக்கப்பட்டது"</string>
+    <string name="flash_off" msgid="7889323512830926273">"ஃப்ளாஷ் இல்லை"</string>
+    <string name="unknown" msgid="564184550182858146">"அறியப்படாதது"</string>
+    <string name="camera_error_title" msgid="6200558085072670067">"கேமரா பிழை"</string>
+    <string name="error_cannot_connect_camera" msgid="2713059773224193128">"கேமராவுடன் இணைக்க முடியவில்லை."</string>
+    <string name="error_camera_disabled" msgid="5582398275657419692">"பாதுகாப்புக் கொள்கைகள் காரணமாக கேமரா முடக்கப்பட்டுள்ளது."</string>
+    <string name="error_media_storage_failure" msgid="7711687330673245629">"படம் அல்லது வீடியோவைச் சேமிப்பதில் சிக்கல்."</string>
+    <string name="error_permissions" msgid="3454167403425651254">"இயக்குவதற்குத் தேவைப்படும் முக்கியமான அனுமதிகள் பயன்பாட்டில் இல்லை. உங்கள் அனுமதிகளின் அமைப்புகளைச் சரிபார்க்கவும்."</string>
+    <string name="wait" msgid="765601745709933047">"காத்திருக்கவும்…"</string>
+    <string name="no_storage" product="default" msgid="5922012950780548098">"கேமராவைப் பயன்படுத்துவதற்கு முன், SD கார்டைச் செருகவும்."</string>
+    <string name="preparing_sd" product="default" msgid="7435693655017362767">"SD கார்டைத் தயார் செய்கிறது..."</string>
+    <string name="access_sd_fail" product="default" msgid="2634861611082499811">"SD கார்டை அணுக முடியவில்லை."</string>
+    <string name="time_lapse_title" msgid="3267978566401228497">"இடைவெளிக்கான நேரம் பதிவாகிறது"</string>
+    <string name="feedback_description_camera_access" msgid="419090951070170132">"பயன்பாட்டை கேமராவுடன் இணைக்க முடியவில்லை"</string>
+    <string name="feedback_description_save_photo" msgid="8658767358989083228">"சாதனத்தில் படம் அல்லது வீடியோ சேமிக்கப்படவில்லை."</string>
+    <string name="pref_camera_save_location_title" msgid="2344235620113384017">"இருப்பிடத்தைச் சேமி"</string>
+    <!-- no translation found for pref_camera_timer_sound_default (6225207881203007747) -->
+    <string name="setting_off" msgid="6782191065550276632">"முடக்கத்தில்"</string>
+    <string name="setting_on" msgid="9086728135773197891">"இயக்கத்தில்"</string>
+    <string name="pref_camera_settings_category" msgid="4274141528139077830">"கேமரா அமைப்பு"</string>
+    <string name="pref_camera_picturesize_entry_large" msgid="9014447075089601575">"பெரியது"</string>
+    <string name="pref_camera_picturesize_entry_medium" msgid="7708839551627003154">"நடுத்தரம்"</string>
+    <string name="pref_camera_picturesize_entry_small" msgid="2991239656622539068">"சிறியது"</string>
+    <string name="pref_camera_whitebalance_title" msgid="7962809566612868179">"வெண்மை சமநிலை"</string>
+    <string name="pref_camera_whitebalance_entry_auto" msgid="1390631794449502796">"தானியங்கு"</string>
+    <string name="pref_camera_whitebalance_entry_incandescent" msgid="1140391575294372706">"வெண்சுடர் ஒளி"</string>
+    <string name="pref_camera_whitebalance_entry_daylight" msgid="757833578153467254">"பகல்நேர ஒளி"</string>
+    <string name="pref_camera_whitebalance_entry_fluorescent" msgid="5157027611220790970">"ஒளிர்வு"</string>
+    <string name="pref_camera_whitebalance_entry_cloudy" msgid="3569589102226796875">"மேகமூட்டம்"</string>
+    <string name="pref_camera_scenemode_entry_auto" msgid="9205644316260850379">"தானியங்கு"</string>
+    <string name="pref_camera_scenemode_entry_action" msgid="5753183620959062015">"அசைவு"</string>
+    <string name="pref_camera_scenemode_entry_night" msgid="3468037364159759991">"இரவுநேர பயன்முறை"</string>
+    <!-- no translation found for pref_camera_hdr_default (5054955236904902318) -->
+    <!-- no translation found for pref_camera_hdr_plus_default (4827897029274554907) -->
+    <string name="dialog_ok" msgid="774141340500181131">"சரி"</string>
+    <string name="dialog_dismiss" msgid="1382550604990470119">"நிராகரி"</string>
+    <string name="video_reach_size_limit" msgid="9196836111505731836">"அளவிற்கான வரம்பை அடைந்துவிட்டீர்கள்."</string>
+    <string name="pano_too_fast_prompt" msgid="2503148095578052177">"மிகவும் விரைவானது"</string>
+    <string name="pano_dialog_prepare_preview" msgid="4445235163599534263">"பனோரமாவை உருவாக்குகிறது"</string>
+    <string name="pano_dialog_panorama_failed" msgid="6772546547048693619">"பனோரமாவைச் சேமிக்க முடியவில்லை."</string>
+    <string name="pano_dialog_title" msgid="6662642763395425145">"பனோரமா"</string>
+    <string name="pano_capture_indication" msgid="4002128831255023954">"பனோரமாவில் படமெடுக்கிறது"</string>
+    <string name="pano_dialog_waiting_previous" msgid="2646847402743245320">"முந்தைய பனோரமாவிற்காகக் காத்திருக்கிறது"</string>
+    <string name="pano_review_rendering" msgid="2743087719999377155">"பனோரமாவைப் பயன்படுத்துகிறது"</string>
+    <string name="video_recording_started" msgid="3374878415050991030">"வீடியோ பதிவு தொடங்கியது."</string>
+    <string name="video_recording_stopped" msgid="4658626532857624974">"வீடியோ பதிவு நிறுத்தப்பட்டது."</string>
+    <string name="accessibility_shutter_button" msgid="6040483605347230438">"ஷட்டர்"</string>
+    <string name="accessibility_cancel_button" msgid="5679989494636116448">"ரத்துசெய்"</string>
+    <string name="accessibility_review_cancel" msgid="5462850829869569629">"மதிப்பாய்வை ரத்துசெய்"</string>
+    <string name="accessibility_mode_list_hidden" msgid="3743267380450401866">"பயன்முறைப் பட்டியல் மூடப்பட்டது"</string>
+    <string name="accessibility_mode_list_shown" msgid="5284322142734069179">"பயன்முறைப் பட்டியல் திறக்கப்பட்டது"</string>
+    <string name="photo_accessibility_peek" msgid="5934133371001677250">"படமெடுக்கப்பட்டது"</string>
+    <string name="video_accessibility_peek" msgid="7845916149291383132">"வீடியோ எடுக்கப்பட்டது"</string>
+    <string name="accessibility_unlock_to_camera" msgid="1251880974313179442">"கேமராவிற்குத் திறக்கவும்"</string>
+    <string name="photo_date_content_description" msgid="5705865897898465619">"படம் எடுக்கப்பட்டது - %s"</string>
+    <string name="video_date_content_description" msgid="2151884014634284456">"வீடியோ எடுக்கப்பட்டது - %s"</string>
+    <string name="panorama_date_content_description" msgid="990703578639006144">"பனோரமா எடுக்கப்பட்டது - %s"</string>
+    <string name="photosphere_date_content_description" msgid="4183741743409007876">"360 டிகிரி பனோரமா எடுக்கப்பட்டது - %s"</string>
+    <string name="refocus_date_content_description" msgid="5630960320424345547">"லென்ஸ் மங்கல்தன்மை எடுக்கப்பட்டது - %s"</string>
+    <string name="media_processing_content_description" msgid="8138587719107183754">"மீடியா செயலாக்கத்தில்"</string>
+    <string name="accessibility_zoom_announcement" msgid="6976673411698319811">"அளவு மாற்ற மதிப்பு: %.1f"</string>
+    <string name="video_control_play" msgid="6895236811408921715">"வீடியோவை இயக்கு"</string>
+    <string name="remember_location_title" msgid="3045040613094030429">"பட இருப்பிடங்களை நினைவில் வைக்கவா?"</string>
+    <string name="remember_location_prompt" msgid="3006013504489919474">"உங்கள் படங்கள் மற்றும் வீடியோக்களை, அவை எடுக்கப்பட்ட இடங்களுடன் குறியிடவும்."</string>
+    <string name="remember_location_no" msgid="4412802756840226925">"நன்றி, வேண்டாம்"</string>
+    <string name="remember_location_yes" msgid="4339424460683531388">"ஆம்"</string>
+    <string name="create_tiny_planet" msgid="5186918191372107343">"சிறிய கிரகத்தை உருவாக்கு"</string>
+    <string name="saving_tiny_planet" msgid="8828265180177375494">"சிறிய கிரகத்தைச் சேமிக்கிறது …"</string>
+    <string name="tiny_planet_zoom" msgid="2985522360577158474">"அளவை மாற்று"</string>
+    <string name="tiny_planet_rotate" msgid="5445336705705350004">"சுழற்று"</string>
+    <string name="photo_editor" msgid="1521994560971367225">"ஃபோட்டோ எடிட்டர்"</string>
+    <string name="mode_settings" msgid="2021937261522670921">"அமைப்பு"</string>
+    <string name="mode_video" msgid="8633929034048169139">"வீடியோ"</string>
+    <string name="mode_panorama" msgid="6882648621305828861">"பனோரமா"</string>
+    <string name="mode_camera_desc" msgid="3670807361165657278">"கேமரா பயன்முறைக்கு மாறு"</string>
+    <string name="mode_panorama_desc" msgid="6023020404237519590">"பனோரமா பயன்முறைக்கு மாறு."</string>
+    <string name="mode_refocus_desc" msgid="6171183297515508465">"லென்ஸ் மங்கல்தன்மை பயன்முறைக்கு மாறு"</string>
+    <string name="hdr_plus_off_desc" msgid="5301287296717144319">"HDR ப்ளஸை முடக்கு"</string>
+    <string name="hdr_plus_on_desc" msgid="8204780034508139909">"HDR ப்ளஸ் இயக்கப்பட்டது"</string>
+    <string name="hdr_off_desc" msgid="7921924739852874675">"HDR ஐ முடக்கு"</string>
+    <string name="hdr_on_desc" msgid="4591284110249047558">"HDR இயக்கப்பட்டது"</string>
+    <string name="flash_off_desc" msgid="7151559466286106797">"ஃப்ளாஷை முடக்கு"</string>
+    <string name="flash_auto_desc" msgid="3009043125539675717">"ஃப்ளாஷ் தானியங்கு"</string>
+    <string name="flash_on_desc" msgid="930372145324854699">"ஃப்ளாஷ் இயக்கப்பட்டது"</string>
+    <string name="torch_on_desc" msgid="3069836196559213365">"ஒளிகாட்டி இயக்கப்பட்டது"</string>
+    <string name="torch_off_desc" msgid="8304675202998742618">"ஒளிகாட்டி முடக்கப்பட்டது"</string>
+    <string name="camera_id_back_desc" msgid="3566327490758890635">"பின்பக்க கேமரா"</string>
+    <string name="camera_id_front_desc" msgid="7497517948130254220">"முன்பக்க கேமரா"</string>
+    <string name="cancel_button_description" msgid="3801167024006905033">"ரத்துசெய்"</string>
+    <string name="done_button_description" msgid="1334963435441544592">"முடிந்தது"</string>
+    <string name="retake_button_description" msgid="4234613030674787714">"மீண்டும் எடு"</string>
+    <string name="review_button_description" msgid="7932122063748430080">"மதிப்பாய்வு செய்க"</string>
+    <string name="button_change_announcement" msgid="3759686152778772111">"பொத்தான் இப்போது %s இல் உள்ளது"</string>
+    <string name="pref_video_quality_entry_low" msgid="737962621299050603">"குறைவு"</string>
+    <string name="pref_video_quality_entry_high" msgid="1613578418842803393">"அதிகம்"</string>
+    <string name="pref_video_quality_entry_qcif" msgid="1717816794399266216">"QCIF"</string>
+    <string name="pref_video_quality_entry_cif" msgid="645414019445016434">"CIF"</string>
+    <string name="pref_video_quality_entry_480p" msgid="5880250731066854583">"SD 480p"</string>
+    <string name="pref_video_quality_entry_720p" msgid="4076146428148167262">"HD 720p"</string>
+    <string name="pref_video_quality_entry_1080p" msgid="4539958891524211120">"HD 1080p"</string>
+    <string name="pref_video_quality_entry_qvga" msgid="342600517453781430">"QVGA"</string>
+    <string name="pref_video_quality_entry_2160p" msgid="4522927631413184505">"UHD 4K"</string>
+    <string name="setting_summary_aspect_ratio_and_megapixels" msgid="5828440902461064821">"(%1$d:%2$d) %3$s மெகாபிக்சல்கள்"</string>
+    <string name="cling_text_for_refocus_editor_button" msgid="4785017397116829802">"மறுகவனம் செலுத்த, இங்கு தொடவும்"</string>
+    <string name="settings_cling_text" msgid="5368054627268181292">"அமைப்புகளில், தெளிவுத்திறனையும் தரத்தையும் மாற்றவும் அல்லது மேம்பட்ட அம்சங்களை முயற்சிக்கவும்."</string>
+    <string name="photo_size_selection_title" msgid="2789753590719172645">"பட அளவைத் தேர்வுசெய்க"</string>
+    <string name="photo_aspect_ratio_selection_content" msgid="6668224437962196229">"இதைப் பின்பு அமைப்புகளில் மாற்றலாம்."</string>
+    <string name="edit_with" msgid="615569327230783971">"இதன் மூலம் திருத்து"</string>
+    <string name="startup_dialog_button_next" msgid="1011831256978228993">"அடுத்து"</string>
+    <string name="confirm_button_text" msgid="7389949384482206814">"சரி, புரிந்தது"</string>
+    <string name="full_sensor_4x3_aspect_ratio" msgid="1270461419743888925">"முழு சென்சார் \n(4:3)"</string>
+    <string name="cropped_sensor_16x9_aspect_ratio" msgid="4742161537633251795">"செதுக்கிய சென்சார் \n(16:9)"</string>
+    <string name="session_saving_image" msgid="8932315404486416826">"சேமிக்கிறது..."</string>
+     <string name="pref_camera_antibanding_title">"ஆன்டிபேன்டிங்"</string>
+     <string name="pref_camera_jpeg_quality_title">"படத்தின் தரம்"</string>
+     <string name="pref_camera_jpeg_quality_entry_normal">"இயல்பான"</string>
+     <string name="pref_camera_jpeg_quality_entry_hight">"நன்று"</string>
+     <string name="pref_camera_jpeg_quality_entry_super_height">"மிகவும் நன்று"</string>
+     <string name="pref_camera_ai_detect_title">"AI கண்டறிதல்"</string>
+     <string name="pref_ai_detect_entry_off">ஆஃப்</string>
+     <string name="pref_ai_detect_entry_face">"முகம் - கண்டறிதல்"</string>
+     <string name="pref_ai_detect_entry_smile">"ஸ்மைல்-ஷட்டர்"</string>
+     <string name="pref_camera_storage_path_title">"சேமிப்பகப் பாதை"</string>
+     <string name="storage_path_internal">"அகம்"</string>
+     <string name="storage_path_external">"வெளிப்புறம்"</string>
+     <string name="pref_camera_color_effect_title">"வண்ண விளைவு"</string>
+     <string name="pref_camera_color_effect_entry_mono">"மோனோ"</string>
+     <string name="pref_camera_color_effect_entry_negative">எதிர்மறை</string>
+     <string name="pref_camera_color_effect_entry_sepia">சாம்பல்</string>
+     <string name="pref_camera_color_effect_entry_cold">குளிர்</string>
+     <string name="pref_camera_color_effect_entry_antique">"ஆன்டிக்"</string>
+     <string name="pref_camera_scenemode_entry_normal">"இயல்பான"</string>
+     <string name="pref_camera_scenemode_entry_portrait">"நீளவாக்குப்படம்"</string>
+     <string name="pref_camera_scenemode_entry_landscape">"அகலவாக்குப்படம்"</string>
+     <string name="pref_camera_continuous_capture_title">"பர்ஸ்ட்"</string>
+     <string name="pref_camera_contrast_title">"ஒளி மாறுபாடு"</string>
+     <string name="pref_camera_saturation_title">செறிவுநிலை</string>
+     <string name="pref_camera_iso_entry_auto">தானியக்கம்</string>
+     <string name="pref_camera_metering_title">அளத்தல்</string>
+     <string name="pref_camera_metering_entry_frame_average">ஃபிரேம்-சராசரி</string>
+     <string name="pref_camera_metering_entry_center_weighted">மைய-எடையிடப்பட்டது</string>
+     <string name="pref_camera_metering_entry_spot_metering">இட அளத்தல்</string>
+     <string name="switch_to_gallery">"படத்தொகுப்புக்கு மாறவும்"</string>
+     <string name="restore_done">செய்யப்பட்டது</string>
+     <string name="restore_cancel">@android:string/cancel</string>
+     <string name="message_save_task_memory_limit">""படம் சேவ் ஆகிக்கொண்டிருக்கிறது, தயவுசெய்து காத்திருக்கவும்." "</string>
+     <string name="pref_timelapse_title">"இடைவெளிக்கான நேரம்"</string>
+     <string name="pref_timelapse_entry_off">ஆஃப்</string>
+     <string name="pref_timelapse_entry_4">"0.12s (x4) இடைவெளி"</string>
+     <string name="pref_timelapse_entry_10">"0.3s (x10) இடைவெளி"</string>
+     <string name="pref_timelapse_entry_30">"0.1s (x30) இடைவெளி"</string>
+     <string name="pref_timelapse_entry_60">"0.2s (x60) இடைவெளி"</string>
+     <string name="pref_timelapse_entry_90">"0.3s (x90) இடைவெளி"</string>
+     <string name="pref_timelapse_entry_150">"0.5s (x150) இடைவெளி"</string>
+     <string name="pref_timelapse_entry_300">"0.10s (x300) இடைவெளி"</string>
+     <string name="pref_timelapse_entry_450">"0.15s (x450) இடைவெளி"</string>
+     <string name="pref_timelapse_entry_900">"0.30s (x900) இடைவெளி"</string>
+     <string name="pref_timelapse_entry_1800">"0.60s (x1800) இடைவெளி"</string>
+     <string name="pref_video_slow_motion_title">ஸ்லோ மோஷன்</string>
+     <string name="cannot_save_image">படத்தை சேமிக்க முடியாது, தயவு  செய்து மீண்டும் படமெடுக்கவும்"</string>
+     <string name="sdcard_remove">"sd அட்டை நீக்கப்பட்டது, பதிதல் கோப்பு சேமிக்கப்படவில்லை"</string>
+     <string name="pref_mirror_title">"கண்ணாடி பிரதிபலிப்பு"</string>
+    <string name="pref_camera_antibanding_entry_auto">தானியக்கம்</string>
+     <string name="sdcard_changeto_phone">"sd கார்டு நீக்கப்பட்டுள்ளது, சேமிப்புப் பாதை உள் நினைவகத்திற்கு மாறும்"</string>
+     <string name="pref_camera_quick_capture_title_volkey">"வால்யும் டவுண் கீ மீது இரண்டு கிளிக் செய்வதன் மூலம் விரைவாக படம் பிடிக்கலாம்"</string>
+     <string name="pref_camera_quick_capture_title_camkey">"கேமரா கீ மீது இரண்டு கிளிக் செய்வதன் மூலம் விரைவாக படம் பிடிக்கலாம்"</string>
+     <string name="pref_camera_quick_capture_entry_capture_with_back_camera">"பின் கேமரா மூலம் படம் பிடிக்கவும்"</string>
+     <string name="pref_camera_quick_capture_entry_capture_with_front_camera">"முன் கேமரா மூலம் படம் பிடிக்கவும்"</string>
+     <string name="pref_camera_quick_capture_entry_off">ஆஃப்</string>
+     <string name="slow_motion_does_not_support_zoom_change">"ஸ்லோ மோசன் செயல்பாடு ஆனாகி உள்ளது, சூம் அளவை மாற்ற முடியாது."</string>
+     <string name="current_module_does_not_support_zoom_change">"தற்போதைய தொகுதி செயல்பாடு ஆனாகி உள்ளது, சூம் அளவை மாற்ற முடியாது."</string>
+     <string name="camera_record_voice_tip">"படம் எடுத்த பிறகு நீங்கள் ரெக்கார்டு செய்யவும்"</string>
+     <string name="camera_record_voice_seconds">"s"</string>
+     <string name="camera_record_voice_failed">"தற்போது படம் எடுக்ககலாம், ஆனால் ரெக்கார்டு செய்ய முடியாது."</string>
+     <string name="battery_level_low">"பேட்டரி அளவு குறைவாக உள்ளது, ஃபிளாஷை பயன்படுத்த முடியாது."</string>
+     <string name="video_maximum_size_limit">"தற்போயை சேமிப்பு 4ஜிபி பதிவுக்கு அதிகமாக பொருந்துகிறது"</string>
+     <string name="phone_does_not_support_video">"தொலைபேசி இயங்கிக் கொண்டிருந்தால் வீடியோ துவங்காது."</string>
+     <string name="phone_does_not_support_audio_picture">"தொலைபேசி இயங்கிக் கொண்டிருந்தால் ஆடியோ படம் துவங்காது."</string>
+     <string name="pref_sensor_self_shot_title">"தொடர்பில்லா கண்ணாடி"</string>
+     <string name="not_support_zoom_change">"ஜூம் மதிப்பை மாற்ற முடியாது."</string>
+     <string name="blur_refocus_covered">"பட விளைவை உறுதிசெய்ய, லென்ஸை தடை செய்யவேண்டாம்!"</string>
+     <string name="recorder_in_progress_error">"ஆடியோ வளம் ஆக்கிரமிக்கப்பட்டுள்ளது, செயலியை மூடிவிட்டு, மீண்டும் முயற்சிக்கவும்."</string>
+     <string name="mode_video_desc_td">"3D வீடியோ"</string>
+     <string name="setting_front_camera_video_3d">"முன்புற கேமரா 3D வீடியோ"</string>
+     <string name="tdvideo_mutex">"படமெடுக்க சாதனத்தை செங்குத்தாக பிடித்திடுக"</string>
+     <string name="camera_record_voice_error">"ஆடியோ வளம் ஆக்கிரமிக்கப்பட்டுள்ளது, தற்போது படமெடுக்கலாம், ஆனால் பதிவு செய்ய முடியாது."</string>
+    <string name="countdown_duration_off">ஆஃப்</string>
+     <string name="close_float_video">"கேமராவைத் திறக்கும் போது வீடியோ மிதப்புச் சாளரங்களை மூடு."</string>
+     <string name="extend_panel_skincolor_white">"வெள்ளை"</string>
+     <string name="extend_panel_lipscolor_pink">"பிங்க்"</string>
+     <string name="extend_panel_skin_colour">"தொனி"</string>
+</resources>

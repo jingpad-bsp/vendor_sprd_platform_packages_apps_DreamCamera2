@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  Copyright (C) 2007 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
+    <string name="app_name" msgid="1175086483881127797">"કૅમેરો"</string>
+    <string name="video_camera_label" msgid="1723708322021743770">"કેમકોર્ડર"</string>
+    <string name="details_ms" msgid="6618163484662724641">"%1$02d:%2$02d"</string>
+    <string name="details_hms" msgid="4842276230698703554">"%1$d:%2$02d:%3$02d"</string>
+    <string name="details" msgid="4404020741542549488">"વિગતો"</string>
+    <string name="close" msgid="4826166926297479820">"બંધ કરો"</string>
+    <string name="video_err" msgid="1562566029875081552">"વિડિઓ ચલાવી શકતા નથી."</string>
+    <string name="title" msgid="8061744305671964703">"શીર્ષક"</string>
+    <string name="description" msgid="8193138501982849808">"વર્ણન"</string>
+    <string name="time" msgid="5248213506417024287">"સમય"</string>
+    <string name="location" msgid="564326205780827668">"સ્થાન"</string>
+    <string name="path" msgid="5927003361865586353">"પાથ"</string>
+    <string name="width" msgid="7045750687833828758">"પહોળાઈ"</string>
+    <string name="height" msgid="5186001199353423689">"ઊંચાઈ"</string>
+    <string name="orientation" msgid="3883761294106680270">"ઑરિએન્ટેશન"</string>
+    <string name="duration" msgid="5316211067383665008">"અવધિ"</string>
+    <string name="mimetype" msgid="6415940055077963944">"MIME પ્રકાર"</string>
+    <string name="file_size" msgid="6841070748357980676">"ફાઇલનું કદ"</string>
+    <string name="maker" msgid="698691509121545856">"નિર્માતા"</string>
+    <string name="model" msgid="8547493604023069452">"મોડેલ"</string>
+    <string name="flash" msgid="995041910749174196">"ફ્લેશ"</string>
+    <string name="aperture" msgid="2453802098282814022">"અપેરચર"</string>
+    <string name="focal_length" msgid="8351221512187346229">"ફોકલ લેન્થ"</string>
+    <string name="white_balance" msgid="1600142743496129085">"વ્હાઇટ બેલેન્સ"</string>
+    <string name="exposure_time" msgid="949787291620767754">"પ્રદર્શન સમય"</string>
+    <string name="iso" msgid="8578773821062054902">"ISO"</string>
+    <string name="unit_mm" msgid="5210344300697638286">"મિમી"</string>
+    <string name="manual" msgid="2444400953521760140">"મેન્યુઅલ"</string>
+    <string name="auto" msgid="2552649885114400474">"સ્વત"</string>
+    <string name="flash_on" msgid="6573457197393807642">"ફ્લેશ ફાયર્ડ"</string>
+    <string name="flash_off" msgid="7889323512830926273">"ફ્લેશ નહીં"</string>
+    <string name="unknown" msgid="564184550182858146">"અજાણ્યું"</string>
+    <string name="camera_error_title" msgid="6200558085072670067">"કૅમેરા ભૂલ"</string>
+    <string name="error_cannot_connect_camera" msgid="2713059773224193128">"કૅમેરા સાથે કનેક્ટ કરી શકાતું નથી."</string>
+    <string name="error_camera_disabled" msgid="5582398275657419692">"સુરક્ષા નીતિઓને કારણે કૅમેરો અક્ષમ કરવામાં આવ્યો છે."</string>
+    <string name="error_media_storage_failure" msgid="7711687330673245629">"તમારો ફોટો અથવા વિડિઓ સાચવવામાં સમસ્યા હતી."</string>
+    <string name="error_permissions" msgid="3454167403425651254">"એપ્લિકેશન પાસે શરૂ થવા માટેની મહત્વપૂર્ણ પરવાનગીઓ નથી. કૃપા કરીને તમારી પરવાનગીઓ સેટિંગ્સ તપાસો."</string>
+    <string name="wait" msgid="765601745709933047">"કૃપા કરીને રાહ જુઓ..."</string>
+    <string name="no_storage" product="default" msgid="5922012950780548098">"કૅમેરાનો ઉપયોગ કરતાં પહેલાં એક SD કાર્ડ દાખલ કરો."</string>
+    <string name="preparing_sd" product="default" msgid="7435693655017362767">"SD કાર્ડ તૈયાર કરી રહ્યું છે…"</string>
+    <string name="access_sd_fail" product="default" msgid="2634861611082499811">"SD કાર્ડ ઍક્સેસ કરી શકાયું નથી."</string>
+    <string name="time_lapse_title" msgid="3267978566401228497">"સમય વીતી ગયો રેકોર્ડિંગ"</string>
+    <string name="feedback_description_camera_access" msgid="419090951070170132">"એપ્લિકેશન કૅમેરાથી કનેક્ટ થઈ શકી નથી"</string>
+    <string name="feedback_description_save_photo" msgid="8658767358989083228">"ઉપકરણ પર ફોટો અથવા વિડિઓ સાચવી નહોતી."</string>
+    <string name="pref_camera_save_location_title" msgid="2344235620113384017">"સ્થાન સાચવો"</string>
+    <!-- no translation found for pref_camera_timer_sound_default (6225207881203007747) -->
+    <string name="setting_off" msgid="6782191065550276632">"બંધ"</string>
+    <string name="setting_on" msgid="9086728135773197891">"ચાલુ"</string>
+    <string name="pref_camera_settings_category" msgid="4274141528139077830">"કૅમેરા સેટિંગ્સ"</string>
+    <string name="pref_camera_picturesize_entry_large" msgid="9014447075089601575">"મોટું"</string>
+    <string name="pref_camera_picturesize_entry_medium" msgid="7708839551627003154">"મધ્યમ"</string>
+    <string name="pref_camera_picturesize_entry_small" msgid="2991239656622539068">"નાનું"</string>
+    <string name="pref_camera_whitebalance_title" msgid="7962809566612868179">"વ્હાઇટ બેલેન્સ"</string>
+    <string name="pref_camera_whitebalance_entry_auto" msgid="1390631794449502796">"સ્વત"</string>
+    <string name="pref_camera_whitebalance_entry_incandescent" msgid="1140391575294372706">"ઉષ્ણતાથી પ્રકાશિત"</string>
+    <string name="pref_camera_whitebalance_entry_daylight" msgid="757833578153467254">"ડેલાઇટ"</string>
+    <string name="pref_camera_whitebalance_entry_fluorescent" msgid="5157027611220790970">"ફ્લોરોસન્ટ"</string>
+    <string name="pref_camera_whitebalance_entry_cloudy" msgid="3569589102226796875">"વાદળછાયું"</string>
+    <string name="pref_camera_scenemode_entry_auto" msgid="9205644316260850379">"સ્વત"</string>
+    <string name="pref_camera_scenemode_entry_action" msgid="5753183620959062015">"ક્રિયા"</string>
+    <string name="pref_camera_scenemode_entry_night" msgid="3468037364159759991">"રાત"</string>
+    <!-- no translation found for pref_camera_hdr_default (5054955236904902318) -->
+    <!-- no translation found for pref_camera_hdr_plus_default (4827897029274554907) -->
+    <string name="dialog_ok" msgid="774141340500181131">"ઑકે"</string>
+    <string name="dialog_dismiss" msgid="1382550604990470119">"કાઢી નાખો"</string>
+    <string name="video_reach_size_limit" msgid="9196836111505731836">"કદની સીમાએ પહોંચી ગયા."</string>
+    <string name="pano_too_fast_prompt" msgid="2503148095578052177">"ખૂબ ઝડપથી"</string>
+    <string name="pano_dialog_prepare_preview" msgid="4445235163599534263">"પેનોરમા તૈયાર કરી રહ્યું છે"</string>
+    <string name="pano_dialog_panorama_failed" msgid="6772546547048693619">"પેનોરમા સાચવી શકાયું નથી."</string>
+    <string name="pano_dialog_title" msgid="6662642763395425145">"દૃશ્ય"</string>
+    <string name="pano_capture_indication" msgid="4002128831255023954">"કેપ્ચરિંગ પેનોરમા"</string>
+    <string name="pano_dialog_waiting_previous" msgid="2646847402743245320">"પહેલાના પેનોરમા માટે રાહ જોઈ રહ્યું છે"</string>
+    <string name="pano_review_rendering" msgid="2743087719999377155">"રેન્ડરિંગ પેનોરમા"</string>
+    <string name="video_recording_started" msgid="3374878415050991030">"વિડિઓ રેકોર્ડિંગ પ્રારંભ કરી છે."</string>
+    <string name="video_recording_stopped" msgid="4658626532857624974">"વિડિઓ રેકોર્ડિંગ બંધ કરી છે."</string>
+    <string name="accessibility_shutter_button" msgid="6040483605347230438">"શટર"</string>
+    <string name="accessibility_cancel_button" msgid="5679989494636116448">"રદ કરો"</string>
+    <string name="accessibility_review_cancel" msgid="5462850829869569629">"સમીક્ષા રદ કરો"</string>
+    <string name="accessibility_mode_list_hidden" msgid="3743267380450401866">"મોડ સૂચિ બંધ થઈ"</string>
+    <string name="accessibility_mode_list_shown" msgid="5284322142734069179">"મોડ સૂચિ ખુલી"</string>
+    <string name="photo_accessibility_peek" msgid="5934133371001677250">"ફોટો લેવાયો"</string>
+    <string name="video_accessibility_peek" msgid="7845916149291383132">"વિડિઓ લેવાયો"</string>
+    <string name="accessibility_unlock_to_camera" msgid="1251880974313179442">"કૅમેરાને અનલૉક કરો"</string>
+    <string name="photo_date_content_description" msgid="5705865897898465619">"%s પર લેવાયેલ ફોટો"</string>
+    <string name="video_date_content_description" msgid="2151884014634284456">"%s પર વિડિઓ લેવાયો"</string>
+    <string name="panorama_date_content_description" msgid="990703578639006144">"%s પર લેવાયેલ પેનોરમા"</string>
+    <string name="photosphere_date_content_description" msgid="4183741743409007876">"%s પર લેવાયેલ 360 ડિગ્રી પેનોરામા"</string>
+    <string name="refocus_date_content_description" msgid="5630960320424345547">"%s પર લેવાયેલ ફોકસ પ્રભાવ"</string>
+    <string name="media_processing_content_description" msgid="8138587719107183754">"મીડિયા પ્રોસેસિંગ"</string>
+    <string name="accessibility_zoom_announcement" msgid="6976673411698319811">"ઝૂમ મૂલ્ય %.1f છે"</string>
+    <string name="video_control_play" msgid="6895236811408921715">"વિડિઓ ચલાવો"</string>
+    <string name="remember_location_title" msgid="3045040613094030429">"ફોટો સ્થાનો યાદ રાખીએ?"</string>
+    <string name="remember_location_prompt" msgid="3006013504489919474">"તમારા ફોટા અને વિડિઓઝને તે જ્યાંથી લેવાયેલા તે સ્થાનો સાથે ટેગ કરો."</string>
+    <string name="remember_location_no" msgid="4412802756840226925">"નહીં આભાર"</string>
+    <string name="remember_location_yes" msgid="4339424460683531388">"હા"</string>
+    <string name="create_tiny_planet" msgid="5186918191372107343">"નાનું પ્લેનેટ બનાવો"</string>
+    <string name="saving_tiny_planet" msgid="8828265180177375494">"નાનું પ્લેનેટ સાચવી રહ્યું છે ..."</string>
+    <string name="tiny_planet_zoom" msgid="2985522360577158474">"ઝૂમ કરો"</string>
+    <string name="tiny_planet_rotate" msgid="5445336705705350004">"ફેરવો"</string>
+    <string name="photo_editor" msgid="1521994560971367225">"ફોટો સંપાદક"</string>
+    <string name="mode_settings" msgid="2021937261522670921">"સેટિંગ્સ"</string>
+    <string name="mode_video" msgid="8633929034048169139">"વિડિઓ"</string>
+    <string name="mode_panorama" msgid="6882648621305828861">"દૃશ્ય"</string>
+    <string name="mode_camera_desc" msgid="3670807361165657278">"કૅમેરા મોડ પર સ્વિચ કરો"</string>
+    <string name="mode_panorama_desc" msgid="6023020404237519590">"પેનોરમા મોડ પર સ્વિચ કરો"</string>
+    <string name="mode_refocus_desc" msgid="6171183297515508465">"ફોકસ પ્રભાવ મોડ પર સ્વિચ કરો"</string>
+    <string name="hdr_plus_off_desc" msgid="5301287296717144319">"HDR પ્લસ બંધ"</string>
+    <string name="hdr_plus_on_desc" msgid="8204780034508139909">"HDR પ્લસ ચાલુ"</string>
+    <string name="hdr_off_desc" msgid="7921924739852874675">"HDR બંધ"</string>
+    <string name="hdr_on_desc" msgid="4591284110249047558">"HDR ચાલુ"</string>
+    <string name="flash_off_desc" msgid="7151559466286106797">"ફ્લેશ બંધ"</string>
+    <string name="flash_auto_desc" msgid="3009043125539675717">"સ્વતઃફ્લેશ"</string>
+    <string name="flash_on_desc" msgid="930372145324854699">"ફ્લેશ ચાલુ"</string>
+    <string name="torch_on_desc" msgid="3069836196559213365">"ટોર્ચ ચાલુ"</string>
+    <string name="torch_off_desc" msgid="8304675202998742618">"ટોર્ચ બંધ"</string>
+    <string name="camera_id_back_desc" msgid="3566327490758890635">"પાછળનો કૅમેરા"</string>
+    <string name="camera_id_front_desc" msgid="7497517948130254220">"આગળનો કૅમેરા"</string>
+    <string name="cancel_button_description" msgid="3801167024006905033">"રદ કરો"</string>
+    <string name="done_button_description" msgid="1334963435441544592">"થઈ ગયું"</string>
+    <string name="retake_button_description" msgid="4234613030674787714">"ફરીથી લો"</string>
+    <string name="review_button_description" msgid="7932122063748430080">"સમીક્ષા કરો"</string>
+    <string name="button_change_announcement" msgid="3759686152778772111">"બટન હવે %s છે"</string>
+    <string name="pref_video_quality_entry_low" msgid="737962621299050603">"નિમ્ન"</string>
+    <string name="pref_video_quality_entry_high" msgid="1613578418842803393">"ઉચ્ચ"</string>
+    <string name="pref_video_quality_entry_qcif" msgid="1717816794399266216">"QCIF"</string>
+    <string name="pref_video_quality_entry_cif" msgid="645414019445016434">"CIF"</string>
+    <string name="pref_video_quality_entry_480p" msgid="5880250731066854583">"SD 480p"</string>
+    <string name="pref_video_quality_entry_720p" msgid="4076146428148167262">"HD 720p"</string>
+    <string name="pref_video_quality_entry_1080p" msgid="4539958891524211120">"HD 1080p"</string>
+    <string name="pref_video_quality_entry_qvga" msgid="342600517453781430">"QVGA"</string>
+    <string name="pref_video_quality_entry_2160p" msgid="4522927631413184505">"UHD 4K"</string>
+    <string name="setting_summary_aspect_ratio_and_megapixels" msgid="5828440902461064821">"(%1$d:%2$d) %3$s મેગાપિક્સેલ્સ"</string>
+    <string name="cling_text_for_refocus_editor_button" msgid="4785017397116829802">"રીફોકસ કરવા માટે, અહીં ટચ કરો"</string>
+    <string name="settings_cling_text" msgid="5368054627268181292">"સેટિંગ્સમાં, રિઝોલ્યુશન અને ગુણવત્તા બદલો અથવા વિગતવાર સુવિધાઓનો પ્રયાસ કરો."</string>
+    <string name="photo_size_selection_title" msgid="2789753590719172645">"ફોટોનું કદ પસંદ કરો"</string>
+    <string name="photo_aspect_ratio_selection_content" msgid="6668224437962196229">"તમે આને પછીથી સેટિંગ્સમાં બદલી શકો છો"</string>
+    <string name="edit_with" msgid="615569327230783971">"આનાથી સંપાદિત કરો"</string>
+    <string name="startup_dialog_button_next" msgid="1011831256978228993">"આગલું"</string>
+    <string name="confirm_button_text" msgid="7389949384482206814">"બરાબર, સમજાઇ ગયું"</string>
+    <string name="full_sensor_4x3_aspect_ratio" msgid="1270461419743888925">"પૂર્ણ સેન્સર \n(4:3)"</string>
+    <string name="cropped_sensor_16x9_aspect_ratio" msgid="4742161537633251795">"કાપેલું સેન્સર \n(16:9)"</string>
+    <string name="session_saving_image" msgid="8932315404486416826">"સાચવી રહ્યું છે..."</string>
+     <string name="pref_camera_antibanding_title">"એન્ટીબેન્ડીંગ"</string>
+     <string name="pref_camera_jpeg_quality_title">"પિક્ચરની ગુણવત્તા"</string>
+     <string name="pref_camera_jpeg_quality_entry_normal">"સામાન્ય"</string>
+     <string name="pref_camera_jpeg_quality_entry_hight">"સુંદર"</string>
+     <string name="pref_camera_jpeg_quality_entry_super_height">"અત્યંત સુંદર"</string>
+     <string name="pref_camera_ai_detect_title">"અલ ડિટેક્ટ"</string>
+     <string name="pref_ai_detect_entry_off">બંધ </string>
+     <string name="pref_ai_detect_entry_face">"ફેસ ડિટેક્ટ"</string>
+     <string name="pref_ai_detect_entry_smile">"સ્માઇલ શટર"</string>
+     <string name="pref_camera_storage_path_title">"સ્ટોરજ પાથ"</string>
+     <string name="storage_path_internal">"આંતરિક"</string>
+     <string name="storage_path_external">"બાહ્ય"</string>
+     <string name="pref_camera_color_effect_title">"કલરની અસર"</string>
+     <string name="pref_camera_color_effect_entry_mono">"Mono"</string>
+     <string name="pref_camera_color_effect_entry_negative">"નકારાત્મક"</string>
+     <string name="pref_camera_color_effect_entry_sepia">"ઘેરો લાલ કે ભૂર રંગ"</string>
+     <string name="pref_camera_color_effect_entry_cold">ઠંડુ</string>
+     <string name="pref_camera_color_effect_entry_antique">"પ્રાચીન"</string>
+     <string name="pref_camera_scenemode_entry_normal">"સામાન્ય"</string>
+     <string name="pref_camera_scenemode_entry_portrait">"પોર્ટ્રેઇટ"</string>
+     <string name="pref_camera_scenemode_entry_landscape">"લેન્ડસ્કેપ"</string>
+     <string name="pref_camera_continuous_capture_title">"સ્ફોટ"</string>
+     <string name="pref_camera_contrast_title">કોન્ટ્રાસ્ટ</string>
+     <string name="pref_camera_saturation_title">સંતૃપ્તી</string>
+     <string name="pref_camera_iso_entry_auto">"ઓટો"</string>
+     <string name="pref_camera_metering_title">મીટરીંગ</string>
+     <string name="pref_camera_metering_entry_frame_average">ફ્રેમ-સરેરાશ</string>
+     <string name="pref_camera_metering_entry_center_weighted">કેન્દ્ર લક્ષી </string>
+     <string name="pref_camera_metering_entry_spot_metering">સ્પોટ મીટરીંગ</string>
+     <string name="switch_to_gallery">"ગેલેરી પર જાઓ"</string>
+     <string name="restore_done">"પૂર્ણ"</string>
+     <string name="restore_cancel">@android:string/cancel</string>
+     <string name="message_save_task_memory_limit">"ચિત્ર સંગ્રહ થાય છે, કૃપા કરી રાહ જુઓ"</string>
+     <string name="pref_timelapse_title">"વ્યતીત સમય"</string>
+     <string name="pref_timelapse_entry_off">બંધ </string>
+     <string name="pref_timelapse_entry_4">"0.12s (x4)નો અંતરાલ"</string>
+     <string name="pref_timelapse_entry_10">"0.3s (x10)નો અંતરાલ"</string>
+     <string name="pref_timelapse_entry_30">"1s (x30)નો અંતરાલ"</string>
+     <string name="pref_timelapse_entry_60">"2s (x60)નો અંતરાલ"</string>
+     <string name="pref_timelapse_entry_90">"3s (x90)નો અંતરાલ"</string>
+     <string name="pref_timelapse_entry_150">"5s (x150)નો અંતરાલ"</string>
+     <string name="pref_timelapse_entry_300">"10s (x300)નો અંતરાલ"</string>
+     <string name="pref_timelapse_entry_450">"15s (x450)નો અંતરાલ"</string>
+     <string name="pref_timelapse_entry_900">"30s (x900)નો અંતરાલ"</string>
+     <string name="pref_timelapse_entry_1800">"60s (x1800)નો અંતરાલ"</string>
+     <string name="pref_video_slow_motion_title">ધીમી ગતિ</string>
+     <string name="cannot_save_image">"છબી સંગ્રહી શકાતી નથી, કૃપા કરી ફરીથી શૂટ કરો."</string>
+     <string name="sdcard_remove">“SD કાર્ડ દૂર કરી દેવાયું છે, કોઇ રેકોર્ડીંગ ફાઇલ સેવ કરવામાં આવી નથી”</string>
+     <string name="pref_mirror_title">"દર્પણનું પ્રતીબિંબ"</string>
+    <string name="pref_camera_antibanding_entry_auto">"ઓટો"</string>
+     <string name="sdcard_changeto_phone">"SD કાર્ડ દૂર કરવામાં આવેલ છે, સંગ્રહ પાથ આંતરિક સ્મૃતિમાં બદલાશે"</string>
+     <string name="pref_camera_quick_capture_title_volkey">"વોલ્યુમ ડાઉન કી પર બે વખત-ક્લિક કરી ઝડપી પ્રાપ્તિ "</string>
+     <string name="pref_camera_quick_capture_title_camkey">"કેમ કી પર બે વખત-ક્લિક કરી ઝડપથી પ્રાપ્તિ"</string>
+     <string name="pref_camera_quick_capture_entry_capture_with_back_camera">"બેક કેમેરાથી પ્રાપ્ત (કેપ્ચર) કરો"</string>
+     <string name="pref_camera_quick_capture_entry_capture_with_front_camera">"આગળ(ફ્રન્ટ) કેમેરાથી પ્રાપ્ત કરો (કેપ્ચર)કરો"</string>
+     <string name="pref_camera_quick_capture_entry_off">બંધ </string>
+     <string name="slow_motion_does_not_support_zoom_change">"સ્લો મોશન કામગીરી ચાલુ હોય ત્યારે ઝૂમ વેલ્યુમાં ફેરફાર થઈ શકે નહીં."</string>
+     <string name="current_module_does_not_support_zoom_change">"વર્તમાન મોડ્યુલ કાર્યરત છે, ઝૂમના મૂલ્યો બદલી શકાતા નથી."</string>
+     <string name="camera_record_voice_tip">"પિક્ચર લીધા બાદ તમે રેકોર્ડ અપ કરી શકો છો"</string>
+     <string name="camera_record_voice_seconds">"એસ"</string>
+     <string name="camera_record_voice_failed">"અત્યારે તમે પિક્ચર્સ લઈ શકો છો પરંતુ રેકોર્ડ કરી શકતા નથી."</string>
+     <string name="battery_level_low">"બેટરીનું સ્તર ઓછું છે, ફ્લેશનો ઉપયોગ થઈ શકે નહીં."</string>
+     <string name="video_maximum_size_limit">"વર્તમાન સંગ્રહ વધુમાં વધુ 4GB રેકોર્ડિંગને આધાર આપે છે"</string>
+     <string name="phone_does_not_support_video">"ટેલિફોન ચાલી રહ્યું છે માટે વિડીયો શરૂ થશે નહીં"</string>
+     <string name="phone_does_not_support_audio_picture">"ટેલિફોન ચાલી રહ્યું છે માટે ઓડિયો ચિત્ર શરૂ થશે નહીં"</string>
+
+     <string name="pref_sensor_self_shot_title">"નોન-કોન્ટેક્ટ મિરર"</string>
+     <string name="not_support_zoom_change">"ઝૂમ વેલ્યુ બદલી શકાય નહીં"</string>
+     <string name="blur_refocus_covered">"કૃપા કરી પિક્ચર ઈફેક્ટને સુનિશ્ચિત કરવા લેન્સને બ્લોક કરશો નહીં"</string>
+     <string name="recorder_in_progress_error">"ઓડિયો રિસોર્સ અધિકૃત કરેલ છે, કૃપા કરી એપ્લિકેશન બંધ કરો અને ફરી પ્રયત્ન કરશો."</string>
+     <string name="mode_video_desc_td">"3D વિડિયો"</string>
+     <string name="setting_front_camera_video_3d">"ફ્રન્ટ કેમેરા 3D વિડિયો"</string>
+     <string name="tdvideo_mutex">"શૂટ કરવા માટે કૃપા કરી ડિવાઈસને વર્ટીકલી હોલ્ડ કરો"</string>
+     <string name="camera_record_voice_error">"ઓડિયો રિસોર્સ અધિકૃત કરેલ છે, વર્તમાન સમયમાં પિક્ચર લઈ શકાય નહીં, પરંતુ રેકોર્ડ કરી શકાય તેમ નથી"</string>
+    <string name="countdown_duration_off">બંધ </string>
+     <string name="pref_camera_countdown_duration_title">"કાઉન્ટડાઉનનો સમયગાળો"</string>
+     <string name="pref_camera_self_timer_interval_title">"સેલ્ફ-ટાઈમર અંતરાય"</string>
+     <string name="pref_timelapse_entry_value_default">"1"</string>
+     <string name="usb_remove">"USB દૂર કરવામાં આવ્યું છે, રેકોર્ડિંગ ફાઈલ બચાવવામાં આવી નથી"</string>
+     <string name="usb_remove_photo_or_video">"USB દૂર કરવામાં આવ્યું છે"</string>
+     <string name="close_float_video"> "જ્યારે કેમેરો ખુલ્લો હોય ત્યારે વિડિયો ફ્લોટીંગ વિન્ડોને બંધ કરો"</string>
+     <string name="refocus_distance_tip">"કૃપા કરી મોબાઈલની બે મીટરની અંદર વસ્તુને રાખો"</string>
+     <string name="camera_blur_refocus_tip">"વર્ચ્યુલાઈઝેશનની પૃષ્ઠભૂમિની અસરને આ હાંસલ કરી શકે છે"</string>
+     <string name="refocus_front_distance_tip">"પોટ્રેટનું પિક્ચર માત્ર ફિલ્ડની ઉંચાઈ પર અસર કરે છે"</string>
+     <string name="refocus_move_closer_tip">"નજીક ખસેડો"</string>
+     <string name="refocus_move_further_tip">"આગળ ખસેડો"</string>
+     <string name="refocus_need_more_light_tip">"વધુ ઉંચાઈની જરૂર"</string>
+     <string name="extend_panel_skin_smooth">"સરળ"</string>
+     <string name="extend_panel_skin_bright">"ચમકદાર"</string>
+     <string name="extend_panel_skincolor_white">"સફેદ"</string>
+     <string name="extend_panel_skincolor_rosy">"ગુલાબી"</string>
+     <string name="extend_panel_skincolor_wheat">"ઘઉં"</string>
+     <string name="extend_panel_lipscolor_fuchsia">"ફ્યુશિયા"</string>
+     <string name="extend_panel_lipscolor_pink">"ગુલાબી"</string>
+     <string name="extend_panel_lipscolor_crimson">"ક્રિમસન"</string>
+     <string name="extend_panel_remove_blemish">"ખીલ"</string>
+     <string name="extend_panel_skin_colour">"ટોન"</string>
+     <string name="extend_panel_red_lips">"હોઠ"</string>
+</resources>

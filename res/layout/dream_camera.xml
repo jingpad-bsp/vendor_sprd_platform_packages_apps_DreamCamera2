@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- SPRD: bug 519287 modify the backgound color from black to transparent -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/camera_app_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black" >
+
+    <TextureView
+        android:id="@+id/preview_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!--SPRD: fix bug 700467 TextureView need cover by using SurfaceView @{ -->
+    <View
+        android:id="@+id/preview_content_cover"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/black"
+        android:visibility="gone"
+    />
+
+    <!-- SPRD: Add for Filter Feature -->
+
+    <include layout="@layout/ucam_magiclens_module" />
+
+    <!-- SPRD: Fix bug 613015 add SurfaceView support -->
+
+    <com.android.camera.SurfaceViewEx
+        android:id="@+id/preview_content_surfaceview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+    <include layout="@layout/layout_light_portrait_overlay" />
+    <FrameLayout
+        android:id="@+id/bottom_frame"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bottom_bar_height"
+        android:layout_gravity="center|bottom"
+        android:background="#33111111"
+        android:visibility="gone" />
+    <FrameLayout
+        android:id="@+id/top_frame"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/top_panel_height"
+        android:layout_gravity="center|top"
+        android:background="#33111111"
+        android:visibility="gone" />
+    <TextView
+        android:id="@+id/motion_photo_tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/motion_photo_on"
+        android:textSize="@dimen/mode_selector_text_size"
+        android:background="@drawable/blur_effect_highlight"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="75dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:textColor ="#FF333333"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/light_portrait_tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/mode_selector_text_size"
+        android:background="@drawable/disable"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="75dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:textColor ="#FFFFFF"
+        android:visibility="gone" />
+
+    <TextView
+            android:id="@+id/zoom_extend_tip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/mode_selector_text_size"
+            android:background="@drawable/blur_effect_highlight"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="80dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:textColor ="#FF333333"
+            android:visibility="gone" />
+    <!-- SPRD: Add for voice picture -->
+    <ViewStub
+        android:id="@+id/layout_voice_preview_id"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout="@layout/layout_voice_preview" />
+    <com.android.camera.ui.Level
+            android:id="@+id/level"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"/>
+    <FrameLayout
+        android:id="@+id/under_preview_drawing_chart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/lock_ae_tip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="48dp"
+            android:background="@drawable/blur_effect_highlight"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:text="@string/lock_ae_and_af"
+            android:textColor="#FF333333"
+            android:textSize="@dimen/mode_selector_text_size"
+            android:visibility="gone" />
+
+        <com.android.camera.ui.focus.FocusRingView
+            android:id="@+id/focus_ring"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <com.android.camera.ui.focus.ChasingView
+            android:id="@+id/chasing_ring"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <com.android.camera.ui.FaceView
+            android:id="@+id/face_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ViewStub
+            android:id="@+id/layout_grid_lines_id"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout="@layout/layout_grid_lines" />
+    </FrameLayout>
+
+    <com.android.camera.ui.CaptureAnimationOverlay
+        android:id="@+id/capture_overlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible" />
+
+    <com.android.camera.ui.PreviewOverlay
+        android:id="@+id/preview_overlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.android.camera.ui.RotateImageView
+        android:id="@+id/intent_review_imageview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/black"
+        android:clickable="true"
+        android:scaleType="fitCenter"
+        android:visibility="gone" />
+
+    <ViewStub
+        android:id="@+id/layout_photo_voice_record_progess_id"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout="@layout/photo_voice_record_progress" />
+
+    <FrameLayout
+        android:id="@+id/module_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <ImageView
+        android:id="@+id/switch_transition_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        android:visibility="gone" />
+
+    <ViewStub
+        android:id="@+id/layout_adjust_panel_id"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout="@layout/layout_adjust_panel" />
+
+    <FrameLayout
+        android:id="@+id/over_preview_drawing_chart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ViewStub
+            android:id="@+id/layout_ae_lock_panel_id"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout="@layout/layout_ae_lock_panel" />
+
+     </FrameLayout>
+
+    <!--add end-->
+    <!-- SPRD:Dream Camera top panel -->
+
+    <FrameLayout
+        android:id="@+id/top_panel_parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top" />
+
+    <TextView
+        android:id="@+id/current_module_tip"
+        style="@style/DreamText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="74dp"
+        android:text="@string/camera_mode"
+        android:textSize="@dimen/mode_selector_text_size"
+        android:visibility="gone" />
+    <TextView
+        android:id="@+id/blur_effect_tip"
+        android:layout_width="wrap_content"
+        android:layout_height="18dp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="top|center_horizontal"
+        android:gravity="center"
+        android:text="@string/refocus_effect_tip"
+        android:textSize="@dimen/blur_effect_text_size"
+        android:visibility="gone" />
+    <TextView
+        android:id="@+id/current_module_second_tip"
+        style="@style/DreamText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="74dp"
+        android:textSize="@dimen/mode_selector_text_size"
+        android:visibility="gone" />
+    <!-- SPRD:Dream Camera side panel -->
+
+    <!-- add this RotateImageView for show result of AI Scene Detect -->
+    <com.android.camera.ui.RotateImageView
+        android:id="@+id/ai_scene_icon_view"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_gravity = "center_vertical"
+        android:layout_marginBottom = "48dp"
+        android:layout_marginLeft = "16dp"
+        android:scaleType="fitCenter"
+        android:visibility="visible" />
+
+    <!-- add this RotateImageView for show switch of Ultra Wide Angle -->
+    <com.android.camera.ui.RotateImageView
+        android:id="@+id/switch_ultra_wide_angle_module"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_gravity = "top|right"
+        android:layout_marginTop = "56dp"
+        android:layout_marginRight = "16dp"
+        android:scaleType="fitCenter"
+        android:visibility="gone" />
+    <!-- layout_marginBottom = "32dp" : keep center (vertical) align with ai_scene_icon_view -->
+
+    <!-- SPRD:Dream Camera extend panel -->
+
+    <ViewStub
+        android:id="@+id/extend_panel_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout="@layout/layout_extend_panel"
+        android:orientation="vertical" />
+
+    <include layout="@layout/zoom_panel" />
+
+    <ViewStub
+        android:id="@+id/layout_blur_panel_id"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout="@layout/layout_blur_panel" />
+
+    <ViewStub
+        android:id="@+id/layout_adjust_flash_panel_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="62dp"
+        android:layout="@layout/layout_adjust_flash_panel" />
+
+    <ViewStub
+        android:id="@+id/dream_sticky_bottom_capture_layout_id"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout="@layout/dream_sticky_bottom_capture_layout" />
+
+    <FrameLayout
+        android:id="@+id/dream_module_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center" />
+
+    <ViewStub
+        android:id="@+id/layout_ucam_magiclens_bottom_id"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout="@layout/ucam_magiclens_bottom" />
+
+    <ViewStub
+        android:id="@+id/dream_mode_list_layout_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout="@layout/dream_mode_list_layout" />
+
+    <View
+        android:id="@+id/setting_layout_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/dream_background_transluent"
+        android:visibility="gone" />
+    <ViewStub
+        android:id="@+id/dream_ui_preference_setting_layout_id"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout="@layout/dream_ui_preference_setting_layout" />
+    <!-- SPRD:Dream Camera slide panel -->
+    <ViewStub
+        android:id="@+id/slide_panel_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout="@layout/slide_panel" />
+
+    <ViewStub
+        android:id="@+id/layout_dream_welcome_id"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout="@layout/dream_welcome" />
+    <View
+        android:id="@+id/switch_background_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/black"
+        android:visibility="gone" />
+
+</FrameLayout>

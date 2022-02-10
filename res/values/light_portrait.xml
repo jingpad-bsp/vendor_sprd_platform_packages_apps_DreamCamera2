@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- text color -->
+    <color name="light_portrait_color_selected">#E6D417</color>
+    <color name="light_portrait_color_unselected">#FFFFFF</color>
+    <color name="light_portrait_color_disable">#7FFFFFFF</color>
+
+    <!-- light portrait description -->
+    <string name="light_portrait_des_butterfly">butterfly</string>
+    <string name="light_portrait_des_classic">classic</string>
+    <string name="light_portrait_des_contour">contour</string>
+    <string name="light_portrait_des_no">no</string>
+    <string name="light_portrait_des_split">split</string>
+    <string name="light_portrait_des_stage">stage</string>
+    <string name="light_portrait_des_studio">studio</string>
+    <string name="light_portrait_des_wavedot">wavedot</string>
+    <string name="light_portrait_des_window">window</string>
+
+    <!-- light portrait mode key -->
+    <string name="light_portrait_key_butterfly">light_portrait_key_butterfly</string>
+    <string name="light_portrait_key_classic">light_portrait_key_classic</string>
+    <string name="light_portrait_key_contour">light_portrait_key_contour</string>
+    <string name="light_portrait_key_no">light_portrait_key_no</string>
+    <string name="light_portrait_key_split">light_portrait_key_split</string>
+    <string name="light_portrait_key_stage">light_portrait_key_stage</string>
+    <string name="light_portrait_key_studio">light_portrait_key_studio</string>
+    <string name="light_portrait_key_wavedot">light_portrait_key_wavedot</string>
+    <string name="light_portrait_key_window">light_portrait_key_window</string>
+
+    <string name="light_portrait_key_butterfly_value">2</string>
+    <string name="light_portrait_key_classic_value">6</string>
+    <string name="light_portrait_key_contour_value">4</string>
+    <string name="light_portrait_key_no_value">0</string>
+    <string name="light_portrait_key_split_value">3</string>
+    <string name="light_portrait_key_stage_value">5</string>
+    <string name="light_portrait_key_studio_value">1</string>
+    <string name="light_portrait_key_wavedot_value">8</string>
+    <string name="light_portrait_key_window_value">7</string>
+
+    <integer-array name="light_portrait_item_butterfly">
+        <item>@string/light_portrait_key_butterfly</item>
+        <item>@string/light_portrait_des_butterfly</item>
+        <item>@drawable/ic_operate_portrait_light_butterfly_sprd_selected</item>
+        <item>@drawable/ic_operate_portrait_light_butterfly_sprd_unselected</item>
+        <item>@drawable/ic_operate_portrait_light_butterfly_sprd_unselected</item>
+        <item>@color/light_portrait_color_selected</item>
+        <item>@color/light_portrait_color_unselected</item>
+        <item>@color/light_portrait_color_disable</item>
+        <item>@string/light_portrait_key_butterfly_value</item>
+    </integer-array>
+    <integer-array name="light_portrait_item_classic">
+        <item>@string/light_portrait_key_classic</item>
+        <item>@string/light_portrait_des_classic</item>
+        <item>@drawable/ic_operate_portrait_light_classic_sprd_selected</item>
+        <item>@drawable/ic_operate_portrait_light_classic_sprd_unselected</item>
+        <item>@drawable/ic_operate_portrait_light_classic_sprd_unselected</item>
+        <item>@color/light_portrait_color_selected</item>
+        <item>@color/light_portrait_color_unselected</item>
+        <item>@color/light_portrait_color_disable</item>
+        <item>@string/light_portrait_key_classic_value</item>
+    </integer-array>
+    <integer-array name="light_portrait_item_contour">
+        <item>@string/light_portrait_key_contour</item>
+        <item>@string/light_portrait_des_contour</item>
+        <item>@drawable/ic_operate_portrait_light_contour_sprd_selected</item>
+        <item>@drawable/ic_operate_portrait_light_contour_sprd_unselected</item>
+        <item>@drawable/ic_operate_portrait_light_contour_sprd_unselected</item>
+        <item>@color/light_portrait_color_selected</item>
+        <item>@color/light_portrait_color_unselected</item>
+        <item>@color/light_portrait_color_disable</item>
+        <item>@string/light_portrait_key_contour_value</item>
+    </integer-array>
+    <integer-array name="light_portrait_item_no">
+        <item>@string/light_portrait_key_no</item>
+        <item>@string/light_portrait_des_no</item>
+        <item>@drawable/ic_operate_portrait_light_no_sprd_selected</item>
+        <item>@drawable/ic_operate_portrait_light_no_sprd_unselected</item>
+        <item>@drawable/ic_operate_portrait_light_no_sprd_unselected</item>
+        <item>@color/light_portrait_color_selected</item>
+        <item>@color/light_portrait_color_unselected</item>
+        <item>@color/light_portrait_color_disable</item>
+        <item>@string/light_portrait_key_no_value</item>
+    </integer-array>
+    <integer-array name="light_portrait_item_split">
+        <item>@string/light_portrait_key_split</item>
+        <item>@string/light_portrait_des_split</item>
+        <item>@drawable/ic_operate_portrait_light_split_sprd_selected</item>
+        <item>@drawable/ic_operate_portrait_light_split_sprd_unselected</item>
+        <item>@drawable/ic_operate_portrait_light_split_sprd_unselected</item>
+        <item>@color/light_portrait_color_selected</item>
+        <item>@color/light_portrait_color_unselected</item>
+        <item>@color/light_portrait_color_disable</item>
+        <item>@string/light_portrait_key_split_value</item>
+    </integer-array>
+    <integer-array name="light_portrait_item_stage">
+        <item>@string/light_portrait_key_stage</item>
+        <item>@string/light_portrait_des_stage</item>
+        <item>@drawable/ic_operate_portrait_light_stage_sprd_selected</item>
+        <item>@drawable/ic_operate_portrait_light_stage_sprd_unselected</item>
+        <item>@drawable/ic_operate_portrait_light_stage_sprd_unselected</item>
+        <item>@color/light_portrait_color_selected</item>
+        <item>@color/light_portrait_color_unselected</item>
+        <item>@color/light_portrait_color_disable</item>
+        <item>@string/light_portrait_key_stage_value</item>
+    </integer-array>
+
+    <integer-array name="light_portrait_item_studio">
+        <item>@string/light_portrait_key_studio</item>
+        <item>@string/light_portrait_des_studio</item>
+        <item>@drawable/ic_operate_portrait_light_studio_sprd_selected</item>
+        <item>@drawable/ic_operate_portrait_light_studio_sprd_unselected</item>
+        <item>@drawable/ic_operate_portrait_light_studio_sprd_unselected</item>
+        <item>@color/light_portrait_color_selected</item>
+        <item>@color/light_portrait_color_unselected</item>
+        <item>@color/light_portrait_color_disable</item>
+        <item>@string/light_portrait_key_studio_value</item>
+    </integer-array>
+
+    <integer-array name="light_portrait_item_wavedot">
+        <item>@string/light_portrait_key_wavedot</item>
+        <item>@string/light_portrait_des_wavedot</item>
+        <item>@drawable/ic_operate_portrait_light_wavedot_sprd_selected</item>
+        <item>@drawable/ic_operate_portrait_light_wavedot_sprd_unselected</item>
+        <item>@drawable/ic_operate_portrait_light_wavedot_sprd_unselected</item>
+        <item>@color/light_portrait_color_selected</item>
+        <item>@color/light_portrait_color_unselected</item>
+        <item>@color/light_portrait_color_disable</item>
+        <item>@string/light_portrait_key_wavedot_value</item>
+    </integer-array>
+
+    <integer-array name="light_portrait_item_window">
+        <item>@string/light_portrait_key_window</item>
+        <item>@string/light_portrait_des_window</item>
+        <item>@drawable/ic_operate_portrait_light_window_sprd_selected</item>
+        <item>@drawable/ic_operate_portrait_light_window_sprd_unselected</item>
+        <item>@drawable/ic_operate_portrait_light_window_sprd_unselected</item>
+        <item>@color/light_portrait_color_selected</item>
+        <item>@color/light_portrait_color_unselected</item>
+        <item>@color/light_portrait_color_disable</item>
+        <item>@string/light_portrait_key_window_value</item>
+    </integer-array>
+
+    <integer-array name="light_portrait_mode_list">
+        <item>@array/light_portrait_item_no</item>
+        <item>@array/light_portrait_item_studio</item>
+        <item>@array/light_portrait_item_butterfly</item>
+        <item>@array/light_portrait_item_split</item>
+        <item>@array/light_portrait_item_contour</item>
+        <item>@array/light_portrait_item_stage</item>
+        <item>@array/light_portrait_item_classic</item>
+        <item>@array/light_portrait_item_window</item>
+        <item>@array/light_portrait_item_wavedot</item>
+    </integer-array>
+
+</resources>

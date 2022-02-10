@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="filter_name_bismuth">"โมโน"</string>
+    <string name="filter_name_crisp_winter">"ฤดูหนาว"</string>
+     <string name="filter_name_early_bird">"รำลึกวันวาน"</string>
+     <string name="filter_name_film_stock">"สดใส"</string>
+     <string name="filter_name_horror_blue">"น้ำเงิน"</string>
+     <string name="filter_name_nashville">"แนชวิลล์"</string>
+     <string name="filter_name_soft_warming">"เคลวิน"</string>
+     <string name="filter_name_warm">"อบอุ่น"</string>
+     <string name="filter_name_history">"ประวัติ"</string>
+
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="filter_name_crisp_winter">"చలికాలం"</string>
+<string name="filter_name_early_bird">"నోస్టాల్జియా"</string>
+<string name="filter_name_film_stock">"వివిద్"</string>
+<string name="filter_name_horror_blue">"బ్లూ"</string>
+<string name="filter_name_nashville">"నశ్‌విల్లె"</string>
+<string name="filter_name_soft_warming">"కెల్విన్"</string>
+<string name="filter_name_bismuth">"మోనో"</string>
+<string name="filter_name_warm">"వెచ్చని"</string>
+<string name="filter_name_history">"చరిత్ర"</string>
+</resources>

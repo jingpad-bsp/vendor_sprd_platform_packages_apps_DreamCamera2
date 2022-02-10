@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="filter_name_crisp_winter">"ေဆာင္း"</string>
+<string name="filter_name_early_bird">"ေရွးေဟာင္းေနွာင္းျဖစ္"</string>
+<string name="filter_name_film_stock">"ထင္ရွားျပတ္သား"</string>
+<string name="filter_name_horror_blue">"အျပာေရာင္"</string>
+<string name="filter_name_nashville">"Nashville"</string>
+<string name="filter_name_soft_warming">"ကယ္လ္ဗင္"</string>
+<string name="filter_name_bismuth">"Mono"</string>
+<string name="filter_name_warm">"ေႏြးေထြးေသာ"</string>
+<string name="filter_name_history">"မွတ္တမ္း"</string>
+</resources>

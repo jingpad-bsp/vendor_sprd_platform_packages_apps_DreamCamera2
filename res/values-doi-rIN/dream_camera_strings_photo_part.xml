@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="pref_camera_composition_line_key_title">"संरचना रेखा"</string>
+<string name="pref_camera_composition_line_key_entry_close">"बंद करो"</string>
+<string name="pref_camera_composition_line_key_entry_grid">"ग्रिड"</string>
+<string name="pref_camera_composition_line_key_entry_goldensection">"गोल्डन सेक्शन"</string>
+<string name="pref_camera_composition_line_key_entry_reticle">"क्रास चि\'न्न"</string>
+<string name="pref_camera_composition_line_key_entry_box">"बाक्स"</string>
+<string name="pref_camera_photograph_eois_key_title">"फोटो स्थिरीकरण"</string>
+<string name="pref_camera_hdr_normal_pic_key_title">"HDR लेई सामान्य तस्वीर सहेजो"</string>
+<string name="pref_camera_gradienter_key_title">"ग्रेडिएंटर"</string>
+<string name="pref_camera_touching_photograph_key_title">"टचिंग फोटोग्राफ"</string>
+<string name="pref_camera_zsl_key_title">"ZSL"</string>
+<string name="pref_dream_high_iso_tilte">"उच्च ISO"</string>
+</resources>

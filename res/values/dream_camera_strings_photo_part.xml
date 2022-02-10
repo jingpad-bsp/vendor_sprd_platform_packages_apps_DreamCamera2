@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ******************** start preference *** part setting ************************ -->
+    <!-- =============================preference string -->
+    <!-- composition line -->
+    <string name="pref_camera_composition_line_key_title">Composition line</string>
+    <string name="pref_camera_composition_line_key_entry_close">Close</string>
+    <string name="pref_camera_composition_line_key_entry_grid">Grid</string>
+    <string name="pref_camera_composition_line_key_entry_goldensection">Golden section</string>
+    <string name="pref_camera_composition_line_key_entry_reticle">Reticle</string>
+    <string name="pref_camera_composition_line_key_entry_box">Box</string>
+    <string name="pref_camera_composition_line_key_entry_values_close" translatable="false">close</string>
+    <string name="pref_camera_composition_line_key_entry_values_grid" translatable="false">grid</string>
+    <string name="pref_camera_composition_line_key_entry_values_goldensection" translatable="false">golden section</string>
+    <string name="pref_camera_composition_line_key_entry_values_reticle" translatable="false">reticle</string>
+    <string name="pref_camera_composition_line_key_entry_values_box" translatable="false">box</string>
+
+    <!-- photograph eois -->
+    <string name="pref_camera_photograph_eois_key_title">photograph stabilization</string>
+    <!-- save normal pic for HDR -->
+    <string name="pref_camera_hdr_normal_pic_key_title">Save normal pic for HDR</string>
+    <!-- gradienter -->
+    <string name="pref_camera_gradienter_key_title">Gradienter</string>
+    <!-- touching photograph -->
+    <string name="pref_camera_touching_photograph_key_title">Touching photograph</string>
+    <!-- time stamp -->
+    <!-- zsl -->
+    <string name="pref_camera_zsl_key_title">ZSL</string>
+    <!--auto tracking-->
+    <string name="pref_auto_tracking_key_title">Auto Tracking</string>
+    <string name="pref_auto_tracking_summary">Touch the object you want to focus on, The camera will then track and focus on that object</string>
+    <!--  High ISO -->
+    <string name="pref_dream_high_iso_tilte">High ISO</string>
+    <string name="pref_camera_director_key" translatable="false">pref_director</string>
+    <string name="preference_director_default_value" translatable="false">land</string>
+
+    <string name="pref_filter_photo_key">pref_filter_photo_key</string>
+
+    <string name="pref_make_up_display_key">pref_make_up_display_key</string>
+    <string name="pref_filter_video_display_key">pref_filter_video_display_key</string>
+    <string name="pref_light_portrait_display_key">pref_light_portrait_display_key</string>
+    <string name="pref_light_portrait_key">pref_light_portrait_key</string>
+    <string name="pref_portrait_refocus_key">pref_portrait_refocus_key</string>
+    <string name="pref_portrait_refocus_close_key">pref_portrait_refocus_close_key</string>
+    <string name="pref_portrait_refocus_display_key">pref_portrait_refocus_display_key</string>
+    <!-- ******************** end preference *** part setting ************************ -->
+    <string name="pref_color_effect_photo_display_key">pref_color_effect_photo_display_key</string>
+
+</resources>

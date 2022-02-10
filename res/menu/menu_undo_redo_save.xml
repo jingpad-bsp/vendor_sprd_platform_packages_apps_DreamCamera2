@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/refocus_edit_undo"
+    android:showAsAction="always"
+    android:title="@string/refocus_photo_edit_undo"/>
+    <item android:id="@+id/refocus_edit_redo"
+    android:showAsAction="always"
+    android:title="@string/refocus_photo_edit_redo"/>
+    <item android:id="@+id/refocus_edit_save"
+    android:showAsAction="always"
+    android:title="@string/refocus_photo_edit_save"/>
+</menu>

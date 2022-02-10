@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/dream_blur_refocus_panel"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="bottom"
+    android:layout_marginBottom="26dp"
+    android:visibility="gone"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.android.camera.ui.RotateLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/current_blur_f_number_level"
+                style="@style/DreamText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/zoom_value_text_size" />
+        </com.android.camera.ui.RotateLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="6dp"
+        android:orientation="horizontal"
+        android:clickable="true" >
+
+        <LinearLayout
+            android:id="@+id/close_f_number"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="3dp"
+            android:gravity="center"
+            android:visibility="gone"
+            android:orientation="horizontal">
+
+            <com.android.camera.ui.RotateLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <include layout="@layout/layout_selector_switch_blur" />
+            </com.android.camera.ui.RotateLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="36dp"
+                android:background="#B3FFFFFF"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="3dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.android.camera.ui.RotateLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/min_blur_f_number_level"
+                android:text="@string/min_blur_f_number_level"
+                style="@style/DreamText"
+                android:textSize="13dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </com.android.camera.ui.RotateLayout>
+       </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+            <SeekBar
+        android:id="@+id/blur_f_number_seekbar"
+        android:layout_width="match_parent"
+        style="@style/DreamSeekbarExceptMaualModule"
+        android:max="9"
+        android:progress="3"/>
+ </LinearLayout>
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginRight="3dp"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <com.android.camera.ui.RotateLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/max_blur_f_number_level"
+                android:text="@string/max_blur_f_number_level"
+                style="@style/DreamText"
+                android:textSize="13dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </com.android.camera.ui.RotateLayout>
+       </LinearLayout>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:clickable="true" >
+
+            <TextView
+                android:id="@+id/blur_f_number_tip"
+                android:text="@string/blur_f_number_effect"
+                style="@style/FixedDreamText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+</LinearLayout>

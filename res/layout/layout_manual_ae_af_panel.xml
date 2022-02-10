@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.dream.camera.ui.ManualAeAfPanel xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:camera="http://schemas.android.com/apk/res/com.android.camera2"
+    android:id="@+id/manual_ae_af_panel"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="invisible" >
+
+    <ImageView
+        android:id="@+id/manual_af_ae_circle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:src="@drawable/ic_preview_ae_af_separate_unisoc" />
+
+    <FrameLayout
+        android:id="@+id/manual_ae"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|left"
+        android:visibility="gone" >
+        <ImageView
+            android:id="@+id/manual_ae_circle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/lock_circle_shape" />
+
+        <ImageView
+            android:id="@+id/manual_ae_center_circle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/lock_center_circle_shape" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/manual_af"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|left"
+        android:visibility="gone" >
+        <ImageView
+            android:id="@+id/manual_af_circle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/lock_circle_focused_shape" />
+
+        <ImageView
+            android:id="@+id/manual_af_center_circle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/lock_center_circle_focused_shape" />
+    </FrameLayout>
+</com.dream.camera.ui.ManualAeAfPanel>

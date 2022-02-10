@@ -1,0 +1,72 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#323232"
+    tools:context=".RefocusPhotoEditActivity" >
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/root"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/refocus_edit_picture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center" />
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:gravity="bottom"
+        android:layout_marginBottom = "20dp"
+        android:orientation="vertical" >
+
+        <SeekBar
+            android:id="@+id/refocus_edit_seekbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:max="255"
+            android:progress="0"/>
+            <!--
+            android:progressDrawable="@drawable/seekbar_progress"
+            android:thumb="@drawable/thumb_drawable"
+            -->
+
+        <TextView
+            android:id="@+id/start_value_refocus"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below = "@+id/refocus_edit_seekbar"
+            android:layout_alignLeft = "@+id/refocus_edit_seekbar"/>
+
+        <TextView
+            android:id="@+id/end_value_refocus"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below = "@+id/refocus_edit_seekbar"
+            android:layout_alignRight = "@+id/refocus_edit_seekbar"/>
+
+        <TextView
+            android:id="@+id/current_value_refocus"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below = "@+id/refocus_edit_seekbar"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:layout_toRightOf = "@+id/start_value_refocus"
+            android:layout_toLeftOf = "@+id/end_value_refocus"/>
+    </RelativeLayout>
+</FrameLayout>

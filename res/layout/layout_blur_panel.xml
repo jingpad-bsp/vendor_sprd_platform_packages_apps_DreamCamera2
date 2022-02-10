@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.dream.camera.ui.BlurPanel xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:camera="http://schemas.android.com/apk/res/com.android.camera2"
+    android:id="@+id/blur_panel"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="240dp"
+    android:orientation="horizontal"
+    android:visibility="gone" >
+
+    <com.dream.camera.ui.VerticalSeekBar
+        android:id="@+id/blur_vseekbar"
+        android:layout_width="wrap_content"
+        android:layout_height="160dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="12dp"
+        android:layoutDirection="ltr"
+        android:gravity="center"
+        android:max="9"
+        android:progress="3"
+        android:progressDrawable="@drawable/blur_vertical_seekbar_progress"
+        android:thumb="@drawable/bokeh_range_button_white" />
+
+    <TextView
+        android:id="@+id/blur_tv"
+        style="@style/DreamText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical" />
+
+</com.dream.camera.ui.BlurPanel>

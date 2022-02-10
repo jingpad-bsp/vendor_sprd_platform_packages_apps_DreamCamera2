@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="pref_camera_composition_line_key_title">"Sarara walitti makamuu"</string>
+<string name="pref_camera_composition_line_key_entry_close">"Cufuu"</string>
+<string name="pref_camera_composition_line_key_entry_grid">"Tarsaa"</string>
+<string name="pref_camera_composition_line_key_entry_goldensection">"Kuuta warqee"</string>
+<string name="pref_camera_composition_line_key_entry_reticle">"Boorsaa"</string>
+<string name="pref_camera_composition_line_key_entry_box">"Saanduqa"</string>
+<string name="pref_camera_photograph_eois_key_title">"Qabaneessitu suuraa"</string>
+<string name="pref_camera_hdr_normal_pic_key_title">"Suuraa baratamoo HDR olkaa\'i"</string>
+<string name="pref_camera_gradienter_key_title">"Gargatisoo"</string>
+<string name="pref_camera_touching_photograph_key_title">"Suuraa qalbii nama tuquu"</string>
+<string name="pref_camera_zsl_key_title">"ZSL"</string>
+<string name="pref_dream_high_iso_tilte">"ISO Olaanaa"</string>
+</resources>

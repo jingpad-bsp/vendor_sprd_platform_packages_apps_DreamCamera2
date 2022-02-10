@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="filter_name_early_bird">"Hoài cổ"</string>
+<string name="filter_name_film_stock">"Sống động"</string>
+<string name="filter_name_bismuth">"Đơn sắc"</string>
+    <string name="filter_name_crisp_winter">"Mùa đông"</string>
+     <string name="filter_name_horror_blue">"Lam"</string>
+     <string name="filter_name_nashville">"Nông thôn"</string>
+     <string name="filter_name_soft_warming">"Ấm nhẹ"</string>
+     <string name="filter_name_warm">"Ấm"</string>
+     <string name="filter_name_history">"Lịch sử"</string>
+
+</resources>

@@ -1,0 +1,1209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ * Copyright (C) 2008 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ -->
+
+<resources>
+    <array name="module_list">
+        <item>@array/auto_photo_module</item>
+        <item>@array/manual_module</item>
+        <item>@array/continue_module</item>
+        <item>@array/interval_module</item>
+        <item>@array/panorama_module</item>
+        <item>@array/refocus_module</item>
+        <item>@array/scene_module</item>
+        <!--<item>@array/pip_module</item> -->
+        <!--<item>@array/gcam_module</item> -->
+        <item>@array/auto_video_module</item>
+        <!--<item>@array/viv_module</item>-->
+        <item>@array/timelapse_module</item>
+        <item>@array/slowmotion_module</item>
+        <item>@array/audio_picture_module</item>
+        <item>@array/fileter_module</item>
+        <item>@array/qrcode_module</item>
+        <!--<item>@array/td_video_module</item>-->
+        <!--<item>@array/td_photo_module</item>-->
+        <item>@array/front_focus_module</item>
+        <!--<item>@array/td_range_module</item>-->
+        <item>@array/tdnr_photo_module</item>
+        <item>@array/fdr_photo_module</item>
+        <item>@array/tdnr_video_module</item>
+        <item>@array/tdnr_pro_photo_module</item>
+        <item>@array/tdnr_pro_video_module</item>
+        <item>@array/intent_photo_module</item>
+        <item>@array/intent_video_module</item>
+        <item>@array/ar_photo_module</item>
+        <item>@array/ar_video_module</item>
+        <item>@array/ultra_wide_angle_module</item>
+        <item>@array/portrait_photo_module</item>
+        <item>@array/high_resolution_photo_module</item>
+        <item>@array/ir_photo_module</item>
+        <item>@array/focus_length_fusion_photo_module</item>
+        <item>@array/macro_photo_module</item>
+        <item>@array/macro_video_module</item>
+        <item>@array/portrait_background_replacement_photo_module</item>
+        <item>@array/portrait_background_replacement_video_module</item>
+    </array>
+
+    <integer name="mode_is_visible">1</integer>
+    <integer name="mode_not_visible">0</integer>
+
+    <integer-array name="camera_modes_always_visible"></integer-array>
+
+    <integer name="mode_support_photo">0</integer>
+    <integer name="mode_support_video">1</integer>
+    <integer name="mode_support_none">999</integer>
+    <integer name="camera_support_all">-1</integer>
+    <integer name="camera_support_back">0</integer>
+    <integer name="camera_support_front">1</integer>
+    <integer name="camera_support_none">999</integer>
+
+    <array name="auto_photo_module">
+        <item>0</item> <!-- module id-->
+        <item>@integer/mode_is_visible</item> <!-- should be shown-->
+        <item>@integer/camera_support_all</item> <!-- front or back config-->
+        <item>@integer/mode_support_photo</item> <!-- video or module-->
+        <item>AutoPhotoModule</item>>
+        <item>@string/camera_mode_auto_photo</item>
+        <item>@string/mode_camera_desc</item>
+        <item>@drawable/ic_auto_mode_sprd_unselected</item>
+        <item>@drawable/ic_auto_mode_sprd_selected</item>
+        <item>@drawable/ic_camera_blanket</item>
+        <item>@drawable/ic_capture_camera_sprd</item>
+    </array>
+    <array name="manual_module">
+        <item>1</item> <!-- module id-->
+        <item>@integer/mode_is_visible</item> <!-- should be shown-->
+        <item>@integer/camera_support_back</item> <!-- front or back config-->
+        <item>@integer/mode_support_photo</item> <!-- video or module-->
+        <item>ManualPhotoModule</item> <!--namesapce -->
+        <item>@string/camera_mode_manual</item> <!-- text -->
+        <item>@string/mode_camera_desc</item> <!--description-->
+        <item>@drawable/ic_manual_mode_sprd_unselected</item> <!-- unselect icon-->
+        <item>@drawable/ic_manual_mode_sprd_selected</item> <!-- select icon-->
+        <item>@drawable/ic_manual_blanket</item> <!-- cover -->
+        <item>@drawable/ic_capture_camera_sprd</item> <!--capture icon-->
+    </array>
+    <array name="continue_module">
+        <item>2</item> <!-- module id-->
+        <item>@integer/mode_is_visible</item> <!-- should be shown-->
+        <item>@integer/camera_support_back</item> <!-- front or back config-->
+        <item>@integer/mode_support_photo</item> <!-- video or module-->
+        <item>ContinuePhotoModule</item> <!--namesapce -->
+        <item>@string/pref_camera_continuous_capture_title</item> <!-- text -->
+        <item>@string/pref_camera_continuous_capture_title</item> <!--description-->
+        <item>@drawable/ic_burst_mode_sprd_unselected</item> <!-- unselect icon-->
+        <item>@drawable/ic_burst_mode_sprd_selected</item> <!-- select icon-->
+        <item>@drawable/ic_burst_blanket</item> <!-- cover -->
+        <item>@drawable/ic_capture_camera_sprd</item> <!--capture icon-->
+    </array>
+    <array name="interval_module">
+        <item>3</item> <!-- module id-->
+        <item>@integer/mode_is_visible</item> <!-- should be shown-->
+        <item>@integer/camera_support_front</item> <!-- front or back config-->
+        <item>@integer/mode_support_photo</item> <!-- video or module-->
+        <item>IntervalPhotoModule</item> <!--namesapce -->
+        <item>@string/camera_mode_interval</item> <!-- text -->
+        <item>@string/camera_mode_interval</item> <!--description-->
+        <item>@drawable/ic_interval_mode_sprd_unselected</item> <!-- unselect icon-->
+        <item>@drawable/ic_interval_mode_sprd_selected</item> <!-- select icon-->
+        <item>@drawable/ic_interval_blanket</item> <!-- cover -->
+        <item>@drawable/ic_capture_camera_sprd</item> <!--capture icon-->
+    </array>
+    <array name="panorama_module">
+        <item>4</item> <!-- module id-->
+        <item>@integer/mode_is_visible</item> <!-- should be shown-->
+        <item>@integer/camera_support_back</item> <!-- front or back config-->
+        <item>@integer/mode_support_photo</item> <!-- video or module-->
+        <item>DreamPanoramaModule</item> <!--namesapce -->
+        <item>@string/mode_panorama</item> <!-- text -->
+        <item>@string/mode_panorama_desc</item> <!--description-->
+        <item>@drawable/ic_pano_mode_sprd_unselected</item> <!-- unselect icon-->
+        <item>@drawable/ic_pano_mode_sprd_selected</item> <!-- select icon-->
+        <item>@drawable/ic_pano_blanket</item> <!-- cover -->
+        <item>@drawable/ic_capture_camera_sprd</item> <!--capture icon-->
+    </array>
+    <array name="refocus_module">
+        <item>5</item> <!-- module id-->
+        <item>@integer/mode_is_visible</item> <!-- should be shown-->
+        <item>@integer/camera_support_back</item> <!-- front or back config-->
+        <item>@integer/mode_support_none</item> <!-- video or module-->
+        <item>RefocusModule</item> <!--namesapce -->
+        <item>@string/camera_mode_auto_photo</item> <!-- text -->
+        <item>@string/mode_refocus_desc</item> <!--description-->
+        <item>@drawable/ic_bokeh_mode_sprd_unselected</item> <!-- unselect icon-->
+        <item>@drawable/ic_bokeh_mode_sprd_selected</item> <!-- select icon-->
+        <item>@drawable/ic_camera_blanket</item> <!-- cover -->
+        <item>@drawable/ic_capture_camera_sprd</item> <!--capture icon-->
+    </array>
+    <array name="scene_module">
+        <item>6</item> <!-- module id-->
+        <item>@integer/mode_is_visible</item> <!-- should be shown-->
+        <item>@integer/camera_support_back</item> <!-- front or back config-->
+        <item>@integer/mode_support_photo</item> <!-- video or module-->
+        <item>SceneModule</item> <!--namesapce -->
+        <item>@string/camera_mode_scene</item> <!-- text -->
+        <item>@string/camera_mode_scene</item> <!--description-->
+        <item>@drawable/ic_scenes_mode_sprd_unselected</item> <!-- unselect icon-->
+        <item>@drawable/ic_scenes_mode_sprd_selected</item> <!-- select icon-->
+        <item>@drawable/ic_scenes_blanket</item> <!-- cover -->
+        <item>@drawable/ic_capture_camera_sprd</item> <!--capture icon-->
+    </array>
+    <array name="pip_module">
+        <item>7</item> <!-- module id-->
+        <item>@integer/mode_is_visible</item> <!-- should be shown-->
+        <item>@integer/camera_support_all</item> <!-- front or back config-->
+        <item>@integer/mode_support_photo</item> <!-- video or module-->
+        <item>PipModule</item> <!--namesapce -->
+        <item>@string/camera_mode_pip</item> <!-- text -->
+        <item>@string/camera_mode_pip</item> <!--description-->
+        <item>@drawable/ic_pip_mode_sprd_unselected</item> <!-- unselect icon-->
+        <item>@drawable/ic_pip_mode_sprd_selected</item> <!-- select icon-->
+        <item>@drawable/ic_pip_blanket</item> <!-- cover -->
+        <item>@drawable/ic_capture_camera_sprd</item> <!--capture icon-->
+    </array>
+    <array name="gcam_module">
+        <item>8</item> <!-- module id-->
+        <item>@integer/mode_is_visible</item> <!-- should be shown-->
+        <item>@integer/camera_support_back</item> <!-- front or back config-->
+        <item>@integer/mode_support_photo</item> <!-- video or module-->
+        <item>GcamModule</item> <!--namesapce -->
+        <item>@string/camera_mode_gcam</item> <!-- text -->
+        <item>@string/camera_mode_gcam</item> <!--description-->
+        <item>@drawable/ic_frame_mode_sprd_unselected</item> <!-- unselect icon-->
+        <item>@drawable/ic_frame_mode_sprd_selected</item> <!-- select icon-->
+        <item>@drawable/ic_camera_blanket</item> <!-- cover -->
+        <item>@drawable/ic_capture_camera_sprd</item> <!--capture icon-->
+    </array>
+    <array name="auto_video_module">
+        <item>9</item> <!-- module id-->
+        <item>@integer/mode_is_visible</item> <!-- should be shown-->
+        <item>@integer/camera_support_all</item> <!-- front or back config-->
+        <item>@integer/mode_support_video</item> <!-- video or module-->
+        <item>VideoModule</item> <!--namesapce -->
+        <item>@string/mode_video</item> <!-- text -->
+        <item>@string/mode_video</item> <!--description-->
+        <item>@drawable/ic_video_mode_sprd_unselected</item> <!-- unselect icon-->
+        <item>@drawable/ic_video_mode_sprd_selected</item> <!-- select icon-->
+        <item>@drawable/ic_video_blanket</item> <!-- cover -->
+        <item>@drawable/ic_capture_video_sprd</item> <!--capture icon-->
+    </array>
+    <array name="viv_module">
+        <item>10</item> <!-- module id-->
+        <item>@integer/mode_is_visible</item> <!-- should be shown-->
+        <item>@integer/camera_support_all</item> <!-- front or back config-->
+        <item>@integer/mode_support_none</item> <!-- video or module-->
+        <item>VivModule</item> <!--namesapce -->
+        <item>@string/camera_mode_viv</item> <!-- text -->
+        <item>@string/camera_mode_viv</item> <!--description-->
+        <item>@drawable/ic_pip_mode_sprd_unselected</item> <!-- unselect icon-->
+        <item>@drawable/ic_pip_mode_sprd_selected</item> <!-- select icon-->
+        <item>@drawable/ic_pip_blanket</item> <!-- cover -->
+        <item>@drawable/ic_capture_video_sprd</item> <!--capture icon-->
+
+    </array>
+    <array name="timelapse_module">
+        <item>11</item> <!-- module id-->
+        <item>@integer/mode_is_visible</item> <!-- should be shown-->
+        <item>@integer/camera_support_back</item> <!-- front or back config-->
+        <item>@integer/mode_support_video</item> <!-- video or module-->
+        <item>TimelapseModule</item> <!--namesapce -->
+        <item>@string/mode_timelapse</item> <!-- text -->
+        <item>@string/mode_timelapse</item> <!--description-->
+        <item>@drawable/ic_time_lapse_mode_sprd_unselected</item> <!-- unselect icon-->
+        <item>@drawable/ic_time_lapse_mode_sprd_selected</item> <!-- select icon-->
+        <item>@drawable/ic_time_lapse_blanket</item> <!-- cover -->
+        <item>@drawable/ic_capture_video_sprd</item> <!--capture icon-->
+    </array>
+    <array name="slowmotion_module">
+        <item>12</item> <!-- module id-->
+        <item>@integer/mode_is_visible</item> <!-- should be shown-->
+        <item>@integer/camera_support_back</item> <!-- front or back config-->
+        <item>@integer/mode_support_video</item> <!-- video or module-->
+        <item>SlowMotionModule</item> <!--namesapce -->
+        <item>@string/camera_mode_slowmotion</item> <!-- text -->
+        <item>@string/camera_mode_slowmotion</item> <!--description-->
+        <item>@drawable/ic_slow_motion_mode_sprd_unselected</item> <!-- unselect icon-->
+        <item>@drawable/ic_slow_motion_mode_sprd_selected</item> <!-- select icon-->
+        <item>@drawable/ic_slow_motion_blanket</item> <!-- cover -->
+        <item>@drawable/ic_capture_video_sprd</item> <!--capture icon-->
+    </array>
+    <array name="audio_picture_module">
+        <item>13</item> <!-- module id-->
+        <item>@integer/mode_is_visible</item> <!-- should be shown-->
+        <item>@integer/camera_support_all</item> <!-- front or back config-->
+        <item>@integer/mode_support_photo</item> <!-- video or module-->
+        <item>AudioPictureModule</item> <!--namesapce -->
+        <item>@string/camera_mode_audio_picture</item> <!-- text -->
+        <item>@string/camera_mode_audio_picture</item> <!--description-->
+        <item>@drawable/ic_pic_with_sound_mode_sprd_unselected</item> <!-- unselect icon-->
+        <item>@drawable/ic_pic_with_sound_mode_sprd_selected</item> <!-- select icon-->
+        <item>@drawable/ic_pic_with_sound_blanket</item> <!-- cover -->
+        <item>@drawable/ic_capture_camera_sprd</item> <!--capture icon-->
+    </array>
+    <array name="fileter_module">
+        <item>14</item> <!-- module id-->
+        <item>@integer/mode_is_visible</item> <!-- should be shown-->
+        <item>@integer/camera_support_all</item> <!-- front or back config-->
+        <item>@integer/mode_support_none</item> <!-- video or module-->
+        <item>UcamFilterPhotoModule</item> <!--namesapce -->
+        <item>@string/camera_mode_filter_desc</item> <!-- text -->
+        <item>@string/camera_mode_filter_desc</item> <!--description-->
+        <item>@drawable/ic_filter_mode_sprd_unselected</item> <!-- unselect icon-->
+        <item>@drawable/ic_filter_mode_sprd_selected</item> <!-- select icon-->
+        <item>@drawable/ic_filter_blanket</item> <!-- cover -->
+        <item>@drawable/ic_capture_camera_sprd</item> <!--capture icon-->
+    </array>
+    <array name="qrcode_module">
+        <item>15</item> <!-- module id-->
+        <item>@integer/mode_is_visible</item> <!-- should be shown-->
+        <item>@integer/camera_support_back</item> <!-- front or back config-->
+        <item>@integer/mode_support_photo</item> <!-- video or module-->
+        <item>QrCode</item> <!--namesapce -->
+        <item>@string/camera_mode_qrcode</item> <!-- text -->
+        <item>@string/camera_mode_qrcode</item> <!--description-->
+        <item>@drawable/ic_qr_code_mode_sprd_unselected</item> <!-- unselect icon-->
+        <item>@drawable/ic_qr_code_mode_sprd_selected</item> <!-- select icon-->
+        <item>@drawable/ic_qr_code_blanket</item> <!-- cover -->
+        <item>@drawable/ic_capture_camera_sprd</item> <!--capture icon-->
+    </array>
+    <array name="td_video_module">
+        <item>16</item> <!-- module id-->
+        <item>@integer/mode_is_visible</item> <!-- should be shown-->
+        <item>@integer/camera_support_front</item> <!-- front or back config-->
+        <item>@integer/mode_support_video</item> <!-- video or module-->
+        <item>TDVideoModule</item> <!--namesapce -->
+        <item>@string/mode_video_desc_td</item> <!-- text -->
+        <item>@string/mode_video_desc_td</item> <!--description-->
+        <item>@drawable/ic_video_3d_mode_sprd_unselected</item> <!-- unselect icon-->
+        <item>@drawable/ic_video_3d_mode_sprd_selected</item> <!-- select icon-->
+        <item>@drawable/ic_video_3d_blanket</item> <!-- cover -->
+        <item>@drawable/ic_capture_video_sprd</item> <!--capture icon-->
+    </array>
+    <array name="td_photo_module">
+        <item>17</item> <!-- module id-->
+        <item>@integer/mode_is_visible</item> <!-- should be shown-->
+        <item>@integer/camera_support_front</item> <!-- front or back config-->
+        <item>@integer/mode_support_photo</item> <!-- video or module-->
+        <item>TDPhotoModule</item> <!--namesapce -->
+        <item>@string/mode_tdphoto_desc</item> <!-- text -->
+        <item>@string/mode_tdphoto_desc</item> <!--description-->
+        <item>@drawable/ic_photo_3d_mode_sprd_unselected</item> <!-- unselect icon-->
+        <item>@drawable/ic_photo_3d_mode_sprd_selected</item> <!-- select icon-->
+        <item>@drawable/ic_photo_3d_blanket</item> <!-- cover -->
+        <item>@drawable/ic_capture_camera_sprd</item> <!--capture icon-->
+    </array>
+    <array name="front_focus_module">
+        <item>18</item> <!-- module id-->
+        <item>@integer/mode_is_visible</item> <!-- should be shown-->
+        <item>@integer/camera_support_front</item> <!-- front or back config-->
+        <item>@integer/mode_support_none</item> <!-- video or module-->
+        <item>FrontBlurRefocusModule</item> <!--namesapce -->
+        <item>@string/camera_mode_auto_photo</item> <!-- text -->
+        <item>@string/camera_mode_auto_photo</item> <!--description-->
+        <item>@drawable/ic_bokeh_mode_sprd_unselected</item> <!-- unselect icon-->
+        <item>@drawable/ic_bokeh_mode_sprd_selected</item> <!-- select icon-->
+        <item>@drawable/ic_camera_blanket</item> <!-- cover -->
+        <item>@drawable/ic_capture_camera_sprd</item> <!--capture icon-->
+    </array>
+    <array name="td_range_module">
+        <item>19</item> <!-- module id-->
+        <item>@integer/mode_is_visible</item> <!-- should be shown-->
+        <item>@integer/camera_support_back</item> <!-- front or back config-->
+        <item>@integer/mode_support_photo</item> <!-- video or module-->
+        <item>RangFindModule</item> <!--namesapce -->
+        <item>@string/mode_td_range_find_desc</item> <!-- text -->
+        <item>@string/mode_td_range_find_desc</item> <!--description-->
+        <item>@drawable/ic_range_find_mode_sprd_unselected</item> <!-- unselect icon-->
+        <item>@drawable/ic_range_find_mode_sprd_selected</item> <!-- select icon-->
+        <item>@drawable/ic_range_find_blanket</item> <!-- cover -->
+        <item>@drawable/ic_capture_camera_sprd</item> <!--capture icon-->
+    </array>
+    <array name="tdnr_photo_module">
+        <item>20</item> <!-- module id-->
+        <item>@integer/mode_is_visible</item> <!-- should be shown-->
+        <item>@integer/camera_support_all</item> <!-- front or back config-->
+        <item>@integer/mode_support_photo</item> <!-- video or module-->
+        <item>TDNRPhotoModule</item> <!--namesapce -->
+        <item>@string/camera_mode_3dnr_desc</item> <!-- text -->
+        <item>@string/camera_mode_3dnr_desc</item> <!--description-->
+        <item>@drawable/ic_3dnr_mode_sprd_unselected</item> <!-- unselect icon-->
+        <item>@drawable/ic_3dnr_mode_sprd_selected</item> <!-- select icon-->
+        <item>@drawable/ic_3dnr_blanket</item> <!-- cover -->
+        <item>@drawable/ic_capture_camera_sprd</item> <!--capture icon-->
+    </array>
+    <array name="fdr_photo_module">
+        <item>55</item> <!-- module id-->
+        <item>@integer/mode_is_visible</item> <!-- should be shown-->
+        <item>@integer/camera_support_back</item> <!-- front or back config-->
+        <item>@integer/mode_support_photo</item> <!-- video or module-->
+        <item>FDRPhotoModule</item> <!--namesapce -->
+        <item>@string/camera_mode_fdr</item> <!-- text -->
+        <item>@string/camera_mode_fdr</item> <!--description-->
+        <item>@drawable/ic_fdr_mode_sprd_unselected</item> <!-- unselect icon-->
+        <item>@drawable/ic_fdr_mode_sprd_selected</item> <!-- select icon-->
+        <item>@drawable/ic_fdr_blanket</item> <!-- cover -->
+        <item>@drawable/ic_capture_camera_sprd</item> <!--capture icon-->
+    </array>
+    <array name="tdnr_video_module">
+        <item>21</item> <!-- module id-->
+        <item>@integer/mode_is_visible</item> <!-- should be shown-->
+        <item>@integer/camera_support_all</item> <!-- front or back config-->
+        <item>@integer/mode_support_video</item> <!-- video or module-->
+        <item>TDNRVideoModule</item> <!--namesapce -->
+        <item>@string/camera_mode_3dnr_desc</item> <!-- text -->
+        <item>@string/camera_mode_3dnr_desc</item> <!--description-->
+        <item>@drawable/ic_3dnr_mode_sprd_unselected</item> <!-- unselect icon-->
+        <item>@drawable/ic_3dnr_mode_sprd_selected</item> <!-- select icon-->
+        <item>@drawable/ic_3dnr_blanket</item> <!-- cover -->
+        <item>@drawable/ic_capture_video_sprd</item> <!--capture icon-->
+    </array>
+    <array name="tdnr_pro_photo_module">
+        <item>53</item> <!-- module id-->
+        <item>@integer/mode_is_visible</item> <!-- should be shown-->
+        <item>@integer/camera_support_all</item> <!-- front or back config-->
+        <item>@integer/mode_support_photo</item> <!-- video or module-->
+        <item>TDNRProPhotoModule</item> <!--namesapce -->
+        <item>@string/camera_mode_3dnr_pro_desc</item> <!-- text -->
+        <item>@string/camera_mode_3dnr_pro_desc</item> <!--description-->
+        <item>@drawable/ic_night_shot_pro_mode_sprd_unselected</item> <!-- unselect icon-->
+        <item>@drawable/ic_night_shot_pro_mode_sprd_selected</item> <!-- select icon-->
+        <item>@drawable/ic_night_shot_pro_blanket</item> <!-- cover -->
+        <item>@drawable/ic_capture_camera_sprd</item> <!--capture icon-->
+    </array>
+    <array name="tdnr_pro_video_module">
+        <item>54</item> <!-- module id-->
+        <item>@integer/mode_is_visible</item> <!-- should be shown-->
+        <item>@integer/camera_support_all</item> <!-- front or back config-->
+        <item>@integer/mode_support_video</item> <!-- video or module-->
+        <item>TDNRProVideoModule</item> <!--namesapce -->
+        <item>@string/camera_mode_3dnr_pro_desc</item> <!-- text -->
+        <item>@string/camera_mode_3dnr_pro_desc</item> <!--description-->
+        <item>@drawable/ic_night_shot_pro_mode_sprd_unselected</item> <!-- unselect icon-->
+        <item>@drawable/ic_night_shot_pro_mode_sprd_selected</item> <!-- select icon-->
+        <item>@drawable/ic_night_shot_pro_blanket</item> <!-- cover -->
+        <item>@drawable/ic_capture_video_sprd</item> <!--capture icon-->
+    </array>
+    <array name="intent_photo_module">
+        <item>22</item> <!-- module id-->
+        <item>@integer/mode_is_visible</item> <!-- should be shown-->
+        <item>@integer/camera_support_all</item> <!-- front or back config-->
+        <item>@integer/mode_support_none</item> <!-- video or module-->
+        <item>DreamIntentCaptureModule</item> <!--namesapce -->
+        <item>@string/camera_mode_auto_photo</item> <!-- text -->
+        <item>@string/camera_mode_auto_photo</item> <!--description-->
+        <item>@drawable/ic_auto_mode_sprd_unselected</item> <!-- unselect icon-->
+        <item>@drawable/ic_auto_mode_sprd_selected</item> <!-- select icon-->
+        <item>@drawable/ic_camera_blanket</item> <!-- cover -->
+        <item>@drawable/ic_capture_camera_sprd</item> <!--capture icon-->
+    </array>
+    <array name="intent_video_module">
+        <item>23</item> <!-- module id-->
+        <item>@integer/mode_is_visible</item> <!-- should be shown-->
+        <item>@integer/camera_support_all</item> <!-- front or back config-->
+        <item>@integer/mode_support_none</item> <!-- video or module-->
+        <item>DreamIntentVideoModule</item> <!--namesapce -->
+        <item>@string/mode_video</item> <!-- text -->
+        <item>@string/mode_video</item> <!--description-->
+        <item>@drawable/ic_video_mode_sprd_unselected</item> <!-- unselect icon-->
+        <item>@drawable/ic_video_mode_sprd_selected</item> <!-- select icon-->
+        <item>@drawable/ic_video_blanket</item> <!-- cover -->
+        <item>@drawable/ic_capture_video_sprd</item> <!--capture icon-->
+    </array>
+    <array name="ar_photo_module">
+        <item>26</item>
+        <item>@integer/mode_is_visible</item> <!-- should be shown-->
+        <item>@integer/camera_support_back</item> <!-- front or back config-->
+        <item>@integer/mode_support_photo</item> <!-- video or module-->
+        <item>ARPhotoModule</item> <!--namesapce -->
+        <item>@string/camera_mode_ar_desc</item> <!-- text -->
+        <item>@string/camera_mode_ar_desc</item> <!--description-->
+        <item>@drawable/ic_ar_mode_sprd_unselected</item> <!-- unselect icon-->
+        <item>@drawable/ic_ar_mode_sprd_selected</item> <!-- select icon-->
+        <item>@drawable/ic_camera_blanket</item> <!-- cover -->
+        <item>@drawable/ic_capture_camera_sprd</item> <!--capture icon-->
+    </array>
+    <array name="ar_video_module">
+        <item>27</item>
+        <item>@integer/mode_is_visible</item> <!-- should be shown-->
+        <item>@integer/camera_support_back</item> <!-- front or back config-->
+        <item>@integer/mode_support_video</item> <!-- video or module-->
+        <item>ARVideoModule</item> <!--namesapce -->
+        <item>@string/camera_mode_ar_desc</item> <!-- text -->
+        <item>@string/camera_mode_ar_desc</item> <!--description-->
+        <item>@drawable/ic_ar_dv_mode_sprd_unselected</item> <!-- unselect icon-->
+        <item>@drawable/ic_ar_dv_mode_sprd_selected</item> <!-- select icon-->
+        <item>@drawable/ic_video_blanket</item> <!-- cover -->
+        <item>@drawable/ic_capture_video_sprd</item> <!--capture icon-->
+    </array>
+    <array name="ultra_wide_angle_module">
+        <item>28</item> <!-- module id-->
+        <item>@integer/mode_is_visible</item> <!-- should be shown-->
+        <item>@integer/camera_support_back</item> <!-- front or back config-->
+        <item>@integer/mode_support_none</item> <!-- video or photo or none-->
+        <item>UltraWideAngleModule</item>>
+        <item>@string/camera_mode_auto_photo</item>
+        <item>@string/mode_ultra_wide_angle_desc</item>
+        <item>@drawable/ic_ultra_wide_angle_mode_sprd_unselected</item>
+        <item>@drawable/ic_ultra_wide_angle_mode_sprd_selected</item>
+        <item>@drawable/ic_camera_blanket</item>
+        <item>@drawable/ic_capture_camera_sprd</item>
+    </array>
+    <array name="portrait_photo_module">
+        <item>29</item> <!-- module id-->
+        <item>@integer/mode_is_visible</item> <!-- should be shown-->
+        <item>@integer/camera_support_none</item> <!-- front or back config-->
+        <item>@integer/mode_support_photo</item> <!-- video or module-->
+        <item>PortraitPhotoModule</item>>
+        <item>@string/camera_mode_portrait_new</item>
+        <item>@string/camera_mode_portrait_new</item>
+        <item>@drawable/ic_portrait_mode_sprd_unselected</item>
+        <item>@drawable/ic_portrait_mode_sprd_selected</item>
+        <item>@drawable/ic_camera_blanket</item>
+        <item>@drawable/ic_capture_camera_sprd</item>
+    </array>
+    <array name="high_resolution_photo_module">
+        <item>30</item> <!-- module id-->
+        <item>@integer/mode_is_visible</item> <!-- should be shown-->
+        <item>@integer/camera_support_all</item> <!-- front or back config-->
+        <item>@integer/mode_support_photo</item> <!-- video or module-->
+        <item>HighResolutionPhotoModule</item>>
+        <item>@string/camera_mode_high_resolution</item>
+        <item>@string/camera_mode_high_resolution</item>
+        <item>@drawable/ic_ultra_resolution_mode_sprd_unselected</item>
+        <item>@drawable/ic_ultra_resolution_mode_sprd_selected</item>
+        <item>@drawable/ic_camera_blanket</item>
+        <item>@drawable/ic_capture_camera_sprd</item>
+    </array>
+
+    <array name="ir_photo_module">
+        <item>33</item> <!-- module id-->
+        <item>@integer/mode_is_visible</item> <!-- should be shown-->
+        <item>@integer/camera_support_back</item> <!-- front or back config-->
+        <item>@integer/mode_support_photo</item> <!-- video or module-->
+        <item>IRPhotoModule</item>>
+        <item>@string/camera_mode_ir</item>
+        <item>@string/camera_mode_ir</item>
+        <item>@drawable/ic_ir_mode_sprd_unselected</item>
+        <item>@drawable/ic_ir_mode_sprd_selected</item>
+        <item>@drawable/ic_camera_blanket</item>
+        <item>@drawable/ic_capture_camera_sprd</item>
+    </array>
+
+    <array name="focus_length_fusion_photo_module">
+        <item>35</item> <!-- module id-->
+        <item>@integer/mode_is_visible</item> <!-- should be shown-->
+        <item>@integer/camera_support_back</item> <!-- front or back config-->
+        <item>@integer/mode_support_photo</item> <!-- video or module-->
+        <item>FocusLengthFusionPhotoModule</item>>
+        <item>@string/camera_mode_focus_length_fusion</item>
+        <item>@string/camera_mode_focus_length_fusion</item>
+        <item>@drawable/ic_focal_length_fusion_mode_sprd_unselected</item>
+        <item>@drawable/ic_focal_length_fusion_mode_sprd_selected</item>
+        <item>@drawable/ic_camera_blanket</item>
+        <item>@drawable/ic_capture_camera_sprd</item>
+    </array>
+
+    <array name="macro_photo_module">
+        <item>31</item> <!-- module id-->
+        <item>@integer/mode_is_visible</item> <!-- should be shown-->
+        <item>@integer/camera_support_back</item> <!-- front or back config-->
+        <item>@integer/mode_support_photo</item> <!-- video or module-->
+        <item>MacroPhotoModule</item>>
+        <item>@string/camera_mode_macro</item>
+        <item>@string/camera_mode_macro</item>
+        <item>@drawable/ic_macro_mode_sprd_unselected</item>
+        <item>@drawable/ic_macro_mode_sprd_selected</item>
+        <item>@drawable/ic_camera_blanket</item>
+        <item>@drawable/ic_capture_camera_sprd</item>
+    </array>
+    <array name="macro_video_module">
+        <item>32</item> <!-- module id-->
+        <item>@integer/mode_is_visible</item> <!-- should be shown-->
+        <item>@integer/camera_support_back</item> <!-- front or back config-->
+        <item>@integer/mode_support_video</item> <!-- video or module-->
+        <item>MacroVideoModule</item> <!--namesapce -->
+        <item>@string/camera_mode_macro</item> <!-- text -->
+        <item>@string/camera_mode_macro</item> <!--description-->
+        <item>@drawable/ic_macro_mode_sprd_unselected</item> <!-- unselect icon-->
+        <item>@drawable/ic_macro_mode_sprd_selected</item> <!-- select icon-->
+        <item>@drawable/ic_video_blanket</item> <!-- cover -->
+        <item>@drawable/ic_capture_video_sprd</item> <!--capture icon-->
+    </array>
+    <array name="portrait_background_replacement_photo_module">
+        <item>36</item> <!-- module id-->
+        <item>@integer/mode_is_visible</item> <!-- should be shown-->
+        <item>@integer/camera_support_all</item> <!-- front or back config-->
+        <item>@integer/mode_support_photo</item> <!-- video or module-->
+        <item>ProtraitBackgroundReplacementPhotoModule</item>>
+        <item>@string/camera_mode_portrait_background_replacement</item>
+        <item>@string/camera_mode_portrait_background_replacement</item>
+        <item>@drawable/ic_portrait_bg_edit_mode_sprd_unselected</item>
+        <item>@drawable/ic_portrait_bg_edit_mode_sprd_selected</item>
+        <item>@drawable/ic_camera_blanket</item>
+        <item>@drawable/ic_capture_camera_sprd</item>
+    </array>
+    <array name="portrait_background_replacement_video_module">
+        <item>38</item> <!-- module id-->
+        <item>@integer/mode_is_visible</item> <!-- should be shown-->
+        <item>@integer/camera_support_all</item> <!-- front or back config-->
+        <item>@integer/mode_support_video</item> <!-- video or module-->
+        <item>ProtraitBackgroundReplacementVideoModule</item> <!--namesapce -->
+        <item>@string/camera_mode_portrait_background_replacement</item> <!-- text -->
+        <item>@string/camera_mode_portrait_background_replacement</item> <!--description-->
+        <item>@drawable/ic_portrait_bg_edit_mode_sprd_unselected</item> <!-- unselect icon-->
+        <item>@drawable/ic_portrait_bg_edit_mode_sprd_selected</item> <!-- select icon-->
+        <item>@drawable/ic_video_blanket</item> <!-- cover -->
+        <item>@drawable/ic_capture_video_sprd</item> <!--capture icon-->
+    </array>
+    <array name="dream_camera_flashmode_icons" translatable="false">
+        <item>@drawable/dream_ic_flash_off</item>
+        <item>@drawable/dream_ic_flash_auto</item>
+        <item>@drawable/dream_ic_flash_on</item>
+    </array>
+    <array name="dream_camera_torch_flashmode_icons" translatable="false">
+        <item>@drawable/dream_ic_flash_off</item>
+        <item>@drawable/dream_ic_flash_on</item>
+    </array>
+    <array name="dream_camera_front_led_flashmode_icons" translatable="false">
+        <item>@drawable/dream_ic_light_off</item>
+        <item>@drawable/dream_ic_light_auto</item>
+        <item>@drawable/dream_ic_light_on</item>
+    </array>
+    <array name="dream_camera_manual_flashmode_icons" translatable="false">
+        <item>@drawable/dream_ic_flash_off</item>
+        <item>@drawable/dream_ic_flash_on</item>
+    </array>
+    <array name="dream_video_flashmode_icons" translatable="false">
+        <item>@drawable/dream_ic_flash_on</item>
+        <item>@drawable/dream_ic_flash_off</item>
+    </array>
+    <array name="dream_video_front_led_flashmode_icons" translatable="false">
+        <item>@drawable/dream_ic_light_on</item>
+        <item>@drawable/dream_ic_light_off</item>
+    </array>
+    <array name="dream_camera_id_icons" translatable="false">
+        <item>@drawable/dream_ic_switch_camera_back</item>
+        <item>@drawable/dream_ic_switch_camera_front</item>
+    </array>
+    <array name="dream_camera_hdr_icons" translatable="false">
+        <item>@drawable/dream_ic_hdr_off</item>
+        <item>@drawable/dream_ic_hdr_on</item>
+    </array>
+    <array name="dream_camera_hdr_with_auto_icons" translatable="false">
+        <item>@drawable/dream_ic_hdr_off</item>
+        <item>@drawable/dream_ic_hdr_on</item>
+        <item>@drawable/dream_ic_hdr_auto</item>
+    </array>
+    <array name="dream_camera_fdr_icons" translatable="false">
+        <item>@drawable/dream_ic_fdr_off</item>
+        <item>@drawable/dream_ic_fdr_on</item>
+    </array>
+    <array name="dream_camera_fdr_with_auto_icons" translatable="false">
+        <item>@drawable/dream_ic_fdr_off</item>
+        <item>@drawable/dream_ic_fdr_on</item>
+        <item>@drawable/dream_ic_fdr_auto</item>
+    </array>
+    <array name="dream_countdown_duration_icons" translatable="false">
+        <item>@drawable/dream_ic_timer_off</item>
+        <item>@drawable/dream_ic_timer_3s</item>
+        <item>@drawable/dream_ic_timer_10s</item>
+    </array>
+    <array name="dream_color_effect_photo_descriptions" translatable="false">
+        <item>@string/color_effect_photo_off</item>
+        <item>@string/color_effect_photo_on</item>
+    </array>
+    <array name="dream_color_effect_photo_icons" translatable="false">
+        <item>@drawable/ic_filter_off_indicator_unisoc</item>
+        <item>@drawable/ic_filter_on_indicator_unisoc</item>
+    </array>
+    <array name="dream_countdown_duration_icons_without_off" translatable="false">
+        <item>@drawable/dream_ic_timer_3s</item>
+        <item>@drawable/dream_ic_timer_10s</item>
+    </array>
+    <array name="dream_metering_icons" translatable="false">
+        <item>@drawable/dream_ic_metering_average</item>
+        <item>@drawable/dream_ic_metering_center</item>
+        <item>@drawable/dream_ic_metering_spot</item>
+    </array>
+    <array name="metering_descriptions" translatable="false">
+        <item>@string/pref_camera_metering_entry_value_frame_average</item>
+        <item>@string/pref_camera_metering_entry_value_center_weighted</item>
+        <item>@string/pref_camera_metering_entry_value_spot_metering</item>
+    </array>
+    <array name="dream_make_up_icons" translatable="false">
+        <item>@drawable/dream_ic_make_up_off</item>
+        <item>@drawable/dream_ic_make_up_on</item>
+    </array>
+    <array name="dream_filter_video_icons" translatable="false">
+        <item>@drawable/ic_filter_off_indicator_unisoc</item>
+        <item>@drawable/ic_filter_on_indicator_unisoc</item>
+    </array>
+    <array name="dream_make_up_descriptions" translatable="false">
+        <item>@string/setting_off</item>
+        <item>@string/setting_on</item>
+    </array>
+    <array name="dream_filter_video_descriptions" translatable="false">
+        <item>@string/filter_video_off</item>
+        <item>@string/filter_video_on</item>
+    </array>
+    <array name="video_flashmode_icons" translatable="false">
+        <item>@drawable/ic_flash_off</item>
+        <item>@drawable/ic_flash_on</item>
+    </array>
+    <string-array name="pref_video_flashmode_entryvalues" translatable="false">
+        <item>torch</item>
+        <item>off</item>
+    </string-array>
+    <!-- montion photo -->
+    <string-array name="pref_video_motionphoto_entryvalues" translatable="false">
+        <item>off</item>
+        <item>on</item>
+    </string-array>
+    <array name="dream_camera_motionphoto_icons" translatable="false">
+        <item>@drawable/ic_motion_photo_off_indicator_sprd</item>
+        <item>@drawable/dream_ic_montionphoto_on</item>
+    </array>
+    <array name="montionphoto_descriptions" translatable="false">
+        <item>@string/setting_off</item>
+        <item>@string/setting_on</item>
+    </array>
+    <!-- SPRD: dev new feature white balance start -->
+    <string-array name="pref_camera_whitebalance_entries" translatable="false">
+        <item>@string/pref_camera_whitebalance_entry_auto</item>
+        <item>@string/pref_camera_whitebalance_entry_daylight</item>
+        <item>@string/pref_camera_whitebalance_entry_cloudy</item>
+        <item>@string/pref_camera_whitebalance_entry_incandescent</item>
+        <item>@string/pref_camera_whitebalance_entry_fluorescent</item>
+    </string-array>
+    <string-array name="pref_camera_whitebalance_entryvalues" translatable="false">
+        <item>auto</item>
+        <item>daylight</item>
+        <item>cloudy-daylight</item>
+        <item>incandescent</item>
+        <item>fluorescent</item>
+    </string-array>
+
+    <!-- Camera Preferences Video Quality entries -->
+    <string-array name="pref_video_quality_entries" translatable="false">
+        <item>@string/pref_camera_picturesize_entry_large</item>
+        <item>@string/pref_camera_picturesize_entry_medium</item>
+        <item>@string/pref_camera_picturesize_entry_small</item>
+   </string-array>
+
+    <string-array name="pref_video_quality_entryvalues" translatable="false">
+        <item>@string/pref_video_quality_large</item>
+        <item>@string/pref_video_quality_medium</item>
+        <item>@string/pref_video_quality_small</item>
+    </string-array>
+
+    <!-- Camera Preferences Picture size dialog box entries -->
+    <string-array name="pref_camera_picturesize_entries" translatable="false">
+        <item>@string/pref_camera_picturesize_entry_large</item>
+        <item>@string/pref_camera_picturesize_entry_medium</item>
+        <item>@string/pref_camera_picturesize_entry_small</item>
+    </string-array>
+
+    <string-array name="pref_camera_picturesize3d_entries" translatable="false">
+        <item>@string/tdcamera_picturesize_large</item>
+        <item>@string/tdcamera_picturesize_small</item>
+    </string-array>
+
+    <string-array name="pref_camera_picturesize3d_entryvalues" translatable="false">
+        <item>1920x1080</item>
+        <item>1280x720</item>
+    </string-array>
+
+    <!-- When launching the camera app first time, we will set the picture
+         size to the first one in the list that is also supported by the
+         driver -->
+    <string-array name="pref_camera_picturesize_entryvalues" translatable="false">
+        <item>@string/pref_camera_picturesize_default</item>
+        <item>medium</item>
+        <item>small</item>
+    </string-array>
+
+    <!-- Camera Preferences focus mode dialog box entries -->
+    <string-array name="pref_camera_focusmode_entryvalues" translatable="false">
+        <item>auto</item>
+        <item>infinity</item>
+        <item>macro</item>
+    </string-array>
+
+    <string-array name="pref_camera_manual_flashmode_entryvalues" translatable="false">
+        <item>off</item>
+        <item>on</item>
+    </string-array>
+
+    <string-array name="pref_camera_torch_flashmode_entryvalues" translatable="false">
+        <item>off</item>
+        <item>torch</item>
+    </string-array>
+
+    <string-array name="pref_camera_flashmode_entryvalues" translatable="false">
+        <item>off</item>
+        <item>auto</item>
+        <item>on</item>
+    </string-array>
+
+    <array name="camera_flashmode_icons" translatable="false">
+        <item>@drawable/ic_flash_off</item>
+        <item>@drawable/ic_flash_auto</item>
+        <item>@drawable/ic_flash_on</item>
+    </array>
+
+    <array name="camera_flash_descriptions" translatable="false">
+      <item>@string/flash_off_desc</item>
+      <item>@string/flash_auto_desc</item>
+      <item>@string/flash_on_desc</item>
+    </array>
+
+    <array name="camera_torch_flash_descriptions" translatable="false">
+        <item>@string/torch_off_desc</item>
+        <item>@string/torch_on_desc</item>
+    </array>
+
+    <array name="camera_manual_flash_descriptions" translatable="false">
+      <item>@string/flash_off_desc</item>
+      <item>@string/flash_on_desc</item>
+    </array>
+
+    <array name="video_flash_descriptions" translatable="false">
+      <item>@string/torch_on_desc</item>
+      <item>@string/torch_off_desc</item>
+    </array>
+
+<!--     SPRD:Override -->
+<!--     <string-array name="pref_camera_scenemode_entryvalues" translatable="false"> -->
+<!--         <item>auto</item> -->
+<!--         <item>hdr</item> -->
+<!--     </string-array> -->
+
+    <array name="camera_id_entryvalues" translatable="false">
+        <item>@string/pref_camera_id_entry_back_value</item>
+        <item>@string/pref_camera_id_entry_front_value</item>
+    </array>
+
+    <array name="camera_id_icons" translatable="false">
+        <item>@drawable/ic_switch_camera_back</item>
+        <item>@drawable/ic_switch_camera_front</item>
+    </array>
+
+    <array name="camera_id_descriptions" translatable="false">
+      <item>@string/camera_id_back_desc</item>
+      <item>@string/camera_id_front_desc</item>
+    </array>
+
+
+    <array name="pref_camera_hdr_plus_icons" translatable="false">
+        <item>@drawable/ic_hdr_plus_off</item>
+        <item>@drawable/ic_hdr_plus_on</item>
+    </array>
+
+    <array name="hdr_plus_descriptions" translatable="false">
+        <item>@string/hdr_plus_off_desc</item>
+        <item>@string/hdr_plus_on_desc</item>
+    </array>
+
+    <array name="pref_camera_hdr_icons" translatable="false">
+        <item>@drawable/ic_hdr_off</item>
+        <item>@drawable/ic_hdr_on</item>
+        <item>@drawable/dream_ic_hdr_auto</item>
+    </array>
+
+    <array name="hdr_descriptions" translatable="false">
+        <item>@string/hdr_off_desc</item>
+        <item>@string/hdr_on_desc</item>
+        <item>@string/hdr_plus_on_desc</item>
+    </array>
+
+    <!-- Default focus mode setting.-->
+    <string-array name="pref_camera_focusmode_default_array" translatable="false">
+        <item>continuous-picture</item>
+        <item>auto</item>
+    </string-array>
+
+    <array name="grid_lines_icons" translatable="false">
+      <item>@drawable/ic_grid_off</item>
+      <item>@drawable/ic_grid_on</item>
+    </array>
+    
+    <array name="refocus_descriptions" translatable="false">
+        <item>@string/refocus_off</item>
+        <item>@string/refocus_on</item>
+    </array>
+
+    <array name="countdown_duration_icons" translatable="false">
+        <item>@drawable/ic_timer_off</item>
+        <item>@drawable/ic_timer_3s</item>
+        <item>@drawable/ic_timer_10s</item>
+    </array>
+
+    <array name="refocus_icons" translatable="false">
+        <item>@drawable/ic_bokeh_off_indicator_sprd</item>
+        <item>@drawable/ic_bokeh_on_indicator_sprd</item>
+    </array>
+
+    <array name="filter_descriptions" translatable="false">
+        <item>@string/filter_off</item>
+        <item>@string/filter_on</item>
+    </array>
+
+    <array name="filter_icons" translatable="false">
+        <item>@drawable/ic_filter_off_indicator_unisoc</item>
+        <item>@drawable/ic_filter_on_indicator_unisoc</item>
+    </array>
+    <array name="director_icons" translatable="false">
+        <item>@drawable/ic_pano_horizontal_indicator</item>
+        <item>@drawable/ic_pano_vertical_indicator</item>
+    </array>
+
+    <array name="director_descriptions" translatable="false">
+        <item>@string/director_land_desc</item>
+        <item>@string/director_port_desc</item>
+    </array>
+
+    <!--Index of camera modes. -->
+    <integer name="camera_mode_photo">100</integer>
+    <integer name="camera_mode_video">101</integer>
+    <integer name="camera_mode_photosphere">102</integer>
+
+    <!-- Ordered list of all camera modes. -->
+    <integer-array name="camera_modes">
+        <item>@integer/camera_mode_photo</item>
+        <item>@integer/camera_mode_video</item>
+        <item>@integer/camera_mode_photosphere</item>
+    </integer-array>
+
+    <array name="camera_mode_theme_color">
+        <item>@color/camera_mode_color</item>
+        <item>@color/video_mode_color</item>
+        <item>@color/photosphere_mode_color</item>
+    </array>
+
+    <!-- These must correspond in order to the entries in CameraProfile. -->
+    <array name="camcorder_profile_names">
+        <item>@string/pref_video_quality_entry_low</item>
+        <item>@string/pref_video_quality_entry_high</item>
+        <item>@string/pref_video_quality_entry_qcif_notrans</item>
+        <item>@string/pref_video_quality_entry_cif_notrans</item>
+        <item>@string/pref_video_quality_entry_480p_notrans</item>
+        <item>@string/pref_video_quality_entry_720p_notrans</item>
+        <item>@string/pref_video_quality_entry_1080p_notrans</item>
+        <item>@string/pref_video_quality_entry_qvga_notrans</item>
+        <item>@string/pref_video_quality_entry_2160p_notrans</item>
+    </array>
+
+    <!-- SPRD: Add item pref_camera_antibanding_key @{ -->
+    <string-array name="pref_camera_antibanding_entries">
+        <!-- item>@string/pref_camera_antibanding_entry_auto</item -->
+        <item>@string/pref_camera_antibanding_entry_50</item>
+        <item>@string/pref_camera_antibanding_entry_60</item>
+        <!-- item>@string/pref_camera_antibanding_entry_off</item -->
+    </string-array>
+    <!-- SPRD:add for antiband auto Bug549740 @{ -->
+    <string-array name="pref_camera_antibanding_entries_addauto">
+        <item>@string/pref_camera_antibanding_entry_50</item>
+        <item>@string/pref_camera_antibanding_entry_60</item>
+        <item>@string/pref_camera_antibanding_entry_auto</item>
+        <!-- item>@string/pref_camera_antibanding_entry_off</item -->
+    </string-array>
+    <string-array name="pref_camera_antibanding_entryvalues" translatable="false">
+        <!-- item>@string/pref_camera_antibanding_entryvalue_auto</item -->
+        <item>@string/pref_camera_antibanding_entryvalue_50</item>
+        <item>@string/pref_camera_antibanding_entryvalue_60</item>
+        <item>@string/pref_camera_antibanding_entryvalue_auto</item>
+        <!-- item>@string/pref_camera_antibanding_entryvalue_off</item -->
+    </string-array>
+    <!-- }@ -->
+
+    <!-- SPRD: dev new feature jpeg quality start -->
+    <string-array name="pref_camera_jpeg_quality_entries" translatable="false">
+        <item>@string/pref_camera_jpeg_quality_entry_super_height</item>
+        <item>@string/pref_camera_jpeg_quality_entry_hight</item>
+        <item>@string/pref_camera_jpeg_quality_entry_normal</item>
+    </string-array>
+    <string-array name="pref_camera_jpeg_quality_entry_values" translatable="false">
+        <item>@string/pref_camera_jpegh_quality_entry_value_super_hight</item>
+        <item>@string/pref_camera_jpegh_quality_entry_value_hight</item>
+        <item>@string/pref_camera_jpeg_quality_entry_value_normal</item>
+	</string-array>
+
+    <!-- }@ dev new feature jpeg quality end -->
+
+    <!-- SPRD: dev new feature face detect start @{ -->
+    <string-array name="pref_camera_ai_detect_entries">
+        <item>@string/pref_ai_detect_entry_off</item>
+        <item>@string/pref_ai_detect_entry_face</item>
+        <item>@string/pref_ai_detect_entry_face_attributes</item>
+        <item>@string/pref_ai_detect_entry_smile</item>
+    </string-array>
+    <string-array name="pref_camera_ai_detect_entries_removesmile">
+        <item>@string/pref_ai_detect_entry_off</item>
+        <item>@string/pref_ai_detect_entry_face</item>
+        <item>@string/pref_ai_detect_entry_face_attributes</item>
+    </string-array>
+    <string-array name="pref_camera_ai_detect_entryvalues" translatable="false">
+        <item>@string/pref_ai_detect_entry_value_off</item>
+        <item>@string/pref_ai_detect_entry_value_face</item>
+        <item>@string/pref_ai_detect_entry_value_face_attributes</item>
+        <item>@string/pref_ai_detect_entry_value_smile</item>
+    </string-array>
+    <!-- }@ dev new feature face detect end -->
+
+    <!-- SPRD: Add dev new Feature for storagePath @{ -->
+    <string-array name="pref_camera_storage_path_entries" translatable="false">
+        <item>@string/storage_path_external</item>
+        <item>@string/storage_path_internal</item>
+    </string-array>
+    <string-array name="pref_camera_storage_path_entryvalues" translatable="false">
+        <item>External</item>
+        <item>Internal</item>
+    </string-array>
+    <!-- }@ dev new Feature for storagePath end -->
+
+    <!-- dev new feature color effect of camera start -->
+    <string-array name="pref_camera_color_effect_entries" translatable="false">
+        <item>@string/pref_camera_color_effect_entry_none</item>
+        <item>@string/pref_camera_color_effect_entry_mono</item>
+        <item>@string/pref_camera_color_effect_entry_negative</item>
+        <item>@string/pref_camera_color_effect_entry_sepia</item>
+        <item>@string/pref_camera_color_effect_entry_cold</item>
+        <item>@string/pref_camera_color_effect_entry_antique</item>
+    </string-array>
+    <string-array name="pref_camera_color_effect_entryvalues" translatable="false">
+        <item>@string/pref_camera_color_effect_entry_value_none</item>
+        <item>@string/pref_camera_color_effect_entry_value_mono</item>
+        <item>@string/pref_camera_color_effect_entry_value_negative</item>
+        <item>@string/pref_camera_color_effect_entry_value_sepia</item>
+        <item>@string/pref_camera_color_effect_entry_value_cold</item>
+        <item>@string/pref_camera_color_effect_entry_value_antique</item>
+    </string-array>
+    <!-- dev new feature color effect of camera end -->
+    <!-- SPRD: Add item pref_camera_scenemode_key @{ -->
+    <string-array name="pref_camera_scenemode_entries" translatable="false">
+       <item>@string/pref_camera_scenemode_entry_action</item>
+       <item>@string/pref_camera_scenemode_entry_night</item>
+       <item>@string/pref_camera_scenemode_entry_auto</item>
+       <!-- SPRD: Fix bug 411026 @{ -->
+       <item>@string/pref_camera_scenemode_entry_normal</item>
+       <!-- }@ -->
+       <item>@string/pref_camera_scenemode_entry_portrait</item>
+       <item>@string/pref_camera_scenemode_entry_landscape</item>
+    </string-array>
+    <string-array name="pref_camera_scenemode_entryvalues" translatable="false">
+        <item>action</item>
+        <item>night</item>
+        <item>auto</item>
+        <item>normal</item>
+        <item>portrait</item>
+        <item>landscape</item>
+    </string-array>
+    <!-- }@ -->
+
+    <!-- SPRD Bug:474721 Feature:Contrast. -->
+    <string-array name="pref_camera_contrast_entries" translatable="false">
+        <item>@string/pref_entry_value_three</item>
+        <item>@string/pref_entry_value_two</item>
+        <item>@string/pref_entry_value_one</item>
+        <item>@string/pref_entry_value_zero</item>
+        <item>@string/pref_entry_negative_value_one</item>
+        <item>@string/pref_entry_negative_value_two</item>
+        <item>@string/pref_entry_negative_value_three</item>
+    </string-array>
+
+    <!-- SPRD Bug:474722 Feature:Saturation. -->
+    <string-array name="pref_camera_saturation_entries" translatable="false">
+        <item>@string/pref_entry_value_three</item>
+        <item>@string/pref_entry_value_two</item>
+        <item>@string/pref_entry_value_one</item>
+        <item>@string/pref_entry_value_zero</item>
+        <item>@string/pref_entry_negative_value_one</item>
+        <item>@string/pref_entry_negative_value_two</item>
+        <item>@string/pref_entry_negative_value_three</item>
+    </string-array>
+
+    <!-- SPRD Bug:474721 Feature:Contrast. -->
+    <string-array name="pref_camera_contrast_entry_values" translatable="false">
+        <item>contrast_six</item>
+        <item>contrast_five</item>
+        <item>contrast_four</item>
+        <item>contrast_three</item>
+        <item>contrast_two</item>
+        <item>contrast_one</item>
+        <item>contrast_zero</item>
+    </string-array>
+
+    <string name="pref_entry_value_zero" translatable="false">0</string>
+    <string name="pref_entry_value_one" translatable="false">1</string>
+    <string name="pref_entry_value_two" translatable="false">2</string>
+    <string name="pref_entry_value_three" translatable="false">3</string>
+    <string name="pref_entry_value_four" translatable="false">4</string>
+    <string name="pref_entry_value_five" translatable="false">5</string>
+    <string name="pref_entry_value_six" translatable="false">6</string>
+
+    <!-- SPRD Bug:474724 Feature:ISO. -->
+    <string-array name="pref_camera_iso_entries" translatable="false">
+        <item>@string/pref_camera_iso_entry_auto</item>
+        <item>@string/pref_entry_value_1600</item>
+        <item>@string/pref_entry_value_800</item>
+        <item>@string/pref_entry_value_400</item>
+        <item>@string/pref_entry_value_200</item>
+        <item>@string/pref_entry_value_100</item>
+    </string-array>
+    <string-array name="pref_camera_iso_entryvalues" translatable="false">
+        <item>auto</item>
+        <item>iso_1600</item>
+        <item>iso_800</item>
+        <item>iso_400</item>
+        <item>iso_200</item>
+        <item>iso_100</item>
+    </string-array>
+
+    <!-- SPRD Feature:FOCUS DISTANCE. -->
+    <string-array name="pref_camera_focus_distance_entries" translatable="false">
+        <item>@string/pref_camera_focus_distance_entry_auto</item>
+        <item>@string/pref_entry_focus_distance_value_40</item>
+        <item>@string/pref_entry_focus_distance_value_80</item>
+        <item>@string/pref_entry_focus_distance_value_100</item>
+    </string-array>
+    <string-array name="pref_camera_focus_distance_entryvalues" translatable="false">
+        <item>auto</item>
+        <item>focusdistance_40</item>
+        <item>focusdistance_80</item>
+        <item>focusdistance_100</item>
+    </string-array>
+
+    <!-- SPRD Bug:474718 Feature:Metering. -->
+    <string-array name="pref_camera_metering_entries" translatable="false">
+        <item>@string/pref_camera_metering_entry_frame_average</item>
+        <item>@string/pref_camera_metering_entry_center_weighted</item>
+        <item>@string/pref_camera_metering_entry_spot_metering</item>
+    </string-array>
+    <string-array name="pref_camera_metering_entryvalues" translatable="false">
+        <item>@string/pref_camera_metering_entry_value_frame_average</item>
+        <item>@string/pref_camera_metering_entry_value_center_weighted</item>
+        <item>@string/pref_camera_metering_entry_value_spot_metering</item>
+    </string-array>
+
+    <string-array name="pref_camera_saturation_entry_values" translatable="false">
+        <item>saturation_six</item>
+        <item>saturation_five</item>
+        <item>saturation_four</item>
+        <item>saturation_three</item>
+        <item>saturation_two</item>
+        <item>saturation_one</item>
+        <item>saturation_zero</item>
+    </string-array>
+
+    <!-- SPRD Bug:509708 Feature:Time Lapse. -->
+    <string-array name="pref_video_timelapse_entries" translatable="false">
+        <item>@string/pref_timelapse_entry_off</item>
+        <item>@string/pref_timelapse_entry_4</item>
+        <item>@string/pref_timelapse_entry_10</item>
+        <item>@string/pref_timelapse_entry_30</item>
+        <item>@string/pref_timelapse_entry_60</item>
+        <item>@string/pref_timelapse_entry_90</item>
+        <item>@string/pref_timelapse_entry_150</item>
+        <item>@string/pref_timelapse_entry_300</item>
+        <item>@string/pref_timelapse_entry_450</item>
+        <item>@string/pref_timelapse_entry_900</item>
+        <item>@string/pref_timelapse_entry_1800</item>
+    </string-array>
+    <string-array name="pref_video_timelapse_entry_values" translatable="false">
+        <item>1</item>
+        <item>4</item>
+        <item>10</item>
+        <item>30</item>
+        <item>60</item>
+        <item>90</item>
+        <item>150</item>
+        <item>300</item>
+        <item>450</item>
+        <item>900</item>
+        <item>1800</item>
+    </string-array>
+
+    <!-- SPRD Bug:474696 Feature:Slow-Motion. -->
+    <string-array name="pref_video_slow_motion_entries" translatable="false">
+    </string-array>
+    <string-array name="pref_video_slow_motion_entry_values" translatable="false">
+    <!-- SPRD:Bug 557798 dynamic display the values of slow motion. --><!--
+        <item>@string/pref_entry_value_three</item>
+        <item>@string/pref_entry_value_two</item>
+        <item>@string/pref_entry_value_one</item>
+         -->
+    </string-array>
+
+    <!-- SPRD: dev new feature quick capture start @{ -->
+    <string-array name="pref_camera_quick_capture_entries" translatable="false">
+        <item>@string/pref_camera_quick_capture_entry_capture_with_back_camera</item>
+        <item>@string/pref_camera_quick_capture_entry_capture_with_front_camera</item>
+        <item>@string/pref_camera_quick_capture_entry_off</item>
+    </string-array>
+    <string-array name="pref_camera_quick_capture_entry_values" translatable="false">
+        <item>@string/pref_camera_quick_capture_entry_value_capture_with_back_camera</item>
+        <item>@string/pref_camera_quick_capture_entry_value_capture_with_front_camera</item>
+        <item>@string/pref_camera_quick_capture_entry_value_off</item>
+    </string-array>
+    <!-- }@ dev new feature quick capture end -->
+
+    <!-- SPRD Bug:1000720 Feature:Qr scan vcard. -->
+    <string-array name="pref_vcard_entries" translatable="false">
+        <item>@string/nameLabelsGroup</item>
+        <item>@string/phoneLabelsGroup</item>
+        <item>@string/emailLabelsGroup</item>
+        <item>@string/postal_address</item>
+        <item>@string/ghostData_company</item>
+        <item>@string/ghostData_title</item>
+        <!-- <item>@string/vcard_url_title</item> -->
+        <item>@string/label_notes</item>
+    </string-array>
+    <string-array name="pref_vcard_field_entries" translatable="false">
+        <item>N</item>
+        <item>TEL</item>
+        <item>EMAIL</item>
+        <item>ADR</item>
+        <item>ORG</item>
+        <item>TIL</item>
+        <!--<item>URL</item> -->
+        <item>NOTE</item>
+    </string-array>
+
+    <array name="portrait_refocus_icons" translatable="false">
+        <item>@drawable/ic_portrait_bokeh_off_indicator_unisoc</item>
+        <item>@drawable/ic_portrait_bokeh_on_indicator_unisoc</item>
+    </array>
+    <array name="portrait_refocus_descriptions" translatable="false">
+        <item>@string/setting_off</item>
+        <item>@string/setting_on</item>
+    </array>
+    <array name="light_portrait_display_icons" translatable="false">
+        <item>@drawable/ic_portrait_light_off_indicator_sprd</item>
+        <item>@drawable/ic_portrait_light_on_indicator_sprd</item>
+    </array>
+    <array name="light_portrait_display_descriptions" translatable="false">
+        <item>@string/setting_off</item>
+        <item>@string/setting_on</item>
+    </array>
+    <array name="make_up_display_icons" translatable="false">
+        <item>@drawable/ic_make_up_off_indicator_sprd</item>
+        <item>@drawable/ic_make_up_on_indicator_sprd</item>
+    </array>
+    <array name="make_up_display_descriptions" translatable="false">
+        <item>@string/setting_off</item>
+        <item>@string/setting_on</item>
+    </array>
+</resources>

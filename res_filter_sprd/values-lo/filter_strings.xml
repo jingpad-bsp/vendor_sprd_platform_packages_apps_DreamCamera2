@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="filter_name_crisp_winter">"ລະດູໜາວ"</string>
+<string name="filter_name_early_bird">"​ເກົ່າ"​</string>
+<string name="filter_name_film_stock">"ແຈ້ງ"</string>
+<string name="filter_name_horror_blue">"ສີຟ້າ"</string>
+<string name="filter_name_nashville">"ແນສ໌ວິວ"</string>
+<string name="filter_name_soft_warming">"ອຸນຫະພູມເຄວິນ"</string>
+<string name="filter_name_bismuth">"ຂາວ​ດຳ"</string>
+<string name="filter_name_warm">"ອຸ່ນ"</string>
+<string name="filter_name_history">"ປະຫວັດ"</string>
+</resources>

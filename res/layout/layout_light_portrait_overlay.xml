@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.camera.widget.selector.lightPortrait.LightPortraitOverLay
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/light_portrait_overlay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="gone"
+    app:border_color_high_light="#e6d417"
+    app:border_color_normal="#e0ffffff"
+    app:border_color_mask="#80000000"
+    app:border_width="2dp"
+    app:landscape_padding="104dp"
+    app:portrait_padding="148dp"
+    app:radius="124dp"
+    >
+
+</com.android.camera.widget.selector.lightPortrait.LightPortraitOverLay>

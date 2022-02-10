@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="pref_camera_composition_line_key_title">"رەسىم قۇراشتۇرۇش سىزىقى"</string>
+<string name="pref_camera_composition_line_key_entry_close">ئىتىۋېتىش</string>
+<string name="pref_camera_composition_line_key_entry_grid">"تور كاتەكچىسى"</string>
+<string name="pref_camera_composition_line_key_entry_goldensection">"ئالتۇن بۆلەكلىك رايۇن"</string>
+<string name="pref_camera_composition_line_key_entry_reticle">"كىرىس سىزىق"</string>
+<string name="pref_camera_composition_line_key_entry_box">"كاتەكچە"</string>
+<string name="pref_camera_photograph_eois_key_title">"رەسىم تىترىشىنىڭ ئالدىنى ئېلىش"</string>
+<string name="pref_camera_hdr_normal_pic_key_title">"ئۈچۈن نورمال رەسىم ساقلاشHDR"</string>
+<string name="pref_camera_gradienter_key_title">"شەيتان"</string>
+<string name="pref_camera_touching_photograph_key_title">"يىنىك چېكىپ تارتىش"</string>
+<string name="pref_camera_zsl_key_title">"نۆللۈك كېچىكتۈرۈپ تارتىش"</string>
+<string name="pref_dream_high_iso_tilte">"يۇقىرى دەرىجىلىك كېچە مەنزىرىسى"</string>
+</resources>

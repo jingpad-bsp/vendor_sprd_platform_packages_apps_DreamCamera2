@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="camera_mode">相机模式</string>
+    <string name="camera_mode_auto_photo">自动</string>
+    <string name="camera_mode_manual">手动</string>
+    <string name="camera_mode_scene">场景选择</string>
+    <string name="camera_mode_pip">画中画</string>
+    <string name="camera_mode_gcam">全景</string>
+    <string name="camera_mode_interval">间隔拍摄</string>
+    <string name="camera_mode_viv">画中画</string>
+    <string name="camera_mode_audio_picture">有声照片</string>
+    <string name="camera_mode_qrcode">二维码</string>
+    <string name="mode_timelapse">延时</string>
+    <string name="camera_mode_slowmotion">慢录</string>
+    <string name="slide_panel_capture">取景</string>
+    <string name="slide_panel_mode">模式</string>
+    <string name="slide_panel_settings">设置</string>
+    <string name="extend_panel_exposure">曝光</string>
+    <string name="extend_panel_iso">ISO</string>
+    <string name="extend_panel_wb">白平衡</string>
+    <string name="extend_panel_style">色彩风格</string>
+    <string name="extend_panel_style_default">默认</string>
+    <string name="extend_panel_style_customize">自定义</string>
+    <string name="zoom_scale">变焦范围</string>
+    <string name="dream_freeze_frame_confirm_delete_text">将放弃所有照片?</string>
+    <string name="dream_setting_back_camera_photo">照片大小(后置相机)</string>
+    <string name="dream_setting_back_camera_video">视频大小(后置相机)</string>
+    <string name="dream_setting_front_camera_photo">照片大小(前置相机)</string>
+    <string name="dream_setting_front_camera_video">视频大小(前置相机)</string>
+    <string name="dream_pref_restore_detail">还原相机默认设置</string>
+    <string name="dream_restore_message">要恢复相机默认设置吗?</string>
+    <string name="dream_continuephotomodule_module_warning">长按快门连拍，直至松开快门或达到连拍上限</string>
+    <string name="dream_slowmotion_module_warning">可在设置菜单中改变慢录倍率</string>
+    <string name="dream_timelapse_module_warning">可在设置菜单中改变延时间隔</string>
+
+    <!-- SPRD: fix bug 474665 @{ -->
+    <string name="pref_shutter_sound_title">相机声音</string>
+    <string name="welcome_right">右滑可切换相机模式</string>
+    <string name="welcome_left">左滑可打开相机设置</string>
+    <string name="welcome_confirm">开始拍照</string>
+
+    <!-- fix bug 578797 New feature:QR code @{ -->
+    <string name="scan_text">将二维码放入框内, 即可自动扫描</string>
+    <string name="rescan_label">重新扫描</string>
+    <string name="access_link_label">访问链接</string>
+    <string name="scan_result">扫描结果</string>
+    <string name="qrcode">Url:</string>
+    <string name="qrcode_result">未读取到任何数据，请重新扫描</string>
+    <string name="qrcode_can_not_resolve">无法打开链接</string>
+    <!-- }@ -->
+
+    <!-- fix bug fix Bug 616294 add warn location express when enter into Camera @{ -->
+    <string name="warn_location_title">警示</string>
+    <string name="warn_location_message">是否允许开启定位服务？</string>
+    <!-- }@ -->
+    <!-- SPRD: Add for Bokeh -->
+    <string name="bokeh_capture_failed">拍照失败</string>
+    <string name="bokeh_capture_saving">正在保存，请稍候...</string>
+    <string name="bokeh_otp_not_supported">手机无OTP，不支持Bokeh功能</string>
+    <!-- @} -->
+
+    <string name="camera_mode_filter_desc">滤镜</string>
+
+    <!--SPRD: Fix 597206 Adds new features 3DPhoto-->
+    <string name="mode_tdphoto_desc">3D相机</string>
+    <string name="setting_td_camera_photo">前置摄像头3D照片</string>
+    <string name="tdcamera_picturesize_large">(16:9) 2.0百万像素</string>
+    <string name="tdcamera_picturesize_small">(16:9) 0.9百万像素</string>
+    <string name="camera_picturesize_3d_default">1920x1080</string>
+    <!-- @} -->
+    <string name="blur_f_number_effect">光圈(虚化程度)</string>
+
+    <string name="goto_ar_failed">打开uSens AR失败!</string>
+    <string name="goto_gallery_failed">图库已停用，可到“设置>应用”中开启</string>
+    <!--SPRD:  Fix bug 585183 Adds new feature real-time distance measurement @{ -->
+    <string name="mode_td_range_find_desc">实时测距</string>
+    <string name="td_range_find_between_two_points">相机将实时计算所选两点间的距离</string>
+    <string name="td_range_find_drag_points">拖动两点来选择要测量的位置\n测距时不要晃动相机</string>
+    <string name="td_range_find_distance_des">公分</string>
+    <string name="td_range_find_please_wait">请稍等正在测量</string>
+    <string name="td_range_find_fail">测距失败，请重新选择角度</string>
+    <string name="td_range_find_distance">距离: %s</string>
+    <string name="td_range_find_distance_note">（可能存在误差，请优化角度）</string>
+    <string name="td_range_find_timeout">测距超时</string>
+    <!-- @} -->
+    <string name="idle_sleep_text">轻触或按键唤醒相机</string>
+    <string name="pano_preview_indication_dream">拍摄时请匀速移动</string>
+
+    <string name="pano_capture_indication_dream">请将箭头保持在水平线上</string>
+    <string name="pano_capture_indication_dream_vertical">请将箭头保持在垂直线上</string>
+    <string name="camera_mode_3dnr_desc">超级夜景</string>
+    <string name="camera_mode_3dnr_pro_desc">超级夜景Pro</string>
+    <string name="multi_window_tip">相机不支持多窗口模式，请返回全屏模式操作。</string>
+
+
+    <string name="extend_panel_dermabrasion">磨皮</string>
+    <string name="extend_panel_enlarge_eyes">大眼</string>
+    <string name="extend_panel_slim_face">瘦脸</string>
+    <string name="external_access_failed">授权失败</string>
+
+    <string name="mode_ultra_wide_angle_desc">切换到超广角模式</string>
+
+    <string name="face_race_yellow">人种: 黄种人</string>
+    <string name="face_race_white">人种: 白种人</string>
+    <string name="face_race_black">人种: 黑种人</string>
+    <string name="face_race_india">人种: 印度人</string>
+
+
+    <!-- light portrait description -->
+    <string name="light_portrait_des_no">无光效</string>
+    <string name="light_portrait_des_studio">影棚光</string>
+    <string name="light_portrait_des_butterfly">蝴蝶光</string>
+    <string name="light_portrait_des_split">侧光</string>
+    <string name="light_portrait_des_contour">轮廓光</string>
+    <string name="light_portrait_des_stage">剧场光</string>
+    <string name="light_portrait_des_classic">经典光</string>
+    <string name="light_portrait_des_window">窗边光</string>
+    <string name="light_portrait_des_wavedot">波点光</string>
+</resources>

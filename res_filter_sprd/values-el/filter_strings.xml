@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="filter_name_crisp_winter">Χειμώνας</string>
+<string name="filter_name_early_bird">"Νοσταλγία"</string>
+<string name="filter_name_film_stock">Ζωντάνια</string>
+<string name="filter_name_horror_blue">"Μπλε"</string>
+<string name="filter_name_nashville">Νάσβιλ</string>
+<string name="filter_name_soft_warming">Kelvin</string>
+<string name="filter_name_bismuth">Μονοφωνικό</string>
+<string name="filter_name_warm">"Θερμό"</string>
+<string name="filter_name_history">"Ιστορικό"</string>
+</resources>

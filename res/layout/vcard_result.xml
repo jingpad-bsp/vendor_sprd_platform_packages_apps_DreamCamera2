@@ -1,0 +1,110 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#171717"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/vcard_bitmap_layout"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:orientation="vertical" >
+        <ImageView
+            android:id="@+id/qrvcard_bitmap"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="50dp"
+            android:layout_centerHorizontal="true" />
+        <TextView
+            android:id="@+id/qrvcard_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#999999"
+            android:text="@string/vcard_title"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2px"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#404040" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="10dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="10dp"
+            android:background="#171717" />
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/vcard_base_item"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="#171717"
+        android:layout_below="@id/vcard_bitmap_layout"
+        android:headerDividersEnabled="true"
+        android:footerDividersEnabled="true">
+    </ListView>
+
+    <LinearLayout
+        android:id="@+id/qrvcard_result_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical" >
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="10dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="10dp"
+            android:background="#171717" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2px"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="50dp"
+            android:layout_marginLeft="10dp"
+            android:background="#404040" />
+        <LinearLayout
+            android:id="@+id/qrvcard_result_button_1"
+            style="@style/SecurityPreferenceButtonContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp" >
+
+            <Button
+                android:id="@+id/cancel_button"
+                style="@style/SecurityPreferenceButton"
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@android:color/white"
+                android:background="@drawable/button_background_qrscan"
+                android:text="@string/rescan_label"/>
+
+            <Button
+                android:id="@+id/vcard_add_button"
+                style="@style/SecurityPreferenceButton"
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@android:color/white"
+                android:background="@drawable/button_background_qrscan"
+                android:text="@string/vcard_create"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

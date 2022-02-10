@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/camera_root_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center" >
+
+    <!--
+         Wrap a frame layout around texture view so that when scaled, texture
+         view will not draw outside its unscaled bounds
+    -->
+
+    <FrameLayout
+        android:id="@+id/frame_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <!--
+         用于显示预览实时滤镜的GLSurfaceView。
+         TsAdvancedFilterGLView会显示在PreviewSurfaceView上层，遮挡住PreviewSurfaceView
+        -->
+
+    </FrameLayout>
+
+</merge>

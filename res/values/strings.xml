@@ -1,0 +1,1105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- The name of the Android Camera application. [CHAR LIMIT=16] -->
+    <string name="app_name">Camera</string>
+    <!-- The label for the Video Camera activity. [CHAR LIMIT=16] -->
+    <string name="video_camera_label">Camcorder</string>
+    <!-- Used to format short video duration in Details dialog. minutes:seconds e.g. 00:30 -->
+    <string name="details_ms">%1$02d:%2$02d</string>
+    <!-- Used to format video duration in Details dialog. hours:minutes:seconds e.g. 0:21:30 -->
+    <string name="details_hms">%1$d:%2$02d:%3$02d</string>
+
+    <!-- Displayed in the title of the dialog for things to do with a picture
+             that is to be "set as" (e.g. set as contact photo or set as wallpaper) -->
+
+    <!-- Details dialog "OK" button. Dismisses dialog. -->
+
+    <!-- The label shown after an image is deleted [CHAR LIMIT=16] -->
+
+    <!-- The label on the button which when clicked will undo a deletion of image [CHAR LIMIT=16]-->
+
+    <string name="details">Details</string>
+    <string name="close">Close</string>
+
+    <!-- String indicating timestamp of photo or video -->
+
+    <!-- String used as a menu label. The user can choose to edit the image
+         [CHAR_LIMIT=20]-->
+    <!-- The title of the menu item to let user crop the image. [CHAR LIMIT=15] -->
+    <!-- The title of the menu item to let user trim the video. [CHAR LIMIT=15] -->
+    <!-- The title of the menu item to let user set the image as background etc. [CHAR LIMIT=15] -->
+
+    <!-- String indicating an error when playing the video. [CHAR LIMIT=30] -->
+    <string name="video_err">Can\'t play video.</string>
+
+    <!-- Text indicating the title of a media item in details window [CHAR LIMIT=14] -->
+    <string name="title">Title</string>
+    <!-- Text indicating the description of a media item in details window [CHAR LIMIT=14] -->
+    <string name="description">Description</string>
+    <!-- Text indicating the creation time of a media item in details window [CHAR LIMIT=14] -->
+    <string name="time">Time</string>
+    <!-- Text indicating the location of a media item in details window [CHAR LIMIT=14] -->
+    <string name="location">Location</string>
+    <!-- Text indicating the path of a media item in details window [CHAR LIMIT=14] -->
+    <string name="path">Path</string>
+    <!-- Text indicating the width of a media item in details window [CHAR LIMIT=14] -->
+    <string name="width">Width</string>
+    <!-- Text indicating the height of a media item in details window [CHAR LIMIT=14] -->
+    <string name="height">Height</string>
+    <!-- Text indicating the orientation of a media item in details window [CHAR LIMIT=14] -->
+    <string name="orientation">Orientation</string>
+    <!-- Text indicating the duration of a video item in details window [CHAR LIMIT=18] -->
+    <string name="duration">Duration</string>
+    <!-- Text indicating the mime type of a media item in details window [CHAR LIMIT=14] -->
+    <string name="mimetype">MIME type</string>
+    <!-- Text indicating the file size of a media item in details window [CHAR LIMIT=14] -->
+    <string name="file_size">File size</string>
+    <!-- Text indicating the maker of a media item in details window [CHAR LIMIT=14] -->
+    <string name="maker">Maker</string>
+    <!-- Text indicating the model of a media item in details window [CHAR LIMIT=14] -->
+    <string name="model">Model</string>
+    <!-- Text indicating flash info of a media item in details window [CHAR LIMIT=14] -->
+    <string name="flash">Flash</string>
+    <!-- Text indicating aperture of a media item in details window [CHAR LIMIT=14] -->
+    <string name="aperture">Aperture</string>
+    <!-- Text indicating the focal length of a media item in details window [CHAR LIMIT=14] -->
+    <string name="focal_length">Focal Length</string>
+    <!-- Text indicating the white balance of a media item in details window [CHAR LIMIT=18] -->
+    <string name="white_balance">White balance</string>
+    <!-- Text indicating the exposure time of a media item in details window [CHAR LIMIT=14] -->
+    <string name="exposure_time">Exposure time</string>
+    <!-- Text indicating the ISO speed rating of a media item in details window [CHAR LIMIT=14] -->
+    <string name="iso">ISO</string>
+    <!-- String indicating the time units in seconds. [CHAR LIMIT=8] -->
+    <!-- String indicating the length units in milli-meters. [CHAR LIMIT=8] -->
+    <string name="unit_mm">mm</string>
+    <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=12] -->
+    <string name="manual">Manual</string>
+    <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=12 -->
+    <string name="auto">Auto</string>
+    <!-- String indicating camera flash is fired. [CHAR LIMIT=14] -->
+    <string name="flash_on">Flash fired</string>
+    <!-- String indicating camera flash is not used. [CHAR LIMIT=14] -->
+    <string name="flash_off">No flash</string>
+
+    <!-- String indicating image width or height is unknown. [CHAR LIMIT=14] -->
+    <string name="unknown">Unknown</string>
+
+    <!-- Toast message shown after we try to make a local album available offline
+         [CHAR LIMIT=150] -->
+
+
+    <!-- The content of a dialog showing trimming in progress. [CHAR LIMIT=30] -->
+
+    <!-- title for the dialog showing the error of camera hardware -->
+    <string name="camera_error_title">Camera error</string>
+
+    <!-- message for the dialog showing the error of camera hardware -->
+    <string name="error_cannot_connect_camera">Can\'t connect to the camera.</string>
+
+    <!-- message for the dialog showing the camera is disabled because of security policies. Camera cannot be used. -->
+    <string name="error_camera_disabled">Camera has been disabled because of security policies.</string>
+
+    <!-- message for the dialog showing that the user's photo could not be saved [CHAR LIMIT=NONE] -->
+    <string name="error_media_storage_failure">There was a problem saving your photo or video.</string>
+
+    <!-- message for the dialog showing that the app does not have sufficient permissions [CHAR LIMIT=NONE] -->
+    <string name="error_permissions">The app does not have critical permissions needed to run. Please check your permissions settings.</string>
+
+    <!-- Reason used for session failure which is visible in UI [CHAR LIMIT=NONE] -->
+
+    <!-- alert to the user to wait for some operation to complete -->
+    <string name="wait">Please wait\u2026</string>
+
+    <!-- alert to the user that an SD card must be installed before using the camera -->
+    <string name="no_storage" product="default">Insert an SD card before using the camera.</string>
+
+    <!-- alert to the user that the SD card is being disk-checked -->
+    <string name="preparing_sd" product="default">Preparing SD card\u2026</string>
+
+    <!-- alert to the user that the camera fails to read or write the SD card. -->
+    <string name="access_sd_fail" product="default">Couldn\'t access SD card.</string>
+
+    <!-- A label that overlays on top of the preview frame to indicate the camcorder is in time lapse mode [CHAR LIMIT=35] -->
+    <string name="time_lapse_title">Time lapse recording</string>
+
+    <!-- Default feedback that is entered in the Feedback textview for issues related to camera access. [CHAR LIMIT=NONE] -->
+    <string name="feedback_description_camera_access">The app couldn\'t connect to the camera</string>
+
+    <!-- Default feedback that is entered in the Feedback textview for issues related to saving photos. [CHAR LIMIT=NONE] -->
+    <string name="feedback_description_save_photo">Photo or video did not save to the device.</string>
+
+    <!-- Screen display message during image capture to indicate that the capture is in progress, like during HDR+. [CHAR LIMIT=20] -->
+
+    <!-- Settings screen, camera selection dialog title. Users can select a camera from the phone (front-facing or back-facing). [CHAR LIMIT=20] -->
+
+    <string name="pref_camera_id_default" translatable="false">0</string>
+
+    <!-- Named indexes into the array of camera facing entries -->
+
+    <!-- In select camera setting, back facing camera. [CHAR LIMIT=14] -->
+    <!-- In select camera setting, front-facing camera. [CHAR LIMIT=14] -->
+
+    <!-- In select camera setting, back facing camera value. [CHAR LIMIT=14] -->
+    <string name="pref_camera_id_entry_back_value" translatable="false">0</string>
+    <!-- In select camera setting, front-facing camera value. [CHAR LIMIT=14] -->
+    <string name="pref_camera_id_entry_front_value" translatable="false">1</string>
+
+    <!-- Settings screen, location setting text. [CHAR LIMIT=20]-->
+    <string name="pref_camera_save_location_title">Save location</string>
+
+
+    <!--  Label for record location preference [CHAR LIMIT=50] -->
+
+    <!-- Title for countdown timer on camera settings screen [CHAR LIMIT=30]-->
+
+    <!-- Text followed by a checkbox to turn on/off sound effects during the countdown. [CHAR LIMIT=24]-->
+
+    <!-- Entry of a on/off setting. The setting is turned off. [CHAR LIMIT=15] -->
+    <string name="setting_off">Off</string>
+    <!-- Entry of a on/off setting. The setting is turned on. [CHAR LIMIT=15] -->
+    <string name="setting_on">On</string>
+
+    <!-- The value of a camera preference indicating the setting is off. -->
+    <!-- The value of a camera preference indicating the setting is on. -->
+    <!-- The value of a camera preference indicating the setting is none. -->
+
+    <!-- The Video quality settings in preference [CHAR LIMIT=21] -->
+
+    <!-- The value of a camera preference indicating the video quality is 'large'. -->
+    <string name="pref_video_quality_large" translatable="false">large</string>
+    <!-- The value of a camera preference indicating the video quality is 'medium'. -->
+    <string name="pref_video_quality_medium" translatable="false">medium</string>
+    <!-- The value of a camera preference indicating the video quality is 'small'. -->
+    <string name="pref_video_quality_small" translatable="false">small</string>
+
+    <!-- Describes the preference dialog for choosing interval between frame capture for
+    time lapse recording. Appears at top of the dialog. [CHAR LIMIT=30] -->
+
+    <!-- Settings screen, Camera setting category title -->
+    <string name="pref_camera_settings_category">Camera settings</string>
+
+    <!-- Settings screen, Camcorder setting category title -->
+
+    <!-- Settings screen, Picture size title -->
+
+    <!-- Settings screen, dialog choice for "large" picture size [CHAR LIMIT=20] -->
+    <string name="pref_camera_picturesize_entry_large">Large</string>
+    <!-- Settings screen, dialog choice for "medium" picture size [CHAR LIMIT=20] -->
+    <string name="pref_camera_picturesize_entry_medium">Medium</string>
+    <!-- Settings screen, dialog choice for "small" picture size [CHAR LIMIT=20] -->
+    <string name="pref_camera_picturesize_entry_small">Small</string>
+
+    <!-- The default photo resolution value. -->
+    <string name="pref_camera_picturesize_default" translatable="false">large</string>
+
+    <!-- Settings screen, Focus mode title -->
+
+    <!-- Settings screen, Focus mode dialog radio button choices -->
+    <!-- A setting that lets the camera focus into infinity. [CHAR LIMIT=20] -->
+    <!-- A setting that lets the camera operate in macro focus mode for nearby objects. [CHAR LIMIT=20] -->
+
+    <!-- Menu, focus mode labels [CHAR LIMIT=50] -->
+
+    <!-- HDR support mode setting. -->
+
+    <!-- Default focus mode setting -->
+    <string name="pref_camera_focusmode_default" translatable="false">continuous-picture</string>
+
+    <!-- Default flash mode setting. -->
+    <string name="pref_camera_flashmode_default" translatable="false">auto</string>
+
+    <string name="pref_camera_torch_flashmode_default" translatable="false">off</string>
+
+    <!-- Default videocamera flash mode setting. -->
+    <string name="pref_camera_video_flashmode_default" translatable="false">off</string>
+
+    <!-- Default HDR+ flash mode setting. -->
+    <string name="pref_camera_hdr_plus_flashmode_default" translatable="false">off</string>
+
+    <!-- Value for flash off setting -->
+
+    <!-- Settings screen, Flash mode title -->
+        <!-- flash label [CHAR LIMIT=50] -->
+
+    <!-- Settings screen, Flash mode 'auto'. [CHAR LIMIT=12] -->
+    <!-- Settings screen, Flash mode 'alway on'. [CHAR LIMIT=12] -->
+    <!-- Settings screen, Flash mode 'always off'. [CHAR LIMIT=12] -->
+
+    <!-- Menu, flash mode labels [CHAR LIMIT=50] -->
+
+    <!-- Default white balance setting. -->
+    <string name="pref_camera_whitebalance_default" translatable="false">auto</string>
+
+    <!-- Settings screen, white balance title -->
+    <string name="pref_camera_whitebalance_title">White balance</string>
+    <!-- Menu, white balance label -->
+
+    <!-- Settings screen, White balance dialog radio button choices -->
+    <string name="pref_camera_whitebalance_entry_auto">Auto</string>
+    <string name="pref_camera_whitebalance_entry_incandescent">Incandescent</string>
+    <!-- SPRD:Modify for add whitebalance bug 474737 @{
+    <string name="pref_camera_whitebalance_entry_daylight">Daylight</string>
+    -->
+    <string name="pref_camera_whitebalance_entry_daylight">Sunshine</string>
+    <!-- @} -->
+    <string name="pref_camera_whitebalance_entry_fluorescent">Fluorescent</string>
+    <string name="pref_camera_whitebalance_entry_cloudy">Cloudy</string>
+
+    <!-- Menu, White balance labels [CHAR LIMIT=50] -->
+    <!-- SPRD:Modify for add whitebalance bug 474737 @{
+    -->
+    <!-- @} -->
+
+    <!-- Scene mode that uses HDR plus (better HDR) [CHAR LIMIT=16] -->
+    <!-- Scene mode that uses HDR (high dynamic range) [CHAR LIMIT=16] -->
+    <!-- Scene mode to turn on HDR (better high dynamic range) [CHAR LIMIT=50] -->
+    <!-- Scene mode to turn off HDR (better high dynamic range) [CHAR LIMIT=50] -->
+    <!-- Scene mode to turn on HDR (high dynamic range) [CHAR LIMIT=50] -->
+    <!-- Scene mode to turn off HDR (high dynamic range) [CHAR LIMIT=50] -->
+
+    <!-- Settings menu, scene mode labels [CHAR LIMIT=50] -->
+    <!-- Scene mode that takes an image quickly with little motion blur. [CHAR LIMIT=50] -->
+    <!-- Scene mode that takes long exposures to capture night scenes without flash. [CHAR LIMIT=50] -->
+    <!-- Scene mode optimized for taking images in the sunset. [CHAR LIMIT=50] -->
+    <!-- Scene mode optimized for taking indoor low-lights pictures. [CHAR LIMIT=50] -->
+
+    <!-- Settings menu countdown timer off [CHAR LIMIT=50] -->
+    <!-- Settings menu countdown timer 1 second [CHAR LIMIT=50] -->
+    <!-- Settings menu countdown timer 3 seconds [CHAR LIMIT=50] -->
+    <!-- Settings menu countdown timer 10 seconds [CHAR LIMIT=50] -->
+    <!-- Settings menu countdown timer 15 seconds [CHAR LIMIT=50] -->
+
+    <!-- Toast after trying to select a setting that is not allowed to change in scene mode [CHAR LIMIT=NONE] -->
+
+    <!-- Exposure settings in preference -->
+    <string name="pref_exposure_default" translatable="false">0</string>
+    <!--  menu label exposure compensation [CHAR LIMIT=50] -->
+
+    <!-- Default HDR entry value -->
+
+    <!-- Default HDR+ entry value -->
+
+    <!-- HDR label ON [CHAR LIMIT=60] -->
+
+    <!-- switch camera label back [CHAR LIMIT=60] -->
+    <!-- switch camera label front [CHAR LIMIT=60] -->
+
+    <!-- Dialog "OK" button. Dismisses dialog. -->
+    <string name="dialog_ok">OK</string>
+
+    <!-- Dialog "Report" button. Opens Google Feedback screen [CHAR LIMIT=12] -->
+    <!-- Dialog "Dismiss" button. Closes the dialog [CHAR LIMIT=12]-->
+    <string name="dialog_dismiss">Dismiss</string>
+
+    <!-- Low-memory dialog message [CHAR LIMIT=NONE] -->
+    <string name="spaceIsLow_content" product="default">External memory space is insufficient. Change the storage setting or delete some images or other files.</string>
+
+    <string name="uDiskIsLow_content" product="default">U disk memory space is insufficient. Change the storage setting or delete some images or other files.</string>
+
+    <string name="Internal_spaceIsLow_content" product="default">Internal memory space is insufficient. Change the storage setting or delete some images or other files.</string>
+    <string name="Internal_spaceIsMIN_content" product="default">Internal memory space is insufficient. Delete some images or other files</string>
+    <!-- Camera format string for new image files. Passed to java.text.SimpleDateFormat. -->
+    <string name="image_file_name_format" translatable="false">"'IMG'_yyyyMMdd_HHmmss"</string>
+
+    <!-- Video Camera format string for new video files. Passed to java.text.SimpleDateFormat. -->
+    <string name="video_file_name_format" translatable="false">"'VID'_yyyyMMdd_HHmmss"</string>
+
+    <!-- Filename prefix for panorama output. -->
+    <string name="pano_file_name_format" translatable="false">"'PANO'_yyyyMMdd_HHmmss"</string>
+
+    <!-- The message shown when video record reaches size limit. -->
+    <string name="video_reach_size_limit">Size limit reached.</string>
+
+    <!-- The text shown when the panorama panning speed is to fast [CHAR LIMIT=16] -->
+    <string name="pano_too_fast_prompt">Too fast</string>
+
+    <!-- The text shown in the progress dialog when panorama preview is generating in the background [CHAR LIMIT=30] -->
+    <string name="pano_dialog_prepare_preview">Preparing panorama</string>
+
+    <!-- The text shown in the dialog when panorama saving failed [CHAR LIMIT=40] -->
+    <string name="pano_dialog_panorama_failed">Couldn\'t save panorama.</string>
+
+    <!-- The text shown on the dialog title in the dialogs for Panorama [CHAR LIMIT=12] -->
+    <string name="pano_dialog_title">Panorama</string>
+
+    <!-- The text shown on the top-left corner of the screen to indicate the capturing is on going [CHAR LIMIT=27] -->
+    <string name="pano_capture_indication">Capturing panorama</string>
+
+    <!-- The text shown in the progress dialog when waiting for previous panorama finishing [CHAR LIMIT=40] -->
+    <string name="pano_dialog_waiting_previous">Waiting for previous panorama</string>
+
+    <!-- The text shown on the bottom-left corner of the screen to indicate that the saving is in process [CHAR LIMIT=13] -->
+
+    <!-- The text shown on the screen to indicate that the panorama is rendering [CHAR LIMIT=27] -->
+    <string name="pano_review_rendering">Rendering panorama</string>
+
+    <!-- Toast telling users tapping on the viewfinder will trigger autofocus [CHAR LIMIT=28] -->
+
+    <!-- Default effect setting that clears the effect. -->
+
+    <!-- Title of video effect setting popup window -->
+
+    <!-- Effect setting item that clear the effect. [CHAR LIMIT=14] -->
+    <!-- Effect setting item that squeezes the face. [CHAR LIMIT=14] -->
+    <!-- Effect setting item that makes eyes big. [CHAR LIMIT=14] -->
+    <!-- Effect setting item that makes mouth big. [CHAR LIMIT=14] -->
+    <!-- Effect setting item that makes mouth small. [CHAR LIMIT=14] -->
+    <!-- Effect setting item that makes nose big. [CHAR LIMIT=14] -->
+    <!-- Effect setting item that makes eyes small. [CHAR LIMIT=14] -->
+    <!-- Effect setting item that replaces background with Android in Space. [CHAR LIMIT=14] -->
+    <!-- Effect setting item that replaces background with a sunset. [CHAR LIMIT=16] -->
+    <!-- Effect setting item that replaces background with video from gallery. [CHAR LIMIT=16] -->
+
+    <!-- Toast telling users tapping on the viewfinder will take a picture [CHAR LIMIT=54] -->
+
+    <!-- Announcement telling users video recording has just started [CHAR LIMIT=NONE] -->
+    <string name="video_recording_started">Video recording has started.</string>
+    <!-- Announcement telling users video recording has just stopped [CHAR LIMIT=NONE] -->
+    <string name="video_recording_stopped">Video recording has stopped.</string>
+
+    <!-- A button in effect setting popup to clear the effect. [CHAR LIMIT=26] -->
+
+    <!-- Title of category for silly face effects. [CHAR LIMIT=26] -->
+
+    <!-- Title of category for background replacement effects. [CHAR LIMIT=26] -->
+
+    <!-- The shutter button. [CHAR LIMIT=NONE] -->
+    <string name="accessibility_shutter_button">Shutter</string>
+    <!-- The cancel button. Used to cancel an in progress shot [CHAR LIMIT=NONE] -->
+    <string name="accessibility_cancel_button">Cancel</string>
+    <!-- The menu button. [CHAR LIMIT=NONE] -->
+    <!-- The check box in camera settings, such as store location. [CHAR LIMIT=NONE] -->
+    <!-- The button to switch to Camera mode. [CHAR LIMIT=NONE] -->
+    <!-- The button to switch to Video mode. [CHAR LIMIT=NONE] -->
+    <!-- The button to switch to Panorama mode. [CHAR LIMIT=NONE] -->
+    <!-- The button to switch to the Photo Sphere mode. [CHAR LIMIT=NONE] -->
+    <!-- The button to switch to the high quality mode. [CHAR LIMIT=NONE] -->
+    <!-- The button to switch to the Re-Focus mode. [CHAR LIMIT=NONE] -->
+    <!-- The button in review mode indicating that the photo taking, video recording, and panorama saving session should be canceled [CHAR LIMIT=NONE] -->
+    <string name="accessibility_review_cancel">Review cancel</string>
+    <!-- The button in review mode indicating that the taken photo/video is OK to be attached/uploaded [CHAR LIMIT=NONE] -->
+    <!-- button in review mode indicate the user want to retake another photo/video for attachment [CHAR LIMIT=NONE] -->
+    <!-- The button that opens up mode options, shown as '...' on screen [CHAR LIMIT=NONE] -->
+    <!-- Announcement when the mode list becomes hidden off screen [CHAR LIMIT=NONE] -->
+    <string name="accessibility_mode_list_hidden">Mode list closed</string>
+    <!-- Announcement when the mode list becomes shown on screen [CHAR LIMIT=NONE] -->
+    <string name="accessibility_mode_list_shown">Mode list open</string>
+    <!-- Announcement when a general media capture is performed, and visually the capture 'peeks' from right screen [CHAR LIMIT=NONE] -->
+    <!-- Announcement when a video capture is performed, and visually the capture 'peeks' from right screen [CHAR LIMIT=NONE] -->
+    <string name="photo_accessibility_peek">Photo taken</string>
+    <!-- Announcement when a video capture is performed, and visually the capture 'peeks' from right screen [CHAR LIMIT=NONE] -->
+    <string name="video_accessibility_peek">Video taken</string>
+
+    <!-- Description for the lock icon in Secure Camera filmstrip that when clicked, brings user to lock screen then full Camera [CHAR LIMIT=NONE] -->
+    <string name="accessibility_unlock_to_camera">Unlock to Camera</string>
+
+    <!-- Content description for general media items in filmstrip based on modified date, template will read a file modified date and time [CHAR LIMIT=NONE] -->
+    <!-- Content description for photo media items in filmstrip based on modified date, template will read a file modified date and time [CHAR LIMIT=NONE] -->
+    <string name="photo_date_content_description">Photo taken on %s</string>
+    <!-- Content description for video media items in filmstrip based on modified date, template will read a file modified date and time [CHAR LIMIT=NONE] -->
+    <string name="video_date_content_description">Video taken on %s</string>
+    <!-- Content description for panorama media items in filmstrip based on modified date, template will read a file modified date and time [CHAR LIMIT=NONE] -->
+    <string name="panorama_date_content_description">Panorama taken on %s</string>
+    <!-- Content description for photosphere media items in filmstrip based on modified date, template will read a file modified date and time [CHAR LIMIT=NONE] -->
+    <string name="photosphere_date_content_description">Photo Sphere taken on %s</string>
+    <!-- Content description for refocus media items in filmstrip based on modified date, template will read a file modified date and time [CHAR LIMIT=NONE] -->
+    <string name="refocus_date_content_description">Lens blur taken on %s</string>
+
+    <!-- Content description for media items in filmstrip which are still in the middle of processing [CHAR LIMIT=NONE] -->
+    <string name="media_processing_content_description">Media processing</string>
+
+    <!-- Content description of the button that toggles the on screen list of camera mode. [CHAR LIMIT=NONE] -->
+
+    <!-- Text on the button that toggles the on screen list of camera mode. [CHAR LIMIT=20] -->
+
+    <!-- Content description of the button that toggles the filmstrip. [CHAR LIMIT=NONE] -->
+
+    <!-- Text on the button that toggles the filmstrip. [CHAR LIMIT=20] -->
+
+    <!-- Content description of the button that zooms in. [CHAR LIMIT=NONE] -->
+
+    <!-- Text on the button that zooms in [CHAR LIMIT=20] -->
+
+    <!-- Content description of the button that zooms out. [CHAR LIMIT=NONE] -->
+
+    <!-- Text on the button that zooms out [CHAR LIMIT=20] -->
+
+    <!-- Accessibility message spoken by TalkBack informing user of the current zoom value [CHAR LIMIT=NONE] -->
+    <string name="accessibility_zoom_announcement">Zoom value is %.1f</string>
+
+    <!-- Default text for a button that can be toggled on and off. -->
+    <!-- Default text for a button that can be toggled on and off. -->
+
+    <!-- Describes button on top of a video in filmstrip that is a play icon, pressing starts external video player [CHAR LIMIT=NONE] -->
+    <string name="video_control_play">Play Video</string>
+
+    <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
+    <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
+    <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
+    <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
+    <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
+    <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
+    <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
+    <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
+    <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
+    <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
+    <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
+    <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
+    <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
+    <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
+    <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
+    <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
+    <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
+    <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
+    <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
+    <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
+    <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
+    <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
+    <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
+    <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
+    <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
+    <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
+    <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
+    <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
+    <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
+    <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
+    <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
+    <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
+    <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
+    <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
+    <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
+    <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
+    <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
+    <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
+    <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
+    <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
+
+    <!-- Seconds: a unit of time for time lapse intervals. [CHAR LIMIT=20] -->
+    <!-- Minutes: a unit of time for time lapse intervals. [CHAR LIMIT=20] -->
+    <!-- Hours: a unit of time for time lapse intervals. [CHAR LIMIT=20] -->
+
+    <!-- The button to confirm time-lapse setting changes. [CHAR LIMIT=20] -->
+    <!-- Title in time interval picker for setting time interval. [CHAR LIMIT=30]-->
+    <!-- Help text that is shown when the time lapse feature is turned off. [CHAR LIMIT=180]-->
+    <!-- Title in timer setting for setting the duration for the countdown timer. [CHAR LIMIT=50]-->
+    <!-- On-screen hint during timer countdown for taking a photo. [CHAR LIMIT=60]-->
+
+    <!-- Title for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT=50] -->
+    <string name="remember_location_title">Remember photo locations?</string>
+    <!-- Message for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT=None] -->
+    <string name="remember_location_prompt">Tag your photos and videos with the locations where they\'re taken.</string>
+    <!-- Negative answer for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT=20] -->
+    <string name="remember_location_no">No thanks</string>
+    <!-- Positive answer for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT=20] -->
+    <string name="remember_location_yes">Yes</string>
+
+    <!-- Camera menu labels -->
+    <!-- more options label [CHAR LIMIT=50] -->
+    <!-- settings label [CHAR LIMIT=50] -->
+
+    <!--  Tiny Planet -->
+    <!-- Button to press for creating a tiny planet image. [CHAR LIMIT=30] -->
+    <string name="create_tiny_planet">Create Tiny Planet</string>
+    <!-- Message shown while a tiny planet image is being saved. [CHAR LIMIT=30] -->
+    <string name="saving_tiny_planet">Saving Tiny Planet …</string>
+    <!-- Label above a slider that let's the user set the zoom of a tiny planet image. [CHAR LIMIT=15] -->
+    <string name="tiny_planet_zoom">Zoom</string>
+    <!-- Label above a slider that let's the user set the rotation of a tiny planet image. [CHAR LIMIT=15] -->
+    <string name="tiny_planet_rotate">Rotate</string>
+    <!-- Label for menu item that starts a photo editor. [CHAR LIMIT=30] -->
+    <string name="photo_editor">Photo Editor</string>
+
+    <!-- Crop -->
+    <!-- Label for the save button in the crop activity action bar [CHAR LIMIT=20] -->
+    <!--  String shown when we cannot load the image when starting the activity [CHAR LIMIT=NONE] -->
+    <!-- Label for album filmstrip button -->
+
+    <!--  String shown when setting the homepage wallpaper in the background [CHAR LIMIT=NONE] -->
+
+    <!-- Camera settings. [CHAR LIMIT=25] -->
+    <string name="mode_settings">Settings</string>
+    <!-- Text shown in the camera mode options list for normal camera mode [CHAR LIMIT=25] -->
+    <!-- Text shown in the camera mode options list for putting camera in video recording mode [CHAR LIMIT=25] -->
+    <string name="mode_video">Video</string>
+    <!-- Text shown in the camera mode options list for putting camera in photo sphere mode. 'Photo sphere' is a product name. [CHAR LIMIT=25] -->
+    <!-- Text shown in the camera mode options list for putting camera in time lapse mode [CHAR LIMIT=25] -->
+    <!-- Text shown in the camera mode options list for putting camera in wide angle panorama mode [CHAR LIMIT=25] -->
+    <!-- Text shown in the camera mode options list for putting camera in panorama mode [CHAR LIMIT=25] -->
+    <string name="mode_panorama">Panorama</string>
+    <!-- Text shown in the camera mode options list for putting camera in refocus mode [CHAR LIMIT=25] -->
+
+    <!-- Accessibility text for switching to normal camera mode [CHAR_LIMIT=NONE] -->
+    <string name="mode_camera_desc">Switch to Camera Mode</string>
+    <!-- Accessibility text for switching to video mode [CHAR_LIMIT=NONE] -->
+    <!-- Accessibility text for switching to photo sphere mode. 'Photo sphere' is a product name. [CHAR_LIMIT=NONE] -->
+    <!-- Accessibility text for switching to panorama mode [CHAR_LIMIT=NONE] -->
+    <string name="mode_panorama_desc">Switch to Panorama Mode</string>
+    <!-- Accessibility text for switching to refocus mode [CHAR_LIMIT=NONE] -->
+    <string name="mode_refocus_desc">Switch to Lens Blur Mode</string>
+
+    <!-- Accessibility text for settings toggle button states [CHAR_LIMIT=NONE] -->
+
+    <!-- Accessibility text for HDR+ toggle button states [CHAR_LIMIT=NONE] -->
+    <string name="hdr_plus_off_desc">HDR Plus off</string>
+    <string name="hdr_plus_on_desc">HDR Plus on</string>
+
+    <!-- Accessibility text for HDR toggle button states [CHAR_LIMIT=NONE] -->
+    <string name="hdr_off_desc">HDR off</string>
+    <string name="hdr_on_desc">HDR on</string>
+
+    <!-- Accessibility text for camera flash toggle button states [CHAR_LIMIT=NONE] -->
+    <string name="flash_off_desc">Flash off</string>
+    <string name="flash_auto_desc">Flash auto</string>
+    <string name="flash_on_desc">Flash on</string>
+
+    <!-- Accessibility text for HDR+ flash toggle button states [CHAR_LIMIT=NONE] -->
+
+    <!-- Accessibility text for vide torch (flash) toggle button states [CHAR_LIMIT=NONE] -->
+    <string name="torch_on_desc">Torch on</string>
+    <string name="torch_off_desc">Torch off</string>
+
+    <!-- Accessibility text for camera switch toggle button states [CHAR_LIMIT=NONE] -->
+    <string name="camera_id_back_desc">Back camera</string>
+    <string name="camera_id_front_desc">Front camera</string>
+
+    <!-- Accessibility text for grid lines toggle button states [CHAR_LIMIT=NONE] -->
+
+    <!-- Accessibility text for countdown timer toggle button states [CHAR_LIMIT=NONE] -->
+    <string name="countdown_duration_off">Off</string>
+
+
+    <string name="refocus_off">Refocus is off</string>
+    <string name="refocus_on">Refocus is on</string>
+
+    <string name="filter_off">Filter is off</string>
+    <string name="filter_on">Filter is on</string>
+    <!-- Accessibility text for More Options button [CHAR_LIMIT=NONE] -->
+
+    <!-- Accessibility text for cancel button [CHAR_LIMIT=NONE] -->
+    <string name="cancel_button_description">Cancel</string>
+    <!-- Accessibility text for done button [CHAR_LIMIT=NONE] -->
+    <string name="done_button_description">Done</string>
+    <!-- Accessibility text for retake button [CHAR_LIMIT=NONE] -->
+    <string name="retake_button_description">Retake</string>
+    <!-- Accessibility text for video review button [CHAR_LIMIT=NONE] -->
+    <string name="review_button_description">Review</string>
+
+    <!-- Accessibility text for filmstrip share button [CHAR_LIMIT=NONE] -->
+    <!-- Accessibility text for filmstrip view button used to open special image viewers, like 3d photosphere [CHAR_LIMIT=NONE] -->
+    <!-- Accessibility text for filmstrip edit button [CHAR_LIMIT=NONE] -->
+    <!-- Accessibility text for filmstrip delete button [CHAR_LIMIT=NONE] -->
+
+    <!-- Accessibility text for manual exposure compensation button [CHAR_LIMIT=NONE] -->
+    <!-- Accessibility text for exposure compensation -2 button [CHAR_LIMIT=NONE] -->
+    <!-- Accessibility text for exposure compensation -1 button [CHAR_LIMIT=NONE] -->
+    <!-- Accessibility text for exposure compensation 0 button [CHAR_LIMIT=NONE] -->
+    <!-- Accessibility text for exposure compensation +1 button [CHAR_LIMIT=NONE] -->
+    <!-- Accessibility text for exposure compensation +2 button [CHAR_LIMIT=NONE] -->
+
+    <!-- Accessibility announcement when option button changes on screen after tap, e.g. from flash auto to flash off [CHAR_LIMIT=NONE] -->
+    <string name="button_change_announcement">Button is now %s</string>
+
+    <!-- Text shown in camera settings list for toggling photo location on or off [CHAR LIMIT=25] -->
+
+    <!-- Camera settings title for back camera photo resolution. [CHAR LIMIT=25] -->
+    <!-- Camera settings title for back camera video resolution. [CHAR LIMIT=25] -->
+    <!-- Camera settings title for front camera photo resolution. [CHAR LIMIT=25] -->
+    <!-- Camera settings title for front camera video resolution. [CHAR LIMIT=25] -->
+
+    <!-- Text shown in camera settings list for selecting the camera mode that will be used by default when the app starts [CHAR LIMIT=25] -->
+
+    <!-- Text shown in camera settings list for launching Google Help [CHAR LIMIT=25] -->
+
+    <!-- TODO: don't ship with these. -->
+
+    <!-- camera jpeg quality settings -->
+
+    <!-- Default for camera startup module index -->
+
+    <!-- Default number of times to play shimmy. -->
+
+    <!-- A message shown to the user, indicating that an HDR+ photo is being processed. [CHAR LIMIT=25] -->
+
+
+    <string name="tag_enabled_id" translatable="false">enabled_id</string>
+
+    <!-- Title of a dialog showing open source licenses used in the app. [CHAR LIMIT=30] -->
+
+    <!-- Default number of times to play peek animation. -->
+
+    <!--  Title of a preference group which contains general settings. [CHAR LIMIT=30]  -->
+
+    <!--  Title of a preference group which contains settings for changing capture resolution and quality. [CHAR LIMIT=30]  -->
+
+    <!--  Title of a preference group which contains information about the app. [CHAR LIMIT=30]  -->
+
+    <!--  Title of a preference which shows the build version of the app. [CHAR LIMIT=30]  -->
+
+    <!-- Video quality setting entry. Videos will be recorded in the lowest quality available on the device. [CHAR LIMIT=24] -->
+    <string name="pref_video_quality_entry_low">Low</string>
+    <!-- Video quality setting entry. Videos will be recorded in the highest quality available on the device. [CHAR LIMIT=24] -->
+    <string name="pref_video_quality_entry_high">High</string>
+    <!-- Video quality setting entry. Videos will be recorded in quarter CIF quality. Details on CIF: http://goo.gl/3jDK [CHAR LIMIT=24] -->
+    <string name="pref_video_quality_entry_qcif">QCIF</string>
+    <!-- Video quality setting entry. Videos will be recorded in CIF quality. Details on CIF: http://goo.gl/3jDK [CHAR LIMIT=24] -->
+    <string name="pref_video_quality_entry_cif">CIF</string>
+    <!-- Video quality setting entry. Videos will be recorded in 480p quality. [CHAR LIMIT=24] -->
+    <string name="pref_video_quality_entry_480p">SD 480p</string>
+    <!-- Video quality setting entry. Videos will be recorded in 720p quality. [CHAR LIMIT=24] -->
+    <string name="pref_video_quality_entry_720p">HD 720p</string>
+    <!-- Video quality setting entry. Videos will be recorded in 1080p quality. [CHAR LIMIT=24] -->
+    <string name="pref_video_quality_entry_1080p">HD 1080p</string>
+    <!-- Video quality setting entry. Videos will be recorded in quarter VGA quality. [CHAR LIMIT=24] -->
+    <string name="pref_video_quality_entry_qvga">QVGA</string>
+    <!-- Video quality setting entry. Videos will be recorded in 2160p quality. [CHAR LIMIT=24] -->
+    <string name="pref_video_quality_entry_2160p">UHD 4K</string>
+
+    <!--  The strings below will not be translated. We're using them until the above translations are sane. -->
+    <string name="pref_video_quality_entry_qcif_notrans" translatable="false">QCIF</string>
+    <string name="pref_video_quality_entry_cif_notrans" translatable="false">CIF</string>
+    <string name="pref_video_quality_entry_480p_notrans" translatable="false">SD 480p</string>
+    <string name="pref_video_quality_entry_720p_notrans" translatable="false">HD 720p</string>
+    <string name="pref_video_quality_entry_1080p_notrans" translatable="false">HD 1080p</string>
+    <string name="pref_video_quality_entry_qvga_notrans" translatable="false">QVGA</string>
+    <string name="pref_video_quality_entry_2160p_notrans" translatable="false">UHD 4K</string>
+
+    <!-- Message shown in the settings summary for how many megapixels have been selected. [CHAR LIMIT=24]-->
+
+    <!-- Message shown in the settings summary that includes the the aspect ratio of the selected resolution i.e. (4:3) and the size of the selected resolution in megapixels. [CHAR LIMIT=24]-->
+    <string name="setting_summary_aspect_ratio_and_megapixels">(%1$d:%2$d) %3$s megapixels</string>
+
+    <!-- Text shown above the button that opens to editor for images created from lens blur mode. [CHAR LIMIT=60] -->
+    <string name="cling_text_for_refocus_editor_button">To refocus, touch here</string>
+
+    <!-- Title of a preference group for advanced preferences. [CHAR LIMIT=30] -->
+    <!-- Title of a preference for enabling manual exposure compensation. [CHAR LIMIT=20] -->
+
+    <!-- Text shown next to the settings button to explain what is in settings menu. [CHAR LIMIT=120] !-->
+    <string name="settings_cling_text">In Settings, change resolution and quality, or try advanced features.</string>
+
+    <!-- Title on the startup screen that lets user select photo aspect ratio. [CHAR LIMIT=40]-->
+    <string name="photo_size_selection_title">Choose photo size</string>
+
+    <!-- Text on the photo aspect ratio selection screen. [CHAR LIMIT=120] -->
+    <string name="photo_aspect_ratio_selection_content">You can change this later in Settings.</string>
+
+    <!-- Shown above the intent chooser when the user is about to share an item. [CHAR LIMIT=20] -->
+    <!-- Shown above the intent chooser when the user is about to edit an item. [CHAR LIMIT=20] -->
+    <string name="edit_with">Edit with</string>
+
+    <!-- Text on the button to take user to the next page of the on-screen instructions. [CHAR LIMIT=20] -->
+    <string name="startup_dialog_button_next">NEXT</string>
+
+    <!-- Text on the button to confirm that user understands the on-screen instructions. [CHAR LIMIT=20] -->
+    <string name="confirm_button_text">OK, GOT IT</string>
+
+    <!-- Selection for a 4:3 picture size where the sensor provides 4:3 so the result is not cropped. [CHAR LIMIT=30] -->
+    <string name="full_sensor_4x3_aspect_ratio">Full sensor \n(4:3)</string>
+
+    <!-- Selection for a 16:9 picture size where the sensor provides 4:3 so the result will be cropped. [CHAR LIMIT=30] -->
+    <string name="cropped_sensor_16x9_aspect_ratio">Cropped sensor \n(16:9)</string>
+
+    <!-- String representation of boolean false, allows for integer conversion. -->
+    <!-- String representation of boolean true, allows for integer conversion. -->
+
+    <!-- SPRD: Add string for pref_camera_advanced_category -->
+
+    <!-- SPRD Bug:474711 Feature:Exposure Compensation. -->
+
+    <!-- SPRD: Add value for pref_camera_antibanding_key @{ -->
+    <string name="pref_camera_antibanding_title">Antibanding</string>
+    <string name="pref_camera_antibanding_entry_50" translatable="false">50Hz</string>
+    <string name="pref_camera_antibanding_entry_60" translatable="false">60Hz</string>
+    <string name="pref_camera_antibanding_entry_auto">Auto</string>
+    <string name="pref_camera_antibanding_entryvalue_50" translatable="false">ANTIBANDING_50HZ</string>
+    <string name="pref_camera_antibanding_entryvalue_60" translatable="false">ANTIBANDING_60HZ</string>
+    <string name="pref_camera_antibanding_entryvalue_auto" translatable="false">ANTIBANDING_AUTO</string>
+    <!-- }@ -->
+
+    <string name="session_saving_image">Saving\u2026</string><!-- Shown to the user while an image/video is being saved to disk. -->
+
+    <!-- SPRD: dev new feature jpeg quality start -->
+    <string name="pref_camera_jpeg_quality_title">Picture quality</string>
+    <string name="pref_camera_jpeg_quality_entry_normal">Normal</string>
+    <string name="pref_camera_jpeg_quality_entry_hight">Fine</string>
+    <string name="pref_camera_jpeg_quality_entry_super_height">Super fine</string>
+    <string name="pref_camera_jpeg_quality_entry_value_normal" translatable="false">normal</string>
+    <string name="pref_camera_jpegh_quality_entry_value_hight" translatable="false">hight</string>
+    <string name="pref_camera_jpegh_quality_entry_value_super_hight" translatable="false">super</string>
+    <!-- }@ dev new feature jpeg quality end -->
+
+    <!-- SPRD: dev new feature face capture start @{ -->
+    <string name="pref_camera_ai_detect_title">AI detect</string>
+    <string name="pref_ai_detect_entry_off">Off</string>
+    <string name="pref_ai_detect_entry_face">Face detect</string>
+    <string name="pref_ai_detect_entry_smile">Smile shutter</string>
+    <string name="pref_ai_detect_entry_face_attributes">Face attribute detect</string>
+    <string name="pref_auto_add_logowatermark">Add logo watermark</string>
+    <string name="pref_auto_add_timewatermark">Add time watermark</string>
+    <string name="pref_camera_level">Level</string>
+    <string name="pref_ai_detect_entry_value_off" translatable="false">off</string>
+    <string name="pref_ai_detect_entry_value_face" translatable="false">face</string>
+    <string name="pref_ai_detect_entry_value_smile" translatable="false">smile</string>
+    <string name="pref_ai_detect_entry_value_face_attributes" translatable="false">facefeature</string>
+    <!-- @} end -->
+
+    <string name="pref_camera_countdown_duration_title">Countdown duration</string>
+    <string name="pref_camera_self_timer_interval_title">Self-timer interval</string>
+
+    <!-- SPRD: Add item pref_camera_storage_path_key @{ -->
+    <string name="pref_camera_storage_path_title">Storage path</string>
+    <string name="storage_path_internal">Tablet</string>
+    <string name="storage_path_external">SD card</string>
+    <string name="storage_path_external_default" translatable="false">External</string>
+    <!-- }@ -->
+    <!-- SPRD:Bug 468005 -->
+
+    <!-- SPRD: Add value for pref_camera_color_effect_key @{ -->
+    <string name="pref_camera_color_effect_title">Color effect</string>
+    <string name="pref_camera_color_effect_entry_none">None</string>
+    <string name="pref_camera_color_effect_entry_value_none" translatable="false">none</string>
+    <string name="pref_camera_color_effect_entry_mono">Mono</string>
+    <string name="pref_camera_color_effect_entry_value_mono" translatable="false">mono</string>
+    <string name="pref_camera_color_effect_entry_negative">Negative</string>
+    <string name="pref_camera_color_effect_entry_value_negative" translatable="false">negative</string>
+    <string name="pref_camera_color_effect_entry_sepia">Sepia</string>
+    <string name="pref_camera_color_effect_entry_value_sepia" translatable="false">sepia</string>
+    <string name="pref_camera_color_effect_entry_cold">Cold</string>
+    <string name="pref_camera_color_effect_entry_value_cold" translatable="false">cold</string>
+    <string name="pref_camera_color_effect_entry_antique">Antique</string>
+    <string name="pref_camera_color_effect_entry_value_antique" translatable="false">antique</string>
+    <!-- }@ -->
+
+    <!-- SPRD: Add value for pref_camera_scenemode_key @{ -->
+    <string name="pref_camera_scenemode_default" translatable="false">auto</string><!-- Default scene mode setting. -->
+    <string name="pref_camera_scenemode_entry_auto">Auto</string><!-- Settings menu, scene mode choices [CHAR LIMIT=16] -->
+    <string name="pref_camera_scenemode_entry_action">Action</string><!-- Scene mode that takes an image quickly with little motion blur. [CHAR LIMIT=16] -->
+    <string name="pref_camera_scenemode_entry_night">Night</string><!-- Scene mode that takes long exposures to capture night scenes without flash. [CHAR LIMIT=16] -->
+    <string name="pref_camera_scenemode_entry_normal">Normal</string>
+    <string name="pref_camera_scenemode_entry_portrait">Portrait</string>
+    <!-- }@ -->
+
+    <!-- SPRD: fix bug 473462 add burst capture @{ -->
+    <string name="pref_camera_continuous_capture_title">Burst</string>
+    <plurals name="burst_mode_saving">
+        <item quantity="one">Burst mode dealing with %1$d picture</item>
+        <item quantity="other">Burst mode dealing with %1$d pictures</item>
+    </plurals>
+    <!--}@  -->
+
+    <!-- SPRD Bug:474721 Feature:Contrast. -->
+    <string name="pref_camera_contrast_title">Contrast</string>
+    <string name="pref_contrast_entry_defaultvalue" translatable="false">contrast_three</string>
+
+    <!-- SPRD Bug:474722 Feature:Saturation. -->
+    <string name="pref_camera_saturation_title">Saturation</string>
+    <string name="pref_saturation_entry_defaultvalue" translatable="false">saturation_three</string>
+
+    <string name="pref_entry_negative_value_three" translatable="false">-3</string>
+    <string name="pref_entry_negative_value_two" translatable="false">-2</string>
+    <string name="pref_entry_negative_value_one" translatable="false">-1</string>
+
+    <!-- SPRD Bug:474724 Feature:ISO. -->
+    <string name="pref_entry_value_auto" translatable="false">auto</string>
+    <string name="pref_entry_value_100" translatable="false">100</string>
+    <string name="pref_entry_value_200" translatable="false">200</string>
+    <string name="pref_entry_value_400" translatable="false">400</string>
+    <string name="pref_entry_value_800" translatable="false">800</string>
+    <string name="pref_entry_value_1600" translatable="false">1600</string>
+
+    <!-- SPRD Bug:474724 Feature:ISO. -->
+    <string name="pref_camera_iso_entry_auto">Auto</string>
+
+    <!-- SPRD Feature:Exposure time settings -->
+    <string name="pref_exposure_shuttertime_default">Auto</string>
+    <string name="exposure_time_names" translatable="false">1&#047;<xliff:g id="exposuretime" example="1000">%s</xliff:g>s</string>
+
+    <!-- SPRD Feature:Focus distance  -->
+    <string name="pref_camera_focus_distance_value_auto" translatable="false">0</string>
+    <string name="pref_entry_focus_distance_value_40">Macro</string>
+    <string name="pref_entry_focus_distance_value_80">M</string>
+    <string name="pref_entry_focus_distance_value_100">Infinity</string>
+    <string name="pref_camera_focus_distance_entry_auto">Auto</string>
+
+    <string name="pref_entry_focus_distance_value_display_20" translatable="false">20</string>
+    <string name="pref_entry_focus_distance_value_display_40" translatable="false">40</string>
+    <string name="pref_entry_focus_distance_value_display_60" translatable="false">60</string>
+    <string name="pref_entry_focus_distance_value_display_80" translatable="false">80</string>
+    <string name="pref_entry_focus_distance_value_display_100" translatable="false">100</string>
+
+    <!-- SPRD Bug:474718 Feature:Metering. -->
+    <string name="pref_camera_metering_title">Metering</string>
+    <string name="pref_camera_metering_entry_frame_average">Frame-average</string>
+    <string name="pref_camera_metering_entry_center_weighted">Center-weighted</string>
+    <string name="pref_camera_metering_entry_spot_metering">Spot-metering</string>
+    <string name="pref_camera_metering_entry_value_frame_average" translatable="false">frameaverage</string>
+    <string name="pref_camera_metering_entry_value_center_weighted" translatable="false">centerweighted</string>
+    <string name="pref_camera_metering_entry_value_spot_metering" translatable="false">spotmetering</string>
+
+    <!-- SPRD Bug:474694 Feature:Reset Settings. -->
+    <string name="restore_done">done</string>
+    <string name="restore_cancel">@android:string/cancel</string>
+
+    <!-- SPRD Bug:475774 Feature: Settings mutex. -->
+
+    <!-- SPRD: Fix bug 496077 @{ -->
+    <string name="switch_to_gallery">Switch to Gallery</string>
+    <!-- @} -->
+    <!--SPRD:fix bug498710 When SoundRecording is running,Camera can not record video @{ -->
+
+    <!-- SPRD Bug498134 new design of settings mutex -->
+
+    <!-- SPRD: fix bug 474670 add ucam common @{ -->
+    <!--}@  -->
+
+    <!-- SPRD: fix Bug 513320 -->
+    <string name = "message_save_task_memory_limit">Saving picture, please wait.</string>
+
+    <!-- SPRD Bug:509708 Feature:Time Lapse. -->
+    <string name="pref_timelapse_title">Time lapse</string>
+    <string name="pref_timelapse_entry_value_default">1</string>
+    <string name="pref_timelapse_entry_off">Off</string>
+    <string name="pref_timelapse_entry_4">Interval of 0.12s (x4)</string>
+    <string name="pref_timelapse_entry_10">Interval of 0.3s (x10)</string>
+    <string name="pref_timelapse_entry_30">Interval of 1s (x30)</string>
+    <string name="pref_timelapse_entry_60">Interval of 2s (x60)</string>
+    <string name="pref_timelapse_entry_90">Interval of 3s (x90)</string>
+    <string name="pref_timelapse_entry_150">Interval of 5s (x150)</string>
+    <string name="pref_timelapse_entry_300">Interval of 10s (x300)</string>
+    <string name="pref_timelapse_entry_450">Interval of 15s (x450)</string>
+    <string name="pref_timelapse_entry_900">Interval of 30s (x900)</string>
+    <string name="pref_timelapse_entry_1800">Interval of 60s (x1800)</string>
+
+    <!-- SPRD Bug:474696 Feature:Slow-Motion. -->
+    <string name="pref_video_slow_motion_title">Slow motion</string>
+    <!-- SPRD: Add value for Time stamp @{ -->
+    <!-- }@ -->
+
+    <!-- SPRD:fix bug474690 add for pano -->
+    <string name="cannot_save_image">The image can not be saved,please shoot again.</string>
+    <string name="sdcard_remove">SD card is removed,no recording file is saved.</string>
+    <string name="usb_remove">USB is removed,no recording file is saved.</string>
+    <string name="usb_remove_photo_or_video">USB is removed.</string>
+
+    <!-- SPRD:fix bug543925 add for photomodule -->
+    <string name="sdcard_changeto_phone">SD card is removed.</string>
+    <!-- SPRD: add for mutex between float window and camera -->
+    <string name="close_float_video">Close video floating windows when open camera.</string>
+
+    <!--SPRD: Add value for zsl @{ -->
+
+    <!-- SPRD: Add value for mirror @{ -->
+    <string name="pref_mirror_title">Mirror refelection</string>
+    <string name="pref_sensor_self_shot_title">Non-contact mirror</string>
+    <string name="pref_sensor_self_shot_summary">Take picture when covering back-auxiliary-camera for 1 second</string>
+
+    <!-- SPRD: Add value for OIS @{ -->
+
+    <!-- }@ -->
+
+    <!-- SPRD: dev new feature quick capture start -->
+    <string name="pref_camera_quick_capture_title_volkey">Quick capture by double-click vol down key when screen off</string>
+    <string name="pref_camera_quick_capture_title_camkey">Quick capture by double-click cam key when screen off</string>
+    <string name="pref_camera_quick_capture_entry_capture_with_back_camera">Capture with back camera</string>
+    <string name="pref_camera_quick_capture_entry_capture_with_front_camera">Capture with front camera</string>
+    <string name="pref_camera_quick_capture_entry_off">Off</string>
+    <string name="pref_camera_quick_capture_entry_value_capture_with_back_camera" translatable="false">2</string>
+    <string name="pref_camera_quick_capture_entry_value_capture_with_front_camera" translatable="false">3</string>
+    <string name="pref_camera_quick_capture_entry_value_off" translatable="false">4</string>
+    <!-- }@ dev new feature quick capture end -->
+
+    <!-- fix bug 553567 slow motion does not support takeSnapShot and zoom @{ -->
+    <string name="slow_motion_does_not_support_zoom_change">Slow motion function is on, can not change zoom value.</string>
+    <!-- }@ -->
+    <!-- SPRD: Add highiso -->
+
+    <string name="current_module_does_not_support_zoom_change">Current module function is on, can not change zoom value.</string>
+    <string name="not_support_zoom_change">Can not change zoom value.</string>
+
+    <!-- SPRD: Fix bug 535110, Photo voice record. @{ -->
+    <string name="camera_record_voice_tip">You can record after taking picture.</string>
+    <string name="camera_record_voice_seconds">S</string>
+    <string name="camera_record_voice_failed">Currently can take pictures, but can not be recorded.</string>
+    <!-- @} -->
+    <!-- SPRD:Bug 535058 New feature: volume start @{ -->
+    <!-- }@ New feature: volume end -->
+    <string name="battery_level_low">Battery level is low, flash can not be used.</string>
+    <string name="blur_refocus_covered">Please don\'t block the lens to ensure the picture effect!</string>
+    <string name="blur_refocus_unsupported">The current scene is not suitable for refocus processing!</string>
+
+    <!-- SPRD: Fix bug 578587 that Video module does not support 4G+ video recording -->
+    <string name="video_maximum_size_limit">Current storage supports 4GB recording at the most</string>
+    <string name="phone_does_not_support_video">Cannot record video during ongoing call.</string>
+    <string name="phone_does_not_support_audio_picture">Cannot take audio picture during ongoing call.</string>
+    <string name="recorder_in_progress_error">Recording won\'t start due to audio resource is occupied.</string>
+    <string name="recorder_without_audio_track">Another application is using a microphone, so video will not has audio.</string>
+    <!-- SPRD: Adds new features refocus-->
+    <string name="refocus_photo_edit_undo">Undo</string>
+    <string name="refocus_photo_edit_redo">Redo</string>
+    <string name="refocus_photo_edit_save">Save</string>
+
+    <!-- SPRD: Adds new features 3D recording @{ -->
+    <string name="mode_video_desc_td">3D Video</string>
+    <string name="play_button_text_3d" translatable="false">3D</string>
+    <string name="setting_front_camera_video_3d" >Front camera 3D video</string>
+    <string name="tdvideo_mutex">Please hold the device vertically to shoot</string>
+    <!-- @} -->
+
+    <string name="camera_record_voice_error">Audio resource is occupied,currently can take pictures,but can not be recorded.</string>
+
+    <string name="refocus_distance_tip">Please keep the object within two meters of the tablet.</string>
+    <string name="camera_blur_refocus_tip">This can achieve the effect of bokeh.</string>
+    <string name="refocus_front_distance_tip">Only taking pic of portrait has the effect of depth of field.</string>
+    <string name="refocus_effect_tip">&#160;blur effect&#160;</string>
+    <string name="refocus_move_closer_tip">Move closer</string>
+    <string name="refocus_move_further_tip">Move further</string>
+    <string name="refocus_need_more_light_tip">Need more light</string>
+
+    <!-- SPRD: Adds Thermal Flash @{ -->
+    <!-- @} -->
+
+    <string name="camera_mode_portrait_new">Portrait</string>
+    <string name="camera_mode_high_resolution">Ultra Res</string>
+    <string name="camera_mode_ir">Infrared Detect</string>
+    <string name="camera_mode_macro">Macro</string>
+    <string name="camera_mode_portrait_background_replacement">Portrait Background Replacement</string>
+    <string name="camera_mode_super_macro">Super Macro</string>
+    <string name="min_make_up_level" translatable="false">0</string>
+    <string name="max_make_up_level" translatable="false">5</string>
+    <string name="min_blur_f_number_level" translatable="false">F0.95</string>
+    <string name="max_blur_f_number_level" translatable="false">F16.0</string>
+    <string name="pref_camera_scenemode_entry_landscape">Scenery</string>
+
+    <!-- SPRD: fix Bug 533869 -->
+    <string name="capture_0" translatable="false">0</string>
+
+    <!-- @} -->
+
+    <string name="camera_mode_ar_desc" translatable="false">AR</string>
+
+    <string name="extend_panel_skin_smooth">Smooth</string>
+    <string name="extend_panel_skin_bright">Brighten</string>
+    <!-- add for sprd beatuy -->
+    <string name="extend_panel_skincolor_white">White</string>
+    <string name="extend_panel_skincolor_rosy">Rosy</string>
+    <string name="extend_panel_skincolor_wheat">Wheat</string>
+    <string name="extend_panel_lipscolor_fuchsia">Fuchsia</string>
+    <string name="extend_panel_lipscolor_pink">Pink</string>
+    <string name="extend_panel_lipscolor_crimson">Crimson</string>
+    <string name="remove_blemish_off">Off</string>
+    <string name="remove_blemish_on">On</string>
+    <string name="extend_panel_remove_blemish">Acne</string>
+    <string name="extend_panel_skin_colour">Tone</string>
+    <string name="extend_panel_red_lips">Lips</string>
+    <string name="face_age">Age: %1$d</string>
+    <!--add for lock ae/af-->
+    <string name="lock_ae_and_af">AE/AF Locked</string>
+    <string name="can_not_lock_ae_and_af">AI detect open, can not lock AE/AF</string>
+
+    <string name="motion_photo_on">MotionPhoto On</string>
+    <string name="motion_photo_off">MotionPhoto Off</string>
+    <string name="error_external_storage_access">No Access to External Storage</string>
+    <string name="feedback_description_external_access">Please allow the access or clear app storage and try again.</string>
+    <!--add for ai scene detection -->
+    <string name="ai_scene_tips_food">Optimized for scenario: Food</string>
+    <string name="ai_scene_tips_portrait">Optimized for scenario: Portrait</string>
+    <string name="ai_scene_tips_foliage">Optimized for scenario: Foliage</string>
+    <string name="ai_scene_tips_sky">Optimized for scenario: Sky</string>
+    <string name="ai_scene_tips_night">Optimized for scenario: Night</string>
+    <string name="ai_scene_tips_backlight">Optimized for scenario: Backlight</string>
+    <string name="ai_scene_tips_text">Optimized for scenario: Text</string>
+    <string name="ai_scene_tips_sunrise">Optimized for scenario: Sunrise</string>
+    <string name="ai_scene_tips_building">Optimized for scenario: Building</string>
+    <string name="ai_scene_tips_landscape">Optimized for scenario: Landscape</string>
+    <string name="ai_scene_tips_snow">Optimized for scenario: Snow</string>
+    <string name="ai_scene_tips_firework">Optimized for scenario: Firework</string>
+    <string name="ai_scene_tips_beach">Optimized for scenario: Beach</string>
+    <string name="ai_scene_tips_pet">Optimized for scenario: Pet</string>
+	<string name="ai_scene_tips_flower">Optimized for scenario: Flower</string>
+
+    <string name="director_land_desc" translatable="false">land</string>
+    <string name="director_port_desc" translatable="false">port</string>
+
+    <string name="back_camera_not_available">The rear camera is not installed or damaged, and has been switched to the front camera.</string>
+    <string name="main_camera_not_available">The main camera is not installed or damaged, and has been switched to the sub-camera.</string>
+
+    <string name="pref_camera_ai_scene_title">AI scene recognition</string>
+    <string name="pref_camera_ai_scene_summy">Identify multiple scenes and optimize shots</string>
+    <string name="pref_camera_ai_scene_title_for_frontcamera">AI portrait recognition</string>
+    <string name="pref_camera_ai_scene_summy_for_frontcamera">Identify portrait scenes and optimize shots</string>
+    <string name="blur_process_toast" translatable="false">Image processing...</string>
+
+    <!-- SPRD Bug:1000720 Feature:Qr scan vcard. -->
+    <string name="vcard_create">Create new contact</string>
+    <string name="vcard_title">Qr code card:</string>
+
+    <string name="nameLabelsGroup">Name:</string>
+    <string name="phoneLabelsGroup">Phone:</string>
+    <string name="emailLabelsGroup">Email:</string>
+    <string name="postal_address">Address:</string>
+    <string name="ghostData_company">Company:</string>
+    <string name="ghostData_title">Title:</string>
+    <string name="label_notes">Note:</string>
+
+    <string name="security_camera_does_not_support_aquire_storage_permission">Temporarily not authorized storage location permissions .Please use this function after unlocking your tablet.</string>
+    <string name="pref_camera_auto3dnr_title">Enhance lowlight photos automatically</string>
+
+    <string name="access_permission_guid">Authorize storage device permissions as below</string>
+    <string name="permission_continue">Continue</string>
+    <string name="permission_cancel">Cancel</string>
+
+    <!-- hdr -->
+    <string name="dream_setting_back_camera_hdr">HDR</string>
+    <string name="pref_camera_hdr_default">0</string>
+    <!-- fdr -->
+    <string name="dream_setting_back_camera_fdr">FDR</string>
+    <!-- montion photo -->
+    <string name="pref_camera_montionphoto_default">off</string>
+
+    <string name="hdr_off">Off</string>
+    <string name="hdr_on">On</string>
+    <string name="hdr_auto">Auto</string>
+    <string name="color_effect_photo_off">color effect photo off</string>
+    <string name="color_effect_photo_on">color effect photo on</string>
+    <string name="color_effect_photo_none">NONE</string>
+    <string name="portrait_detect_tips">No faces detected</string>
+    <string name="super_wide_tip">Wide</string>
+
+    <string name="time_too_short">The time of capture is too short.</string>
+
+    <string name="camera_mode_focus_length_fusion">Fusion</string>
+
+    <string name="lpt_noface">No faces detected</string>
+    <string name="lpt_facepsoe_toobig">Align face with camera</string>
+    <string name="lpt_face_toofar">Move closer</string>
+    <string name="lpt_face_tooclose">Move farther away</string>
+    <string name="lpt_face_notonly">Only support solo shots</string>
+    <string name="portrait_background_replacement_name_none">None</string>
+    <string name="portrait_background_replacement_name_color_retention">Color Retention</string>
+    <string name="portrait_background_replacement_name_urban">Urban</string>
+    <string name="portrait_background_replacement_name_leisure">Leisure</string>
+    <string name="portrait_background_replacement_name_nightscape">Nightscape</string>
+    <string name="portrait_background_replacement_name_beach">Beach</string>
+    <string name="portrait_background_replacement_name_palace">Palace</string>
+    <string name="portrait_background_replacement_name_motion">Motion Background</string>
+    <string name="filter_video_off">Filter video off</string>
+    <string name="filter_video_on">Filter video on</string>
+    <string name="filter_video_none">NONE</string>
+    <string name="camera_mode_fdr">FDR</string>
+</resources>

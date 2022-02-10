@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="pref_camera_composition_line_key_title">"बनावटक रेखा"</string>
+<string name="pref_camera_composition_line_key_entry_close">"बंद"</string>
+<string name="pref_camera_composition_line_key_entry_grid">"ग्रिड"</string>
+<string name="pref_camera_composition_line_key_entry_goldensection">"सुनहरा खंड"</string>
+<string name="pref_camera_composition_line_key_entry_reticle">"काटल निशान"</string>
+<string name="pref_camera_composition_line_key_entry_box">"बक्सा"</string>
+<string name="pref_camera_photograph_eois_key_title">"छायाचित्र स्थिरिकरण"</string>
+<string name="pref_camera_hdr_normal_pic_key_title">"HDR केर लेल सामान्य फोटो वचाऊ"</string>
+<string name="pref_camera_gradienter_key_title">"ढलान"</string>
+<string name="pref_camera_touching_photograph_key_title">""छुबैत छायाचित्र"  "</string>
+<string name="pref_camera_zsl_key_title">"ZSL"</string>
+<string name="pref_dream_high_iso_tilte">"उच्च ISO"</string>
+</resources>

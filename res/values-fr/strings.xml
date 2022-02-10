@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  Copyright (C) 2007 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
+    <string name="app_name" msgid="1175086483881127797">"Appareil photo"</string>
+    <string name="video_camera_label" msgid="1723708322021743770">"Caméra"</string>
+    <string name="details_ms" msgid="6618163484662724641">"%1$02d:%2$02d"</string>
+    <string name="details_hms" msgid="4842276230698703554">"%1$d:%2$02d:%3$02d"</string>
+    <string name="details" msgid="4404020741542549488">"Détails"</string>
+    <string name="close" msgid="4826166926297479820">"Fermer"</string>
+    <string name="video_err" msgid="1562566029875081552">"Impossible de lire la vidéo."</string>
+    <string name="title" msgid="8061744305671964703">"Titre"</string>
+    <string name="description" msgid="8193138501982849808">"Description"</string>
+    <string name="time" msgid="5248213506417024287">"Date/Heure"</string>
+    <string name="location" msgid="564326205780827668">"Lieu"</string>
+    <string name="path" msgid="5927003361865586353">"Chemin d\'accès"</string>
+    <string name="width" msgid="7045750687833828758">"Largeur"</string>
+    <string name="height" msgid="5186001199353423689">"Hauteur"</string>
+    <string name="orientation" msgid="3883761294106680270">"Orientation"</string>
+    <string name="duration" msgid="5316211067383665008">"Durée"</string>
+    <string name="mimetype" msgid="6415940055077963944">"Type MIME"</string>
+    <string name="file_size" msgid="6841070748357980676">"Taille fichier"</string>
+    <string name="maker" msgid="698691509121545856">"Fabricant"</string>
+    <string name="model" msgid="8547493604023069452">"Modèle"</string>
+    <string name="flash" msgid="995041910749174196">"Flash"</string>
+    <string name="aperture" msgid="2453802098282814022">"Ouverture"</string>
+    <string name="focal_length" msgid="8351221512187346229">"Longueur focale"</string>
+    <string name="white_balance" msgid="1600142743496129085">"Balance blancs"</string>
+    <string name="exposure_time" msgid="949787291620767754">"Durée d\'expo"</string>
+    <string name="iso" msgid="8578773821062054902">"ISO"</string>
+    <string name="unit_mm" msgid="5210344300697638286">"mm"</string>
+    <string name="manual" msgid="2444400953521760140">"Manuel"</string>
+    <string name="auto" msgid="2552649885114400474">"Auto"</string>
+    <string name="flash_on" msgid="6573457197393807642">"Flash déclenché"</string>
+    <string name="flash_off" msgid="7889323512830926273">"Flash désactivé"</string>
+    <string name="unknown" msgid="564184550182858146">"Inconnue"</string>
+    <string name="camera_error_title" msgid="6200558085072670067">"Erreur au niveau de la caméra"</string>
+    <string name="error_cannot_connect_camera" msgid="2713059773224193128">"Impossible d\'établir une connexion avec la caméra."</string>
+    <string name="error_camera_disabled" msgid="5582398275657419692">"La caméra a été désactivée en raison des règles de sécurité."</string>
+    <string name="error_media_storage_failure" msgid="7711687330673245629">"Un problème est survenu lors de l\'enregistrement de la photo ou de la vidéo."</string>
+    <string name="error_permissions" msgid="3454167403425651254">"L\'application ne dispose pas de certaines autorisations nécessaires à son exécution. Veuillez vérifier vos paramètres relatifs aux autorisations."</string>
+    <string name="wait" msgid="765601745709933047">"Veuillez patienter…"</string>
+    <string name="no_storage" product="default" msgid="5922012950780548098">"Veuillez insérer une carte SD avant d\'utiliser la caméra."</string>
+    <string name="preparing_sd" product="default" msgid="7435693655017362767">"Préparation de la carte SD en cours…"</string>
+    <string name="access_sd_fail" product="default" msgid="2634861611082499811">"Impossible d\'accéder à la carte SD."</string>
+    <string name="time_lapse_title" msgid="3267978566401228497">"Enregistrement mode Intervalle temps"</string>
+    <string name="feedback_description_camera_access" msgid="419090951070170132">"Impossible d\'établir une connexion entre l\'application et la caméra."</string>
+    <string name="feedback_description_save_photo" msgid="8658767358989083228">"La photo ou la vidéo n\'a pas été enregistrée sur l\'appareil."</string>
+    <string name="pref_camera_save_location_title" msgid="2344235620113384017">"Enregistrer le lieu"</string>
+    <!-- no translation found for pref_camera_timer_sound_default (6225207881203007747) -->
+    <string name="setting_off" msgid="6782191065550276632">"Désactivé"</string>
+    <string name="setting_on" msgid="9086728135773197891">"Activé"</string>
+    <string name="pref_camera_settings_category" msgid="4274141528139077830">"Paramètres de l\'application Appareil photo"</string>
+    <string name="pref_camera_picturesize_entry_large" msgid="9014447075089601575">"Grande"</string>
+    <string name="pref_camera_picturesize_entry_medium" msgid="7708839551627003154">"Moyenne"</string>
+    <string name="pref_camera_picturesize_entry_small" msgid="2991239656622539068">"Petite"</string>
+    <string name="pref_camera_whitebalance_title" msgid="7962809566612868179">"Balance des blancs"</string>
+    <string name="pref_camera_whitebalance_entry_auto" msgid="1390631794449502796">"Automatique"</string>
+    <string name="pref_camera_whitebalance_entry_incandescent" msgid="1140391575294372706">"Incandescent"</string>
+    <string name="pref_camera_whitebalance_entry_daylight" msgid="757833578153467254">"Lumière du jour"</string>
+    <string name="pref_camera_whitebalance_entry_fluorescent" msgid="5157027611220790970">"Fluorescent"</string>
+    <string name="pref_camera_whitebalance_entry_cloudy" msgid="3569589102226796875">"Nuageux"</string>
+    <string name="pref_camera_scenemode_entry_auto" msgid="9205644316260850379">"Automatique"</string>
+    <string name="pref_camera_scenemode_entry_action" msgid="5753183620959062015">"Action"</string>
+    <string name="pref_camera_scenemode_entry_night" msgid="3468037364159759991">"Nuit"</string>
+    <!-- no translation found for pref_camera_hdr_default (5054955236904902318) -->
+    <!-- no translation found for pref_camera_hdr_plus_default (4827897029274554907) -->
+    <string name="dialog_ok" msgid="774141340500181131">"OK"</string>
+    <string name="dialog_dismiss" msgid="1382550604990470119">"Ignorer"</string>
+    <string name="video_reach_size_limit" msgid="9196836111505731836">"Taille maximale atteinte."</string>
+    <string name="pano_too_fast_prompt" msgid="2503148095578052177">"Trop rapide"</string>
+    <string name="pano_dialog_prepare_preview" msgid="4445235163599534263">"Préparation du panorama…"</string>
+    <string name="pano_dialog_panorama_failed" msgid="6772546547048693619">"Impossible d\'enregistrer le panorama."</string>
+    <string name="pano_dialog_title" msgid="6662642763395425145">"Panorama"</string>
+    <string name="pano_capture_indication" msgid="4002128831255023954">"Prise de vue panoramique…"</string>
+    <string name="pano_dialog_waiting_previous" msgid="2646847402743245320">"En attente du panorama précédent…"</string>
+    <string name="pano_review_rendering" msgid="2743087719999377155">"Rendu du panorama en cours…"</string>
+    <string name="video_recording_started" msgid="3374878415050991030">"L\'enregistrement vidéo a commencé."</string>
+    <string name="video_recording_stopped" msgid="4658626532857624974">"L\'enregistrement vidéo s\'est arrêté."</string>
+    <string name="accessibility_shutter_button" msgid="6040483605347230438">"Obturateur"</string>
+    <string name="accessibility_cancel_button" msgid="5679989494636116448">"Annuler"</string>
+    <string name="accessibility_review_cancel" msgid="5462850829869569629">"Examen – Annuler"</string>
+    <string name="accessibility_mode_list_hidden" msgid="3743267380450401866">"La liste des modes a bien été fermée."</string>
+    <string name="accessibility_mode_list_shown" msgid="5284322142734069179">"La liste des modes a bien été ouverte."</string>
+    <string name="photo_accessibility_peek" msgid="5934133371001677250">"La photo a bien été prise."</string>
+    <string name="video_accessibility_peek" msgid="7845916149291383132">"La vidéo a bien été enregistrée."</string>
+    <string name="accessibility_unlock_to_camera" msgid="1251880974313179442">"Déverrouiller l\'appareil photo"</string>
+    <string name="photo_date_content_description" msgid="5705865897898465619">"Photo prise le %s"</string>
+    <string name="video_date_content_description" msgid="2151884014634284456">"Vidéo filmée le %s"</string>
+    <string name="panorama_date_content_description" msgid="990703578639006144">"Panorama réalisé le %s"</string>
+    <string name="photosphere_date_content_description" msgid="4183741743409007876">"Photo-sphère prise le %s"</string>
+    <string name="refocus_date_content_description" msgid="5630960320424345547">"Effet focus réalisé le %s"</string>
+    <string name="media_processing_content_description" msgid="8138587719107183754">"Médias en cours de traitement…"</string>
+    <string name="accessibility_zoom_announcement" msgid="6976673411698319811">"La valeur du zoom est %.1f."</string>
+    <string name="video_control_play" msgid="6895236811408921715">"Lire la vidéo"</string>
+    <string name="remember_location_title" msgid="3045040613094030429">"Mémoriser le lieu des photos ?"</string>
+    <string name="remember_location_prompt" msgid="3006013504489919474">"Ajoutez des tags à vos photos et à vos vidéos pour identifier le lieu de la prise de vue."</string>
+    <string name="remember_location_no" msgid="4412802756840226925">"Non, merci"</string>
+    <string name="remember_location_yes" msgid="4339424460683531388">"Oui"</string>
+    <string name="create_tiny_planet" msgid="5186918191372107343">"Créer une petite planète"</string>
+    <string name="saving_tiny_planet" msgid="8828265180177375494">"Enregistrement petite planète…"</string>
+    <string name="tiny_planet_zoom" msgid="2985522360577158474">"Zoom"</string>
+    <string name="tiny_planet_rotate" msgid="5445336705705350004">"Rotation"</string>
+    <string name="photo_editor" msgid="1521994560971367225">"Retouche photo"</string>
+    <string name="mode_settings" msgid="2021937261522670921">"Paramètres"</string>
+    <string name="mode_video" msgid="8633929034048169139">"Vidéo"</string>
+    <string name="mode_panorama" msgid="6882648621305828861">"Panorama"</string>
+    <string name="mode_camera_desc" msgid="3670807361165657278">"Passer en mode Appareil photo"</string>
+    <string name="mode_panorama_desc" msgid="6023020404237519590">"Passer en mode Panorama"</string>
+    <string name="mode_refocus_desc" msgid="6171183297515508465">"Passer en mode Effet focus"</string>
+    <string name="hdr_plus_off_desc" msgid="5301287296717144319">"HDR+ désactivé"</string>
+    <string name="hdr_plus_on_desc" msgid="8204780034508139909">"HDR+ activé"</string>
+    <string name="hdr_off_desc" msgid="7921924739852874675">"HDR désactivé"</string>
+    <string name="hdr_on_desc" msgid="4591284110249047558">"HDR activé"</string>
+    <string name="flash_off_desc" msgid="7151559466286106797">"Flash désactivé"</string>
+    <string name="flash_auto_desc" msgid="3009043125539675717">"Flash automatique"</string>
+    <string name="flash_on_desc" msgid="930372145324854699">"Flash activé"</string>
+    <string name="torch_on_desc" msgid="3069836196559213365">"Lampe torche activée"</string>
+    <string name="torch_off_desc" msgid="8304675202998742618">"Lampe torche désactivée"</string>
+    <string name="camera_id_back_desc" msgid="3566327490758890635">"Caméra arrière"</string>
+    <string name="camera_id_front_desc" msgid="7497517948130254220">"Caméra frontale"</string>
+    <string name="cancel_button_description" msgid="3801167024006905033">"Annuler"</string>
+    <string name="done_button_description" msgid="1334963435441544592">"OK"</string>
+    <string name="retake_button_description" msgid="4234613030674787714">"Nouvelle prise de vue"</string>
+    <string name="review_button_description" msgid="7932122063748430080">"Évaluer"</string>
+    <string name="button_change_announcement" msgid="3759686152778772111">"Nouveau bouton : %s"</string>
+    <string name="pref_video_quality_entry_low" msgid="737962621299050603">"Faible"</string>
+    <string name="pref_video_quality_entry_high" msgid="1613578418842803393">"Élevée"</string>
+    <string name="pref_video_quality_entry_qcif" msgid="1717816794399266216">"QCIF"</string>
+    <string name="pref_video_quality_entry_cif" msgid="645414019445016434">"CIF"</string>
+    <string name="pref_video_quality_entry_480p" msgid="5880250731066854583">"SD 480p"</string>
+    <string name="pref_video_quality_entry_720p" msgid="4076146428148167262">"HD 720p"</string>
+    <string name="pref_video_quality_entry_1080p" msgid="4539958891524211120">"HD 1080p"</string>
+    <string name="pref_video_quality_entry_qvga" msgid="342600517453781430">"QVGA"</string>
+    <string name="pref_video_quality_entry_2160p" msgid="4522927631413184505">"UHD 4K"</string>
+    <string name="setting_summary_aspect_ratio_and_megapixels" msgid="5828440902461064821">"(%1$d:%2$d) %3$s Mpx"</string>
+    <string name="cling_text_for_refocus_editor_button" msgid="4785017397116829802">"Pour effectuer une nouvelle mise au point, appuyez ici."</string>
+    <string name="settings_cling_text" msgid="5368054627268181292">"Dans les paramètres, modifiez la résolution et la qualité, ou essayez les fonctionnalités avancées."</string>
+    <string name="photo_size_selection_title" msgid="2789753590719172645">"Sélectionner la taille de la photo"</string>
+    <string name="photo_aspect_ratio_selection_content" msgid="6668224437962196229">"Vous pourrez modifier le format plus tard dans les paramètres."</string>
+    <string name="edit_with" msgid="615569327230783971">"Modifier avec"</string>
+    <string name="startup_dialog_button_next" msgid="1011831256978228993">"SUIVANT"</string>
+    <string name="confirm_button_text" msgid="7389949384482206814">"OK"</string>
+    <string name="full_sensor_4x3_aspect_ratio" msgid="1270461419743888925">"Format 4:3\n(complet)"</string>
+    <string name="cropped_sensor_16x9_aspect_ratio" msgid="4742161537633251795">"Format 16:9\n(rogné)"</string>
+    <string name="session_saving_image" msgid="8932315404486416826">"Enregistrement en cours…"</string>
+     <string name="pref_camera_antibanding_title">"Antibanding"</string>
+     <string name="pref_camera_jpeg_quality_title">"Qualité de l\'image"</string>
+     <string name="pref_camera_jpeg_quality_entry_normal">Normal</string>
+     <string name="pref_camera_jpeg_quality_entry_hight">"Fin"</string>
+     <string name="pref_camera_jpeg_quality_entry_super_height">"Superfin"</string>
+     <string name="pref_camera_ai_detect_title">"AI Detection"</string>
+     <string name="pref_ai_detect_entry_off">"Désactivé"</string>
+     <string name="pref_ai_detect_entry_face">"Face à detecter"</string>
+     <string name="pref_ai_detect_entry_smile">"Sourire-obturateur"</string>
+     <string name="pref_camera_storage_path_title">"Chemin de Stockage"</string>
+     <string name="storage_path_internal">"Interne"</string>
+     <string name="storage_path_external">"Externe"</string>
+     <string name="pref_camera_color_effect_title">"Effet de couleur"</string>
+     <string name="pref_camera_color_effect_entry_mono">"Mono"</string>
+     <string name="pref_camera_color_effect_entry_negative">"Négatif"</string>
+     <string name="pref_camera_color_effect_entry_sepia">"Sépia"</string>
+     <string name="pref_camera_color_effect_entry_cold">"Froid"</string>
+     <string name="pref_camera_color_effect_entry_antique">"Antique"</string>
+     <string name="pref_camera_scenemode_entry_normal">Normal</string>
+     <string name="pref_camera_scenemode_entry_portrait">"Portrait"</string>
+     <string name="pref_camera_scenemode_entry_landscape">"Paysage"</string>
+     <string name="pref_camera_continuous_capture_title">"Explosion"</string>
+     <string name="pref_camera_contrast_title">"Contraste"</string>
+     <string name="pref_camera_saturation_title">"Saturation"</string>
+     <string name="pref_camera_iso_entry_auto">Auto</string>
+     <string name="pref_camera_metering_title">Calcul de la mesure</string>
+     <string name="pref_camera_metering_entry_frame_average">Moyenne du cadre</string>
+     <string name="pref_camera_metering_entry_center_weighted">Centré</string>
+     <string name="pref_camera_metering_entry_spot_metering">Mesure de l\'image</string>
+     <string name="switch_to_gallery">"Passer à la galerie"</string>
+     <string name="restore_done">Effectué</string>
+     <string name="restore_cancel">@android:string/cancel</string>
+     <string name="message_save_task_memory_limit">"Enregistrement de l\'image, veuillez patienter."</string>
+     <string name="pref_timelapse_title">"Intervalle de temps"</string>
+     <string name="pref_timelapse_entry_off">"Désactivé"</string>
+     <string name="pref_timelapse_entry_4">"Intervalle de 0.12s (x4)"</string>
+     <string name="pref_timelapse_entry_10">"Intervalle de 0,3s (x10)"</string>
+     <string name="pref_timelapse_entry_30">"Intervalle de 1s (x30)"</string>
+     <string name="pref_timelapse_entry_60">"Intervalle de 2s (x60)"</string>
+     <string name="pref_timelapse_entry_90">"Intervalle de 3s (x90)"</string>
+     <string name="pref_timelapse_entry_150">"Intervalle de 5s (x150)"</string>
+     <string name="pref_timelapse_entry_300">"Intervalle de 10s (x300)"</string>
+     <string name="pref_timelapse_entry_450">"Intervalle de 15s (x450)"</string>
+     <string name="pref_timelapse_entry_900">"Intervalle de 30s (x900)"</string>
+     <string name="pref_timelapse_entry_1800">"Intervalle de 60s (x1800)"</string>
+     <string name="pref_video_slow_motion_title">Mouvement lent</string>
+     <string name="cannot_save_image">L\'image ne peut pas être sauvée, veuillez tirer à nouveau.</string>
+     <string name="sdcard_remove">"carte SD est retirée, aucun fichier d\'enregistrement n\'est sauvegardé"</string>
+     <string name="pref_mirror_title">"Miroir de réflexion"</string>
+    <string name="sdcard_changeto_phone">"Carte SD est supprimée, chemin de stockage sera changé en mémoire interne "</string>
+     <string name="current_module_does_not_support_zoom_change">"Fonction actuelle du module est activée,impossible de changer la valeur du zoom."</string>
+     <string name="video_maximum_size_limit">"Stockage actuel supporte un enregistrement de 4Go au maximum"</string>
+     <string name="phone_does_not_support_video">"Vidéo ne démarre pas du fait que le portable est en cours d\'exécution."</string>
+     <string name="phone_does_not_support_audio_picture">"Image audio ne démarre pas du fait que le portable est en cours d\'exécution."</string>
+     <string name="countdown_duration_off">"Désactivé"</string>
+     <string name="pref_camera_antibanding_entry_auto">Auto</string>
+     <string name="pref_timelapse_entry_value_default">"1"</string>
+     <string name="usb_remove">"La clé USB a été retirée. Aucun fichier n\'a été enregistré"</string>
+     <string name="usb_remove_photo_or_video">"La clé USB a été retirée"</string>
+     <string name="close_float_video">"Fermer les fenêtres flottantes vidéo lors de l\'ouverture de l\'appareil photo."</string>
+     <string name="pref_sensor_self_shot_title">"Miroir sans contact"</string>
+     <string name="pref_camera_quick_capture_title_volkey">"Capture rapide par double clic sur la touche de réduction du volume, lorsque l\'écran est éteint"</string>
+     <string name="pref_camera_quick_capture_title_camkey">"Capture rapide par double clic sur la touche appareil photo, lorsque l\'écran est éteint"</string>
+     <string name="pref_camera_quick_capture_entry_capture_with_back_camera">"Capture avec caméra arrière"</string>
+     <string name="pref_camera_quick_capture_entry_capture_with_front_camera">"Capture avec caméra frontale"</string>
+     <string name="pref_camera_quick_capture_entry_off">"Désactivé"</string>
+     <string name="slow_motion_does_not_support_zoom_change">"Fonction de mouvement lent activée, ne peut pas changer la valeur de zoom."</string>
+     <string name="not_support_zoom_change">"Impossible de changer la valeur du zoom."</string>
+     <string name="camera_record_voice_tip">"Vous pouvez enregistrer après la prise d\'image"</string>
+     <string name="camera_record_voice_seconds">"S"</string>
+     <string name="camera_record_voice_failed">"Actuellement, peut prendre des photos, mais ne peut pas être enregistré."</string>
+     <string name="battery_level_low">"Niveau de batterie faible, le flash ne peut pas être utilisé."</string>
+     <string name="blur_refocus_covered">"Ne bloquez pas l\'objectif au risque d\'affecter l\'image !"</string>
+     <string name="recorder_in_progress_error">"La ressource audio est occupée. Veuillez fermer l\'application et réessayer."</string>
+     <string name="mode_video_desc_td">"Vidéo 3D"</string>
+     <string name="setting_front_camera_video_3d">"Vidéo 3D sur appareil photo avant"</string>
+     <string name="tdvideo_mutex">"veuillez tenir l\'appareil verticalement pour filmer"</string>
+     <string name="camera_record_voice_error">"La ressource audio est occupée. Vous pouvez prendre des photos mais pas enregistrer."</string>
+     <string name="refocus_distance_tip">"Veuillez tenir l\'objet à moins de deux mètres du mobile"</string>
+     <string name="refocus_front_distance_tip">"seule la prise d\'une image de portrait donne l\'effet de profondeur de champ"</string>
+     <string name="refocus_move_closer_tip">"rapprochez-vous"</string>
+     <string name="refocus_move_further_tip">"éloignez-vous"</string>
+     <string name="refocus_need_more_light_tip">"augmentez la luminosité"</string>
+     <string name="extend_panel_lipscolor_pink">"Rose"</string>
+     <string name="extend_panel_skin_colour">"son"</string>
+    <string name="spaceIsLow_content" product="default">" L’espace mémoire externe est insuffisant. Modifiez le paramètre de stockage ou supprimez certaines images ou d’autres fichiers. "</string>
+     <string name="uDiskIsLow_content" product="default">" L’espace disque U est insuffisant. Modifiez le paramètre de stockage ou supprimez certaines images ou d’autres fichiers. "</string>
+     <string name="Internal_spaceIsLow_content" product="default">" L’espace mémoire interne est insuffisant. Modifiez le paramètre de stockage ou supprimez certaines images ou d’autres fichiers. "</string>
+     <string name="refocus_off">" Le recentrage est désactivé "</string>
+     <string name="refocus_on">" Le recentrage est activé "</string>
+     <string name="pref_camera_countdown_duration_title">" Durée du compte à rebours "</string>
+     <string name="pref_camera_self_timer_interval_title">" Intervalle du retardateur "</string>
+     <plurals name="burst_mode_saving">
+<item quantity="one">"Le mode rafale traiter avec %1$d image"</item>
+<item quantity="other">" Le mode rafale traite actuellement %1$d images "</item>
+    </plurals>
+     <string name="pref_sensor_self_shot_summary">" Prendre la photo en couvrant la caméra auxiliaire pendant 1 seconde "</string>
+     <string name="blur_refocus_unsupported">" La scène actuelle n’est pas compatible avec le traitement de recentrage. "</string>
+     <string name="recorder_without_audio_track">" Une autre application utilise un microphone ; le son sera par conséquent désactivé dans la vidéo "</string>
+     <string name="refocus_photo_edit_undo">"Annuler"</string>
+     <string name="refocus_photo_edit_redo">Refaire</string>
+     <string name="refocus_photo_edit_save">"Enregistrer"</string>
+     <string name="camera_blur_refocus_tip">" Cela peut provoquer l’effet d’une virtualisation de l’arrière-plan "</string>
+     <string name="refocus_effect_tip">"&#160;effet de flou&#160;"</string>
+     <string name="extend_panel_skin_smooth">" Lisse "</string>
+     <string name="extend_panel_skin_bright">" Éclaircir "</string>
+     <string name="extend_panel_skincolor_white">"Blanc"</string>
+     <string name="extend_panel_skincolor_rosy">" rosé "</string>
+     <string name="extend_panel_skincolor_wheat">" jaune blé "</string>
+     <string name="extend_panel_lipscolor_fuchsia">" fuchsia "</string>
+     <string name="extend_panel_lipscolor_crimson">" pourpre "</string>
+     <string name="remove_blemish_off">"Désactivé"</string>
+     <string name="remove_blemish_on">"Activé"</string>
+     <string name="extend_panel_remove_blemish">" Acné "</string>
+     <string name="extend_panel_red_lips">" Lèvres "</string>
+     <string name="lock_ae_and_af">" AE/AF verrouillé "</string>
+     <string name="can_not_lock_ae_and_af">" Détection IA activée, impossible de verrouiller AE/AF "</string>
+     <string name="error_external_storage_access">" Pas d’accès au stockage externe "</string>
+     <string name="feedback_description_external_access">" Autorisez l’accès ou effacez le stockage de l’application et réessayez. "</string>
+     <string name="ai_scene_tips_food">" Optimisée pour le scénario : Cuisine "</string>
+     <string name="ai_scene_tips_portrait">" Optimisée pour le scénario : Portrait "</string>
+     <string name="ai_scene_tips_foliage">" Optimisée pour le scénario : Feuillage "</string>
+     <string name="ai_scene_tips_sky">" Optimisée pour le scénario : Ciel "</string>
+     <string name="ai_scene_tips_night">" Optimisée pour le scénario : Nuit "</string>
+     <string name="ai_scene_tips_backlight">" Optimisée pour le scénario : Contre-jour "</string>
+     <string name="ai_scene_tips_text">" Optimisée pour le scénario : Texte "</string>
+     <string name="ai_scene_tips_sunrise">" Optimisée pour le scénario : Aube "</string>
+     <string name="ai_scene_tips_building">" Optimisée pour le scénario : Bâtiment "</string>
+     <string name="ai_scene_tips_landscape">" Optimisée pour le scénario : Paysage "</string>
+     <string name="ai_scene_tips_snow">" Optimisée pour le scénario : Neige "</string>
+     <string name="ai_scene_tips_firework">" Optimisée pour le scénario : Feu d’artifice "</string>
+     <string name="ai_scene_tips_beach">" Optimisée pour le scénario : Plage "</string>
+     <string name="ai_scene_tips_pet">" Optimisée pour le scénario : Animaux "</string>
+     <string name="ai_scene_tips_flower">" Optimisée pour le scénario : Fleurs "</string>
+     <string name="pref_camera_ai_scene_title">" Reconnaissance de scènes IA "</string>
+     <string name="pref_camera_ai_scene_summy">" Identifier plusieurs scènes et optimiser les prises de vue "</string>
+     <string name="vcard_create">Créer un nouveau contact</string>
+     <string name="vcard_title">" Carte code QR : "</string>
+     <string name="nameLabelsGroup">Nom:</string>
+     <string name="phoneLabelsGroup">"Téléphone :"</string>
+     <string name="emailLabelsGroup">"Adresse e-mail :"</string>
+     <string name="postal_address">"Adresse :"</string>
+     <string name="ghostData_company">" Entreprise : "</string>
+     <string name="ghostData_title">"Titre :"</string>
+     <string name="label_notes">"Note:"</string>
+	 <string name="Internal_spaceIsMIN_content" product="default">"Espace insuffisant sur la mémoire interne. Supprimez certaines images ou d\'autres fichiers"</string>
+	 <string name="pref_ai_detect_entry_face_attributes">"Objet FaceAttribute-detect"</string>
+	 <string name="pref_exposure_shuttertime_default">"Automatique"</string>
+	 <string name="pref_entry_focus_distance_value_40">"Macro"</string>
+	 <string name="pref_entry_focus_distance_value_80">M</string>
+	 <string name="pref_entry_focus_distance_value_100">"Infinité"</string>
+	 <string name="pref_camera_focus_distance_entry_auto">"Automatique"</string>
+	 <string name="camera_mode_portrait">"Portrait Bokeh"</string>
+	 <string name="pref_camera_ai_scene_title_for_frontcamera">"Reconnaissance des portraits IA"</string>
+	 <string name="pref_camera_ai_scene_summy_for_frontcamera">"Identifier les scènes de portrait et optimiser la prise de vues"</string>
+	 <string name="security_camera_does_not_support_aquire_storage_permission">"Autorisations d\'emplacement de stockage temporairement refusées. Utilisez cette fonction après avoir déverrouillé votre téléphone."</string>
+	 <string name="pref_camera_auto3dnr_title">"Améliorer automatiquement les photos sombres"</string>
+	 <string name="access_permission_guid">"Accorder les autorisations du périphérique de stockage ci-dessous"</string>
+	 <string name="permission_continue">"Continue"</string>
+	 <string name="permission_cancel">"Annuler"</string>
+	 <string name="hdr_off">"Désactivé"</string>
+	 <string name="hdr_on">"Activé"</string>
+	 <string name="hdr_auto">"Automatique"</string>
+	 <string name="portrait_detect_tips">"Aucun visage détecté"</string>
+	 <string name="pref_auto_add_logowatermark">"Ajout automatique du logo en filigrane"</string>
+     <string name="pref_auto_add_timewatermark">"Ajout automatique de l\'heure en filigrane"</string>
+     <string name="camera_mode_portrait_new">"Portrait"</string>
+     <string name="camera_mode_high_resolution">"Ultra rés."</string>
+     <string name="motion_photo_on">"MotionPhoto activé"</string>
+     <string name="motion_photo_off">"MotionPhoto désactivé"</string>
+     <string name="super_wide_tip">"Large"</string>
+     <string name="time_too_short">"La durée de la capture est trop courte."</string>
+</resources>

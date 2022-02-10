@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.dream.camera.ZoomPanel
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/zoom_panel"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="right|center"
+    android:layout_marginBottom="48dp"
+    android:gravity="center"
+    android:visibility="gone"
+    android:orientation="horizontal">
+
+    <com.dream.camera.ui.VerticalZoomBar
+        android:id="@+id/zoom_bar"
+        android:layout_width="64dp"
+        android:layout_height="300dp"
+        android:layout_gravity="right|center"
+        app:vertial_zoombar_scale_min="1"
+        app:vertial_zoombar_scale_max="8"
+        app:vertial_zoombar_progress_bar_bg_height="264dp"
+        app:vertial_zoombar_progress_bar_bg_width="4dp"
+        app:vertial_zoombar_scale_text_size="10dp"
+        app:vertial_zoombar_progress_bar_bg_text_size="10dp"
+        app:vertial_zoombar_scale_little_circle_radius="2dp"
+        app:vertial_zoombar_scale_center_circle_radius="16dp"
+        app:vertial_zoombar_circle_space="16dp"
+        app:vertial_zoombar_progress_bar_bg_two_part_radio="138"
+        app:vertial_zoombar_progress_bar_dotted_item_space="3dp"
+        app:vertial_zoombar_progress_bar_dotted_item_height="1dp"
+        />
+
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+        <com.android.camera.ui.RotateLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+            <TextView
+                    android:id="@+id/current_zoom_value"
+                    style="@style/DreamText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/zoom_value_text_size"
+                    android:visibility="gone"/>
+        </com.android.camera.ui.RotateLayout>
+    </LinearLayout>
+    <!--
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="6dp"
+            android:orientation="horizontal"
+            android:clickable="true" >
+
+            <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="3dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <com.android.camera.ui.RotateLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/min_zoom_value"
+                    style="@style/DreamText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </com.android.camera.ui.RotateLayout>
+           </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+                <SeekBar
+            android:id="@+id/zoom_seekbar"
+            android:layout_width="match_parent"
+            style="@style/DreamSeekbarExceptMaualModule"
+            android:max="100"/>
+     </LinearLayout>
+            <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="3dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <com.android.camera.ui.RotateLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/max_zoom_value"
+                    style="@style/DreamText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </com.android.camera.ui.RotateLayout>
+           </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:clickable="true">
+
+                <TextView
+                    android:id="@+id/zoom_scale_tip"
+                    android:text="@string/zoom_scale"
+                    style="@style/DreamText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+        </LinearLayout>-->
+
+</com.dream.camera.ZoomPanel>
